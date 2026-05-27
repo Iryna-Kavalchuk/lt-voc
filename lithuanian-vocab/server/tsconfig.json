@@ -10,5 +10,6 @@
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
-  "include": ["src/**/*", "tests/**/*", "../shared/**/*"]
+  "include": ["src/**/*", "tests/**/*", "../shared/**/*"],
+  "exclude": ["../client/**/*", "../node_modules/**/*"]
 }
