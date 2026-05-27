@@ -1,6 +1,6 @@
 import { Router } from "express";
 import type { Request, Response } from "express";
-import type { SupportedLanguage } from "../../shared/types/dictionary.js";
+import type { SupportedLanguage } from "./types.js";
 import {
   getAllEntries,
   getEntryById,

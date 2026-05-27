@@ -1,4 +1,4 @@
-import type { DictionaryEntry, SupportedLanguage } from "../../shared/types/dictionary.js";
+import type { DictionaryEntry, SupportedLanguage } from "./types.js";
 import { getAllEntries } from "./data.js";
 
 /** A single multiple-choice question presented to the learner. */

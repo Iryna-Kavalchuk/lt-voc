@@ -19,10 +19,10 @@ export function createApp() {
   app.use("/api", router);
 
   // Serve the React frontend in production
-  const clientDist = path.resolve(__dirname, "../../../client/dist");
+  const clientDist = path.resolve(__dirname, "../../client/dist");
   app.use(express.static(clientDist));
   // SPA fallback — return index.html for any non-API route
-  app.get("*", (_req, res) => {
+  app.get("/{*path}", (_req, res) => {
     res.sendFile(path.join(clientDist, "index.html"));
   });
 

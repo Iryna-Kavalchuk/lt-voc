@@ -8,7 +8,7 @@ services:
       npm run build --prefix client &&
       npm install --prefix server &&
       npm run build --prefix server
-    startCommand: node server/dist/src/index.js
+    startCommand: node server/dist/index.js
     envVars:
       - key: NODE_ENV
         value: production

@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import type {
   DictionaryEntry,
   CEFRLevel,
-} from "../../shared/types/dictionary.js";
+} from "./types.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, "../../data/dictionary");
