@@ -4,10 +4,8 @@ services:
     runtime: node
     rootDir: lithuanian-vocab
     buildCommand: >
-      npm install --prefix client &&
-      npm run build --prefix client &&
-      npm install --prefix server &&
-      npm run build --prefix server
+      cd client && npm install && npm run build && cd .. &&
+      cd server && npm install && npm run build && cd ..
     startCommand: node server/dist/index.js
     envVars:
       - key: NODE_ENV
