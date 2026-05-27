@@ -4,7 +4,7 @@ services:
     runtime: node
     rootDir: lithuanian-vocab
     buildCommand: >
-      cd client && npm install && npm run build && cd .. &&
+      cd client && npm install && npx vite build && cd .. &&
       cd server && npm install && npm run build && cd ..
     startCommand: node server/dist/index.js
     envVars:
