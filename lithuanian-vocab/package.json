@@ -1,0 +1,13 @@
+{
+  "name": "lithuanian-vocab-data",
+  "version": "1.0.0",
+  "description": "Dictionary data validation for the Lithuanian vocabulary app",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate-dictionary.mjs"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

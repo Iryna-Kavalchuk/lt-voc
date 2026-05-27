@@ -1,0 +1,144 @@
+import { Router } from "express";
+import type { Request, Response } from "express";
+import type { SupportedLanguage } from "../../shared/types/dictionary.js";
+import {
+  getAllEntries,
+  getEntryById,
+  getCategories,
+  getLevels,
+  getDictionaries,
+} from "./data.js";
+import { randomQuestion, checkAnswer } from "./quiz.js";
+import type { QuizQuestion } from "./quiz.js";
+
+export const router = Router();
+
+// ---------------------------------------------------------------------------
+// GET /dictionaries
+// Returns list of available dictionaries
+// ---------------------------------------------------------------------------
+router.get("/dictionaries", (_req: Request, res: Response) => {
+  const dicts = getDictionaries().map(({ id, name }) => ({ id, name }));
+  res.json({ dictionaries: dicts });
+});
+
+// ---------------------------------------------------------------------------
+// GET /words
+// Query params:
+//   category?:   string
+//   level?:      A1 | A2 | B1 | B2 | C1 | C2
+//   dictionary?: string  (dictionary id, e.g. "a1-sekmes")
+// ---------------------------------------------------------------------------
+router.get("/words", (req: Request, res: Response) => {
+  const { category, level, dictionary } = req.query as Record<string, string | undefined>;
+
+  try {
+    let entries = getAllEntries(dictionary);
+    if (category) entries = entries.filter((e) => e.category === category);
+    if (level) entries = entries.filter((e) => e.level === level);
+    res.json({ count: entries.length, entries });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    res.status(400).json({ error: message });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// GET /words/:id
+// ---------------------------------------------------------------------------
+router.get("/words/:id", (req: Request, res: Response) => {
+  const { dictionary } = req.query as Record<string, string | undefined>;
+  const entry = getEntryById(req.params.id as string, dictionary);
+  if (!entry) {
+    res.status(404).json({ error: `Entry not found: ${req.params.id}` });
+    return;
+  }
+  res.json(entry);
+});
+
+// ---------------------------------------------------------------------------
+// GET /categories
+// Query params:
+//   dictionary?: string
+// ---------------------------------------------------------------------------
+router.get("/categories", (req: Request, res: Response) => {
+  const { dictionary } = req.query as Record<string, string | undefined>;
+  try {
+    res.json({ categories: getCategories(dictionary) });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    res.status(400).json({ error: message });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// GET /levels
+// Query params:
+//   dictionary?: string
+// ---------------------------------------------------------------------------
+router.get("/levels", (req: Request, res: Response) => {
+  const { dictionary } = req.query as Record<string, string | undefined>;
+  try {
+    res.json({ levels: getLevels(dictionary) });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    res.status(400).json({ error: message });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// GET /quiz
+// Query params:
+//   lang?:        en | ru          (default: en)
+//   category?:    string
+//   dictionary?:  string
+// ---------------------------------------------------------------------------
+router.get("/quiz", (req: Request, res: Response) => {
+  const lang = (req.query.lang ?? "en") as SupportedLanguage;
+  const category = req.query.category as string | undefined;
+  const dictionary = req.query.dictionary as string | undefined;
+
+  if (lang !== "en" && lang !== "ru") {
+    res.status(400).json({ error: 'lang must be "en" or "ru"' });
+    return;
+  }
+
+  try {
+    const pool = getAllEntries(dictionary);
+    const question = randomQuestion(lang, category, pool);
+    res.json(question);
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    res.status(400).json({ error: message });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// POST /quiz/check
+// Body: { question: QuizQuestion; submittedIndex: number }
+// ---------------------------------------------------------------------------
+router.post("/quiz/check", (req: Request, res: Response) => {
+  const { question, submittedIndex } = req.body as {
+    question: QuizQuestion;
+    submittedIndex: number;
+  };
+
+  if (!question || submittedIndex === undefined) {
+    res.status(400).json({ error: "question and submittedIndex are required" });
+    return;
+  }
+
+  if (
+    typeof submittedIndex !== "number" ||
+    submittedIndex < 0 ||
+    submittedIndex >= question.choices.length
+  ) {
+    res.status(400).json({
+      error: `submittedIndex must be 0–${question.choices.length - 1}`,
+    });
+    return;
+  }
+
+  const result = checkAnswer(question, submittedIndex);
+  res.json(result);
+});

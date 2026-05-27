@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LithuanianDictionaryEntry",
+  "description": "Schema for a single word entry in the Lithuanian vocabulary dictionary",
+  "type": "object",
+  "required": ["id", "word", "translations", "pos", "category", "level"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the word entry",
+      "pattern": "^[a-z][a-z0-9]*_[a-z0-9_]+$",
+      "examples": ["lt_animals_001", "lng_food_001"]
+    },
+    "word": {
+      "type": "string",
+      "description": "The Lithuanian word"
+    },
+    "translations": {
+      "type": "object",
+      "description": "Translations of the word into supported languages",
+      "required": ["en", "ru"],
+      "additionalProperties": false,
+      "properties": {
+        "en": {
+          "type": "string",
+          "description": "English translation"
+        },
+        "ru": {
+          "type": "string",
+          "description": "Russian translation"
+        }
+      }
+    },
+    "pos": {
+      "type": "string",
+      "description": "Part of speech",
+      "enum": ["noun", "verb", "adjective", "adverb", "pronoun", "numeral", "preposition", "conjunction", "interjection", "phrase"]
+    },
+    "gender": {
+      "type": "string",
+      "description": "Grammatical gender (for nouns). Optional.",
+      "enum": ["masculine", "feminine", "neuter"]
+    },
+    "category": {
+      "type": "string",
+      "description": "Semantic category / topic used for distractor matching and topic-based tests",
+      "examples": ["animals", "food", "family", "travel", "body", "numbers", "colors", "time", "home", "work"]
+    },
+    "level": {
+      "type": "string",
+      "description": "CEFR difficulty level",
+      "enum": ["A1", "A2", "B1", "B2", "C1", "C2"]
+    },
+    "source": {
+      "type": "string",
+      "description": "Optional: textbook or wordlist this entry comes from",
+      "examples": ["Nemo", "Colloquial Lithuanian", "Core1000"]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Optional: extra tags for filtering (e.g. 'formal', 'colloquial', 'archaic')",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

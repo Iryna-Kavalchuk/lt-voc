@@ -1,0 +1,8565 @@
+[
+  {
+    "id": "lt_animals_001",
+    "word": "katė",
+    "translations": {
+      "en": "cat",
+      "ru": "кошка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "animals",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_animals_002",
+    "word": "šuo",
+    "translations": {
+      "en": "dog",
+      "ru": "собака"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "animals",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_animals_003",
+    "word": "arklys",
+    "translations": {
+      "en": "horse",
+      "ru": "лошадь"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "animals",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_animals_004",
+    "word": "paukštis",
+    "translations": {
+      "en": "bird",
+      "ru": "птица"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "animals",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_animals_005",
+    "word": "žuvis",
+    "translations": {
+      "en": "fish",
+      "ru": "рыба"
+    },
+    "pos": "noun",
+    "category": "animals",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_family_001",
+    "word": "mama",
+    "translations": {
+      "en": "mother",
+      "ru": "мама"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "family",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_family_002",
+    "word": "tėvas",
+    "translations": {
+      "en": "father",
+      "ru": "отец"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_family_003",
+    "word": "brolis",
+    "translations": {
+      "en": "brother",
+      "ru": "брат"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_family_004",
+    "word": "sesuo",
+    "translations": {
+      "en": "sister",
+      "ru": "сестра"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "family",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_family_005",
+    "word": "vaikas",
+    "translations": {
+      "en": "child",
+      "ru": "ребёнок"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_food_001",
+    "word": "duona",
+    "translations": {
+      "en": "bread",
+      "ru": "хлеб"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_food_002",
+    "word": "pienas",
+    "translations": {
+      "en": "milk",
+      "ru": "молоко"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_food_003",
+    "word": "vanduo",
+    "translations": {
+      "en": "water",
+      "ru": "вода"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_food_004",
+    "word": "obuolys",
+    "translations": {
+      "en": "apple",
+      "ru": "яблоко"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_food_005",
+    "word": "mėsa",
+    "translations": {
+      "en": "meat",
+      "ru": "мясо"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_colors_001",
+    "word": "raudonas",
+    "translations": {
+      "en": "red",
+      "ru": "красный"
+    },
+    "pos": "noun",
+    "category": "colors",
+    "level": "A1",
+    "source": "Core1000",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_colors_002",
+    "word": "mėlynas",
+    "translations": {
+      "en": "blue",
+      "ru": "синий"
+    },
+    "pos": "noun",
+    "category": "colors",
+    "level": "A1",
+    "source": "Core1000",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_colors_003",
+    "word": "žalias",
+    "translations": {
+      "en": "green",
+      "ru": "зелёный"
+    },
+    "pos": "noun",
+    "category": "colors",
+    "level": "A1",
+    "source": "Core1000",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_colors_004",
+    "word": "baltas",
+    "translations": {
+      "en": "white",
+      "ru": "белый"
+    },
+    "pos": "noun",
+    "category": "colors",
+    "level": "A1",
+    "source": "Core1000",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_colors_005",
+    "word": "juodas",
+    "translations": {
+      "en": "black",
+      "ru": "чёрный"
+    },
+    "pos": "noun",
+    "category": "colors",
+    "level": "A1",
+    "source": "Core1000",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_verbs_001",
+    "word": "eiti",
+    "translations": {
+      "en": "to go (on foot)",
+      "ru": "идти"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_verbs_002",
+    "word": "kalbėti",
+    "translations": {
+      "en": "to speak / to talk",
+      "ru": "говорить"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_verbs_003",
+    "word": "valgyti",
+    "translations": {
+      "en": "to eat",
+      "ru": "есть / кушать"
+    },
+    "pos": "verb",
+    "category": "food",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_verbs_004",
+    "word": "gerti",
+    "translations": {
+      "en": "to drink",
+      "ru": "пить"
+    },
+    "pos": "verb",
+    "category": "food",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_verbs_005",
+    "word": "mylėti",
+    "translations": {
+      "en": "to love",
+      "ru": "любить"
+    },
+    "pos": "verb",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Core1000"
+  },
+  {
+    "id": "lt_food_006",
+    "word": "actas",
+    "translations": {
+      "en": "vinegar",
+      "ru": "уксус"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_007",
+    "word": "agurkas",
+    "translations": {
+      "en": "cucumber",
+      "ru": "огурец"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_001",
+    "word": "aikštė",
+    "translations": {
+      "en": "square",
+      "ru": "площадь"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_008",
+    "word": "aliejus",
+    "translations": {
+      "en": "oil",
+      "ru": "масло"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_009",
+    "word": "alkanas",
+    "translations": {
+      "en": "hungry",
+      "ru": "голодный"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_001",
+    "word": "antradienis",
+    "translations": {
+      "en": "Tuesday",
+      "ru": "вторник"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_001",
+    "word": "anūkas",
+    "translations": {
+      "en": "grandson, granddaughter",
+      "ru": "внук, внучка"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_010",
+    "word": "arbata",
+    "translations": {
+      "en": "tea",
+      "ru": "чай"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_002",
+    "word": "arti",
+    "translations": {
+      "en": "near",
+      "ru": "близко"
+    },
+    "pos": "adverb",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_011",
+    "word": "aštrus",
+    "translations": {
+      "en": "spicy, hot",
+      "ru": "острый, пряный"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_003",
+    "word": "aukštas",
+    "translations": {
+      "en": "tall",
+      "ru": "высокий"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_004",
+    "word": "avietės",
+    "translations": {
+      "en": "raspberries",
+      "ru": "малина"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_012",
+    "word": "baklažanas",
+    "translations": {
+      "en": "aubergine",
+      "ru": "баклажан"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_013",
+    "word": "bandelė",
+    "translations": {
+      "en": "roll",
+      "ru": "булочка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_002",
+    "word": "bažnyčia",
+    "translations": {
+      "en": "church",
+      "ru": "церковь"
+    },
+    "pos": "noun",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_005",
+    "word": "bendrabutis",
+    "translations": {
+      "en": "dormitory",
+      "ru": "общежитие"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_family_006",
+    "word": "berniukas",
+    "translations": {
+      "en": "boy",
+      "ru": "мальчик"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_006",
+    "word": "bet",
+    "translations": {
+      "en": "but",
+      "ru": "но"
+    },
+    "pos": "conjunction",
+    "category": "pronouns",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_007",
+    "word": "blynai",
+    "translations": {
+      "en": "pancakes",
+      "ru": "блины"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_014",
+    "word": "blynelis",
+    "translations": {
+      "en": "crepe",
+      "ru": "блинчик"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_008",
+    "word": "blogai",
+    "translations": {
+      "en": "bad",
+      "ru": "плохо"
+    },
+    "pos": "adverb",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_009",
+    "word": "braškės",
+    "translations": {
+      "en": "strawberries",
+      "ru": "клубника"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_015",
+    "word": "bulvė",
+    "translations": {
+      "en": "potato",
+      "ru": "картофель"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_016",
+    "word": "burokėlis",
+    "translations": {
+      "en": "beetroot",
+      "ru": "свёкла"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_home_001",
+    "word": "butas",
+    "translations": {
+      "en": "apartment",
+      "ru": "квартира"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_010",
+    "word": "būti",
+    "translations": {
+      "en": "be",
+      "ru": "быть"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_017",
+    "word": "cukinija",
+    "translations": {
+      "en": "courgette",
+      "ru": "кабачок"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_018",
+    "word": "cukrus",
+    "translations": {
+      "en": "sugar",
+      "ru": "сахар"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_019",
+    "word": "česnakas",
+    "translations": {
+      "en": "garlic",
+      "ru": "чеснок"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_011",
+    "word": "čia",
+    "translations": {
+      "en": "here",
+      "ru": "здесь"
+    },
+    "pos": "adverb",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_work_001",
+    "word": "darbas",
+    "translations": {
+      "en": "work",
+      "ru": "работа"
+    },
+    "pos": "noun",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_012",
+    "word": "daryti",
+    "translations": {
+      "en": "do, make",
+      "ru": "делать, создавать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_013",
+    "word": "daržovės",
+    "translations": {
+      "en": "vegetables",
+      "ru": "овощи"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_002",
+    "word": "dažnai",
+    "translations": {
+      "en": "often",
+      "ru": "часто"
+    },
+    "pos": "adverb",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_007",
+    "word": "dėdė",
+    "translations": {
+      "en": "uncle",
+      "ru": "дядя"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_020",
+    "word": "dešra",
+    "translations": {
+      "en": "sausage",
+      "ru": "колбаса"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_014",
+    "word": "dešrelės",
+    "translations": {
+      "en": "sausages",
+      "ru": "сосиски"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_001",
+    "word": "dėstytojas",
+    "translations": {
+      "en": "university teacher",
+      "ru": "преподаватель"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_015",
+    "word": "didelis",
+    "translations": {
+      "en": "big",
+      "ru": "большой"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_003",
+    "word": "diena",
+    "translations": {
+      "en": "day",
+      "ru": "день"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_work_002",
+    "word": "dirbti",
+    "translations": {
+      "en": "work",
+      "ru": "работать"
+    },
+    "pos": "verb",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_016",
+    "word": "draugas",
+    "translations": {
+      "en": "friend",
+      "ru": "друг"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_006",
+    "word": "draugiškas",
+    "translations": {
+      "en": "friendly",
+      "ru": "дружелюбный"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_021",
+    "word": "druska",
+    "translations": {
+      "en": "salt",
+      "ru": "соль"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_008",
+    "word": "duktė",
+    "translations": {
+      "en": "daughter",
+      "ru": "дочь"
+    },
+    "pos": "noun",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_009",
+    "word": "dukterėčia",
+    "translations": {
+      "en": "niece",
+      "ru": "племянница"
+    },
+    "pos": "noun",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_003",
+    "word": "duoti",
+    "translations": {
+      "en": "give",
+      "ru": "давать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_003",
+    "word": "ežeras",
+    "translations": {
+      "en": "lake",
+      "ru": "озеро"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_017",
+    "word": "gabaliukas; gabalėlis",
+    "translations": {
+      "en": "piece",
+      "ru": "кусочек"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_022",
+    "word": "garstyčios",
+    "translations": {
+      "en": "mustard",
+      "ru": "горчица"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_004",
+    "word": "gatvė",
+    "translations": {
+      "en": "street",
+      "ru": "улица"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_006",
+    "word": "geltonas",
+    "translations": {
+      "en": "yellow",
+      "ru": "жёлтый"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_018",
+    "word": "gerai",
+    "translations": {
+      "en": "fine, good",
+      "ru": "хорошо, отлично"
+    },
+    "pos": "adverb",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_007",
+    "word": "geras",
+    "translations": {
+      "en": "kind, good",
+      "ru": "добрый, хороший"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_023",
+    "word": "gėrimas",
+    "translations": {
+      "en": "drink",
+      "ru": "напиток"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_019",
+    "word": "giminės",
+    "translations": {
+      "en": "relatives",
+      "ru": "родственники"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_024",
+    "word": "gira",
+    "translations": {
+      "en": "kind of sour drink, kvass",
+      "ru": "квас"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_020",
+    "word": "gyventi",
+    "translations": {
+      "en": "live",
+      "ru": "жить"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_021",
+    "word": "gražus",
+    "translations": {
+      "en": "beautiful, handsome, pretty",
+      "ru": "красивый, симпатичный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_025",
+    "word": "grietinė",
+    "translations": {
+      "en": "sour cream",
+      "ru": "сметана"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_022",
+    "word": "įdėti",
+    "translations": {
+      "en": "put",
+      "ru": "положить"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_008",
+    "word": "įdomus",
+    "translations": {
+      "en": "interesting",
+      "ru": "интересный"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_004",
+    "word": "imti",
+    "translations": {
+      "en": "take",
+      "ru": "брать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_026",
+    "word": "įpilti",
+    "translations": {
+      "en": "pour",
+      "ru": "налить"
+    },
+    "pos": "verb",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_023",
+    "word": "ir",
+    "translations": {
+      "en": "and",
+      "ru": "и"
+    },
+    "pos": "conjunction",
+    "category": "pronouns",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_010",
+    "word": "išsiskyręs",
+    "translations": {
+      "en": "divorced",
+      "ru": "разведённый"
+    },
+    "pos": "adjective",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_011",
+    "word": "ištekėjusi",
+    "translations": {
+      "en": "married woman",
+      "ru": "замужняя женщина"
+    },
+    "pos": "adjective",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_024",
+    "word": "jaunas",
+    "translations": {
+      "en": "young",
+      "ru": "молодой"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_025",
+    "word": "jaunesnis",
+    "translations": {
+      "en": "younger",
+      "ru": "младше"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_026",
+    "word": "jauniausias",
+    "translations": {
+      "en": "youngest",
+      "ru": "самый младший"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_027",
+    "word": "jautiena",
+    "translations": {
+      "en": "beef",
+      "ru": "говядина"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "feminine"
+  },
+  {
+    "id": "lt_places_005",
+    "word": "jūra",
+    "translations": {
+      "en": "sea",
+      "ru": "море"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_027",
+    "word": "kaimynas",
+    "translations": {
+      "en": "neighbour",
+      "ru": "сосед"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_001",
+    "word": "kaina",
+    "translations": {
+      "en": "price",
+      "ru": "цена"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_028",
+    "word": "kalakutiena",
+    "translations": {
+      "en": "turkey",
+      "ru": "индейка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_002",
+    "word": "kambarys",
+    "translations": {
+      "en": "room",
+      "ru": "комната"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_028",
+    "word": "karštas",
+    "translations": {
+      "en": "hot",
+      "ru": "горячий"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_004",
+    "word": "kartais",
+    "translations": {
+      "en": "sometimes",
+      "ru": "иногда"
+    },
+    "pos": "adverb",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_029",
+    "word": "kartu",
+    "translations": {
+      "en": "together",
+      "ru": "вместе"
+    },
+    "pos": "adverb",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_005",
+    "word": "kasdien",
+    "translations": {
+      "en": "everyday",
+      "ru": "ежедневно"
+    },
+    "pos": "adverb",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_029",
+    "word": "kepyklėlė",
+    "translations": {
+      "en": "bakery",
+      "ru": "пекарня"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_030",
+    "word": "kepsnys",
+    "translations": {
+      "en": "roast meat, grilled meat",
+      "ru": "жаркое, стейк"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_031",
+    "word": "keptas",
+    "translations": {
+      "en": "baked, roast, fried, grilled",
+      "ru": "запечённый, жареный"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_032",
+    "word": "kepti",
+    "translations": {
+      "en": "fry, bake, roast, grill",
+      "ru": "жарить, печь, запекать"
+    },
+    "pos": "verb",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_006",
+    "word": "ketvirtadienis",
+    "translations": {
+      "en": "Thursday",
+      "ru": "четверг"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_033",
+    "word": "kiauliena",
+    "translations": {
+      "en": "pork",
+      "ru": "свинина"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_030",
+    "word": "kiaušinienė",
+    "translations": {
+      "en": "fried eggs",
+      "ru": "яичница"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_034",
+    "word": "kiaušinis",
+    "translations": {
+      "en": "egg",
+      "ru": "яйцо"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_002",
+    "word": "kirpykla",
+    "translations": {
+      "en": "hairdresser’s",
+      "ru": "парикмахерская"
+    },
+    "pos": "noun",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_035",
+    "word": "kmynai",
+    "translations": {
+      "en": "caraway seeds",
+      "ru": "тмин"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_003",
+    "word": "knygynas",
+    "translations": {
+      "en": "bookstore",
+      "ru": "книжный магазин"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_036",
+    "word": "kopūstas",
+    "translations": {
+      "en": "cabbage",
+      "ru": "капуста"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_037",
+    "word": "košė",
+    "translations": {
+      "en": "porridge",
+      "ru": "каша"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_038",
+    "word": "krapai",
+    "translations": {
+      "en": "dill",
+      "ru": "укроп"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_039",
+    "word": "kriaušė",
+    "translations": {
+      "en": "pear",
+      "ru": "груша"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_040",
+    "word": "krienai",
+    "translations": {
+      "en": "horseradish",
+      "ru": "хрен"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_041",
+    "word": "kumpis",
+    "translations": {
+      "en": "ham",
+      "ru": "ветчина"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_042",
+    "word": "ledai",
+    "translations": {
+      "en": "ice cream",
+      "ru": "мороженое"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_001",
+    "word": "ligoninė",
+    "translations": {
+      "en": "hospital",
+      "ru": "больница"
+    },
+    "pos": "noun",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_009",
+    "word": "linksmas",
+    "translations": {
+      "en": "cheerful",
+      "ru": "весёлый"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_010",
+    "word": "liūdnas",
+    "translations": {
+      "en": "sad",
+      "ru": "грустный"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_004",
+    "word": "maišelis",
+    "translations": {
+      "en": "bag",
+      "ru": "пакет"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_011",
+    "word": "malonus",
+    "translations": {
+      "en": "nice",
+      "ru": "приятный"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_031",
+    "word": "mažas",
+    "translations": {
+      "en": "small, little",
+      "ru": "маленький, небольшой"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_043",
+    "word": "medus",
+    "translations": {
+      "en": "honey",
+      "ru": "мёд"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_012",
+    "word": "mergaitė",
+    "translations": {
+      "en": "girl",
+      "ru": "девочка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_013",
+    "word": "mergina",
+    "translations": {
+      "en": "young woman",
+      "ru": "девушка"
+    },
+    "pos": "noun",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_012",
+    "word": "mėgti",
+    "translations": {
+      "en": "like",
+      "ru": "любить"
+    },
+    "pos": "verb",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_044",
+    "word": "mėtos",
+    "translations": {
+      "en": "mint",
+      "ru": "мята"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_013",
+    "word": "mielas",
+    "translations": {
+      "en": "dear",
+      "ru": "милый"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_006",
+    "word": "miestas",
+    "translations": {
+      "en": "town",
+      "ru": "город"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_014",
+    "word": "miręs",
+    "translations": {
+      "en": "deceased",
+      "ru": "умерший"
+    },
+    "pos": "adjective",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_007",
+    "word": "miškas",
+    "translations": {
+      "en": "forest",
+      "ru": "лес"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_002",
+    "word": "mokykla",
+    "translations": {
+      "en": "school",
+      "ru": "школа"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_032",
+    "word": "mokinys",
+    "translations": {
+      "en": "schoolboy, schoolgirl",
+      "ru": "ученик, ученица"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_045",
+    "word": "moliūgas",
+    "translations": {
+      "en": "pumpkin",
+      "ru": "тыква"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_046",
+    "word": "morka",
+    "translations": {
+      "en": "carrot",
+      "ru": "морковь"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_015",
+    "word": "moteris",
+    "translations": {
+      "en": "woman",
+      "ru": "женщина"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_016",
+    "word": "motina",
+    "translations": {
+      "en": "mother",
+      "ru": "мать"
+    },
+    "pos": "noun",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_007",
+    "word": "naktis",
+    "translations": {
+      "en": "night",
+      "ru": "ночь"
+    },
+    "pos": "noun",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_003",
+    "word": "namas",
+    "translations": {
+      "en": "house",
+      "ru": "дом"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_004",
+    "word": "namie",
+    "translations": {
+      "en": "at home",
+      "ru": "дома"
+    },
+    "pos": "adverb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_033",
+    "word": "ne",
+    "translations": {
+      "en": "no",
+      "ru": "нет"
+    },
+    "pos": "conjunction",
+    "category": "pronouns",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_034",
+    "word": "nebūti",
+    "translations": {
+      "en": "not to be",
+      "ru": "не быть"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_008",
+    "word": "niekada",
+    "translations": {
+      "en": "never",
+      "ru": "никогда"
+    },
+    "pos": "adverb",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_035",
+    "word": "norėti",
+    "translations": {
+      "en": "want",
+      "ru": "хотеть"
+    },
+    "pos": "verb",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_036",
+    "word": "o",
+    "translations": {
+      "en": "and",
+      "ru": "а"
+    },
+    "pos": "conjunction",
+    "category": "pronouns",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_047",
+    "word": "padavėjas",
+    "translations": {
+      "en": "waiter, waitress",
+      "ru": "официант, официантка"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_food_048",
+    "word": "padažas",
+    "translations": {
+      "en": "sauce",
+      "ru": "соус"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_005",
+    "word": "paduoti",
+    "translations": {
+      "en": "pass",
+      "ru": "передать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_009",
+    "word": "paprastai",
+    "translations": {
+      "en": "usually",
+      "ru": "обычно"
+    },
+    "pos": "adverb",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_005",
+    "word": "pardavėjas",
+    "translations": {
+      "en": "seller",
+      "ru": "продавец"
+    },
+    "pos": "noun",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_shopping_006",
+    "word": "parduotuvė",
+    "translations": {
+      "en": "shop",
+      "ru": "магазин"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_008",
+    "word": "paštas",
+    "translations": {
+      "en": "post office",
+      "ru": "почта"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_049",
+    "word": "patiekalas",
+    "translations": {
+      "en": "dish",
+      "ru": "блюдо"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_014",
+    "word": "patikti",
+    "translations": {
+      "en": "like",
+      "ru": "нравиться"
+    },
+    "pos": "verb",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_037",
+    "word": "pavardė",
+    "translations": {
+      "en": "surname",
+      "ru": "фамилия"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_010",
+    "word": "penktadienis",
+    "translations": {
+      "en": "Friday",
+      "ru": "пятница"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_050",
+    "word": "petražolės",
+    "translations": {
+      "en": "parsley",
+      "ru": "петрушка"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_051",
+    "word": "pietauti",
+    "translations": {
+      "en": "have lunch",
+      "ru": "обедать"
+    },
+    "pos": "verb",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_052",
+    "word": "pietūs",
+    "translations": {
+      "en": "lunch",
+      "ru": "обед"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_009",
+    "word": "pilis",
+    "translations": {
+      "en": "castle",
+      "ru": "замок"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_053",
+    "word": "pipirai",
+    "translations": {
+      "en": "pepper",
+      "ru": "перец"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_054",
+    "word": "pyragaitis",
+    "translations": {
+      "en": "pastry",
+      "ru": "пирожное"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_055",
+    "word": "pyragas",
+    "translations": {
+      "en": "pie",
+      "ru": "пирог"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_007",
+    "word": "pirkti",
+    "translations": {
+      "en": "buy",
+      "ru": "покупать"
+    },
+    "pos": "verb",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_011",
+    "word": "pirmadienis",
+    "translations": {
+      "en": "Monday",
+      "ru": "понедельник"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_056",
+    "word": "pomidoras",
+    "translations": {
+      "en": "tomato",
+      "ru": "помидор"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_038",
+    "word": "ponas",
+    "translations": {
+      "en": "Mr",
+      "ru": "господин"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_039",
+    "word": "ponia",
+    "translations": {
+      "en": "Mrs",
+      "ru": "госпожа"
+    },
+    "pos": "noun",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_057",
+    "word": "prieskoniai",
+    "translations": {
+      "en": "spice",
+      "ru": "специи"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_040",
+    "word": "puikus",
+    "translations": {
+      "en": "excellent",
+      "ru": "отличный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_041",
+    "word": "pupelės",
+    "translations": {
+      "en": "beans",
+      "ru": "фасоль"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_017",
+    "word": "pusbrolis",
+    "translations": {
+      "en": "cousin",
+      "ru": "двоюродный брат"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_042",
+    "word": "pusė",
+    "translations": {
+      "en": "half",
+      "ru": "половина"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_058",
+    "word": "pusryčiai",
+    "translations": {
+      "en": "breakfast",
+      "ru": "завтрак"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_059",
+    "word": "pusryčiauti",
+    "translations": {
+      "en": "have breakfast",
+      "ru": "завтракать"
+    },
+    "pos": "verb",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_018",
+    "word": "pusseserė",
+    "translations": {
+      "en": "cousin",
+      "ru": "двоюродная сестра"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_060",
+    "word": "ragauti",
+    "translations": {
+      "en": "taste",
+      "ru": "пробовать"
+    },
+    "pos": "verb",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_012",
+    "word": "retai",
+    "translations": {
+      "en": "seldom",
+      "ru": "редко"
+    },
+    "pos": "adverb",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_043",
+    "word": "riebus",
+    "translations": {
+      "en": "rich",
+      "ru": "жирный"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_044",
+    "word": "riešutai",
+    "translations": {
+      "en": "nuts",
+      "ru": "орехи"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_061",
+    "word": "rūgštus",
+    "translations": {
+      "en": "sour",
+      "ru": "кислый"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_062",
+    "word": "rūkytas",
+    "translations": {
+      "en": "smoked",
+      "ru": "копчёный"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_013",
+    "word": "rytas",
+    "translations": {
+      "en": "morning",
+      "ru": "утро"
+    },
+    "pos": "noun",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_time_014",
+    "word": "rytoj",
+    "translations": {
+      "en": "tomorrow",
+      "ru": "завтра"
+    },
+    "pos": "adverb",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_063",
+    "word": "ryžiai",
+    "translations": {
+      "en": "rice",
+      "ru": "рис"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_045",
+    "word": "saldumynai",
+    "translations": {
+      "en": "sweets",
+      "ru": "сладости"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_064",
+    "word": "saldus",
+    "translations": {
+      "en": "sweet",
+      "ru": "сладкий"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_065",
+    "word": "salotos",
+    "translations": {
+      "en": "salad",
+      "ru": "салат"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_066",
+    "word": "sąskaita",
+    "translations": {
+      "en": "bill",
+      "ru": "счёт"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_015",
+    "word": "savaitė",
+    "translations": {
+      "en": "week",
+      "ru": "неделя"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_046",
+    "word": "savaitgalis",
+    "translations": {
+      "en": "weekend",
+      "ru": "выходные"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_016",
+    "word": "sekmadienis",
+    "translations": {
+      "en": "Sunday",
+      "ru": "воскресенье"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_047",
+    "word": "senas",
+    "translations": {
+      "en": "old; not fresh",
+      "ru": "старый; несвежий"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_019",
+    "word": "senelė",
+    "translations": {
+      "en": "grandmother",
+      "ru": "бабушка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_020",
+    "word": "senelis",
+    "translations": {
+      "en": "grandfather",
+      "ru": "дедушка"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_048",
+    "word": "serbentai",
+    "translations": {
+      "en": "currants",
+      "ru": "смородина"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_movement_002",
+    "word": "sėdėti",
+    "translations": {
+      "en": "sit",
+      "ru": "сидеть"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_067",
+    "word": "skanus",
+    "translations": {
+      "en": "delicious",
+      "ru": "вкусный"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_049",
+    "word": "skubėti",
+    "translations": {
+      "en": "rush, hurry",
+      "ru": "спешить"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_010",
+    "word": "sostinė",
+    "translations": {
+      "en": "capital",
+      "ru": "столица"
+    },
+    "pos": "noun",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_068",
+    "word": "sotus",
+    "translations": {
+      "en": "full",
+      "ru": "сытый"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_050",
+    "word": "sportuoti",
+    "translations": {
+      "en": "do sports",
+      "ru": "заниматься спортом"
+    },
+    "pos": "verb",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_069",
+    "word": "spurga",
+    "translations": {
+      "en": "doughnut",
+      "ru": "пончик"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "feminine"
+  },
+  {
+    "id": "lt_food_070",
+    "word": "sriuba",
+    "translations": {
+      "en": "soup",
+      "ru": "суп"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_005",
+    "word": "staliukas",
+    "translations": {
+      "en": "table",
+      "ru": "столик"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_001",
+    "word": "stotis",
+    "translations": {
+      "en": "station",
+      "ru": "станция"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_movement_003",
+    "word": "stovėti",
+    "translations": {
+      "en": "stand",
+      "ru": "стоять"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_003",
+    "word": "studijuoti",
+    "translations": {
+      "en": "study",
+      "ru": "учиться"
+    },
+    "pos": "verb",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_071",
+    "word": "sultys",
+    "translations": {
+      "en": "juice",
+      "ru": "сок"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_072",
+    "word": "sumuštinis",
+    "translations": {
+      "en": "sandwich",
+      "ru": "бутерброд"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_021",
+    "word": "sūnėnas",
+    "translations": {
+      "en": "nephew",
+      "ru": "племянник"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_022",
+    "word": "sūnus",
+    "translations": {
+      "en": "son",
+      "ru": "сын"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_004",
+    "word": "suprasti",
+    "translations": {
+      "en": "understand",
+      "ru": "понимать"
+    },
+    "pos": "verb",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_051",
+    "word": "susitikti",
+    "translations": {
+      "en": "meet",
+      "ru": "встречаться"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_073",
+    "word": "sūris",
+    "translations": {
+      "en": "cheese",
+      "ru": "сыр"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_074",
+    "word": "sūrus",
+    "translations": {
+      "en": "salty",
+      "ru": "солёный"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_075",
+    "word": "sviestas",
+    "translations": {
+      "en": "butter",
+      "ru": "масло"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_076",
+    "word": "svogūnas",
+    "translations": {
+      "en": "onion",
+      "ru": "лук"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_052",
+    "word": "šakotis",
+    "translations": {
+      "en": "spit cake",
+      "ru": "шакотис"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_053",
+    "word": "šaltas",
+    "translations": {
+      "en": "cold",
+      "ru": "холодный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_023",
+    "word": "šeima",
+    "translations": {
+      "en": "family",
+      "ru": "семья"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_017",
+    "word": "šeštadienis",
+    "translations": {
+      "en": "Saturday",
+      "ru": "суббота"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_018",
+    "word": "šiandien",
+    "translations": {
+      "en": "today",
+      "ru": "сегодня"
+    },
+    "pos": "adverb",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_054",
+    "word": "šie",
+    "translations": {
+      "en": "these",
+      "ru": "эти"
+    },
+    "pos": "pronoun",
+    "category": "pronouns",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_055",
+    "word": "šiltas",
+    "translations": {
+      "en": "warm",
+      "ru": "тёплый"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_056",
+    "word": "šis",
+    "translations": {
+      "en": "this",
+      "ru": "этот"
+    },
+    "pos": "pronoun",
+    "category": "pronouns",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_057",
+    "word": "švelnus",
+    "translations": {
+      "en": "mild",
+      "ru": "мягкий"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_007",
+    "word": "šviesus",
+    "translations": {
+      "en": "blond, light",
+      "ru": "светлый, блондинистый"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_058",
+    "word": "šviežias",
+    "translations": {
+      "en": "fresh",
+      "ru": "свежий"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_059",
+    "word": "tas",
+    "translations": {
+      "en": "that",
+      "ru": "тот"
+    },
+    "pos": "pronoun",
+    "category": "pronouns",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_060",
+    "word": "taip",
+    "translations": {
+      "en": "yes",
+      "ru": "да"
+    },
+    "pos": "noun",
+    "category": "pronouns",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_008",
+    "word": "tamsus",
+    "translations": {
+      "en": "dark",
+      "ru": "тёмный"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_024",
+    "word": "teta",
+    "translations": {
+      "en": "aunt",
+      "ru": "тётя"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_061",
+    "word": "tėtis",
+    "translations": {
+      "en": "daddy",
+      "ru": "папа"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_062",
+    "word": "tėvai",
+    "translations": {
+      "en": "parents",
+      "ru": "родители"
+    },
+    "pos": "noun",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_063",
+    "word": "tie",
+    "translations": {
+      "en": "those",
+      "ru": "те"
+    },
+    "pos": "pronoun",
+    "category": "pronouns",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_011",
+    "word": "tiltas",
+    "translations": {
+      "en": "bridge",
+      "ru": "мост"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_064",
+    "word": "toli",
+    "translations": {
+      "en": "far",
+      "ru": "далеко"
+    },
+    "pos": "adverb",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_019",
+    "word": "trečiadienis",
+    "translations": {
+      "en": "Wednesday",
+      "ru": "среда"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_065",
+    "word": "truputį",
+    "translations": {
+      "en": "a little (bit), a little",
+      "ru": "немного"
+    },
+    "pos": "adverb",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_066",
+    "word": "turėti",
+    "translations": {
+      "en": "have",
+      "ru": "иметь"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_008",
+    "word": "turgus",
+    "translations": {
+      "en": "market",
+      "ru": "рынок"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_012",
+    "word": "upė",
+    "translations": {
+      "en": "river",
+      "ru": "река"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_077",
+    "word": "uogienė",
+    "translations": {
+      "en": "jam",
+      "ru": "варенье"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_078",
+    "word": "uogos",
+    "translations": {
+      "en": "berries",
+      "ru": "ягоды"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_025",
+    "word": "vaikinas",
+    "translations": {
+      "en": "young man",
+      "ru": "юноша"
+    },
+    "pos": "noun",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_movement_004",
+    "word": "vaikščioti",
+    "translations": {
+      "en": "walk",
+      "ru": "гулять"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_079",
+    "word": "vaisiai",
+    "translations": {
+      "en": "fruit",
+      "ru": "фрукты"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_002",
+    "word": "vaistinė",
+    "translations": {
+      "en": "pharmacy",
+      "ru": "аптека"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_020",
+    "word": "vakaras",
+    "translations": {
+      "en": "evening",
+      "ru": "вечер"
+    },
+    "pos": "noun",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_food_080",
+    "word": "vakarienė",
+    "translations": {
+      "en": "supper",
+      "ru": "ужин"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_081",
+    "word": "vakarieniauti",
+    "translations": {
+      "en": "have dinner",
+      "ru": "ужинать"
+    },
+    "pos": "verb",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_021",
+    "word": "valanda",
+    "translations": {
+      "en": "hour",
+      "ru": "час"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_082",
+    "word": "valgykla",
+    "translations": {
+      "en": "canteen",
+      "ru": "столовая"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_067",
+    "word": "vardas",
+    "translations": {
+      "en": "name",
+      "ru": "имя"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_083",
+    "word": "varškė",
+    "translations": {
+      "en": "curd",
+      "ru": "творог"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_002",
+    "word": "važiuoti",
+    "translations": {
+      "en": "go (by transport)",
+      "ru": "ехать"
+    },
+    "pos": "verb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_026",
+    "word": "vedęs",
+    "translations": {
+      "en": "married man",
+      "ru": "женатый мужчина"
+    },
+    "pos": "noun",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_068",
+    "word": "vėluoti",
+    "translations": {
+      "en": "be late",
+      "ru": "опаздывать"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_069",
+    "word": "vidurinis",
+    "translations": {
+      "en": "middle",
+      "ru": "средний"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_013",
+    "word": "viešbutis",
+    "translations": {
+      "en": "hotel",
+      "ru": "гостиница"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_070",
+    "word": "vyresnis",
+    "translations": {
+      "en": "elder",
+      "ru": "старше"
+    },
+    "pos": "noun",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_071",
+    "word": "vyriausias",
+    "translations": {
+      "en": "senior",
+      "ru": "самый старший"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_084",
+    "word": "virtas",
+    "translations": {
+      "en": "boiled, cooked",
+      "ru": "варёный, приготовленный"
+    },
+    "pos": "adjective",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_085",
+    "word": "virti",
+    "translations": {
+      "en": "boil, cook",
+      "ru": "варить, готовить"
+    },
+    "pos": "verb",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_022",
+    "word": "visada",
+    "translations": {
+      "en": "always",
+      "ru": "всегда"
+    },
+    "pos": "adverb",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_086",
+    "word": "vištiena",
+    "translations": {
+      "en": "chicken",
+      "ru": "курица"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_072",
+    "word": "vynuogės",
+    "translations": {
+      "en": "grapes",
+      "ru": "виноград"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_027",
+    "word": "vyras",
+    "translations": {
+      "en": "husband, man",
+      "ru": "муж, мужчина"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_073",
+    "word": "vyšnios",
+    "translations": {
+      "en": "cherries",
+      "ru": "вишня"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_074",
+    "word": "žemas",
+    "translations": {
+      "en": "short, low",
+      "ru": "низкий, короткий"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_075",
+    "word": "žirniai",
+    "translations": {
+      "en": "peas",
+      "ru": "горох"
+    },
+    "pos": "noun",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_006",
+    "word": "žiūrėti",
+    "translations": {
+      "en": "look, watch",
+      "ru": "смотреть"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_076",
+    "word": "žmogus",
+    "translations": {
+      "en": "person, human",
+      "ru": "человек"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_family_028",
+    "word": "žmona",
+    "translations": {
+      "en": "wife",
+      "ru": "жена"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_077",
+    "word": "akiniai",
+    "translations": {
+      "en": "glasses",
+      "ru": "очки"
+    },
+    "pos": "noun",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_001",
+    "word": "akis",
+    "translations": {
+      "en": "eye",
+      "ru": "глаз"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_078",
+    "word": "amžius",
+    "translations": {
+      "en": "age",
+      "ru": "возраст"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_079",
+    "word": "ant",
+    "translations": {
+      "en": "on",
+      "ru": "на"
+    },
+    "pos": "noun",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_080",
+    "word": "apie",
+    "translations": {
+      "en": "about",
+      "ru": "о, про"
+    },
+    "pos": "noun",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_081",
+    "word": "apsiauti",
+    "translations": {
+      "en": "put on shoes",
+      "ru": "обуваться"
+    },
+    "pos": "verb",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_009",
+    "word": "apsipirkti",
+    "translations": {
+      "en": "shop",
+      "ru": "делать покупки"
+    },
+    "pos": "noun",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_001",
+    "word": "apsirengti",
+    "translations": {
+      "en": "dress oneself, put on",
+      "ru": "одеваться"
+    },
+    "pos": "verb",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_006",
+    "word": "atidaryti",
+    "translations": {
+      "en": "open",
+      "ru": "открывать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_leisure_001",
+    "word": "atostogauti",
+    "translations": {
+      "en": "be on holiday, have vacation",
+      "ru": "быть в отпуске"
+    },
+    "pos": "noun",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_leisure_002",
+    "word": "atostogos",
+    "translations": {
+      "en": "holiday, vacation",
+      "ru": "отпуск, каникулы"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_007",
+    "word": "atrakinti",
+    "translations": {
+      "en": "unlock",
+      "ru": "отпирать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_007",
+    "word": "atsiimti",
+    "translations": {
+      "en": "pick up",
+      "ru": "забирать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_003",
+    "word": "atvažiuoti",
+    "translations": {
+      "en": "arrive",
+      "ru": "прибывать"
+    },
+    "pos": "verb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_082",
+    "word": "atvirukas",
+    "translations": {
+      "en": "postcard",
+      "ru": "открытка"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_009",
+    "word": "auksinis",
+    "translations": {
+      "en": "golden",
+      "ru": "золотой"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_002",
+    "word": "ausis",
+    "translations": {
+      "en": "ear",
+      "ru": "ухо"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_083",
+    "word": "auskarai",
+    "translations": {
+      "en": "earrings",
+      "ru": "серьги"
+    },
+    "pos": "noun",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_084",
+    "word": "avalynė",
+    "translations": {
+      "en": "footwear",
+      "ru": "обувь"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_085",
+    "word": "baigti",
+    "translations": {
+      "en": "finish",
+      "ru": "заканчивать"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_023",
+    "word": "balandis",
+    "translations": {
+      "en": "April",
+      "ru": "апрель"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_008",
+    "word": "baldai",
+    "translations": {
+      "en": "furniture",
+      "ru": "мебель"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_086",
+    "word": "basutės",
+    "translations": {
+      "en": "sandals",
+      "ru": "сандалии"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_087",
+    "word": "batai",
+    "translations": {
+      "en": "shoes",
+      "ru": "ботинки"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_088",
+    "word": "bateliai",
+    "translations": {
+      "en": "court shoes, pumps",
+      "ru": "туфли"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_movement_005",
+    "word": "bėgioti",
+    "translations": {
+      "en": "jog",
+      "ru": "бегать"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_024",
+    "word": "birželis",
+    "translations": {
+      "en": "June",
+      "ru": "июнь"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_089",
+    "word": "brangus",
+    "translations": {
+      "en": "expensive",
+      "ru": "дорогой"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_009",
+    "word": "čiaupas",
+    "translations": {
+      "en": "tap",
+      "ru": "кран"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_090",
+    "word": "daiktai",
+    "translations": {
+      "en": "items",
+      "ru": "вещи"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_091",
+    "word": "dailė",
+    "translations": {
+      "en": "art",
+      "ru": "искусство"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_work_003",
+    "word": "dainininkas",
+    "translations": {
+      "en": "singer",
+      "ru": "певец, певица"
+    },
+    "pos": "noun",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_leisure_003",
+    "word": "dainuoti",
+    "translations": {
+      "en": "sing",
+      "ru": "петь"
+    },
+    "pos": "verb",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_003",
+    "word": "dantis",
+    "translations": {
+      "en": "tooth",
+      "ru": "зуб"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_092",
+    "word": "darbovietė",
+    "translations": {
+      "en": "workplace",
+      "ru": "место работы"
+    },
+    "pos": "noun",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "feminine"
+  },
+  {
+    "id": "lt_work_004",
+    "word": "darbuotojas",
+    "translations": {
+      "en": "employee",
+      "ru": "работник"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_004",
+    "word": "degalai",
+    "translations": {
+      "en": "fuel",
+      "ru": "топливо"
+    },
+    "pos": "noun",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_005",
+    "word": "degalinė",
+    "translations": {
+      "en": "petrol station",
+      "ru": "заправка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_093",
+    "word": "dėmė",
+    "translations": {
+      "en": "stain",
+      "ru": "пятно"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_006",
+    "word": "dešinėje",
+    "translations": {
+      "en": "on the right",
+      "ru": "справа"
+    },
+    "pos": "adverb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_002",
+    "word": "dėvėti",
+    "translations": {
+      "en": "wear",
+      "ru": "носить"
+    },
+    "pos": "verb",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_003",
+    "word": "dydis",
+    "translations": {
+      "en": "size",
+      "ru": "размер"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_004",
+    "word": "diržas",
+    "translations": {
+      "en": "belt",
+      "ru": "ремень"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_general_094",
+    "word": "dovana",
+    "translations": {
+      "en": "gift, present",
+      "ru": "подарок"
+    },
+    "pos": "noun",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_008",
+    "word": "dovanoti",
+    "translations": {
+      "en": "give (as a present)",
+      "ru": "дарить"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_005",
+    "word": "drabužiai",
+    "translations": {
+      "en": "clothes",
+      "ru": "одежда"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_095",
+    "word": "draudžiama",
+    "translations": {
+      "en": "prohibited",
+      "ru": "запрещено"
+    },
+    "pos": "noun",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_007",
+    "word": "dujos",
+    "translations": {
+      "en": "gas",
+      "ru": "газ"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_010",
+    "word": "dulkės",
+    "translations": {
+      "en": "dust",
+      "ru": "пыль"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_011",
+    "word": "durys",
+    "translations": {
+      "en": "door",
+      "ru": "дверь"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_general_096",
+    "word": "dušas",
+    "translations": {
+      "en": "shower",
+      "ru": "душ"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_transport_008",
+    "word": "dviratis",
+    "translations": {
+      "en": "bicycle",
+      "ru": "велосипед"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_015",
+    "word": "džiaugsmas",
+    "translations": {
+      "en": "joy",
+      "ru": "радость"
+    },
+    "pos": "verb",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_006",
+    "word": "džiovyklė",
+    "translations": {
+      "en": "dryer machine",
+      "ru": "сушилка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_097",
+    "word": "eglė",
+    "translations": {
+      "en": "Christmas tree",
+      "ru": "ель"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_098",
+    "word": "eilė",
+    "translations": {
+      "en": "row",
+      "ru": "ряд"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_012",
+    "word": "fotelis",
+    "translations": {
+      "en": "armchair",
+      "ru": "кресло"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_099",
+    "word": "galima",
+    "translations": {
+      "en": "allowed",
+      "ru": "разрешено"
+    },
+    "pos": "noun",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_004",
+    "word": "galva",
+    "translations": {
+      "en": "head",
+      "ru": "голова"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_100",
+    "word": "gauti",
+    "translations": {
+      "en": "get, receive",
+      "ru": "получать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_025",
+    "word": "gegužė",
+    "translations": {
+      "en": "May",
+      "ru": "май"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_101",
+    "word": "gėlė",
+    "translations": {
+      "en": "flower",
+      "ru": "цветок"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_102",
+    "word": "gerbiamas",
+    "translations": {
+      "en": "honourable",
+      "ru": "уважаемый"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_005",
+    "word": "gerklė",
+    "translations": {
+      "en": "throat",
+      "ru": "горло"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_003",
+    "word": "gydytojas",
+    "translations": {
+      "en": "doctor, physician",
+      "ru": "врач"
+    },
+    "pos": "noun",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_general_103",
+    "word": "gimtadienis",
+    "translations": {
+      "en": "birthday",
+      "ru": "день рождения"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_007",
+    "word": "glaudės",
+    "translations": {
+      "en": "swimming trunks",
+      "ru": "плавки"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_008",
+    "word": "grandinėlė",
+    "translations": {
+      "en": "chain",
+      "ru": "цепочка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_movement_006",
+    "word": "grąžinimas",
+    "translations": {
+      "en": "drop-off, return",
+      "ru": "возврат"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_movement_007",
+    "word": "grąžinti",
+    "translations": {
+      "en": "return",
+      "ru": "возвращать"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_026",
+    "word": "greitai",
+    "translations": {
+      "en": "fast",
+      "ru": "быстро"
+    },
+    "pos": "adverb",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_027",
+    "word": "greitas",
+    "translations": {
+      "en": "fast",
+      "ru": "быстрый"
+    },
+    "pos": "adjective",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_009",
+    "word": "greitis",
+    "translations": {
+      "en": "speed",
+      "ru": "скорость"
+    },
+    "pos": "verb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_104",
+    "word": "grybauti",
+    "translations": {
+      "en": "pick mushrooms",
+      "ru": "собирать грибы"
+    },
+    "pos": "noun",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_013",
+    "word": "grindys",
+    "translations": {
+      "en": "floor",
+      "ru": "пол"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_006",
+    "word": "grįžti",
+    "translations": {
+      "en": "return, come back",
+      "ru": "возвращаться"
+    },
+    "pos": "verb",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_leisure_004",
+    "word": "groti",
+    "translations": {
+      "en": "play (about music)",
+      "ru": "играть (о музыке)"
+    },
+    "pos": "verb",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_028",
+    "word": "gruodis",
+    "translations": {
+      "en": "December",
+      "ru": "декабрь"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_movement_008",
+    "word": "gulėti",
+    "translations": {
+      "en": "lie",
+      "ru": "лежать"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_010",
+    "word": "į dešinę",
+    "translations": {
+      "en": "to the right",
+      "ru": "направо"
+    },
+    "pos": "adverb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_011",
+    "word": "į kairę",
+    "translations": {
+      "en": "to the left",
+      "ru": "налево"
+    },
+    "pos": "adverb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_105",
+    "word": "ieškoti",
+    "translations": {
+      "en": "look for",
+      "ru": "искать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_106",
+    "word": "įjungti",
+    "translations": {
+      "en": "switch on",
+      "ru": "включать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_107",
+    "word": "iki",
+    "translations": {
+      "en": "until",
+      "ru": "до"
+    },
+    "pos": "noun",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_108",
+    "word": "ilgas",
+    "translations": {
+      "en": "long",
+      "ru": "длинный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_012",
+    "word": "įlipti",
+    "translations": {
+      "en": "get on to / in",
+      "ru": "садиться (в транспорт)"
+    },
+    "pos": "verb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_109",
+    "word": "indai",
+    "translations": {
+      "en": "dishes",
+      "ru": "посуда"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_014",
+    "word": "indaplovė",
+    "translations": {
+      "en": "dishwasher",
+      "ru": "посудомоечная машина"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_110",
+    "word": "įsiūti",
+    "translations": {
+      "en": "sew on / in",
+      "ru": "пришивать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_111",
+    "word": "išjungti",
+    "translations": {
+      "en": "switch off",
+      "ru": "выключать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_013",
+    "word": "išlipti",
+    "translations": {
+      "en": "get off",
+      "ru": "выходить (из транспорта)"
+    },
+    "pos": "verb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_009",
+    "word": "išnešti",
+    "translations": {
+      "en": "carry out, take out",
+      "ru": "выносить"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_010",
+    "word": "išpardavimas",
+    "translations": {
+      "en": "sale",
+      "ru": "распродажа"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_112",
+    "word": "išplauti",
+    "translations": {
+      "en": "wash up",
+      "ru": "вымыть"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_010",
+    "word": "išsikviesti",
+    "translations": {
+      "en": "call",
+      "ru": "вызывать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_113",
+    "word": "išsinuomoti",
+    "translations": {
+      "en": "rent (smth from)",
+      "ru": "арендовать"
+    },
+    "pos": "verb",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_015",
+    "word": "išsiurbti",
+    "translations": {
+      "en": "vacuum",
+      "ru": "пылесосить"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_011",
+    "word": "išsiųsti",
+    "translations": {
+      "en": "send",
+      "ru": "отправлять"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_114",
+    "word": "išskyrus ką?",
+    "translations": {
+      "en": "except for",
+      "ru": "кроме"
+    },
+    "pos": "noun",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_115",
+    "word": "išspausdinti",
+    "translations": {
+      "en": "print out",
+      "ru": "распечатать"
+    },
+    "pos": "verb",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_016",
+    "word": "išvalyti",
+    "translations": {
+      "en": "clean up",
+      "ru": "очистить"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_014",
+    "word": "išvažiuoti",
+    "translations": {
+      "en": "leave",
+      "ru": "уезжать"
+    },
+    "pos": "verb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_116",
+    "word": "jaukus",
+    "translations": {
+      "en": "cosy",
+      "ru": "уютный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_016",
+    "word": "jaustis",
+    "translations": {
+      "en": "feel",
+      "ru": "чувствовать себя"
+    },
+    "pos": "noun",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_017",
+    "word": "kabinetas",
+    "translations": {
+      "en": "room, consulting room",
+      "ru": "кабинет"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_places_014",
+    "word": "kaimas",
+    "translations": {
+      "en": "village, countryside",
+      "ru": "деревня, сельская местность"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_011",
+    "word": "kainuoti",
+    "translations": {
+      "en": "cost",
+      "ru": "стоить"
+    },
+    "pos": "verb",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_117",
+    "word": "kaip",
+    "translations": {
+      "en": "how",
+      "ru": "как"
+    },
+    "pos": "noun",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_015",
+    "word": "kairėje",
+    "translations": {
+      "en": "on the left",
+      "ru": "слева"
+    },
+    "pos": "adverb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_118",
+    "word": "kalba",
+    "translations": {
+      "en": "language",
+      "ru": "язык"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_119",
+    "word": "Kalėdos",
+    "translations": {
+      "en": "Christmas",
+      "ru": "Рождество"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_120",
+    "word": "kalnai",
+    "translations": {
+      "en": "mountains",
+      "ru": "горы"
+    },
+    "pos": "noun",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_004",
+    "word": "karščiuoti",
+    "translations": {
+      "en": "have a fever, have a temperature",
+      "ru": "температурить"
+    },
+    "pos": "verb",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_018",
+    "word": "kėdė",
+    "translations": {
+      "en": "chair",
+      "ru": "стул"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_016",
+    "word": "kelias",
+    "translations": {
+      "en": "track",
+      "ru": "дорога"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_movement_009",
+    "word": "keliauti",
+    "translations": {
+      "en": "travel",
+      "ru": "путешествовать"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_movement_010",
+    "word": "kelionė",
+    "translations": {
+      "en": "travel, trip, journey",
+      "ru": "путешествие, поездка"
+    },
+    "pos": "noun",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_009",
+    "word": "kelnės",
+    "translations": {
+      "en": "trousers",
+      "ru": "брюки"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_010",
+    "word": "kepurė",
+    "translations": {
+      "en": "hat, cap",
+      "ru": "шапка, кепка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_019",
+    "word": "kiemas",
+    "translations": {
+      "en": "yard, courtyard",
+      "ru": "двор"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_020",
+    "word": "kilimas",
+    "translations": {
+      "en": "rug, carpet",
+      "ru": "ковёр"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_012",
+    "word": "kirpėjas",
+    "translations": {
+      "en": "hairdresser",
+      "ru": "парикмахер"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_011",
+    "word": "kišenė",
+    "translations": {
+      "en": "pocket",
+      "ru": "карман"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_121",
+    "word": "kitas",
+    "translations": {
+      "en": "next",
+      "ru": "следующий"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_122",
+    "word": "klausimas",
+    "translations": {
+      "en": "question",
+      "ru": "вопрос"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_012",
+    "word": "klausyti",
+    "translations": {
+      "en": "listen",
+      "ru": "слушать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_005",
+    "word": "knyga",
+    "translations": {
+      "en": "book",
+      "ru": "книга"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_007",
+    "word": "koja",
+    "translations": {
+      "en": "leg",
+      "ru": "нога"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_123",
+    "word": "kojinės",
+    "translations": {
+      "en": "socks",
+      "ru": "носки"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_017",
+    "word": "kolonėlė",
+    "translations": {
+      "en": "fuel dispenser",
+      "ru": "топливная колонка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_021",
+    "word": "koridorius",
+    "translations": {
+      "en": "corridor",
+      "ru": "коридор"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_005",
+    "word": "kosėti",
+    "translations": {
+      "en": "cough",
+      "ru": "кашлять"
+    },
+    "pos": "verb",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_006",
+    "word": "kosulys",
+    "translations": {
+      "en": "cough",
+      "ru": "кашель"
+    },
+    "pos": "noun",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_029",
+    "word": "kovas",
+    "translations": {
+      "en": "March",
+      "ru": "март"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_008",
+    "word": "kraujas",
+    "translations": {
+      "en": "blood",
+      "ru": "кровь"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_009",
+    "word": "kraujospūdis",
+    "translations": {
+      "en": "blood pressure",
+      "ru": "давление"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_124",
+    "word": "Kūčios",
+    "translations": {
+      "en": "Christmas Eve",
+      "ru": "Сочельник"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_010",
+    "word": "kūnas",
+    "translations": {
+      "en": "body",
+      "ru": "тело"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_012",
+    "word": "kuprinė",
+    "translations": {
+      "en": "backpack",
+      "ru": "рюкзак"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_018",
+    "word": "kuras",
+    "translations": {
+      "en": "fuel",
+      "ru": "топливо"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_030",
+    "word": "kursas",
+    "translations": {
+      "en": "year of studies",
+      "ru": "курс (год обучения)"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_013",
+    "word": "kviesti",
+    "translations": {
+      "en": "invite",
+      "ru": "приглашать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_087",
+    "word": "kvitas",
+    "translations": {
+      "en": "receipt",
+      "ru": "квитанция"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_125",
+    "word": "labai",
+    "translations": {
+      "en": "very much",
+      "ru": "очень"
+    },
+    "pos": "adverb",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_126",
+    "word": "labiau",
+    "translations": {
+      "en": "more",
+      "ru": "больше"
+    },
+    "pos": "adverb",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_014",
+    "word": "laikrodis",
+    "translations": {
+      "en": "clock, watch",
+      "ru": "часы"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_017",
+    "word": "laimė",
+    "translations": {
+      "en": "happiness",
+      "ru": "счастье"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_018",
+    "word": "laimingas",
+    "translations": {
+      "en": "happy",
+      "ru": "счастливый"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_022",
+    "word": "laiptai",
+    "translations": {
+      "en": "staircase",
+      "ru": "лестница"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_127",
+    "word": "laiptinė",
+    "translations": {
+      "en": "stairway, landing",
+      "ru": "лестничная площадка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_leisure_005",
+    "word": "laisvalaikis",
+    "translations": {
+      "en": "leisure",
+      "ru": "досуг"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_128",
+    "word": "laisvas",
+    "translations": {
+      "en": "available",
+      "ru": "свободный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_023",
+    "word": "langas",
+    "translations": {
+      "en": "window",
+      "ru": "окно"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_031",
+    "word": "lapkritis",
+    "translations": {
+      "en": "November",
+      "ru": "ноябрь"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_007",
+    "word": "lašai",
+    "translations": {
+      "en": "drops",
+      "ru": "капли"
+    },
+    "pos": "noun",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_024",
+    "word": "lentyna",
+    "translations": {
+      "en": "shelf",
+      "ru": "полка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_032",
+    "word": "lėtas",
+    "translations": {
+      "en": "slow",
+      "ru": "медленный"
+    },
+    "pos": "adjective",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_013",
+    "word": "liemenė",
+    "translations": {
+      "en": "waist coat",
+      "ru": "жилет"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_033",
+    "word": "liepa",
+    "translations": {
+      "en": "July",
+      "ru": "июль"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_008",
+    "word": "liga",
+    "translations": {
+      "en": "illness, disease",
+      "ru": "болезнь"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_014",
+    "word": "lygintuvas",
+    "translations": {
+      "en": "iron",
+      "ru": "утюг"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_009",
+    "word": "ligonis",
+    "translations": {
+      "en": "patient",
+      "ru": "пациент"
+    },
+    "pos": "noun",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_019",
+    "word": "linkėti",
+    "translations": {
+      "en": "wish",
+      "ru": "желать"
+    },
+    "pos": "verb",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_019",
+    "word": "lipti",
+    "translations": {
+      "en": "get on",
+      "ru": "подниматься"
+    },
+    "pos": "verb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_025",
+    "word": "lova",
+    "translations": {
+      "en": "bed",
+      "ru": "кровать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_026",
+    "word": "lubos",
+    "translations": {
+      "en": "ceiling",
+      "ru": "потолок"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_129",
+    "word": "madingas",
+    "translations": {
+      "en": "fashionable, stylish",
+      "ru": "модный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_010",
+    "word": "margas",
+    "translations": {
+      "en": "multicolour",
+      "ru": "разноцветный"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_015",
+    "word": "marškinėliai",
+    "translations": {
+      "en": "T-shirt",
+      "ru": "футболка"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_016",
+    "word": "marškiniai",
+    "translations": {
+      "en": "shirt",
+      "ru": "рубашка"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_017",
+    "word": "maudymosi kostiumėlis",
+    "translations": {
+      "en": "swimsuit",
+      "ru": "купальник"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_clothes_018",
+    "word": "medvilninis",
+    "translations": {
+      "en": "cotton",
+      "ru": "хлопковый"
+    },
+    "pos": "adjective",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_019",
+    "word": "megztinis",
+    "translations": {
+      "en": "sweater, jumper",
+      "ru": "свитер"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_020",
+    "word": "meilė",
+    "translations": {
+      "en": "love",
+      "ru": "любовь"
+    },
+    "pos": "noun",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_work_005",
+    "word": "meistras",
+    "translations": {
+      "en": "handyman, handywoman",
+      "ru": "мастер"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_034",
+    "word": "metai",
+    "translations": {
+      "en": "year",
+      "ru": "год"
+    },
+    "pos": "noun",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_027",
+    "word": "miegamasis",
+    "translations": {
+      "en": "bedroom",
+      "ru": "спальня"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_general_130",
+    "word": "miegoti",
+    "translations": {
+      "en": "sleep",
+      "ru": "спать"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_021",
+    "word": "mylimas",
+    "translations": {
+      "en": "beloved",
+      "ru": "любимый"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_131",
+    "word": "minkštas",
+    "translations": {
+      "en": "soft",
+      "ru": "мягкий"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_132",
+    "word": "mokamas",
+    "translations": {
+      "en": "paid",
+      "ru": "платный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_133",
+    "word": "mokestis",
+    "translations": {
+      "en": "fee",
+      "ru": "плата"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_006",
+    "word": "mokėti",
+    "translations": {
+      "en": "know",
+      "ru": "знать"
+    },
+    "pos": "verb",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_134",
+    "word": "mokyti",
+    "translations": {
+      "en": "teach",
+      "ru": "учить"
+    },
+    "pos": "verb",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_007",
+    "word": "mokytis",
+    "translations": {
+      "en": "learn",
+      "ru": "учиться"
+    },
+    "pos": "verb",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_008",
+    "word": "mokytojas",
+    "translations": {
+      "en": "teacher",
+      "ru": "учитель"
+    },
+    "pos": "noun",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_clothes_020",
+    "word": "moteriškas",
+    "translations": {
+      "en": "womenswear",
+      "ru": "женская одежда"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_028",
+    "word": "namai",
+    "translations": {
+      "en": "home",
+      "ru": "дом"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_135",
+    "word": "naujas",
+    "translations": {
+      "en": "new",
+      "ru": "новый"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_136",
+    "word": "nemokamas",
+    "translations": {
+      "en": "free of charge",
+      "ru": "бесплатный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_021",
+    "word": "nešioti",
+    "translations": {
+      "en": "wear",
+      "ru": "носить"
+    },
+    "pos": "verb",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_137",
+    "word": "nešvarus",
+    "translations": {
+      "en": "unclean, dirty",
+      "ru": "грязный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_138",
+    "word": "normalus",
+    "translations": {
+      "en": "normal",
+      "ru": "нормальный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_011",
+    "word": "nosis",
+    "translations": {
+      "en": "nose",
+      "ru": "нос"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_012",
+    "word": "nugara",
+    "translations": {
+      "en": "back",
+      "ru": "спина"
+    },
+    "pos": "noun",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_015",
+    "word": "nunešti",
+    "translations": {
+      "en": "take",
+      "ru": "отнести"
+    },
+    "pos": "noun",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_139",
+    "word": "nuo",
+    "translations": {
+      "en": "from, since",
+      "ru": "от, с"
+    },
+    "pos": "noun",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_013",
+    "word": "nuolaida",
+    "translations": {
+      "en": "discount",
+      "ru": "скидка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_140",
+    "word": "nuomoti",
+    "translations": {
+      "en": "let, rent",
+      "ru": "сдавать, арендовать"
+    },
+    "pos": "verb",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_141",
+    "word": "nuplauti",
+    "translations": {
+      "en": "wash",
+      "ru": "вымыть"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_016",
+    "word": "nusiauti",
+    "translations": {
+      "en": "take off shoes",
+      "ru": "снимать обувь"
+    },
+    "pos": "noun",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_014",
+    "word": "nusipirkti",
+    "translations": {
+      "en": "buy",
+      "ru": "купить"
+    },
+    "pos": "verb",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_017",
+    "word": "nusirengti",
+    "translations": {
+      "en": "undress, take off",
+      "ru": "раздеваться"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_142",
+    "word": "nuvalyti",
+    "translations": {
+      "en": "wipe off",
+      "ru": "вытирать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_022",
+    "word": "odinis",
+    "translations": {
+      "en": "leather",
+      "ru": "кожаный"
+    },
+    "pos": "adjective",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_011",
+    "word": "oranžinis",
+    "translations": {
+      "en": "orange",
+      "ru": "оранжевый"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_143",
+    "word": "oras",
+    "translations": {
+      "en": "air",
+      "ru": "воздух"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_029",
+    "word": "orkaitė",
+    "translations": {
+      "en": "oven",
+      "ru": "духовка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_144",
+    "word": "padangos",
+    "translations": {
+      "en": "tires",
+      "ru": "шины"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_145",
+    "word": "padaryti",
+    "translations": {
+      "en": "do",
+      "ru": "делать"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_146",
+    "word": "paėmimas",
+    "translations": {
+      "en": "pick-up",
+      "ru": "забор"
+    },
+    "pos": "noun",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_leisure_006",
+    "word": "pailsėti",
+    "translations": {
+      "en": "have a rest",
+      "ru": "отдохнуть"
+    },
+    "pos": "verb",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_009",
+    "word": "pakartoti",
+    "translations": {
+      "en": "repeat",
+      "ru": "повторять"
+    },
+    "pos": "verb",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_147",
+    "word": "pakeisti",
+    "translations": {
+      "en": "change",
+      "ru": "менять"
+    },
+    "pos": "verb",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_018",
+    "word": "paklausti",
+    "translations": {
+      "en": "ask",
+      "ru": "спрашивать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_023",
+    "word": "palaidinė",
+    "translations": {
+      "en": "blouse",
+      "ru": "блузка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_010",
+    "word": "palata",
+    "translations": {
+      "en": "ward",
+      "ru": "палата"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_148",
+    "word": "palaukti",
+    "translations": {
+      "en": "wait",
+      "ru": "ждать"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_149",
+    "word": "palenkti",
+    "translations": {
+      "en": "hem",
+      "ru": "подшивать"
+    },
+    "pos": "verb",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_024",
+    "word": "paltas",
+    "translations": {
+      "en": "coat",
+      "ru": "пальто"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_019",
+    "word": "pamiršti",
+    "translations": {
+      "en": "forget",
+      "ru": "забывать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_150",
+    "word": "papildyti",
+    "translations": {
+      "en": "refill, top up",
+      "ru": "пополнять"
+    },
+    "pos": "verb",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_151",
+    "word": "para",
+    "translations": {
+      "en": "twenty-four hours",
+      "ru": "сутки"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_152",
+    "word": "parašas",
+    "translations": {
+      "en": "signature",
+      "ru": "подпись"
+    },
+    "pos": "noun",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_communication_020",
+    "word": "parodyti",
+    "translations": {
+      "en": "show",
+      "ru": "показывать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_021",
+    "word": "pasakyti",
+    "translations": {
+      "en": "say, tell",
+      "ru": "сказать, рассказать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_movement_011",
+    "word": "pasibaigti",
+    "translations": {
+      "en": "finish, come to an end",
+      "ru": "заканчиваться"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_153",
+    "word": "pasimatuoti",
+    "translations": {
+      "en": "try on",
+      "ru": "примерять"
+    },
+    "pos": "verb",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_022",
+    "word": "pasirašyti",
+    "translations": {
+      "en": "sign",
+      "ru": "подписывать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_154",
+    "word": "pasisiūti",
+    "translations": {
+      "en": "have / get (smth) made",
+      "ru": "сшить себе"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_155",
+    "word": "pasiskiepyti",
+    "translations": {
+      "en": "be vaccinated against",
+      "ru": "привиться от"
+    },
+    "pos": "noun",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_023",
+    "word": "paskambinti",
+    "translations": {
+      "en": "call, make a call",
+      "ru": "позвонить"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_156",
+    "word": "paskolinti",
+    "translations": {
+      "en": "lend",
+      "ru": "одолжить"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_035",
+    "word": "paskui",
+    "translations": {
+      "en": "then",
+      "ru": "потом"
+    },
+    "pos": "adverb",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_020",
+    "word": "paspirtukas",
+    "translations": {
+      "en": "scooter",
+      "ru": "самокат"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_021",
+    "word": "pasukti",
+    "translations": {
+      "en": "turn",
+      "ru": "повернуть"
+    },
+    "pos": "verb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_011",
+    "word": "pasveikti",
+    "translations": {
+      "en": "get better, recover",
+      "ru": "выздороветь"
+    },
+    "pos": "verb",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_030",
+    "word": "pataisyti",
+    "translations": {
+      "en": "fix, repair",
+      "ru": "чинить"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_157",
+    "word": "patalynė",
+    "translations": {
+      "en": "bedding",
+      "ru": "постельное бельё"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "feminine"
+  },
+  {
+    "id": "lt_general_158",
+    "word": "patogus",
+    "translations": {
+      "en": "comfortable",
+      "ru": "удобный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_159",
+    "word": "patrumpinti",
+    "translations": {
+      "en": "shorten",
+      "ru": "укоротить"
+    },
+    "pos": "verb",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_022",
+    "word": "pavargęs",
+    "translations": {
+      "en": "tired",
+      "ru": "уставший"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_160",
+    "word": "pavasaris",
+    "translations": {
+      "en": "spring",
+      "ru": "весна"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_161",
+    "word": "paveikslas",
+    "translations": {
+      "en": "painting, picture",
+      "ru": "картина"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_010",
+    "word": "pažymys",
+    "translations": {
+      "en": "grade, mark",
+      "ru": "оценка"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_162",
+    "word": "per",
+    "translations": {
+      "en": "during",
+      "ru": "во время"
+    },
+    "pos": "noun",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_024",
+    "word": "perduoti",
+    "translations": {
+      "en": "inform",
+      "ru": "сообщать"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_163",
+    "word": "peršalti",
+    "translations": {
+      "en": "catch a cold",
+      "ru": "простудиться"
+    },
+    "pos": "verb",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_011",
+    "word": "pieštukas",
+    "translations": {
+      "en": "pencil",
+      "ru": "карандаш"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_164",
+    "word": "pigus",
+    "translations": {
+      "en": "cheap",
+      "ru": "дешёвый"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_165",
+    "word": "pykinti",
+    "translations": {
+      "en": "nauseate",
+      "ru": "тошнить"
+    },
+    "pos": "verb",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_088",
+    "word": "pilti",
+    "translations": {
+      "en": "refuel",
+      "ru": "заправлять"
+    },
+    "pos": "verb",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_166",
+    "word": "pilvas",
+    "translations": {
+      "en": "abdomen, belly",
+      "ru": "живот"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_025",
+    "word": "piniginė",
+    "translations": {
+      "en": "wallet",
+      "ru": "кошелёк"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_013",
+    "word": "pirštas",
+    "translations": {
+      "en": "finger",
+      "ru": "палец"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_167",
+    "word": "pirštinės",
+    "translations": {
+      "en": "gloves",
+      "ru": "перчатки"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_168",
+    "word": "platus",
+    "translations": {
+      "en": "wide",
+      "ru": "широкий"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_movement_012",
+    "word": "plaukioti",
+    "translations": {
+      "en": "swim",
+      "ru": "плавать"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_012",
+    "word": "popierius",
+    "translations": {
+      "en": "paper",
+      "ru": "бумага"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_169",
+    "word": "pradėti",
+    "translations": {
+      "en": "start, begin",
+      "ru": "начинать"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_170",
+    "word": "prasidėti",
+    "translations": {
+      "en": "begin",
+      "ru": "начинаться"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_013",
+    "word": "pratimas",
+    "translations": {
+      "en": "exercise",
+      "ru": "упражнение"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_171",
+    "word": "prieš",
+    "translations": {
+      "en": "before, some time ago",
+      "ru": "до, раньше"
+    },
+    "pos": "noun",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_012",
+    "word": "purškalas",
+    "translations": {
+      "en": "spray",
+      "ru": "спрей"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_172",
+    "word": "purvas",
+    "translations": {
+      "en": "dirt",
+      "ru": "грязь"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_014",
+    "word": "puslapis",
+    "translations": {
+      "en": "page",
+      "ru": "страница"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_031",
+    "word": "raktas",
+    "translations": {
+      "en": "key",
+      "ru": "ключ"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_173",
+    "word": "rakteliai",
+    "translations": {
+      "en": "keys",
+      "ru": "ключи"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_023",
+    "word": "ramus",
+    "translations": {
+      "en": "calm, quiet",
+      "ru": "спокойный, тихий"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_014",
+    "word": "ranka",
+    "translations": {
+      "en": "hand, arm",
+      "ru": "рука"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_026",
+    "word": "rankinė",
+    "translations": {
+      "en": "handbag",
+      "ru": "сумка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_027",
+    "word": "rankovė",
+    "translations": {
+      "en": "sleeve",
+      "ru": "рукав"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_015",
+    "word": "rašiklis",
+    "translations": {
+      "en": "pen",
+      "ru": "ручка"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_016",
+    "word": "rašyti",
+    "translations": {
+      "en": "write",
+      "ru": "писать"
+    },
+    "pos": "verb",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_012",
+    "word": "rausvas",
+    "translations": {
+      "en": "pink",
+      "ru": "розовый"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_013",
+    "word": "receptas",
+    "translations": {
+      "en": "prescription",
+      "ru": "рецепт"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_174",
+    "word": "reikėti",
+    "translations": {
+      "en": "need",
+      "ru": "нужно"
+    },
+    "pos": "noun",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_032",
+    "word": "remontas",
+    "translations": {
+      "en": "repair",
+      "ru": "ремонт"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_175",
+    "word": "rezervuoti",
+    "translations": {
+      "en": "reserve",
+      "ru": "бронировать"
+    },
+    "pos": "verb",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_028",
+    "word": "rūbai",
+    "translations": {
+      "en": "clothes",
+      "ru": "одежда"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_013",
+    "word": "rudas",
+    "translations": {
+      "en": "brown",
+      "ru": "коричневый"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_176",
+    "word": "ruduo",
+    "translations": {
+      "en": "autumn",
+      "ru": "осень"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_036",
+    "word": "rupjūtis",
+    "translations": {
+      "en": "August",
+      "ru": "август"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_037",
+    "word": "rugsėjis",
+    "translations": {
+      "en": "September",
+      "ru": "сентябрь"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_033",
+    "word": "rūsys",
+    "translations": {
+      "en": "cellar",
+      "ru": "подвал"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_029",
+    "word": "saga",
+    "translations": {
+      "en": "button",
+      "ru": "пуговица"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_177",
+    "word": "salė",
+    "translations": {
+      "en": "hall",
+      "ru": "зал"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_017",
+    "word": "sąsiuvinis",
+    "translations": {
+      "en": "exercise book",
+      "ru": "тетрадь"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_038",
+    "word": "sausis",
+    "translations": {
+      "en": "January",
+      "ru": "январь"
+    },
+    "pos": "noun",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_178",
+    "word": "sėkmė",
+    "translations": {
+      "en": "success",
+      "ru": "успех"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_179",
+    "word": "senamadiškas",
+    "translations": {
+      "en": "oldfashioned",
+      "ru": "старомодный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_180",
+    "word": "siauras",
+    "translations": {
+      "en": "tight",
+      "ru": "узкий"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_014",
+    "word": "sidabrinis",
+    "translations": {
+      "en": "silver",
+      "ru": "серебряный"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_034",
+    "word": "siena",
+    "translations": {
+      "en": "wall",
+      "ru": "стена"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_030",
+    "word": "sijonas",
+    "translations": {
+      "en": "skirt",
+      "ru": "юбка"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_general_181",
+    "word": "sirgti",
+    "translations": {
+      "en": "be ill, sick",
+      "ru": "болеть"
+    },
+    "pos": "verb",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_031",
+    "word": "siuvėjas",
+    "translations": {
+      "en": "tailor",
+      "ru": "портной"
+    },
+    "pos": "adjective",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_032",
+    "word": "siuvykla",
+    "translations": {
+      "en": "tailor shop",
+      "ru": "ателье"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_033",
+    "word": "skalbykla",
+    "translations": {
+      "en": "laundry",
+      "ru": "прачечная"
+    },
+    "pos": "adjective",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_035",
+    "word": "skalbyklė",
+    "translations": {
+      "en": "washing machine",
+      "ru": "стиральная машина"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "feminine"
+  },
+  {
+    "id": "lt_general_182",
+    "word": "skalbti",
+    "translations": {
+      "en": "wash",
+      "ru": "стирать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_014",
+    "word": "skaudėti",
+    "translations": {
+      "en": "have a pain, hurt, ache",
+      "ru": "болеть, болит"
+    },
+    "pos": "verb",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_183",
+    "word": "skėtis",
+    "translations": {
+      "en": "umbrella",
+      "ru": "зонт"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_015",
+    "word": "skrandis",
+    "translations": {
+      "en": "stomach",
+      "ru": "желудок"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_022",
+    "word": "skristi",
+    "translations": {
+      "en": "go by plane, fly",
+      "ru": "лететь"
+    },
+    "pos": "verb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_015",
+    "word": "slaugytojas",
+    "translations": {
+      "en": "nurse",
+      "ru": "медсестра, медбрат"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_movement_013",
+    "word": "slidinėti",
+    "translations": {
+      "en": "ski",
+      "ru": "кататься на лыжах"
+    },
+    "pos": "noun",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_036",
+    "word": "sodyba",
+    "translations": {
+      "en": "summer house, homestead",
+      "ru": "дача, усадьба"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_039",
+    "word": "spalis",
+    "translations": {
+      "en": "October",
+      "ru": "октябрь"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_015",
+    "word": "spalvingas",
+    "translations": {
+      "en": "colourful",
+      "ru": "яркий"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_037",
+    "word": "spinta",
+    "translations": {
+      "en": "wardrobe, closet",
+      "ru": "шкаф"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_184",
+    "word": "sportbačiai",
+    "translations": {
+      "en": "sneakers",
+      "ru": "кроссовки"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_185",
+    "word": "stabdžiai",
+    "translations": {
+      "en": "brakes",
+      "ru": "тормоза"
+    },
+    "pos": "noun",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_038",
+    "word": "stalas",
+    "translations": {
+      "en": "table",
+      "ru": "стол"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_work_006",
+    "word": "statybininkas",
+    "translations": {
+      "en": "builder",
+      "ru": "строитель"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_034",
+    "word": "striukė",
+    "translations": {
+      "en": "jacket",
+      "ru": "куртка"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_035",
+    "word": "suknelė",
+    "translations": {
+      "en": "dress",
+      "ru": "платье"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_shopping_015",
+    "word": "sumokėti",
+    "translations": {
+      "en": "pay",
+      "ru": "заплатить"
+    },
+    "pos": "verb",
+    "category": "shopping",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_039",
+    "word": "suremontuoti",
+    "translations": {
+      "en": "repair, fix",
+      "ru": "отремонтировать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_work_007",
+    "word": "susirinkimas",
+    "translations": {
+      "en": "meeting, assembly",
+      "ru": "собрание"
+    },
+    "pos": "noun",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_work_008",
+    "word": "susitikimas",
+    "translations": {
+      "en": "meeting",
+      "ru": "встреча"
+    },
+    "pos": "noun",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_transport_023",
+    "word": "sustoti",
+    "translations": {
+      "en": "stop",
+      "ru": "остановиться"
+    },
+    "pos": "verb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_040",
+    "word": "sutvarkyti",
+    "translations": {
+      "en": "tidy up",
+      "ru": "убирать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_186",
+    "word": "svečias",
+    "translations": {
+      "en": "guest",
+      "ru": "гость"
+    },
+    "pos": "verb",
+    "category": "family",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_187",
+    "word": "sveikas",
+    "translations": {
+      "en": "healthy",
+      "ru": "здоровый"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_188",
+    "word": "sveikata",
+    "translations": {
+      "en": "health",
+      "ru": "здоровье"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_communication_025",
+    "word": "sveikinti",
+    "translations": {
+      "en": "congratulate",
+      "ru": "поздравлять"
+    },
+    "pos": "verb",
+    "category": "communication",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_016",
+    "word": "sveikti",
+    "translations": {
+      "en": "get better, recover",
+      "ru": "выздоравливать"
+    },
+    "pos": "verb",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_041",
+    "word": "svetainė",
+    "translations": {
+      "en": "living room",
+      "ru": "гостиная"
+    },
+    "pos": "adjective",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_036",
+    "word": "šalikas",
+    "translations": {
+      "en": "scarf",
+      "ru": "шарф"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_leisure_007",
+    "word": "šaškės",
+    "translations": {
+      "en": "draughts",
+      "ru": "шашки"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_189",
+    "word": "šimtas",
+    "translations": {
+      "en": "hundred",
+      "ru": "сто"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_016",
+    "word": "širdis",
+    "translations": {
+      "en": "heart",
+      "ru": "сердце"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_042",
+    "word": "šiukšlės",
+    "translations": {
+      "en": "litter, rubbish",
+      "ru": "мусор"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_leisure_008",
+    "word": "šokti",
+    "translations": {
+      "en": "dance",
+      "ru": "танцевать"
+    },
+    "pos": "verb",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_037",
+    "word": "šortai",
+    "translations": {
+      "en": "shorts",
+      "ru": "шорты"
+    },
+    "pos": "noun",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_190",
+    "word": "šukos",
+    "translations": {
+      "en": "comb",
+      "ru": "расчёска"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_038",
+    "word": "švarkas",
+    "translations": {
+      "en": "blazer, jacket",
+      "ru": "пиджак"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_043",
+    "word": "švarus",
+    "translations": {
+      "en": "clean",
+      "ru": "чистый"
+    },
+    "pos": "adjective",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_leisure_009",
+    "word": "šventė",
+    "translations": {
+      "en": "holiday, feast, celebration",
+      "ru": "праздник"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_leisure_010",
+    "word": "švęsti",
+    "translations": {
+      "en": "celebrate",
+      "ru": "праздновать"
+    },
+    "pos": "verb",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_016",
+    "word": "šviesa",
+    "translations": {
+      "en": "light",
+      "ru": "свет"
+    },
+    "pos": "noun",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_044",
+    "word": "taisykla",
+    "translations": {
+      "en": "repair shop",
+      "ru": "мастерская"
+    },
+    "pos": "adjective",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_191",
+    "word": "tepalai",
+    "translations": {
+      "en": "lubricants",
+      "ru": "смазки"
+    },
+    "pos": "noun",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_024",
+    "word": "tiesiai",
+    "translations": {
+      "en": "straight",
+      "ru": "прямо"
+    },
+    "pos": "adverb",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_192",
+    "word": "tikti",
+    "translations": {
+      "en": "fit, suit",
+      "ru": "подходить"
+    },
+    "pos": "verb",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_018",
+    "word": "trintukas",
+    "translations": {
+      "en": "eraser",
+      "ru": "ластик"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_024",
+    "word": "triukšmingas",
+    "translations": {
+      "en": "noisy",
+      "ru": "шумный"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_193",
+    "word": "trūkti",
+    "translations": {
+      "en": "break",
+      "ru": "ломаться"
+    },
+    "pos": "verb",
+    "category": "movement",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_194",
+    "word": "trumpas",
+    "translations": {
+      "en": "short",
+      "ru": "короткий"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_195",
+    "word": "tūkstantis",
+    "translations": {
+      "en": "thousand",
+      "ru": "тысяча"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_025",
+    "word": "tuojau",
+    "translations": {
+      "en": "right away, immediately",
+      "ru": "сразу, немедленно"
+    },
+    "pos": "adverb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_196",
+    "word": "tvarkaraštis",
+    "translations": {
+      "en": "timetable",
+      "ru": "расписание"
+    },
+    "pos": "noun",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_045",
+    "word": "tvarkingas",
+    "translations": {
+      "en": "tidy",
+      "ru": "аккуратный"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_046",
+    "word": "tvarkyti",
+    "translations": {
+      "en": "tidy",
+      "ru": "убирать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_197",
+    "word": "už",
+    "translations": {
+      "en": "for",
+      "ru": "за"
+    },
+    "pos": "noun",
+    "category": "adverbs",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_047",
+    "word": "uždaryti",
+    "translations": {
+      "en": "close",
+      "ru": "закрывать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_019",
+    "word": "užduotis",
+    "translations": {
+      "en": "task",
+      "ru": "задание"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_198",
+    "word": "užimtas",
+    "translations": {
+      "en": "occupied",
+      "ru": "занятый"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_048",
+    "word": "užrakinti",
+    "translations": {
+      "en": "lock",
+      "ru": "запирать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_199",
+    "word": "užrašyti",
+    "translations": {
+      "en": "register",
+      "ru": "регистрировать"
+    },
+    "pos": "verb",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_emotions_025",
+    "word": "užsiėmęs",
+    "translations": {
+      "en": "busy",
+      "ru": "занятый"
+    },
+    "pos": "adjective",
+    "category": "emotions",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_039",
+    "word": "užtrauktukas",
+    "translations": {
+      "en": "zipper",
+      "ru": "молния"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_020",
+    "word": "vadovėlis",
+    "translations": {
+      "en": "textbook",
+      "ru": "учебник"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_040",
+    "word": "vaikiškas",
+    "translations": {
+      "en": "childrenswear",
+      "ru": "детская одежда"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_026",
+    "word": "vairas",
+    "translations": {
+      "en": "steering wheel",
+      "ru": "руль"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_027",
+    "word": "vairuoti",
+    "translations": {
+      "en": "drive",
+      "ru": "водить"
+    },
+    "pos": "verb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_work_009",
+    "word": "vairuotojas",
+    "translations": {
+      "en": "driver",
+      "ru": "водитель"
+    },
+    "pos": "noun",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_health_017",
+    "word": "vaistai",
+    "translations": {
+      "en": "medication",
+      "ru": "лекарства"
+    },
+    "pos": "noun",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_leisure_011",
+    "word": "vakarėlis",
+    "translations": {
+      "en": "party",
+      "ru": "вечеринка"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_200",
+    "word": "valykla",
+    "translations": {
+      "en": "cleaner’s",
+      "ru": "чистка"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "feminine"
+  },
+  {
+    "id": "lt_general_201",
+    "word": "valymas",
+    "translations": {
+      "en": "cleaning",
+      "ru": "уборка"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes",
+    "gender": "masculine"
+  },
+  {
+    "id": "lt_home_049",
+    "word": "valyti",
+    "translations": {
+      "en": "clean, wipe",
+      "ru": "чистить, вытирать"
+    },
+    "pos": "verb",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_202",
+    "word": "valytuvai",
+    "translations": {
+      "en": "wipers",
+      "ru": "дворники"
+    },
+    "pos": "noun",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_050",
+    "word": "vamzdis",
+    "translations": {
+      "en": "pipe, tube",
+      "ru": "труба"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_040",
+    "word": "vardadienis",
+    "translations": {
+      "en": "name day",
+      "ru": "именины"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_203",
+    "word": "vartai",
+    "translations": {
+      "en": "gates",
+      "ru": "ворота"
+    },
+    "pos": "noun",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_204",
+    "word": "vasara",
+    "translations": {
+      "en": "summer",
+      "ru": "лето"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_205",
+    "word": "vasarinis",
+    "translations": {
+      "en": "summer",
+      "ru": "летний"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_time_041",
+    "word": "vasaris",
+    "translations": {
+      "en": "February",
+      "ru": "февраль"
+    },
+    "pos": "noun",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_transport_028",
+    "word": "važinėti",
+    "translations": {
+      "en": "ride",
+      "ru": "ездить"
+    },
+    "pos": "verb",
+    "category": "transport",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_body_017",
+    "word": "veidas",
+    "translations": {
+      "en": "face",
+      "ru": "лицо"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "body",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_051",
+    "word": "veidrodis",
+    "translations": {
+      "en": "mirror",
+      "ru": "зеркало"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_work_010",
+    "word": "veikti",
+    "translations": {
+      "en": "do, work, function",
+      "ru": "действовать, работать"
+    },
+    "pos": "verb",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_206",
+    "word": "Velykos",
+    "translations": {
+      "en": "Easter",
+      "ru": "Пасха"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_207",
+    "word": "vemti",
+    "translations": {
+      "en": "vomit",
+      "ru": "рвать"
+    },
+    "pos": "verb",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_work_011",
+    "word": "verslininkas",
+    "translations": {
+      "en": "businessman, businesswoman",
+      "ru": "предприниматель"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "work",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_health_018",
+    "word": "viduriuoti",
+    "translations": {
+      "en": "have diarrhea",
+      "ru": "поносить"
+    },
+    "pos": "verb",
+    "category": "health",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_017",
+    "word": "vienspalvis",
+    "translations": {
+      "en": "solid-coloured",
+      "ru": "одноцветный"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_208",
+    "word": "vieta",
+    "translations": {
+      "en": "seat, place",
+      "ru": "место"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "places",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_041",
+    "word": "vilnonis",
+    "translations": {
+      "en": "woollen",
+      "ru": "шерстяной"
+    },
+    "pos": "adjective",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_018",
+    "word": "violetinis",
+    "translations": {
+      "en": "purple",
+      "ru": "фиолетовый"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_052",
+    "word": "virdulys",
+    "translations": {
+      "en": "kettle",
+      "ru": "чайник"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_053",
+    "word": "viryklė",
+    "translations": {
+      "en": "stove",
+      "ru": "плита"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_042",
+    "word": "vyriškas",
+    "translations": {
+      "en": "menswear",
+      "ru": "мужская одежда"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_054",
+    "word": "virtuvė",
+    "translations": {
+      "en": "kitchen",
+      "ru": "кухня"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_home_055",
+    "word": "vonia",
+    "translations": {
+      "en": "bathroom",
+      "ru": "ванная"
+    },
+    "pos": "adjective",
+    "category": "home",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_leisure_012",
+    "word": "žaisti",
+    "translations": {
+      "en": "play",
+      "ru": "играть"
+    },
+    "pos": "verb",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_colors_019",
+    "word": "žydras",
+    "translations": {
+      "en": "light blue",
+      "ru": "голубой"
+    },
+    "pos": "adjective",
+    "category": "colors",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_clothes_043",
+    "word": "žiedas",
+    "translations": {
+      "en": "ring",
+      "ru": "кольцо"
+    },
+    "pos": "noun",
+    "gender": "masculine",
+    "category": "clothes",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_209",
+    "word": "žiema",
+    "translations": {
+      "en": "winter",
+      "ru": "зима"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "time",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_210",
+    "word": "žieminis",
+    "translations": {
+      "en": "winter",
+      "ru": "зимний"
+    },
+    "pos": "adjective",
+    "category": "adjectives",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_education_021",
+    "word": "žinoti",
+    "translations": {
+      "en": "know",
+      "ru": "знать"
+    },
+    "pos": "verb",
+    "category": "education",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_211",
+    "word": "žvakė",
+    "translations": {
+      "en": "candle",
+      "ru": "свеча"
+    },
+    "pos": "noun",
+    "gender": "feminine",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_general_212",
+    "word": "žvakutė",
+    "translations": {
+      "en": "small candle",
+      "ru": "маленькая свеча"
+    },
+    "pos": "noun",
+    "category": "leisure",
+    "level": "A1",
+    "source": "Sekmes"
+  },
+  {
+    "id": "lt_food_089",
+    "word": "žvejoti",
+    "translations": {
+      "en": "fish",
+      "ru": "рыбачить"
+    },
+    "pos": "verb",
+    "category": "food",
+    "level": "A1",
+    "source": "Sekmes"
+  }
+]
