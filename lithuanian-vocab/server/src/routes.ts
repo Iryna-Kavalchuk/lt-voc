@@ -10,7 +10,7 @@ import {
 } from "./data.js";
 import { randomQuestion, checkAnswer } from "./quiz.js";
 import type { QuizQuestion } from "./quiz.js";
-import { saveResult } from "./stats.js";
+import { saveResult, getAdminStats } from "./stats.js";
 
 export const router = Router();
 
@@ -167,6 +167,29 @@ router.post("/stats", async (req: Request, res: Response) => {
   try {
     const result = await saveResult({ sessionId, dictionary, lang, score, total, durationS });
     res.json(result);
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    res.status(500).json({ error: message });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// GET /admin/stats
+// Header: x-admin-password: <ADMIN_PASSWORD env var>
+// ---------------------------------------------------------------------------
+router.get("/admin/stats", async (req: Request, res: Response) => {
+  const adminPassword = process.env.ADMIN_PASSWORD;
+  if (!adminPassword) {
+    res.status(503).json({ error: "Admin access not configured" });
+    return;
+  }
+  if (req.headers["x-admin-password"] !== adminPassword) {
+    res.status(401).json({ error: "Unauthorized" });
+    return;
+  }
+  try {
+    const stats = await getAdminStats();
+    res.json(stats);
   } catch (err) {
     const message = err instanceof Error ? err.message : "Unknown error";
     res.status(500).json({ error: message });

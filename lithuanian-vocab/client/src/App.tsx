@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import WordList from "./pages/WordList";
 import Quiz from "./pages/Quiz";
+import Admin from "./pages/Admin";
 import type { SupportedLanguage, DictionaryInfo } from "./api/client";
 import { api } from "./api/client";
 import "./App.css";
 
-type Page = "words" | "quiz";
+type Page = "words" | "quiz" | "admin";
 
 export default function App() {
   const [page, setPage] = useState<Page>("quiz");
@@ -40,6 +41,12 @@ export default function App() {
           >
             Word List
           </button>
+          <button
+            className={`nav-btn nav-btn-admin ${page === "admin" ? "active" : ""}`}
+            onClick={() => setPage("admin")}
+          >
+            Admin
+          </button>
         </nav>
         <div className="header-right">
           {dictionaries.length > 1 && (
@@ -71,6 +78,7 @@ export default function App() {
       <main className="app-main">
         {page === "quiz" && <Quiz lang={lang} dictionary={dictionary} />}
         {page === "words" && <WordList lang={lang} dictionary={dictionary} />}
+        {page === "admin" && <Admin />}
       </main>
     </div>
   );

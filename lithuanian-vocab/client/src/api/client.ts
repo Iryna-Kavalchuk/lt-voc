@@ -64,6 +64,38 @@ export interface StatsResult {
   totalResults: number;
 }
 
+export interface PeriodCounts {
+  today: number;
+  week: number;
+  month: number;
+  total: number;
+}
+
+export interface AccuracyStats {
+  avg: number;
+  min: number;
+  max: number;
+}
+
+export interface HistogramBucket {
+  label: string;
+  count: number;
+}
+
+export interface DictionaryStats {
+  dictionary: string;
+  counts: PeriodCounts;
+  accuracy: AccuracyStats;
+  histogram: HistogramBucket[];
+}
+
+export interface AdminStats {
+  counts: PeriodCounts;
+  accuracy: AccuracyStats;
+  histogram: HistogramBucket[];
+  byDictionary: DictionaryStats[];
+}
+
 export const api = {
   dictionaries(): Promise<{ dictionaries: DictionaryInfo[] }> {
     return get("/api/dictionaries");
@@ -117,6 +149,20 @@ export const api = {
       durationS: number;
     }): Promise<StatsResult> {
       return post("/api/stats", payload);
+    },
+  },
+
+  admin: {
+    stats(password: string): Promise<AdminStats> {
+      return fetch("/api/admin/stats", {
+        headers: { "x-admin-password": password },
+      }).then(async (res) => {
+        if (!res.ok) {
+          const b = await res.json().catch(() => ({}));
+          throw new Error((b as { error?: string }).error ?? `HTTP ${res.status}`);
+        }
+        return res.json() as Promise<AdminStats>;
+      });
     },
   },
 };
