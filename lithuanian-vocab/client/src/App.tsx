@@ -12,7 +12,7 @@ const isAdminRoute = window.location.pathname === "/admin";
 
 export default function App() {
   const [page, setPage] = useState<Page>("quiz");
-  const [lang, setLang] = useState<SupportedLanguage>("en");
+  const [lang, setLang] = useState<SupportedLanguage>("ru");
   const [dictionaries, setDictionaries] = useState<DictionaryInfo[]>([]);
   const [dictionary, setDictionary] = useState<string>("");
 
