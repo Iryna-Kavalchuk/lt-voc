@@ -132,14 +132,16 @@ export function buildQuestion(
  * @param lang       - translation language
  * @param category   - optional category filter
  * @param pool       - override the full entry pool (useful in tests)
+ * @param exclude    - set of entryIds already shown this session (will be skipped)
  */
 export function randomQuestion(
   lang: SupportedLanguage = "en",
   category?: string,
-  pool?: DictionaryEntry[]
+  pool?: DictionaryEntry[],
+  exclude?: Set<string>
 ): QuizQuestion {
   const entries = pool ?? getAllEntries();
-  const filtered = category
+  let filtered = category
     ? entries.filter((e) => e.category === category)
     : entries;
 
@@ -149,6 +151,12 @@ export function randomQuestion(
         ? `No entries found for category: ${category}`
         : "Dictionary is empty"
     );
+  }
+
+  // Prefer entries not yet shown this session; fall back to full pool if exhausted
+  if (exclude && exclude.size > 0) {
+    const unseen = filtered.filter((e) => !exclude.has(e.id));
+    if (unseen.length > 0) filtered = unseen;
   }
 
   const target = filtered[Math.floor(Math.random() * filtered.length)];

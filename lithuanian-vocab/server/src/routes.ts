@@ -98,15 +98,21 @@ router.get("/quiz", (req: Request, res: Response) => {
   const lang = (req.query.lang ?? "en") as SupportedLanguage;
   const category = req.query.category as string | undefined;
   const dictionary = req.query.dictionary as string | undefined;
+  const excludeParam = req.query.exclude as string | undefined;
 
   if (lang !== "en" && lang !== "ru") {
     res.status(400).json({ error: 'lang must be "en" or "ru"' });
     return;
   }
 
+  // Parse comma-separated exclude list into a Set
+  const exclude = excludeParam
+    ? new Set(excludeParam.split(",").map((s) => s.trim()).filter(Boolean))
+    : undefined;
+
   try {
     const pool = getAllEntries(dictionary);
-    const question = randomQuestion(lang, category, pool);
+    const question = randomQuestion(lang, category, pool, exclude);
     res.json(question);
   } catch (err) {
     const message = err instanceof Error ? err.message : "Unknown error";

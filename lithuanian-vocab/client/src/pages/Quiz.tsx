@@ -36,16 +36,21 @@ export default function Quiz({ lang, category, dictionary }: Props) {
   const [finished, setFinished] = useState(false);
   const [statsResult, setStatsResult] = useState<StatsResult | null>(null);
   const startTimeRef = useRef<number>(Date.now());
+  const shownIdsRef = useRef<string[]>([]);
 
   const loadQuestion = useCallback(() => {
     setState({ phase: "loading" });
     api.quiz
-      .question({ lang, category: category || undefined, dictionary: dictionary || undefined })
-      .then((q) => setState({ phase: "question", question: q, selected: null, result: null }))
+      .question({ lang, category: category || undefined, dictionary: dictionary || undefined, exclude: shownIdsRef.current })
+      .then((q) => {
+        shownIdsRef.current = [...shownIdsRef.current, q.entryId];
+        setState({ phase: "question", question: q, selected: null, result: null });
+      })
       .catch((e: Error) => setState({ phase: "error", message: e.message }));
   }, [lang, category, dictionary]);
 
   const startNewSession = useCallback(() => {
+    shownIdsRef.current = [];
     setStats({ total: 0, correct: 0 });
     setFinished(false);
     setStatsResult(null);

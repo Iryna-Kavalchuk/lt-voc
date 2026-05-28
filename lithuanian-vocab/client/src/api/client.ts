@@ -126,11 +126,12 @@ export const api = {
   },
 
   quiz: {
-    question(params?: { lang?: SupportedLanguage; category?: string; dictionary?: string }): Promise<QuizQuestion> {
+    question(params?: { lang?: SupportedLanguage; category?: string; dictionary?: string; exclude?: string[] }): Promise<QuizQuestion> {
       const qs = new URLSearchParams();
       if (params?.lang) qs.set("lang", params.lang);
       if (params?.category) qs.set("category", params.category);
       if (params?.dictionary) qs.set("dictionary", params.dictionary);
+      if (params?.exclude && params.exclude.length > 0) qs.set("exclude", params.exclude.join(","));
       const q = qs.toString();
       return get(`/api/quiz${q ? `?${q}` : ""}`);
     },
