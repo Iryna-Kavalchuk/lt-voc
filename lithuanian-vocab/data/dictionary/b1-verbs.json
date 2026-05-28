@@ -1,0 +1,4382 @@
+[
+  {
+    "id": "lt_verb_001",
+    "word": "abejóti",
+    "translations": {
+      "en": "to doubt",
+      "ru": "сомневаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_002",
+    "word": "áiškinti",
+    "translations": {
+      "en": "to explain",
+      "ru": "объяснять, разъяснять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_003",
+    "word": "apsistóti",
+    "translations": {
+      "en": "to stop, to stay (to reside)",
+      "ru": "остановиться (в значении проживать)"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_004",
+    "word": "atléisti",
+    "translations": {
+      "en": "to forgive, to excuse; to dismiss, to fire",
+      "ru": "простить, извинить; уволить, снять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_005",
+    "word": "atostogáuti",
+    "translations": {
+      "en": "to be on vacation",
+      "ru": "находиться в отпуске, проводить каникулы"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_006",
+    "word": "atródyti",
+    "translations": {
+      "en": "to seem; to look",
+      "ru": "казаться; выглядеть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_007",
+    "word": "atsakýti",
+    "translations": {
+      "en": "to answer, to reply",
+      "ru": "ответить, отвечать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_008",
+    "word": "atsiliẽpti",
+    "translations": {
+      "en": "to respond, to answer; to react",
+      "ru": "откликнуться, откликаться; отозваться, отзываться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_009",
+    "word": "atsimiñti",
+    "translations": {
+      "en": "to remember, to recall",
+      "ru": "вспоминать, помнить, припоминать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_010",
+    "word": "atsiprašýti",
+    "translations": {
+      "en": "to apologize, to ask for forgiveness",
+      "ru": "извиниться, принести извинения, просить прощения"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_011",
+    "word": "atsisakýti",
+    "translations": {
+      "en": "to refuse, to decline",
+      "ru": "отказаться, отказываться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_012",
+    "word": "augi̇ǹti",
+    "translations": {
+      "en": "to grow, to raise",
+      "ru": "выращивать, растить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_013",
+    "word": "áugti",
+    "translations": {
+      "en": "to grow",
+      "ru": "расти"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_014",
+    "word": "áuklėti",
+    "translations": {
+      "en": "to raise, to bring up",
+      "ru": "воспитать, воспитывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_015",
+    "word": "aũtis",
+    "translations": {
+      "en": "to put on/take off shoes",
+      "ru": "обуваться, разуваться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_016",
+    "word": "bai̇g̃ti",
+    "translations": {
+      "en": "to finish, to complete, to end",
+      "ru": "кончить, кончать, завершить, завершать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_017",
+    "word": "bai̇g̃tis",
+    "translations": {
+      "en": "to end, to finish, to be over",
+      "ru": "кончаться, завершаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_018",
+    "word": "bandýti",
+    "translations": {
+      "en": "to try, to attempt, to test",
+      "ru": "пробовать, испытывать, пытаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_019",
+    "word": "bėgióti",
+    "translations": {
+      "en": "to run (habitually)",
+      "ru": "бегать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_020",
+    "word": "bė́gti",
+    "translations": {
+      "en": "to run",
+      "ru": "бежать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_021",
+    "word": "bijóti",
+    "translations": {
+      "en": "to be afraid, to fear",
+      "ru": "бояться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_022",
+    "word": "bučiúoti",
+    "translations": {
+      "en": "to kiss",
+      "ru": "целовать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_023",
+    "word": "bučiúotis",
+    "translations": {
+      "en": "to kiss each other",
+      "ru": "целоваться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_024",
+    "word": "bū́ti",
+    "translations": {
+      "en": "to be, to exist, to be located",
+      "ru": "быть, являться, находиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_025",
+    "word": "čiuožinė́ti",
+    "translations": {
+      "en": "to skate, to go ice skating",
+      "ru": "кататься на коньках"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_026",
+    "word": "dainúoti",
+    "translations": {
+      "en": "to sing, to perform",
+      "ru": "петь, исполнять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_027",
+    "word": "dalyváuti",
+    "translations": {
+      "en": "to participate, to take part",
+      "ru": "участвовать, dalyvãvo принимать участие"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_028",
+    "word": "darýti",
+    "translations": {
+      "en": "to do, to make; to act; to open, to close",
+      "ru": "делать; совершать; поступать; открывать, закрывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_029",
+    "word": "dažýti",
+    "translations": {
+      "en": "to paint, to dye",
+      "ru": "красить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_030",
+    "word": "dažýtis",
+    "translations": {
+      "en": "to put on makeup, to dye oneself",
+      "ru": "краситься"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_031",
+    "word": "dègti",
+    "translations": {
+      "en": "to burn; to light, to ignite",
+      "ru": "гореть; жечь, зажигать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_032",
+    "word": "dėkóti",
+    "translations": {
+      "en": "to thank",
+      "ru": "благодарить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_033",
+    "word": "dė́styti",
+    "translations": {
+      "en": "to teach, to lecture; to expound",
+      "ru": "преподавать, излагать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_034",
+    "word": "dė́ti",
+    "translations": {
+      "en": "to put, to place, to lay",
+      "ru": "класть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_035",
+    "word": "dėvė́ti",
+    "translations": {
+      "en": "to wear (clothing)",
+      "ru": "носить (одежду)"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_036",
+    "word": "didė́ti",
+    "translations": {
+      "en": "to increase, to grow, to rise",
+      "ru": "увеличиваться, нарастать, возрастать, повышаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_037",
+    "word": "di̇r̀bti",
+    "translations": {
+      "en": "to work, to labor",
+      "ru": "работать, трудиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_038",
+    "word": "domė́tis",
+    "translations": {
+      "en": "to be interested in",
+      "ru": "интересоваться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_039",
+    "word": "dovanóti",
+    "translations": {
+      "en": "to give as a gift; to forgive, to pardon",
+      "ru": "дарить; простить, прощать, извинить, извинять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_040",
+    "word": "draugáuti",
+    "translations": {
+      "en": "to be friends, to befriend",
+      "ru": "дружить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_041",
+    "word": "draũsti",
+    "translations": {
+      "en": "to forbid, to prohibit; to insure",
+      "ru": "запрещать; страховать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_042",
+    "word": "draũstis",
+    "translations": {
+      "en": "to insure, to get insurance",
+      "ru": "страховать, страховаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_043",
+    "word": "dúoti",
+    "translations": {
+      "en": "to give",
+      "ru": "дать, давать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_044",
+    "word": "džiaũgtis",
+    "translations": {
+      "en": "to be happy, to rejoice",
+      "ru": "радоваться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_045",
+    "word": "džiáuti",
+    "translations": {
+      "en": "to hang out (to dry)",
+      "ru": "развешивать, вешать (для просушки)"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_046",
+    "word": "džiovi̇ǹti",
+    "translations": {
+      "en": "to dry",
+      "ru": "сушить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_047",
+    "word": "džiū́ti",
+    "translations": {
+      "en": "to dry out; to wither, to waste away",
+      "ru": "сохнуть; просыхать; чахнуть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_048",
+    "word": "ei̇t̃i",
+    "translations": {
+      "en": "to go, to walk",
+      "ru": "идти"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_049",
+    "word": "ė́sti",
+    "translations": {
+      "en": "to eat (of animals)",
+      "ru": "есть (о животных)"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_050",
+    "word": "galė́ti",
+    "translations": {
+      "en": "to be able to, can",
+      "ru": "мочь"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_051",
+    "word": "galióti",
+    "translations": {
+      "en": "to be valid, to be in effect",
+      "ru": "быть действительным, действовать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_052",
+    "word": "galvóti",
+    "translations": {
+      "en": "to think",
+      "ru": "думать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_053",
+    "word": "gami̇ǹti",
+    "translations": {
+      "en": "to produce, to manufacture; to cook, to prepare",
+      "ru": "производить, изготовлять, готовить, приготовлять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_054",
+    "word": "gáuti",
+    "translations": {
+      "en": "to get, to receive, to obtain",
+      "ru": "достать, получить, получать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_055",
+    "word": "gérti",
+    "translations": {
+      "en": "to drink",
+      "ru": "пить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_056",
+    "word": "gesi̇ǹti",
+    "translations": {
+      "en": "to put out, to extinguish",
+      "ru": "тушить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_057",
+    "word": "gýdyti",
+    "translations": {
+      "en": "to treat, to cure",
+      "ru": "лечить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_058",
+    "word": "gimdýti",
+    "translations": {
+      "en": "to give birth",
+      "ru": "рожать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_059",
+    "word": "gi̇m̀ti",
+    "translations": {
+      "en": "to be born",
+      "ru": "родиться, рождаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_060",
+    "word": "gi̇ǹti",
+    "translations": {
+      "en": "to defend, to protect",
+      "ru": "защитить, защищать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_061",
+    "word": "girdė́ti",
+    "translations": {
+      "en": "to hear",
+      "ru": "слышать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_062",
+    "word": "gyvénti",
+    "translations": {
+      "en": "to live",
+      "ru": "жить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_063",
+    "word": "grąži̇ǹti",
+    "translations": {
+      "en": "to return, to give back",
+      "ru": "вернуть, возвращать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_064",
+    "word": "griáuti",
+    "translations": {
+      "en": "to destroy, to demolish",
+      "ru": "рушить, разрушать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_065",
+    "word": "griū́ti",
+    "translations": {
+      "en": "to fall, to collapse, to tumble",
+      "ru": "падать; рушиться; валиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_066",
+    "word": "grįž̃ti",
+    "translations": {
+      "en": "to return, to come back",
+      "ru": "вернуться, возвращаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_067",
+    "word": "gróti",
+    "translations": {
+      "en": "to play (an instrument)",
+      "ru": "играть (на инструменте)"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_068",
+    "word": "gulė́ti",
+    "translations": {
+      "en": "to lie down",
+      "ru": "лежать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_069",
+    "word": "gult̃is",
+    "translations": {
+      "en": "to lie down, to go to bed",
+      "ru": "лечь, ложиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_070",
+    "word": "ieškóti",
+    "translations": {
+      "en": "to look for, to search",
+      "ru": "искать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_071",
+    "word": "įgalióti",
+    "translations": {
+      "en": "to authorize, to entrust",
+      "ru": "доверить, доверять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_072",
+    "word": "ilsė́tis",
+    "translations": {
+      "en": "to rest, to relax",
+      "ru": "отдыхать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_073",
+    "word": "importúoti",
+    "translations": {
+      "en": "to import",
+      "ru": "импортировать, ввозить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_074",
+    "word": "im̃ti",
+    "translations": {
+      "en": "to take",
+      "ru": "брать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_075",
+    "word": "informúoti",
+    "translations": {
+      "en": "to inform, to notify",
+      "ru": "информировать, informãvo сообщить, сообщать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_076",
+    "word": "išmókti",
+    "translations": {
+      "en": "to learn, to master",
+      "ru": "выучить, научиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_077",
+    "word": "įžei̇s̃ti",
+    "translations": {
+      "en": "to insult, to offend",
+      "ru": "оскорбить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_078",
+    "word": "jáudintis",
+    "translations": {
+      "en": "to worry, to be anxious",
+      "ru": "волноваться, переживать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_079",
+    "word": "jaũsti",
+    "translations": {
+      "en": "to feel, to sense",
+      "ru": "чувствовать, испытывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_080",
+    "word": "jaũstis",
+    "translations": {
+      "en": "to feel (oneself)",
+      "ru": "чувствовать себя"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_081",
+    "word": "jodinė́ti",
+    "translations": {
+      "en": "to ride on horseback",
+      "ru": "ездить верхом"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_082",
+    "word": "jóti",
+    "translations": {
+      "en": "to ride (on horseback), to gallop",
+      "ru": "ехать верхом, скакать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_083",
+    "word": "judė́ti",
+    "translations": {
+      "en": "to move, to stir",
+      "ru": "шевелиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_084",
+    "word": "jùngti",
+    "translations": {
+      "en": "to switch on, to connect; to unite",
+      "ru": "включать; соединить, соединять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_085",
+    "word": "juokáuti",
+    "translations": {
+      "en": "to joke",
+      "ru": "шутить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_086",
+    "word": "juõktis",
+    "translations": {
+      "en": "to laugh",
+      "ru": "смеяться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_087",
+    "word": "kabi̇ǹti",
+    "translations": {
+      "en": "to hang, to hang up",
+      "ru": "вешать, развешивать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_088",
+    "word": "kainúoti",
+    "translations": {
+      "en": "to cost",
+      "ru": "стоить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_089",
+    "word": "kalbė́ti",
+    "translations": {
+      "en": "to speak, to talk",
+      "ru": "говорить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_090",
+    "word": "kalbė́tis",
+    "translations": {
+      "en": "to talk, to converse, to chat",
+      "ru": "разговаривать, беседовать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_091",
+    "word": "kálti",
+    "translations": {
+      "en": "to hammer, to forge; to chisel; to mint",
+      "ru": "вбивать; высекать; ковать; чеканить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_092",
+    "word": "kartóti",
+    "translations": {
+      "en": "to repeat",
+      "ru": "повторять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_093",
+    "word": "kàsti",
+    "translations": {
+      "en": "to dig",
+      "ru": "копать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_094",
+    "word": "ką́sti",
+    "translations": {
+      "en": "to bite, to eat",
+      "ru": "кусать, есть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_095",
+    "word": "kei̇s̃ti",
+    "translations": {
+      "en": "to change, to exchange",
+      "ru": "менять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_096",
+    "word": "kei̇s̃tis",
+    "translations": {
+      "en": "to change, to exchange (mutually)",
+      "ru": "меняться, обмениваться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_097",
+    "word": "keliáuti",
+    "translations": {
+      "en": "to travel, to journey",
+      "ru": "путешествовать, странствовать, ездить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_098",
+    "word": "kélti",
+    "translations": {
+      "en": "to raise, to lift; to move, to transfer",
+      "ru": "поднимать, переводить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_099",
+    "word": "kéltis",
+    "translations": {
+      "en": "to get up, to rise; to move (house)",
+      "ru": "вставать, подниматься; переезжать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_100",
+    "word": "kèpti",
+    "translations": {
+      "en": "to bake, to fry",
+      "ru": "печь, жарить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_101",
+    "word": "kirp̃ti",
+    "translations": {
+      "en": "to cut, to trim; to shear; to sew",
+      "ru": "стричь; кроить; резать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_102",
+    "word": "klausýti",
+    "translations": {
+      "en": "to listen; to obey",
+      "ru": "слушать; слушаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_103",
+    "word": "klausýtis",
+    "translations": {
+      "en": "to listen",
+      "ru": "слушать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_104",
+    "word": "kláusti",
+    "translations": {
+      "en": "to ask, to question",
+      "ru": "спрашивать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_105",
+    "word": "klijúoti",
+    "translations": {
+      "en": "to glue, to paste, to stick",
+      "ru": "клеить, склеивать, наклеивать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_106",
+    "word": "klóti",
+    "translations": {
+      "en": "to spread; to lay; to cover",
+      "ru": "стлать; накрывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_107",
+    "word": "kósėti",
+    "translations": {
+      "en": "to cough",
+      "ru": "кашлять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_108",
+    "word": "kovóti",
+    "translations": {
+      "en": "to fight, to struggle, to battle",
+      "ru": "бороться, сражаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_109",
+    "word": "kri̇s̀ti",
+    "translations": {
+      "en": "to fall",
+      "ru": "падать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_110",
+    "word": "kùrti",
+    "translations": {
+      "en": "to compose, to create; to write (poetry); to kindle",
+      "ru": "сочинять, создавать, творить; писать (стихи); разводить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_111",
+    "word": "kvėpúoti",
+    "translations": {
+      "en": "to breathe",
+      "ru": "дышать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_112",
+    "word": "kviẽsti",
+    "translations": {
+      "en": "to invite",
+      "ru": "приглашать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_113",
+    "word": "láidoti",
+    "translations": {
+      "en": "to bury, to hold a funeral",
+      "ru": "хоронить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_114",
+    "word": "laikýti",
+    "translations": {
+      "en": "to hold, to keep; to sit (an exam); to consider",
+      "ru": "держать; сдавать; считать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_115",
+    "word": "laikýtis",
+    "translations": {
+      "en": "to hold on; to follow, to adhere to",
+      "ru": "держаться; соблюдать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_116",
+    "word": "laimė́ti",
+    "translations": {
+      "en": "to win; to take (a place)",
+      "ru": "выиграть, выигрывать; занять, занимать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_117",
+    "word": "láistyti",
+    "translations": {
+      "en": "to water (plants)",
+      "ru": "поливать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_118",
+    "word": "lankýti",
+    "translations": {
+      "en": "to visit; to attend",
+      "ru": "навещать; посещать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_119",
+    "word": "láukti",
+    "translations": {
+      "en": "to wait, to expect",
+      "ru": "ждать, ожидать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_120",
+    "word": "láuktis",
+    "translations": {
+      "en": "to be pregnant",
+      "ru": "быть беременной"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_121",
+    "word": "léisti",
+    "translations": {
+      "en": "to allow, to permit; to spend; to publish; to let",
+      "ru": "разрешить, разрешать; расходовать, тратить; издавать, выпускать; пустить, пускать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_122",
+    "word": "leñkti",
+    "translations": {
+      "en": "to overtake, to pass; to bend, to curve; to turn up",
+      "ru": "обгонять, перегонять; сгибать, наклонять; подворачивать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_123",
+    "word": "lydė́ti",
+    "translations": {
+      "en": "to accompany, to see off",
+      "ru": "провожать, сопровождать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_124",
+    "word": "liẽpti",
+    "translations": {
+      "en": "to order, to command",
+      "ru": "велеть, приказать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_125",
+    "word": "liẽsti",
+    "translations": {
+      "en": "to touch",
+      "ru": "трогать, дотрагиваться, касаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_126",
+    "word": "lýginti",
+    "translations": {
+      "en": "to iron; to compare",
+      "ru": "гладить; сравнивать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_127",
+    "word": "li̇k̀ti",
+    "translations": {
+      "en": "to stay, to remain",
+      "ru": "остаться, оставаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_128",
+    "word": "linkė́ti",
+    "translations": {
+      "en": "to wish",
+      "ru": "желать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_129",
+    "word": "li̇p̀ti",
+    "translations": {
+      "en": "to climb; to get in, to board",
+      "ru": "лезть, подниматься; садиться, сесть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_130",
+    "word": "lýti",
+    "translations": {
+      "en": "to rain (it is raining)",
+      "ru": "идет дождь"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_131",
+    "word": "liūdė́ti",
+    "translations": {
+      "en": "to be sad, to grieve",
+      "ru": "грустить, печалиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_132",
+    "word": "lùpti",
+    "translations": {
+      "en": "to peel; to flog",
+      "ru": "чистить; драть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_133",
+    "word": "lū́žti",
+    "translations": {
+      "en": "to break (intransitive)",
+      "ru": "ломаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_134",
+    "word": "maišýti",
+    "translations": {
+      "en": "to stir, to mix; to confuse",
+      "ru": "мешать; смешивать; путать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_135",
+    "word": "maiti̇ǹti",
+    "translations": {
+      "en": "to feed",
+      "ru": "кормить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_136",
+    "word": "manýti",
+    "translations": {
+      "en": "to think, to believe, to suppose",
+      "ru": "думать, полагать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_137",
+    "word": "matýti",
+    "translations": {
+      "en": "to see",
+      "ru": "видеть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_138",
+    "word": "matúotis",
+    "translations": {
+      "en": "to try on (clothing)",
+      "ru": "примерять, примеривать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_139",
+    "word": "máudyti",
+    "translations": {
+      "en": "to bathe (someone)",
+      "ru": "купать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_140",
+    "word": "máudytis",
+    "translations": {
+      "en": "to bathe, to swim; to wash",
+      "ru": "купаться; мыться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_141",
+    "word": "máuti",
+    "translations": {
+      "en": "to put on; to take off",
+      "ru": "одеть, одевать; снять, снимать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_142",
+    "word": "máutis",
+    "translations": {
+      "en": "to put on (for oneself); to take off (for oneself)",
+      "ru": "надеть, надевать; снять, снимать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_143",
+    "word": "mažė́ti",
+    "translations": {
+      "en": "to decrease, to diminish, to decline",
+      "ru": "уменьшаться, убывать, снижаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_144",
+    "word": "medžióti",
+    "translations": {
+      "en": "to hunt",
+      "ru": "охотиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_145",
+    "word": "mė́gti",
+    "translations": {
+      "en": "to love, to like",
+      "ru": "любить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_146",
+    "word": "mègzti",
+    "translations": {
+      "en": "to knit",
+      "ru": "вязать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_147",
+    "word": "mels̃tis",
+    "translations": {
+      "en": "to pray",
+      "ru": "молиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_148",
+    "word": "melúoti",
+    "translations": {
+      "en": "to lie, to tell lies",
+      "ru": "лгать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_149",
+    "word": "mèsti",
+    "translations": {
+      "en": "to throw, to toss",
+      "ru": "бросить, кинуть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_150",
+    "word": "miegóti",
+    "translations": {
+      "en": "to sleep",
+      "ru": "спать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_151",
+    "word": "mylė́ti",
+    "translations": {
+      "en": "to love, to like",
+      "ru": "любить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_152",
+    "word": "mirt̃i",
+    "translations": {
+      "en": "to die, to pass away",
+      "ru": "умереть, умирать, скончаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_153",
+    "word": "mokė́ti",
+    "translations": {
+      "en": "to know (how); to pay",
+      "ru": "знать, уметь; платить, уплачивать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_154",
+    "word": "mókyti",
+    "translations": {
+      "en": "to teach",
+      "ru": "учить, обучать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_155",
+    "word": "mókytis",
+    "translations": {
+      "en": "to study, to learn",
+      "ru": "учиться, изучать, заниматься"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_156",
+    "word": "mùšti",
+    "translations": {
+      "en": "to hit, to beat",
+      "ru": "бить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_157",
+    "word": "naudóti",
+    "translations": {
+      "en": "to use, to employ, to apply",
+      "ru": "употреблять, пользовать, применять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_158",
+    "word": "naudótis",
+    "translations": {
+      "en": "to use, to make use of",
+      "ru": "пользоваться, использовать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_159",
+    "word": "nekęs̃ti",
+    "translations": {
+      "en": "to hate",
+      "ru": "ненавидеть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_160",
+    "word": "nèrvinti",
+    "translations": {
+      "en": "to irritate, to annoy",
+      "ru": "раздражать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_161",
+    "word": "nèrvintis",
+    "translations": {
+      "en": "to be nervous, to get nervous",
+      "ru": "нервничать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_162",
+    "word": "nešióti",
+    "translations": {
+      "en": "to carry, to wear",
+      "ru": "носить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_163",
+    "word": "nèšti",
+    "translations": {
+      "en": "to carry",
+      "ru": "нести"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_164",
+    "word": "norė́ti",
+    "translations": {
+      "en": "to want",
+      "ru": "хотеть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_165",
+    "word": "nugalė́ti",
+    "translations": {
+      "en": "to overcome, to defeat, to win",
+      "ru": "пересилить, пересиливать; одолеть, преодолеть; победить, побеждать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_166",
+    "word": "núomoti",
+    "translations": {
+      "en": "to rent out, to let",
+      "ru": "сдать, сдавать внаем"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_167",
+    "word": "nusprę́sti",
+    "translations": {
+      "en": "to decide, to resolve",
+      "ru": "решить, решать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_168",
+    "word": "nustèbti",
+    "translations": {
+      "en": "to be surprised, to be amazed",
+      "ru": "удивиться, удивляться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_169",
+    "word": "pabùsti",
+    "translations": {
+      "en": "to wake up, to awaken",
+      "ru": "проснуться, просыпаться, пробудиться, пробуждаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_170",
+    "word": "padė́ti",
+    "translations": {
+      "en": "to help, to assist",
+      "ru": "помочь, помогать, оказать помощь оказывать помощь"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_171",
+    "word": "pakúoti",
+    "translations": {
+      "en": "to pack, to pack up",
+      "ru": "паковать, упаковывать, укладывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_172",
+    "word": "pamirš̃ti",
+    "translations": {
+      "en": "to forget",
+      "ru": "забыть, забывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_173",
+    "word": "pardúoti",
+    "translations": {
+      "en": "to sell",
+      "ru": "продать, продавать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_174",
+    "word": "pãsakoti",
+    "translations": {
+      "en": "to tell, to narrate, to recount",
+      "ru": "рассказывать, повествовать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_175",
+    "word": "pasiklýsti",
+    "translations": {
+      "en": "to get lost",
+      "ru": "заблудиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_176",
+    "word": "pasirašýti",
+    "translations": {
+      "en": "to sign, to put one's signature",
+      "ru": "подписаться, подписываться, расписаться, расписываться, подписать, подписывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_177",
+    "word": "pasiti̇k̀ti",
+    "translations": {
+      "en": "to meet, to greet",
+      "ru": "встретить, встречать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_178",
+    "word": "pastebė́ti",
+    "translations": {
+      "en": "to notice, to observe",
+      "ru": "заметить, замечать, приметить, примечать, подметить, подмечать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_179",
+    "word": "pati̇k̀ti",
+    "translations": {
+      "en": "to please, to be liked",
+      "ru": "нравиться, понравиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_180",
+    "word": "pavarg̃ti",
+    "translations": {
+      "en": "to get tired, to be tired",
+      "ru": "устать, уставать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_181",
+    "word": "pavydė́ti",
+    "translations": {
+      "en": "to envy",
+      "ru": "завидовать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_182",
+    "word": "pažei̇s̃ti",
+    "translations": {
+      "en": "to violate, to break (a rule/law)",
+      "ru": "нарушить, нарушать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_183",
+    "word": "paži̇ǹti",
+    "translations": {
+      "en": "to know (someone), to be acquainted with",
+      "ru": "знать, быть знакомым"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_184",
+    "word": "piẽšti",
+    "translations": {
+      "en": "to draw, to sketch",
+      "ru": "рисовать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_185",
+    "word": "pietáuti",
+    "translations": {
+      "en": "to have lunch",
+      "ru": "обедать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_186",
+    "word": "pỹkti",
+    "translations": {
+      "en": "to be angry, to be mad",
+      "ru": "сердиться, злиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_187",
+    "word": "pỹktis",
+    "translations": {
+      "en": "to quarrel, to be in conflict",
+      "ru": "ссориться, быть в ссоре"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_188",
+    "word": "pi̇l̀ti",
+    "translations": {
+      "en": "to pour, to fill",
+      "ru": "лить, наливать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_189",
+    "word": "pirk̃ti",
+    "translations": {
+      "en": "to buy",
+      "ru": "купить, покупать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_190",
+    "word": "pjáuti",
+    "translations": {
+      "en": "to cut; to saw; to mow",
+      "ru": "резать; пилить; косить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_191",
+    "word": "planúoti",
+    "translations": {
+      "en": "to plan",
+      "ru": "планировать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_192",
+    "word": "pláukioti",
+    "translations": {
+      "en": "to swim (habitually)",
+      "ru": "плавать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_193",
+    "word": "plaũkti",
+    "translations": {
+      "en": "to swim (in one direction)",
+      "ru": "плыть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_194",
+    "word": "pláuti",
+    "translations": {
+      "en": "to wash, to rinse",
+      "ru": "мыть, умывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_195",
+    "word": "pláutis",
+    "translations": {
+      "en": "to wash",
+      "ru": "мыть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_196",
+    "word": "plýšti",
+    "translations": {
+      "en": "to tear, to rip (intransitive)",
+      "ru": "рваться, разрываться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_197",
+    "word": "pradė́ti",
+    "translations": {
+      "en": "to start, to begin",
+      "ru": "начать, начинать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_198",
+    "word": "pranèšti",
+    "translations": {
+      "en": "to inform, to announce, to report",
+      "ru": "сообщить, сообщать, известить, извещать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_199",
+    "word": "prasidė́ti",
+    "translations": {
+      "en": "to begin, to start (intransitive)",
+      "ru": "начаться, начинаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_200",
+    "word": "prašýti",
+    "translations": {
+      "en": "to ask, to request",
+      "ru": "просить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_201",
+    "word": "praũsti",
+    "translations": {
+      "en": "to wash, to rinse",
+      "ru": "мыть, умывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_202",
+    "word": "praũstis",
+    "translations": {
+      "en": "to wash oneself, to wash up",
+      "ru": "мыться, умываться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_203",
+    "word": "pripràsti",
+    "translations": {
+      "en": "to get used to, to get accustomed to",
+      "ru": "привыкнуть, привыкать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_204",
+    "word": "pristatýti",
+    "translations": {
+      "en": "to introduce, to present",
+      "ru": "представить, представлять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_205",
+    "word": "privalė́ti",
+    "translations": {
+      "en": "to be obliged, to have to, to must",
+      "ru": "быть должным, быть обязанным"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_206",
+    "word": "puõšti",
+    "translations": {
+      "en": "to decorate, to adorn",
+      "ru": "украшать, наряжать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_207",
+    "word": "puõštis",
+    "translations": {
+      "en": "to dress up, to adorn oneself",
+      "ru": "наряжаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_208",
+    "word": "pùsryčiauti",
+    "translations": {
+      "en": "to have breakfast",
+      "ru": "завтракать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_209",
+    "word": "pū̃sti",
+    "translations": {
+      "en": "to blow; to inflate",
+      "ru": "дуть, веять; раздуть, надувать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_210",
+    "word": "raki̇ǹti",
+    "translations": {
+      "en": "to lock, to unlock",
+      "ru": "запирать, замыкать, отпирать, отмыкать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_211",
+    "word": "rami̇ǹti",
+    "translations": {
+      "en": "to calm, to soothe",
+      "ru": "успокоить, успокаивать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_212",
+    "word": "ràsti",
+    "translations": {
+      "en": "to find",
+      "ru": "найти, находить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_213",
+    "word": "rašýti",
+    "translations": {
+      "en": "to write",
+      "ru": "писать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_214",
+    "word": "registrúoti",
+    "translations": {
+      "en": "to register",
+      "ru": "регистрировать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_215",
+    "word": "reikaláuti",
+    "translations": {
+      "en": "to demand, to require",
+      "ru": "требовать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_216",
+    "word": "reikė́ti",
+    "translations": {
+      "en": "to be necessary, to be needed",
+      "ru": "быть нужным, требоваться, надо"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_217",
+    "word": "réikšti",
+    "translations": {
+      "en": "to mean, to signify; to express",
+      "ru": "значить, означать; выражать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_218",
+    "word": "rėk̃ti",
+    "translations": {
+      "en": "to shout, to yell",
+      "ru": "кричать, орать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_219",
+    "word": "reñgti",
+    "translations": {
+      "en": "to prepare, to organize",
+      "ru": "готовить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_220",
+    "word": "reñgti",
+    "translations": {
+      "en": "to dress, to undress",
+      "ru": "одевать, раздевать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_221",
+    "word": "reñgtis",
+    "translations": {
+      "en": "to get dressed, to put on clothes",
+      "ru": "надевать, раздевать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_222",
+    "word": "riñkti",
+    "translations": {
+      "en": "to collect, to pick; to choose, to elect",
+      "ru": "собирать; выбирать; избирать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_223",
+    "word": "riñktis",
+    "translations": {
+      "en": "to choose; to gather, to assemble",
+      "ru": "выбирать; собираться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_224",
+    "word": "ri̇š̀ti",
+    "translations": {
+      "en": "to tie, to bind, to fasten",
+      "ru": "связывать, завязывать, привязывать, перевязывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_225",
+    "word": "ródyti",
+    "translations": {
+      "en": "to show",
+      "ru": "покaзывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_226",
+    "word": "rūkýti",
+    "translations": {
+      "en": "to smoke; to smoke (food)",
+      "ru": "курить; коптить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_227",
+    "word": "rungtyniáuti",
+    "translations": {
+      "en": "to compete",
+      "ru": "состязаться, соревноваться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_228",
+    "word": "ruõšti",
+    "translations": {
+      "en": "to prepare; to gather",
+      "ru": "готовить; собирать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_229",
+    "word": "ruõštis",
+    "translations": {
+      "en": "to prepare oneself; to get ready",
+      "ru": "готовиться; собираться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_230",
+    "word": "rūpė́ti",
+    "translations": {
+      "en": "to concern, to worry; to interest",
+      "ru": "заботить; интересовать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_231",
+    "word": "rū́pintis",
+    "translations": {
+      "en": "to take care of, to worry about",
+      "ru": "заботиться, беспокоиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_232",
+    "word": "sakýti",
+    "translations": {
+      "en": "to speak, to talk",
+      "ru": "говорить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_233",
+    "word": "sapnúoti",
+    "translations": {
+      "en": "to dream (while asleep)",
+      "ru": "видеть во сне, сниться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_234",
+    "word": "sáugoti",
+    "translations": {
+      "en": "to guard, to protect; to keep, to preserve",
+      "ru": "охранять, стеречь; беречь; хранить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_235",
+    "word": "sėdė́ti",
+    "translations": {
+      "en": "to sit",
+      "ru": "сидеть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_236",
+    "word": "sègti",
+    "translations": {
+      "en": "to fasten; to pin, to clasp",
+      "ru": "застегивать; прикалывать пристегивать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_237",
+    "word": "sèkti",
+    "translations": {
+      "en": "to follow, to track; to trail",
+      "ru": "следить; следовать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_238",
+    "word": "sèktis",
+    "translations": {
+      "en": "to go well, to succeed",
+      "ru": "даваться, везти"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_239",
+    "word": "sénti",
+    "translations": {
+      "en": "to age, to grow old",
+      "ru": "стареть, стариться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_240",
+    "word": "sė́sti",
+    "translations": {
+      "en": "to sit down",
+      "ru": "сесть, садиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_241",
+    "word": "sí̇ekti",
+    "translations": {
+      "en": "to reach; to achieve, to attain",
+      "ru": "доставать, тянуться; достигать, добиваться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_242",
+    "word": "sirg̃ti",
+    "translations": {
+      "en": "to hurt, to ache",
+      "ru": "болеть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_243",
+    "word": "siū́lyti",
+    "translations": {
+      "en": "to suggest, to offer, to propose",
+      "ru": "предлагать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_244",
+    "word": "sių̃sti",
+    "translations": {
+      "en": "to send, to dispatch",
+      "ru": "слать, посылать; отправлять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_245",
+    "word": "siū́ti",
+    "translations": {
+      "en": "to sew",
+      "ru": "шить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_246",
+    "word": "skaičiúoti",
+    "translations": {
+      "en": "to count; to number",
+      "ru": "считать; насчитывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_247",
+    "word": "skaitýti",
+    "translations": {
+      "en": "to read",
+      "ru": "читать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_248",
+    "word": "skalb̃ti",
+    "translations": {
+      "en": "to wash (laundry)",
+      "ru": "стирать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_249",
+    "word": "skam̃binti",
+    "translations": {
+      "en": "to call, to ring",
+      "ru": "звонить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_250",
+    "word": "skaudė́ti",
+    "translations": {
+      "en": "to hurt, to ache",
+      "ru": "болеть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_251",
+    "word": "skélbti",
+    "translations": {
+      "en": "to announce, to declare, to proclaim",
+      "ru": "объявлять, сообщать, оглашать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_252",
+    "word": "skęs̃ti",
+    "translations": {
+      "en": "to drown, to sink",
+      "ru": "тонуть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_253",
+    "word": "ski̇r̀ti",
+    "translations": {
+      "en": "to divide; to distinguish; to dedicate; to assign",
+      "ru": "делить; различать, отличать; предназначать, посвятить, посвящать; назначить, назначать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_254",
+    "word": "ski̇r̀tis",
+    "translations": {
+      "en": "to differ, to be different; to divorce",
+      "ru": "отличаться, разводиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_255",
+    "word": "skõlinti",
+    "translations": {
+      "en": "to lend, to loan",
+      "ru": "одалживать, давать взаймы"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_256",
+    "word": "skri̇s̀ti",
+    "translations": {
+      "en": "to fly",
+      "ru": "лететь"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_257",
+    "word": "skubė́ti",
+    "translations": {
+      "en": "to hurry, to rush",
+      "ru": "спешить, торопиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_258",
+    "word": "skùsti",
+    "translations": {
+      "en": "to peel; to shave",
+      "ru": "чистить; брить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_259",
+    "word": "skų́sti",
+    "translations": {
+      "en": "to tattle, to snitch; to inform on",
+      "ru": "ябедничать; доносить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_260",
+    "word": "skų́stis",
+    "translations": {
+      "en": "to complain",
+      "ru": "жаловаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_261",
+    "word": "slidinė́ti",
+    "translations": {
+      "en": "to ski, to go skiing",
+      "ru": "кататься на лыжах"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_262",
+    "word": "sni̇g̀ti",
+    "translations": {
+      "en": "to snow (it is snowing)",
+      "ru": "идет / падает снег"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_263",
+    "word": "sodi̇ǹti",
+    "translations": {
+      "en": "to plant, to set",
+      "ru": "садить, сажать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_264",
+    "word": "spáusdinti",
+    "translations": {
+      "en": "to print, to type",
+      "ru": "печатать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_265",
+    "word": "spė́ti",
+    "translations": {
+      "en": "to manage in time, to have time",
+      "ru": "успевать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_266",
+    "word": "sportúoti",
+    "translations": {
+      "en": "to do sports, to exercise",
+      "ru": "заниматься спортом"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_267",
+    "word": "sprę́sti",
+    "translations": {
+      "en": "to solve, to decide",
+      "ru": "решать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_268",
+    "word": "stabdýti",
+    "translations": {
+      "en": "to stop, to halt",
+      "ru": "останавливать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_269",
+    "word": "statýti",
+    "translations": {
+      "en": "to build; to put, to place",
+      "ru": "строить; ставить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_270",
+    "word": "stebė́ti",
+    "translations": {
+      "en": "to observe, to watch",
+      "ru": "наблюдать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_271",
+    "word": "stebė́tis",
+    "translations": {
+      "en": "to be surprised, to be amazed",
+      "ru": "удивляться, изумляться, поражаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_272",
+    "word": "stóti",
+    "translations": {
+      "en": "to become; to stop; to enroll; to join",
+      "ru": "становиться; останавливаться; поступать; вступать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_273",
+    "word": "stótis",
+    "translations": {
+      "en": "to stand up, to get up",
+      "ru": "встать, вставать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_274",
+    "word": "stovė́ti",
+    "translations": {
+      "en": "to stand",
+      "ru": "стоять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_275",
+    "word": "studijúoti",
+    "translations": {
+      "en": "to study, to learn",
+      "ru": "учить, изучать, изучить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_276",
+    "word": "sùkti",
+    "translations": {
+      "en": "to spin, to turn; to twist; to wind",
+      "ru": "крутить, кружить; поворачивать; вить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_277",
+    "word": "sùktis",
+    "translations": {
+      "en": "to spin, to turn (intransitive); to maneuver",
+      "ru": "крутиться, кружиться; разворачиваться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_278",
+    "word": "supaži̇ǹdinti",
+    "translations": {
+      "en": "to introduce; to acquaint",
+      "ru": "познакомить; ознакомить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_279",
+    "word": "supràsti",
+    "translations": {
+      "en": "to understand, to comprehend",
+      "ru": "понять, понимать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_280",
+    "word": "susipaži̇ǹti",
+    "translations": {
+      "en": "to get acquainted, to meet",
+      "ru": "познакомиться; ознакомиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_281",
+    "word": "susiti̇k̀ti",
+    "translations": {
+      "en": "to meet (each other)",
+      "ru": "встретиться, встречаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_282",
+    "word": "suti̇k̀ti",
+    "translations": {
+      "en": "to meet; to agree",
+      "ru": "встретить; согласиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_283",
+    "word": "svajóti",
+    "translations": {
+      "en": "to dream (while awake)",
+      "ru": "мечтать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_284",
+    "word": "svéikinti",
+    "translations": {
+      "en": "to congratulate",
+      "ru": "поздравлять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_285",
+    "word": "svéikintis",
+    "translations": {
+      "en": "to greet each other",
+      "ru": "здороваться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_286",
+    "word": "svei̇k̃ti",
+    "translations": {
+      "en": "to recover, to get better",
+      "ru": "выздоравливать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_287",
+    "word": "svert̃i",
+    "translations": {
+      "en": "to weigh",
+      "ru": "взвешивать; весить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_288",
+    "word": "šálti",
+    "translations": {
+      "en": "to freeze, to be cold; to frost",
+      "ru": "мерзнуть, замерзать; морозить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_289",
+    "word": "šaũkti",
+    "translations": {
+      "en": "to shout; to call; to summon",
+      "ru": "кричать; звать; созывать; вызывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_290",
+    "word": "šáuti",
+    "translations": {
+      "en": "to shoot",
+      "ru": "стрелять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_291",
+    "word": "šérti",
+    "translations": {
+      "en": "to feed (animals)",
+      "ru": "кормить (животных)"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_292",
+    "word": "ši̇l̀dyti",
+    "translations": {
+      "en": "to heat, to warm",
+      "ru": "греть, подогревать, обогревать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_293",
+    "word": "ši̇l̀ti",
+    "translations": {
+      "en": "to warm up, to get warmer",
+      "ru": "теплеть, согреваться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_294",
+    "word": "šypsótis",
+    "translations": {
+      "en": "to smile",
+      "ru": "улыбаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_295",
+    "word": "šlúostyti",
+    "translations": {
+      "en": "to wipe, to dry",
+      "ru": "вытирать, утирать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_296",
+    "word": "šlúoti",
+    "translations": {
+      "en": "to sweep",
+      "ru": "мести, подметать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_297",
+    "word": "šnekė́ti",
+    "translations": {
+      "en": "to speak, to talk",
+      "ru": "говорить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_298",
+    "word": "šókti",
+    "translations": {
+      "en": "to dance; to jump",
+      "ru": "танцевать; прыгнуть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_299",
+    "word": "šukúoti",
+    "translations": {
+      "en": "to comb (someone's hair)",
+      "ru": "причесывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_300",
+    "word": "šukúotis",
+    "translations": {
+      "en": "to comb one's hair",
+      "ru": "причесываться, расчесывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_301",
+    "word": "švęs̃ti",
+    "translations": {
+      "en": "to celebrate",
+      "ru": "праздновать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_302",
+    "word": "šviẽsti",
+    "translations": {
+      "en": "to shine; to enlighten",
+      "ru": "светить; просвещать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_303",
+    "word": "taisýti",
+    "translations": {
+      "en": "to repair, to fix, to correct",
+      "ru": "ремонтировать, исправлять, чинить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_304",
+    "word": "tapýti",
+    "translations": {
+      "en": "to paint (with colors)",
+      "ru": "писать (красками)"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_305",
+    "word": "tàpti",
+    "translations": {
+      "en": "to become",
+      "ru": "стать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_306",
+    "word": "tart̃i",
+    "translations": {
+      "en": "to pronounce, to utter",
+      "ru": "произнести, произносить, выговаривать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_307",
+    "word": "taupýti",
+    "translations": {
+      "en": "to save, to economize",
+      "ru": "копить, экономить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_308",
+    "word": "tei̇g̃ti",
+    "translations": {
+      "en": "to assert, to claim",
+      "ru": "утверждать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_309",
+    "word": "teiráutis",
+    "translations": {
+      "en": "to inquire, to find out",
+      "ru": "справляться, узнавать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_310",
+    "word": "tei̇s̃ti",
+    "translations": {
+      "en": "to judge, to try (in court)",
+      "ru": "судить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_311",
+    "word": "tekė́ti",
+    "translations": {
+      "en": "to flow, to run; to get married (of a woman); to rise (of the sun)",
+      "ru": "течь, литься; выходить замуж; всходить (о солнце)"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_312",
+    "word": "tèpti",
+    "translations": {
+      "en": "to smear, to spread; to dirty",
+      "ru": "мазать, смазывать; пачкать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_313",
+    "word": "tikė́ti",
+    "translations": {
+      "en": "to believe",
+      "ru": "верить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_314",
+    "word": "tikė́tis",
+    "translations": {
+      "en": "to hope",
+      "ru": "надеяться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_315",
+    "word": "ti̇k̀ti",
+    "translations": {
+      "en": "to suit, to fit",
+      "ru": "годиться, подходить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_316",
+    "word": "tylė́ti",
+    "translations": {
+      "en": "to be silent, to keep quiet",
+      "ru": "молчать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_317",
+    "word": "tilp̃ti",
+    "translations": {
+      "en": "to fit (into a space)",
+      "ru": "поместиться, помещаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_318",
+    "word": "tingė́ti",
+    "translations": {
+      "en": "to be lazy, to laze",
+      "ru": "лениться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_319",
+    "word": "tirp̃ti",
+    "translations": {
+      "en": "to melt, to thaw; to dissolve; to go numb",
+      "ru": "таять, растаивать; растворяться; неметь"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_320",
+    "word": "ti̇r̀ti",
+    "translations": {
+      "en": "to investigate, to examine, to research",
+      "ru": "расследовать, обследовать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_321",
+    "word": "triukšmáuti",
+    "translations": {
+      "en": "to make noise",
+      "ru": "шуметь"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_322",
+    "word": "trukdýti",
+    "translations": {
+      "en": "to disturb, to bother, to interfere",
+      "ru": "мешать, беспокоить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_323",
+    "word": "trùkti",
+    "translations": {
+      "en": "to last, to take (time)",
+      "ru": "длиться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_324",
+    "word": "trū́kti",
+    "translations": {
+      "en": "to tear, to snap; to be lacking, to be short of",
+      "ru": "рваться; недоставать, не хватать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_325",
+    "word": "tuõktis",
+    "translations": {
+      "en": "to get married, to wed",
+      "ru": "вступать в брак, бракосочетаться, венчаться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_326",
+    "word": "tupė́ti",
+    "translations": {
+      "en": "to perch (of birds); to squat, to crouch (of a person)",
+      "ru": "сидеть (о птицах); сидеть на корточках (о человеке)"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_327",
+    "word": "turė́ti",
+    "translations": {
+      "en": "to have; to be obliged to",
+      "ru": "иметь; быть должным"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_328",
+    "word": "tvarkýti",
+    "translations": {
+      "en": "to tidy up; to manage, to administer",
+      "ru": "убирать; управлять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_329",
+    "word": "ūkininkáuti",
+    "translations": {
+      "en": "to farm, to run a farm",
+      "ru": "хозяйствовать, заниматься хозяйством"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_330",
+    "word": "uogáuti",
+    "translations": {
+      "en": "to pick berries",
+      "ru": "собирать ягоды"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_331",
+    "word": "užmi̇g̀ti",
+    "translations": {
+      "en": "to fall asleep",
+      "ru": "засыпать, уснуть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_332",
+    "word": "vadi̇ǹti",
+    "translations": {
+      "en": "to call, to name",
+      "ru": "называть, звать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_333",
+    "word": "vadováuti",
+    "translations": {
+      "en": "to lead, to manage",
+      "ru": "руководить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_334",
+    "word": "vaidi̇ǹti",
+    "translations": {
+      "en": "to act, to play (on stage)",
+      "ru": "играть (на сцене), исполнять роль, изображать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_335",
+    "word": "váikščioti",
+    "translations": {
+      "en": "to walk, to stroll",
+      "ru": "ходить; гулять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_336",
+    "word": "vairúoti",
+    "translations": {
+      "en": "to drive, to operate (a vehicle)",
+      "ru": "вести, водить (о транспорте), управлять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_337",
+    "word": "váišinti",
+    "translations": {
+      "en": "to treat, to entertain",
+      "ru": "угощать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_338",
+    "word": "vakarieniáuti",
+    "translations": {
+      "en": "to have dinner, to dine",
+      "ru": "ужинать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_339",
+    "word": "válgyti",
+    "translations": {
+      "en": "to eat",
+      "ru": "есть, кушать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_340",
+    "word": "valýti",
+    "translations": {
+      "en": "to clean, to tidy",
+      "ru": "чистить, очищать, убирать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_341",
+    "word": "vartóti",
+    "translations": {
+      "en": "to take (medicine), to use, to consume",
+      "ru": "принимать (лекарства), употреблять, потреблять; использовать, пользоваться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_342",
+    "word": "važinė́ti",
+    "translations": {
+      "en": "to drive around, to travel (habitually)",
+      "ru": "ездить, разъезжать, катать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_343",
+    "word": "važiúoti",
+    "translations": {
+      "en": "to go, to drive (by vehicle)",
+      "ru": "ехать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_344",
+    "word": "vei̇k̃ti",
+    "translations": {
+      "en": "to do, to act; to influence",
+      "ru": "делать; действовать; влиять"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_345",
+    "word": "vėlúoti",
+    "translations": {
+      "en": "to be late",
+      "ru": "опаздывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_346",
+    "word": "vers̃ti",
+    "translations": {
+      "en": "to fell, to knock over; to translate; to force, to compel; to transform",
+      "ru": "валить; переворачивать; переводить; заставлять, принуждать; превращать; опрокидывать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_347",
+    "word": "vértinti",
+    "translations": {
+      "en": "to value, to appreciate; to evaluate",
+      "ru": "ценить; оценивать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_348",
+    "word": "vèsti",
+    "translations": {
+      "en": "to lead, to take; to get married (of a man); to bear fruit",
+      "ru": "вести, водить; жениться; плодоносить; приносить (младенца)"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_349",
+    "word": "vèžti",
+    "translations": {
+      "en": "to transport, to carry",
+      "ru": "везти, возить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_350",
+    "word": "vỹkti",
+    "translations": {
+      "en": "to head (somewhere), to set off; to happen, to take place",
+      "ru": "направляться, отправляться; происходить, проходить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_351",
+    "word": "vilkė́ti",
+    "translations": {
+      "en": "to wear (clothing)",
+      "ru": "носить (об одежде), быть одетым"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_352",
+    "word": "vilk̃tis",
+    "translations": {
+      "en": "to put on, to get dressed",
+      "ru": "надевать, одеваться"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_353",
+    "word": "vi̇r̀ti",
+    "translations": {
+      "en": "to boil; to cook",
+      "ru": "кипеть; варить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_354",
+    "word": "võgti",
+    "translations": {
+      "en": "to steal",
+      "ru": "красть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_355",
+    "word": "žadė́ti",
+    "translations": {
+      "en": "to promise",
+      "ru": "обещать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_356",
+    "word": "žãdinti",
+    "translations": {
+      "en": "to wake, to awaken; to arouse",
+      "ru": "будить; пробуждать; возбуждать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_357",
+    "word": "žaibúoti",
+    "translations": {
+      "en": "to lightning (it is lightning)",
+      "ru": "сверкать (о молнии)"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_358",
+    "word": "žai̇s̃ti",
+    "translations": {
+      "en": "to play",
+      "ru": "играть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_359",
+    "word": "žei̇s̃ti",
+    "translations": {
+      "en": "to wound, to injure",
+      "ru": "ранить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_360",
+    "word": "žydė́ti",
+    "translations": {
+      "en": "to bloom, to flower",
+      "ru": "цвести"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_361",
+    "word": "žinóti",
+    "translations": {
+      "en": "to know",
+      "ru": "знать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_362",
+    "word": "žiūrė́ti",
+    "translations": {
+      "en": "to watch, to look",
+      "ru": "смотреть, глядеть"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_363",
+    "word": "žudýti",
+    "translations": {
+      "en": "to kill, to destroy",
+      "ru": "убивать, истреблять, губить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_364",
+    "word": "žū́ti",
+    "translations": {
+      "en": "to perish, to die",
+      "ru": "гибнуть, погибать"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  },
+  {
+    "id": "lt_verb_365",
+    "word": "žvejóti",
+    "translations": {
+      "en": "to fish",
+      "ru": "ловить (рыбу), рыбачить"
+    },
+    "pos": "verb",
+    "category": "verb",
+    "level": "B1",
+    "source": "365 lietuvių kalbos veiksmažodžiai"
+  }
+]
