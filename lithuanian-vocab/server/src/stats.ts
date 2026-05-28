@@ -33,7 +33,7 @@ export async function saveResult(input: SaveResultInput): Promise<SaveResultOutp
   const percentileRes = await pool.query<{ percentile: number; total_results: number }>(
     `SELECT
        ROUND(
-         100.0 * COUNT(*) FILTER (WHERE CAST(score AS FLOAT) / total < $1)
+         100.0 * COUNT(*) FILTER (WHERE CAST(score AS NUMERIC) / total < $1)
          / COUNT(*),
          0
        )::int AS percentile,
@@ -123,9 +123,9 @@ export async function getAdminStats(): Promise<AdminStats> {
   // Overall accuracy stats
   const accRes = await pool.query<{ avg: string; min: string; max: string }>(`
     SELECT
-      ROUND(AVG(CAST(score AS FLOAT) / total * 100), 1)::float AS avg,
-      ROUND(MIN(CAST(score AS FLOAT) / total * 100), 1)::float AS min,
-      ROUND(MAX(CAST(score AS FLOAT) / total * 100), 1)::float AS max
+      ROUND(AVG(CAST(score AS NUMERIC) / total * 100), 1) AS avg,
+      ROUND(MIN(CAST(score AS NUMERIC) / total * 100), 1) AS min,
+      ROUND(MAX(CAST(score AS NUMERIC) / total * 100), 1) AS max
     FROM quiz_results
   `);
 
@@ -139,7 +139,7 @@ export async function getAdminStats(): Promise<AdminStats> {
   // Overall histogram (10 buckets of 10%)
   const histRes = await pool.query<{ bucket: number; count: number }>(`
     SELECT
-      LEAST(FLOOR(CAST(score AS FLOAT) / total * 10)::int, 9) AS bucket,
+      LEAST(FLOOR(CAST(score AS NUMERIC) / total * 10)::int, 9) AS bucket,
       COUNT(*)::int AS count
     FROM quiz_results
     GROUP BY bucket
@@ -169,9 +169,9 @@ export async function getAdminStats(): Promise<AdminStats> {
 
       const daRes = await pool.query<{ avg: string; min: string; max: string }>(`
         SELECT
-          ROUND(AVG(CAST(score AS FLOAT) / total * 100), 1)::float AS avg,
-          ROUND(MIN(CAST(score AS FLOAT) / total * 100), 1)::float AS min,
-          ROUND(MAX(CAST(score AS FLOAT) / total * 100), 1)::float AS max
+          ROUND(AVG(CAST(score AS NUMERIC) / total * 100), 1) AS avg,
+          ROUND(MIN(CAST(score AS NUMERIC) / total * 100), 1) AS min,
+          ROUND(MAX(CAST(score AS NUMERIC) / total * 100), 1) AS max
         FROM quiz_results WHERE dictionary = $1
       `, [dictionary]);
 
@@ -179,7 +179,7 @@ export async function getAdminStats(): Promise<AdminStats> {
 
       const dhRes = await pool.query<{ bucket: number; count: number }>(`
         SELECT
-          LEAST(FLOOR(CAST(score AS FLOAT) / total * 10)::int, 9) AS bucket,
+          LEAST(FLOOR(CAST(score AS NUMERIC) / total * 10)::int, 9) AS bucket,
           COUNT(*)::int AS count
         FROM quiz_results
         WHERE dictionary = $1
