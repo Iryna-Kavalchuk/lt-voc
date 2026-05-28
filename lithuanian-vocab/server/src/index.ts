@@ -2,6 +2,7 @@ import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import { router } from "./routes.js";
+import { initDb } from "./db.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -38,7 +39,14 @@ const isMain =
 if (isMain) {
   const PORT = Number(process.env.PORT) || 3000;
   const app = createApp();
-  app.listen(PORT, () => {
-    console.log(`Lithuanian Vocab server listening on http://localhost:${PORT}`);
-  });
+  initDb()
+    .then(() => {
+      app.listen(PORT, () => {
+        console.log(`Lithuanian Vocab server listening on http://localhost:${PORT}`);
+      });
+    })
+    .catch((err) => {
+      console.error("Failed to initialise database:", err);
+      process.exit(1);
+    });
 }

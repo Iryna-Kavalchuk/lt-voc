@@ -1,4 +1,4 @@
-import { getDb } from "./db.js";
+import { pool } from "./db.js";
 
 export interface SaveResultInput {
   sessionId: string;
@@ -17,36 +17,39 @@ export interface SaveResultOutput {
   totalResults: number;
 }
 
-export function saveResult(input: SaveResultInput): SaveResultOutput {
-  const db = getDb();
+export async function saveResult(input: SaveResultInput): Promise<SaveResultOutput> {
+  const { sessionId, dictionary, lang, score, total, durationS } = input;
 
-  const insert = db.prepare(`
-    INSERT INTO quiz_results (session_id, dictionary, lang, score, total, duration_s)
-    VALUES (@sessionId, @dictionary, @lang, @score, @total, @durationS)
-  `);
+  // Insert the result
+  const insertRes = await pool.query<{ id: number }>(
+    `INSERT INTO quiz_results (session_id, dictionary, lang, score, total, duration_s)
+     VALUES ($1, $2, $3, $4, $5, $6)
+     RETURNING id`,
+    [sessionId, dictionary, lang, score, total, durationS]
+  );
+  const id = insertRes.rows[0].id;
 
-  const info = insert.run(input);
-  const id = Number(info.lastInsertRowid);
+  // Percentile: % of results with strictly lower accuracy than this one
+  const accuracy = score / total;
 
-  // Percentile: % of results with a strictly lower accuracy than this one
-  // Using accuracy (score/total) so different quiz lengths compare fairly
-  const accuracy = input.score / input.total;
+  const percentileRes = await pool.query<{ percentile: number; total_results: number }>(
+    `SELECT
+       ROUND(
+         100.0 * COUNT(*) FILTER (WHERE CAST(score AS FLOAT) / total < $1)
+         / COUNT(*),
+         0
+       )::int AS percentile,
+       COUNT(*)::int AS total_results
+     FROM quiz_results
+     WHERE dictionary = $2`,
+    [accuracy, dictionary]
+  );
 
-  const row = db.prepare(`
-    SELECT
-      ROUND(
-        100.0 * SUM(CASE WHEN CAST(score AS REAL) / total < @accuracy THEN 1 ELSE 0 END)
-        / COUNT(*),
-        0
-      ) AS percentile,
-      COUNT(*) AS totalResults
-    FROM quiz_results
-    WHERE dictionary = @dictionary
-  `).get({ accuracy, dictionary: input.dictionary }) as { percentile: number; totalResults: number };
+  const row = percentileRes.rows[0];
 
   return {
     id,
     percentile: row.percentile ?? 0,
-    totalResults: row.totalResults,
+    totalResults: row.total_results,
   };
 }

@@ -1,36 +1,37 @@
-import Database from "better-sqlite3";
-import path from "path";
-import { fileURLToPath } from "url";
+import pg from "pg";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const { Pool } = pg;
 
-// Store the DB file next to the compiled output, one level up from src
-const DB_PATH = process.env.DB_PATH ?? path.resolve(__dirname, "../data/stats.db");
+if (!process.env.DATABASE_URL && process.env.NODE_ENV === "production") {
+  throw new Error("DATABASE_URL environment variable is required in production");
+}
 
-let _db: Database.Database | null = null;
+export const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  // On Render the internal URL uses plain postgres — no SSL needed.
+  // For external connections (local dev pointing at a remote DB) SSL is required.
+  ssl: process.env.DATABASE_URL?.includes("localhost")
+    ? false
+    : process.env.DATABASE_URL
+      ? { rejectUnauthorized: false }
+      : false,
+});
 
-export function getDb(): Database.Database {
-  if (_db) return _db;
-
-  _db = new Database(DB_PATH);
-  _db.pragma("journal_mode = WAL");
-  _db.pragma("foreign_keys = ON");
-
-  _db.exec(`
+/** Run once at server startup to create the table if it doesn't exist. */
+export async function initDb(): Promise<void> {
+  await pool.query(`
     CREATE TABLE IF NOT EXISTS quiz_results (
-      id          INTEGER PRIMARY KEY AUTOINCREMENT,
-      session_id  TEXT    NOT NULL,
-      dictionary  TEXT    NOT NULL,
-      lang        TEXT    NOT NULL,
-      score       INTEGER NOT NULL,
-      total       INTEGER NOT NULL,
-      duration_s  INTEGER NOT NULL,
-      created_at  TEXT    NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ', 'now'))
+      id          SERIAL PRIMARY KEY,
+      session_id  TEXT        NOT NULL,
+      dictionary  TEXT        NOT NULL,
+      lang        TEXT        NOT NULL,
+      score       INTEGER     NOT NULL,
+      total       INTEGER     NOT NULL,
+      duration_s  INTEGER     NOT NULL,
+      created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW()
     );
 
     CREATE INDEX IF NOT EXISTS idx_results_dictionary
       ON quiz_results (dictionary);
   `);
-
-  return _db;
 }

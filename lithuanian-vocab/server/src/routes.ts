@@ -149,7 +149,7 @@ router.post("/quiz/check", (req: Request, res: Response) => {
 // Body: { sessionId, dictionary, lang, score, total, durationS }
 // Saves the result and returns percentile ranking
 // ---------------------------------------------------------------------------
-router.post("/stats", (req: Request, res: Response) => {
+router.post("/stats", async (req: Request, res: Response) => {
   const { sessionId, dictionary, lang, score, total, durationS } = req.body as {
     sessionId: string;
     dictionary: string;
@@ -165,7 +165,7 @@ router.post("/stats", (req: Request, res: Response) => {
   }
 
   try {
-    const result = saveResult({ sessionId, dictionary, lang, score, total, durationS });
+    const result = await saveResult({ sessionId, dictionary, lang, score, total, durationS });
     res.json(result);
   } catch (err) {
     const message = err instanceof Error ? err.message : "Unknown error";
