@@ -357,3 +357,22 @@ select, input { font: inherit; }
   color: #64748b;
   margin: 0;
 }
+
+.percentile-banner {
+  background: linear-gradient(135deg, #ede9fe, #dbeafe);
+  border: 1px solid #c4b5fd;
+  border-radius: 10px;
+  padding: 14px 20px;
+  font-size: 1rem;
+  color: #4c1d95;
+  margin: 8px 0 4px;
+}
+.percentile-banner strong {
+  font-size: 1.3rem;
+  color: #4f46e5;
+}
+.percentile-count {
+  font-size: 0.85rem;
+  color: #7c3aed;
+  opacity: 0.8;
+}

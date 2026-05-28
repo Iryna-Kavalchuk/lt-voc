@@ -10,6 +10,7 @@ import {
 } from "./data.js";
 import { randomQuestion, checkAnswer } from "./quiz.js";
 import type { QuizQuestion } from "./quiz.js";
+import { saveResult } from "./stats.js";
 
 export const router = Router();
 
@@ -141,4 +142,33 @@ router.post("/quiz/check", (req: Request, res: Response) => {
 
   const result = checkAnswer(question, submittedIndex);
   res.json(result);
+});
+
+// ---------------------------------------------------------------------------
+// POST /stats
+// Body: { sessionId, dictionary, lang, score, total, durationS }
+// Saves the result and returns percentile ranking
+// ---------------------------------------------------------------------------
+router.post("/stats", (req: Request, res: Response) => {
+  const { sessionId, dictionary, lang, score, total, durationS } = req.body as {
+    sessionId: string;
+    dictionary: string;
+    lang: string;
+    score: number;
+    total: number;
+    durationS: number;
+  };
+
+  if (!sessionId || !dictionary || !lang || score == null || !total || durationS == null) {
+    res.status(400).json({ error: "Missing required fields" });
+    return;
+  }
+
+  try {
+    const result = saveResult({ sessionId, dictionary, lang, score, total, durationS });
+    res.json(result);
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    res.status(500).json({ error: message });
+  }
 });

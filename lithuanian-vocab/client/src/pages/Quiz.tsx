@@ -1,5 +1,5 @@
-import { useEffect, useState, useCallback } from "react";
-import { api, type QuizQuestion, type SupportedLanguage } from "../api/client";
+import { useEffect, useState, useCallback, useRef } from "react";
+import { api, type QuizQuestion, type SupportedLanguage, type StatsResult } from "../api/client";
 
 type QuizState =
   | { phase: "loading" }
@@ -20,10 +20,22 @@ interface Props {
   dictionary?: string;
 }
 
+function getSessionId(): string {
+  const key = "lt_vocab_session_id";
+  let id = localStorage.getItem(key);
+  if (!id) {
+    id = crypto.randomUUID();
+    localStorage.setItem(key, id);
+  }
+  return id;
+}
+
 export default function Quiz({ lang, category, dictionary }: Props) {
   const [state, setState] = useState<QuizState>({ phase: "loading" });
   const [stats, setStats] = useState<SessionStats>({ total: 0, correct: 0 });
   const [finished, setFinished] = useState(false);
+  const [statsResult, setStatsResult] = useState<StatsResult | null>(null);
+  const startTimeRef = useRef<number>(Date.now());
 
   const loadQuestion = useCallback(() => {
     setState({ phase: "loading" });
@@ -36,10 +48,13 @@ export default function Quiz({ lang, category, dictionary }: Props) {
   const startNewSession = useCallback(() => {
     setStats({ total: 0, correct: 0 });
     setFinished(false);
+    setStatsResult(null);
+    startTimeRef.current = Date.now();
     loadQuestion();
   }, [loadQuestion]);
 
   useEffect(() => {
+    startTimeRef.current = Date.now();
     loadQuestion();
   }, [loadQuestion]);
 
@@ -66,6 +81,20 @@ export default function Quiz({ lang, category, dictionary }: Props) {
         correctAnswer: result.correctAnswer,
       });
       setFinished(true);
+
+      // Submit result to server
+      const durationS = Math.round((Date.now() - startTimeRef.current) / 1000);
+      api.stats.submit({
+        sessionId: getSessionId(),
+        dictionary: dictionary || "default",
+        lang,
+        score: newStats.correct,
+        total: newStats.total,
+        durationS,
+      })
+        .then(setStatsResult)
+        .catch(() => {}); // non-critical — don't break UI if it fails
+
       return;
     }
 
@@ -99,6 +128,15 @@ export default function Quiz({ lang, category, dictionary }: Props) {
           <h2 className="results-title">Quiz complete!</h2>
           <p className="results-score">{stats.correct} / {QUIZ_SIZE} correct</p>
           <p className="results-accuracy">{accuracy}% accuracy</p>
+          {statsResult && statsResult.totalResults > 1 && (
+            <div className="percentile-banner">
+              Your result is better than{" "}
+              <strong>{statsResult.percentile}%</strong> of players
+              {statsResult.totalResults >= 10 && (
+                <span className="percentile-count"> ({statsResult.totalResults} total)</span>
+              )}
+            </div>
+          )}
           <button className="btn-primary" onClick={startNewSession}>
             Play again
           </button>

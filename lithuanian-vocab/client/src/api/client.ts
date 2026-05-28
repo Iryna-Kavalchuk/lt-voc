@@ -58,6 +58,12 @@ export interface DictionaryInfo {
   name: string;
 }
 
+export interface StatsResult {
+  id: number;
+  percentile: number;
+  totalResults: number;
+}
+
 export const api = {
   dictionaries(): Promise<{ dictionaries: DictionaryInfo[] }> {
     return get("/api/dictionaries");
@@ -98,6 +104,19 @@ export const api = {
     },
     check(question: QuizQuestion, submittedIndex: number): Promise<AnswerResult> {
       return post("/api/quiz/check", { question, submittedIndex });
+    },
+  },
+
+  stats: {
+    submit(payload: {
+      sessionId: string;
+      dictionary: string;
+      lang: SupportedLanguage;
+      score: number;
+      total: number;
+      durationS: number;
+    }): Promise<StatsResult> {
+      return post("/api/stats", payload);
     },
   },
 };
