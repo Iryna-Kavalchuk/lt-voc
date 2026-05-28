@@ -6,7 +6,9 @@ import type { SupportedLanguage, DictionaryInfo } from "./api/client";
 import { api } from "./api/client";
 import "./App.css";
 
-type Page = "words" | "quiz" | "admin";
+type Page = "words" | "quiz";
+
+const isAdminRoute = window.location.pathname === "/admin";
 
 export default function App() {
   const [page, setPage] = useState<Page>("quiz");
@@ -20,6 +22,22 @@ export default function App() {
       if (dicts.length > 0) setDictionary(dicts[0].id);
     }).catch(() => {});
   }, []);
+
+  if (isAdminRoute) {
+    return (
+      <div className="app">
+        <header className="app-header">
+          <div className="header-left">
+            <span className="app-logo">🇱🇹</span>
+            <span className="app-title">Lithuanian Vocab</span>
+          </div>
+        </header>
+        <main className="app-main">
+          <Admin />
+        </main>
+      </div>
+    );
+  }
 
   return (
     <div className="app">
@@ -40,12 +58,6 @@ export default function App() {
             onClick={() => setPage("words")}
           >
             Word List
-          </button>
-          <button
-            className={`nav-btn nav-btn-admin ${page === "admin" ? "active" : ""}`}
-            onClick={() => setPage("admin")}
-          >
-            Admin
           </button>
         </nav>
         <div className="header-right">
@@ -78,7 +90,6 @@ export default function App() {
       <main className="app-main">
         {page === "quiz" && <Quiz lang={lang} dictionary={dictionary} />}
         {page === "words" && <WordList lang={lang} dictionary={dictionary} />}
-        {page === "admin" && <Admin />}
       </main>
     </div>
   );
