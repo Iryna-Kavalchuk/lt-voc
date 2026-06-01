@@ -21,7 +21,7 @@ export function createApp() {
   app.use("/api", router);
 
   // Serve audio files
-  const audioDir = path.resolve(__dirname, "../data/audio");
+  const audioDir = path.resolve(__dirname, "./data/audio");
   app.use("/audio", express.static(audioDir));
 
   // Serve the React frontend in production
