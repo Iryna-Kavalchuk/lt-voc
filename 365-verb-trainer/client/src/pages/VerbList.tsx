@@ -39,6 +39,16 @@ function PointDots({ earnedModes }: { earnedModes: Set<string> }) {
   );
 }
 
+function speakForms(forms: [string, string, string]) {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const text = forms.join(", ");
+  const utt = new SpeechSynthesisUtterance(text);
+  utt.lang = "lt-LT";
+  utt.rate = 0.9;
+  window.speechSynthesis.speak(utt);
+}
+
 export default function VerbList() {
   const [verbs, setVerbs] = useState<VerbEntry[]>([]);
   const [search, setSearch] = useState("");
@@ -122,17 +132,26 @@ export default function VerbList() {
           <div className="verblist-grid">
             {visible.map((verb) => (
               <div key={verb.id} className="verblist-item">
-                <button
-                  className={`verblist-header ${expanded === verb.id ? "open" : ""}`}
-                  onClick={() => setExpanded(expanded === verb.id ? null : verb.id)}
-                >
-                  <span className="verblist-num">{verb.id}.</span>
-                  <span className="verblist-infinitive">{verb.infinitive}</span>
-                  <span className="verblist-forms">{verb.forms.slice(1).join(", ")}</span>
-                  <span className="verblist-translation">{verb.translation}</span>
-                  <PointDots earnedModes={pointsMap.get(verb.id) ?? new Set()} />
-                  <span className="verblist-chevron">{expanded === verb.id ? "▲" : "▼"}</span>
-                </button>
+                <div className="verblist-row">
+                  <button
+                    className={`verblist-header ${expanded === verb.id ? "open" : ""}`}
+                    onClick={() => setExpanded(expanded === verb.id ? null : verb.id)}
+                  >
+                    <span className="verblist-num">{verb.id}.</span>
+                    <span className="verblist-infinitive">{verb.infinitive}</span>
+                    <span className="verblist-forms">{verb.forms.slice(1).join(", ")}</span>
+                    <span className="verblist-translation">{verb.translation}</span>
+                    <PointDots earnedModes={pointsMap.get(verb.id) ?? new Set()} />
+                    <span className="verblist-chevron">{expanded === verb.id ? "▲" : "▼"}</span>
+                  </button>
+                  <button
+                    className="speak-btn"
+                    title="Listen to main forms"
+                    onClick={(e) => { e.stopPropagation(); speakForms(verb.forms); }}
+                  >
+                    🔊
+                  </button>
+                </div>
 
                 {expanded === verb.id && (
                   <div className="verblist-detail">
