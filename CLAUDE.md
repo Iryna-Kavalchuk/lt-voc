@@ -1,7 +1,23 @@
 # 365 Verb Trainer — Project Context
 
 ## What this is
-A Lithuanian verb trainer web app. 365 verbs, 5 quiz modes, spaced repetition.
+A web app for Russian speakers learning Lithuanian verbs. Based on the book
+"365 Lithuanian Verbs" (2015), which lists 365 high-frequency Lithuanian verbs
+with Russian translations, full conjugation tables, non-conjugated forms, and
+usage examples in both languages.
+
+The app lets users drill these verbs through 5 quiz modes with spaced repetition
+to prioritize weaker verbs. Each verb has:
+- **3 main forms**: infinitive, 3rd person present, 3rd person past
+  (e.g. `abejoti, abejoja, abejojo` — "to doubt")
+- **Full conjugation**: 6 tenses × 5 persons (aš, tu, jis/ji/jie/jos, mes, jūs)
+  - Present, Past, Frequentative past, Future, Subjunctive, Imperative
+- **9 non-conjugated forms**: active/passive participles, half-participles, adverbial participles
+- **Russian translation** (e.g. `сомневаться`)
+- **4–6 usage examples** with Lithuanian sentence + Russian translation + optional
+  grammatical hint (e.g. `kuo?`, `dėl ko?`)
+- **Audio**: MP3 of the 3 main forms spoken by gTTS (Lithuanian TTS)
+
 Full-stack: React + TypeScript frontend, Express + TypeScript backend, PostgreSQL.
 
 ## Repo
