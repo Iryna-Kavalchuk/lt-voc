@@ -122,14 +122,6 @@ export default function Progress() {
         <span className="progress-pct">{pct}%</span>
       </div>
 
-      {/* Column header */}
-      <div className="progress-mode-header">
-        <span className="progress-verb-col" />
-        {ALL_MODES.map((m) => (
-          <span key={m} className="progress-mode-col">{MODE_LABEL[m]}</span>
-        ))}
-      </div>
-
       {/* Groups 5 → 1 */}
       {[5, 4, 3, 2, 1].map((pts) => {
         const verbIds = groups.get(pts) ?? [];
