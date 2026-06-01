@@ -39,14 +39,16 @@ function PointDots({ earnedModes }: { earnedModes: Set<string> }) {
   );
 }
 
-function speakForms(forms: [string, string, string]) {
-  if (!window.speechSynthesis) return;
-  window.speechSynthesis.cancel();
-  const text = forms.join(", ");
-  const utt = new SpeechSynthesisUtterance(text);
-  utt.lang = "lt-LT";
-  utt.rate = 0.9;
-  window.speechSynthesis.speak(utt);
+let currentAudio: HTMLAudioElement | null = null;
+
+function speakForms(verbId: number) {
+  if (currentAudio) {
+    currentAudio.pause();
+    currentAudio = null;
+  }
+  const audio = new Audio(`/audio/${verbId}.mp3`);
+  currentAudio = audio;
+  audio.play().catch(() => {});
 }
 
 export default function VerbList() {
@@ -147,7 +149,7 @@ export default function VerbList() {
                   <button
                     className="speak-btn"
                     title="Listen to main forms"
-                    onClick={(e) => { e.stopPropagation(); speakForms(verb.forms); }}
+                    onClick={(e) => { e.stopPropagation(); speakForms(verb.id); }}
                   >
                     🔊
                   </button>

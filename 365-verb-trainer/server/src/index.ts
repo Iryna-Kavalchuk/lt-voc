@@ -20,6 +20,10 @@ export function createApp() {
   // All verb trainer routes under /api
   app.use("/api", router);
 
+  // Serve audio files
+  const audioDir = path.resolve(__dirname, "../data/audio");
+  app.use("/audio", express.static(audioDir));
+
   // Serve the React frontend in production
   const clientDist = path.resolve(__dirname, "../../client/dist");
   app.use(express.static(clientDist));
