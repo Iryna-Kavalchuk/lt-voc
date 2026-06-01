@@ -1,4 +1,10 @@
-# 365 Verb Trainer — Project Context
+# AI Bootcamp — Project Context
+
+This repo contains two Lithuanian language learning apps sharing a PostgreSQL database on Render.
+
+---
+
+# Project 1: 365 Verb Trainer (`365-verb-trainer/`)
 
 ## What this is
 A web app for Russian speakers learning Lithuanian verbs. Based on the book
@@ -140,3 +146,94 @@ NODE_ENV=production
 cd 365-verb-trainer/client && npm install --include=dev && ./node_modules/.bin/vite build && cd ../server && npm install --include=dev && npm run build
 ```
 Start command: `node 365-verb-trainer/server/dist/index.js`
+
+---
+
+# Project 2: Lithuanian Vocab (`lithuanian-vocab/`)
+
+## What this is
+A vocabulary flashcard and quiz app for English and Russian speakers learning Lithuanian.
+1,880 words across 3 dictionaries (A1–B1 levels), multiple-choice quiz with 4 options,
+session scoring with percentile ranking. No spaced repetition (unlike lt-verb).
+
+Dictionaries:
+- `a1-sekmes.json` — 688 A1 words (source: "Sėkmės" / Core1000 wordlist)
+- `a1-langas.json` — 827 A1 words (source: "Langas" textbook)
+- `b1-verbs.json`  — 365 B1 verbs (imported from the same "365 verbs" book as lt-verb)
+
+Each entry has: Lithuanian word, English + Russian translations, POS, gender (nouns),
+semantic category, CEFR level, source.
+
+## Repo
+- GitHub: https://github.com/Iryna-Kavalchuk/lt-voc.git
+- Remote name: `origin`
+- Branch: `master`
+- Push command: `git push origin master`
+
+## Deployment
+- Platform: Render.com
+- URL: (check Render dashboard — no URL recorded yet)
+- Shares the same PostgreSQL instance as lt-verb
+
+## Project structure
+```
+lithuanian-vocab/
+├── data/dictionary/
+│   ├── schema.json          # AJV JSON Schema for all entries
+│   ├── a1-sekmes.json       # 688 A1 entries
+│   ├── a1-langas.json       # 827 A1 entries
+│   └── b1-verbs.json        # 365 B1 verb entries
+├── scripts/                 # Data import + validation scripts (Node.js ESM)
+│   ├── validate-dictionary.mjs
+│   ├── import-csv.mjs
+│   ├── import-langas.mjs
+│   ├── import-365-verbs.mjs
+│   ├── reclassify.mjs
+│   ├── fix-pos.mjs
+│   └── fix-pos-ru.mjs
+├── shared/types/
+│   └── dictionary.ts        # Canonical TypeScript types shared across client/server
+├── client/                  # React + Vite frontend (port 5173 in dev)
+│   └── src/pages/
+│       ├── Quiz.tsx          # 25-question multiple-choice quiz
+│       ├── WordList.tsx      # Browsable/filterable word browser
+│       └── Admin.tsx         # Password-protected stats dashboard
+└── server/                  # Express backend (port 3000 in dev)
+    └── src/
+        ├── index.ts          # App factory, serves React in prod
+        ├── routes.ts         # API endpoints
+        ├── quiz.ts           # Question generation, smart distractor selection
+        ├── stats.ts          # DB persistence, percentile calculation
+        └── db.ts             # PostgreSQL schema (single table: quiz_results)
+```
+
+## Dev workflow
+```bash
+cd lithuanian-vocab/server && npm run dev   # tsx src/index.ts on port 3000
+cd lithuanian-vocab/client && npm run dev   # vite on port 5173
+```
+
+## Quiz logic
+- 4 options: 1 correct + 3 distractors
+- Distractor priority: same category + same POS → same POS → same category → random
+- `exclude` param prevents repeating words within a session
+- Language toggle: `lang=en` or `lang=ru`
+
+## Database (PostgreSQL)
+- Single table: `quiz_results` (session_id, dictionary, lang, score, total, duration_s)
+- Shared with lt-verb on Render
+- Optional — server starts without it
+
+## Environment variables (server)
+```
+PORT=3000          # 10000 on Render
+DATABASE_URL=...   # PostgreSQL connection string
+ADMIN_PASSWORD=... # For /admin page (via x-admin-password header)
+NODE_ENV=production
+```
+
+## Known data issues
+- Category naming inconsistencies: `"adjective"` vs `"adjectives"`, `"color"` vs `"colors"` etc.
+- `b1-verbs.json` uses `category: "verb"` for all 365 entries (not semantic topics)
+- `lng_*` IDs in `a1-langas.json` fail the validate script's extra ID-pattern check (bug in validator)
+- No spaced repetition — progress is not tracked per word
