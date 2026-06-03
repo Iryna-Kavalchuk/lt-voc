@@ -20166,41 +20166,6 @@
         "hint": "su-",
         "lt": "Jis surengė parodą.",
         "ru": "Он устроил выставку."
-      },
-      {
-        "hint": null,
-        "lt": "Ji rengia vaiką švariais drabužiais.",
-        "ru": "Она одевает ребенка в чистую одежду."
-      },
-      {
-        "hint": null,
-        "lt": "Ji nerengia vaiko švariais drabužiais.",
-        "ru": "Она не одевает ребенка в чистую одежду."
-      },
-      {
-        "hint": "ap-",
-        "lt": "Ji aprengė vaiką švariais drabužiais.",
-        "ru": "Она одела ребенка в чистую одежду."
-      },
-      {
-        "hint": "nu-",
-        "lt": "Ji nurengė vaiką.",
-        "ru": "Она раздела ребенка."
-      },
-      {
-        "hint": "pér-",
-        "lt": "Ji perrengė vaiką švariais drabužiais.",
-        "ru": "Она переодела ребенка в чистую одежду."
-      },
-      {
-        "hint": "pri-",
-        "lt": "Prirengiau vaiką, nes oras labai atšalo.",
-        "ru": "Я много одел / одела на ребенка, так"
-      },
-      {
-        "hint": "su-",
-        "lt": "Surengiau vaikui visus šiltus drabužius, nes oras labai atšalo.",
-        "ru": "Я надел / надела"
       }
     ]
   },
@@ -20296,12 +20261,12 @@
       {
         "hint": "pri-",
         "lt": "Prirengiau vaiką, nes oras labai atšalo.",
-        "ru": "Я много одел / одела на ребенка, так"
+        "ru": "Я много одел / одела на ребенка, так как очень похолодало."
       },
       {
         "hint": "su-",
         "lt": "Surengiau vaikui visus šiltus drabužius, nes oras labai atšalo.",
-        "ru": "Я надел / надела"
+        "ru": "Я надел / надела на ребенка всю теплую одежду, потому что очень похолодало."
       }
     ]
   },
