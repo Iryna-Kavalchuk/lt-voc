@@ -444,6 +444,7 @@ export default function Quiz() {
               ) : state.question.mode === "conjugation_drill" ? (
                 <div className="fill-blank-hint-wrap">
                   <span className="fill-blank-hint">{state.question.prompt.split(" — ")[0]}</span>
+                  <span className="drill-translation">{state.question.verbEntry.translation}</span>
                 </div>
               ) : state.question.mode === "fill_blank" || state.question.mode === "fill_blank_hint" ? (
                 /* fill_blank / fill_blank_hint: show the RU sentence as the main prompt */
