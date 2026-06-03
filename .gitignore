@@ -3,6 +3,9 @@ dist
 dist-ssr
 *.local
 
+# Environment variables
+.env
+
 # Logs
 logs
 *.log

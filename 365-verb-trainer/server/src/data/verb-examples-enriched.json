@@ -2308,9 +2308,9 @@
     "forms": [
       "dalyváuti",
       "dalyváuja",
-      "участвовать"
+      "dalyvãvo"
     ],
-    "translation": "dalyvãvo принимать участие",
+    "translation": "участвовать; принимать участие",
     "conjugation": {
       "present": {
         "as": "dalyváuju",
@@ -22271,43 +22271,43 @@
         "ru": "Садитесь, пожалуйста, на диван."
       },
       {
-        "hint": null,
-        "lt": "įsė́sti Jis įsėdo į automobilį.",
+        "hint": "į-",
+        "lt": "Jis įsėdo į automobilį.",
         "ru": "Он сел в автомобиль."
       },
       {
-        "hint": null,
-        "lt": "nusė́sti Raitelis nusėdo nuo žirgo.",
+        "hint": "nu-",
+        "lt": "Raitelis nusėdo nuo žirgo.",
         "ru": "Всадник спешился."
       },
       {
-        "hint": null,
-        "lt": "pérsėsti Persėdome į kitą autobusą.",
-        "ru": "Мы пересели на другой автобус. Persėdau ant"
+        "hint": "pér-",
+        "lt": "Persėdome į kitą autobusą.",
+        "ru": "Мы пересели на другой автобус."
       },
       {
-        "hint": null,
-        "lt": "kitos kėdės.",
+        "hint": "pér-",
+        "lt": "Persėdau ant kitos kėdės.",
         "ru": "Я пересел / пересела на другой стул."
       },
       {
-        "hint": null,
-        "lt": "prisė́sti Prisėdo pilnas autobusas žmonių.",
-        "ru": "Люди битком набились в автобус. Prisės-"
+        "hint": "pri-",
+        "lt": "Prisėdo pilnas autobusas žmonių.",
+        "ru": "Люди битком набились в автобус. "
       },
       {
-        "hint": null,
-        "lt": "kite, pailsėkite.",
+        "hint": "pri-",
+        "lt": "Prisėskite, pailsėkite.",
         "ru": "Присядьте, отдохните."
       },
       {
-        "hint": null,
-        "lt": "susė́sti Susėdome ant žolės.",
+        "hint": "su-",
+        "lt": "Susėdome ant žolės.",
         "ru": "Мы расселись на траве."
       },
       {
-        "hint": null,
-        "lt": "užsė́sti Raitelis užsėdo ant žirgo.",
+        "hint": "už-",
+        "lt": "Raitelis užsėdo ant žirgo.",
         "ru": "Всадник сел на коня."
       }
     ]
