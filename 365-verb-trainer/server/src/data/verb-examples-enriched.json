@@ -20905,23 +20905,23 @@
         "ru": "Они коптят рыбу."
       },
       {
-        "hint": "ko?",
-        "lt": "išrūkýti Jie išrūkė žuvį.",
+        "hint": "iš-",
+        "lt": "Jie išrūkė žuvį.",
         "ru": "Они выкоптили рыбу."
       },
       {
-        "hint": "ko?",
-        "lt": "parūkýti Jie parūkė ir grįžo į kambarį.",
-        "ru": "Они покурили и вернулись в комнату. Jie"
+        "hint": "pa-",
+        "lt": "Jie parūkė ir grįžo į kambarį.",
+        "ru": "Они покурили и вернулись в комнату."
       },
       {
-        "hint": "ko?",
-        "lt": "parūkė žuvį.",
+        "hint": "pa-",
+        "lt": "Jie parūkė žuvį.",
         "ru": "Они покоптили рыбу."
       },
       {
-        "hint": "ko?",
-        "lt": "surūkýti Jie surūkė keletą cigarečių.",
+        "hint": "su-",
+        "lt": "Jie surūkė keletą cigarečių.",
         "ru": "Они выкурили несколько сигарет."
       }
     ]
