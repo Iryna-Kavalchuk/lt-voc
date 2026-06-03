@@ -1765,7 +1765,7 @@
         "ru": "Она забежала к соседке поговорить."
       },
       {
-        "hint": null,
+        "hint": "už-",
         "lt": "Berniukas užbėgo ant kalno.",
         "ru": "Мальчик взбежал на гору."
       }
@@ -2271,16 +2271,14 @@
         "ru": "Хор не исполнял ту песню."
       },
       {
-        "hint": "pa-",
+        "hint": "pa-/su-",
         "lt": "Padainuokime / sudainuokime dar kartą tą dainą.",
-        "ru": "Давайте еще раз споем ту",
-        "needs_review": true
+        "ru": "Давайте еще раз споем ту песню."
       },
       {
         "hint": "už-",
         "lt": "Choras uždainavo man nežinomą dainą.",
-        "ru": "Хор запел не известную мне",
-        "needs_review": true
+        "ru": "Хор запел не известную мне песню."
       }
     ]
   },
@@ -2477,14 +2475,17 @@
       {
         "hint": "pri-",
         "lt": "Pridarykite langą.",
-        "ru": "Призакройте окно. Ji pridarė tėvams daug rūpesčių. –",
-        "needs_review": true
+        "ru": "Призакройте окно. "
+      },
+      {
+        "hint": "pri-",
+        "lt": "Ji pridarė tėvams daug rūpesčių.",
+        "ru": "Она создала родителям много проблем."
       },
       {
         "hint": "su-",
         "lt": "Knygą sudarė trys autoriai.",
-        "ru": "Книгу составили три автора",
-        "needs_review": true
+        "ru": "Книгу составили три автора."
       },
       {
         "hint": "ko?",
