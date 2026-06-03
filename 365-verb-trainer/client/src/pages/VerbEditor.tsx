@@ -221,9 +221,19 @@ function VerbEditRow({ verb: initialVerb, password, onSaved }: VerbEditRowProps)
               }>+ Add</button>
             </div>
             {verb.examples.map((ex, i) => (
-              <div key={i} className="ed-example">
+              <div key={i} className={`ed-example${ex.needs_review ? " ed-example-review" : ""}`}>
                 <div className="ed-example-header">
                   <span className="ed-example-num">#{i + 1}</span>
+                  {ex.needs_review && (
+                    <span className="ed-review-badge" title="Russian translation is incomplete — needs manual fix">
+                      needs review
+                    </span>
+                  )}
+                  {ex.needs_review && (
+                    <button className="btn-ghost ed-review-clear-btn" onClick={() =>
+                      update((v) => { delete v.examples[i].needs_review; })
+                    }>Mark reviewed</button>
+                  )}
                   <button className="btn-ghost ed-remove-btn" onClick={() =>
                     update((v) => { v.examples.splice(i, 1); })
                   }>Remove</button>
@@ -280,6 +290,7 @@ export default function VerbEditor() {
   const [verbs, setVerbs] = useState<VerbEntry[]>([]);
   const [search, setSearch] = useState("");
   const [letterFilter, setLetterFilter] = useState("");
+  const [needsReviewOnly, setNeedsReviewOnly] = useState(false);
   const [loading, setLoading] = useState(false);
   const [loadError, setLoadError] = useState("");
 
@@ -332,7 +343,9 @@ export default function VerbEditor() {
       v.translation.toLowerCase().includes(q);
     const matchesLetter = !letterFilter ||
       v.infinitive.toLowerCase().startsWith(letterFilter.toLowerCase());
-    return matchesSearch && matchesLetter;
+    const matchesReview = !needsReviewOnly ||
+      v.examples.some((ex) => ex.needs_review);
+    return matchesSearch && matchesLetter && matchesReview;
   });
 
   const letters = [...new Set(verbs.map((v) => v.infinitive[0]?.toUpperCase() ?? ""))].sort();
@@ -347,6 +360,13 @@ export default function VerbEditor() {
           onChange={(e) => { setSearch(e.target.value); setLetterFilter(""); }}
           className="filter-input"
         />
+        <button
+          className={`letter-btn ${needsReviewOnly ? "active" : ""}`}
+          onClick={() => setNeedsReviewOnly((v) => !v)}
+          title="Show only verbs with examples flagged for review"
+        >
+          Needs review
+        </button>
       </div>
 
       <div className="letter-index">

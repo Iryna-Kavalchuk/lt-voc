@@ -25,6 +25,7 @@ export interface VerbExample {
   hint: string | null;
   lt: string;
   ru: string;
+  needs_review?: boolean;
 }
 
 export interface VerbEntry {

@@ -801,6 +801,21 @@ table { border-collapse: collapse; }
   flex-direction: column;
   gap: 8px;
 }
+.ed-example-review {
+  background: #fffbeb;
+  border-color: #fbbf24;
+}
+.ed-review-badge {
+  font-size: 11px;
+  font-weight: 700;
+  color: #92400e;
+  background: #fef3c7;
+  border: 1px solid #fbbf24;
+  border-radius: 4px;
+  padding: 1px 7px;
+}
+.ed-review-clear-btn { font-size: 11px; padding: 2px 8px; color: #92400e; border-color: #fbbf24; margin-left: 4px; }
+.ed-review-clear-btn:hover { background: #fef3c7; }
 .ed-example-header {
   display: flex;
   align-items: center;
