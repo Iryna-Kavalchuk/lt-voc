@@ -8281,7 +8281,7 @@
       {
         "hint": "pa-",
         "lt": "Norėčiau pakalbėti su jumis apie darbą.",
-        "ru": "Я хотел / хотела бы поговорить с"
+        "ru": "Я хотел / хотела бы поговорить с вами о работе."
       },
       {
         "hint": "pra-",
@@ -10882,7 +10882,7 @@
       {
         "hint": "pasi-",
         "lt": "Pinigus jis nutarė pasilaikyti kelionei.",
-        "ru": "Деньги он решил попридержать для"
+        "ru": "Деньги он решил попридержать для поездки."
       },
       {
         "hint": "prasi-",
@@ -19356,7 +19356,7 @@
       {
         "hint": "už-",
         "lt": "Ji išėjo iš buto ir užrakino duris.",
-        "ru": "Она вышла из квартиры и заперла дверь на"
+        "ru": "Она вышла из квартиры и заперла дверь на ключ."
       }
     ]
   },
@@ -22018,7 +22018,7 @@
       {
         "hint": "nu-",
         "lt": "Šuo nusekė paskui šeimininką iki darbo.",
-        "ru": "Собака следовала за хозяином до"
+        "ru": "Собака следовала за хозяином до работы."
       },
       {
         "hint": "pa-",
@@ -23447,12 +23447,12 @@
       {
         "hint": "nu-",
         "lt": "Laivas nuskendo / paskendo Baltijos jūroje.",
-        "ru": "Корабль затонул в Балтийском"
+        "ru": "Корабль затонул в Балтийском море."
       },
       {
         "hint": "pa-",
         "lt": "Jos brolis nuskendo / paskendo ežere praėjusią savaitę.",
-        "ru": "Ее брат утонул в"
+        "ru": "Её брат утонул в озере на прошлой неделе."
       }
     ]
   },
@@ -24214,7 +24214,7 @@
       {
         "hint": "ap-",
         "lt": "Jis apskundė / įskundė / paskundė savo kaimyną policijai.",
-        "ru": "Он донёс полиции на"
+        "ru": "Он донёс полиции на своего соседа."
       }
     ]
   },
