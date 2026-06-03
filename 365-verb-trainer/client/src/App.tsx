@@ -4,9 +4,10 @@ import VerbList from "./pages/VerbList";
 import Progress from "./pages/Progress";
 import Admin from "./pages/Admin";
 import VerbEditor from "./pages/VerbEditor";
+import Fortune from "./pages/Fortune";
 import "./App.css";
 
-type Page = "quiz" | "verbs" | "progress";
+type Page = "quiz" | "verbs" | "progress" | "fortune";
 
 const path = window.location.pathname;
 const isAdminRoute = path === "/admin";
@@ -73,6 +74,12 @@ export default function App() {
           >
             Progress
           </button>
+          <button
+            className={`nav-btn ${page === "fortune" ? "active" : ""}`}
+            onClick={() => setPage("fortune")}
+          >
+            Fortune
+          </button>
         </nav>
       </header>
 
@@ -80,6 +87,7 @@ export default function App() {
         {page === "quiz" && <Quiz />}
         {page === "verbs" && <VerbList />}
         {page === "progress" && <Progress />}
+        {page === "fortune" && <Fortune />}
       </main>
     </div>
   );
