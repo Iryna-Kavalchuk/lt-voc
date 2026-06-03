@@ -504,89 +504,351 @@ table { border-collapse: collapse; }
   background: #f1f5f9;
 }
 
-/* ── Fortune page ── */
-.fortune-page {
-  max-width: 560px;
-  margin: 0 auto;
+.verblist-header {
+  width: 100%;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.12s;
+  flex-wrap: wrap;
+}
+.verblist-header:hover { background: #f8fafc; }
+.verblist-header.open { background: #f8fafc; border-bottom: 1px solid #e2e8f0; }
+
+.verblist-num { font-size: 12px; color: #94a3b8; min-width: 30px; font-weight: 600; }
+.verblist-infinitive { font-size: 16px; font-weight: 700; color: #0f172a; min-width: 120px; }
+.verblist-forms { font-size: 13px; color: #64748b; flex: 1; }
+.verblist-translation { font-size: 13px; color: #334155; min-width: 120px; }
+.verblist-chevron { font-size: 10px; color: #94a3b8; margin-left: auto; }
+
+.verblist-detail { padding: 20px 16px; }
+
+/* ── Admin ── */
+.admin-login {
+  max-width: 360px;
+  margin: 80px auto 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.admin-login-title { font-size: 1.5rem; font-weight: 700; color: #1e293b; margin: 0; }
+.admin-login-form { display: flex; gap: 8px; }
+.admin-login-form .filter-input { flex: 1; }
+
+.admin-page { display: flex; flex-direction: column; gap: 32px; }
+.admin-header { display: flex; align-items: center; justify-content: space-between; }
+.admin-page-title { font-size: 1.5rem; font-weight: 700; color: #1e293b; margin: 0; }
+
+.admin-section {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.admin-section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #475569;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.admin-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 12px;
+}
+.admin-stat-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 14px 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
-  padding-top: 16px;
+  gap: 4px;
 }
+.admin-stat-card.accent { background: #ede9fe; border-color: #c4b5fd; }
+.admin-stat-value { font-size: 1.6rem; font-weight: 700; color: #1e293b; line-height: 1; }
+.admin-stat-card.accent .admin-stat-value { color: #4f46e5; }
+.admin-stat-label { font-size: 12px; color: #64748b; text-align: center; }
 
-.fortune-title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #0f172a;
-  margin: 0;
+/* Histogram */
+.histogram {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 140px;
+  padding-bottom: 28px;
+  position: relative;
 }
-
-.fortune-subtitle {
-  font-size: 14px;
-  color: #64748b;
-  margin: 0;
-  text-align: center;
-}
-
-.fortune-btn {
-  font-size: 18px;
-  padding: 14px 40px;
-  border-radius: 12px;
-}
-
-.fortune-card {
-  width: 100%;
-  background: #fff;
-  border: 1px solid #e2e8f0;
-  border-radius: 16px;
-  padding: 28px 28px 24px;
+.histogram-col {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 18px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  position: relative;
+}
+.histogram-bar {
+  width: 100%;
+  background: linear-gradient(to top, #4f46e5, #818cf8);
+  border-radius: 4px 4px 0 0;
+  min-height: 2px;
+  transition: height 0.3s ease;
+}
+.histogram-count { font-size: 10px; color: #64748b; margin-bottom: 2px; min-height: 14px; }
+.histogram-label {
+  position: absolute;
+  bottom: -24px;
+  font-size: 9px;
+  color: #94a3b8;
+  white-space: nowrap;
+  transform: rotate(-35deg);
+  transform-origin: top left;
+  left: 4px;
 }
 
-.fortune-verb {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-  flex-wrap: wrap;
-  border-bottom: 1px solid #f1f5f9;
-  padding-bottom: 14px;
-}
-
-.fortune-verb-infinitive {
-  font-size: 22px;
-  font-weight: 700;
-  color: #0f172a;
-}
-
-.fortune-verb-translation {
-  font-size: 15px;
-  color: #64748b;
-  font-style: italic;
-}
-
-.fortune-example {
+.fill-blank-context {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  margin: 4px 0 8px;
 }
 
-.fortune-lt {
-  font-size: 18px;
-  color: #1e293b;
-  margin: 0;
-  line-height: 1.6;
-}
-
-.fortune-ru {
-  font-size: 15px;
-  color: #64748b;
+.fill-blank-lt {
+  font-size: 16px;
+  color: #334155;
   margin: 0;
   font-style: italic;
 }
+
+.fill-blank-hint-wrap {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 10px;
+}
+
+.fill-blank-hint {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4f46e5;
+  background: #ede9fe;
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-family: monospace;
+}
+
+/* ── Conjugation drill (text input) ── */
+.conj-drill-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.conj-drill-input {
+  flex: 1;
+  min-width: 180px;
+  padding: 10px 14px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #1e293b;
+  background: #f8fafc;
+  transition: border-color 0.15s, background 0.15s;
+}
+.conj-drill-input:focus { outline: none; border-color: #3b82f6; background: #fff; }
+.conj-drill-input[readonly] { cursor: default; }
+.conj-drill-input.mf-correct { border-color: #22c55e; background: #f0fdf4; color: #15803d; }
+.conj-drill-input.mf-wrong   { border-color: #ef4444; background: #fef2f2; color: #b91c1c; }
+
+/* ── Main forms (text input mode) ── */
+.main-forms-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.main-forms-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.main-forms-label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #94a3b8;
+  min-width: 110px;
+}
+
+.main-forms-input {
+  flex: 1;
+  min-width: 140px;
+  padding: 10px 14px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #1e293b;
+  background: #f8fafc;
+  transition: border-color 0.15s, background 0.15s;
+}
+.main-forms-input:focus { outline: none; border-color: #3b82f6; background: #fff; }
+.main-forms-input[readonly] { background: #f1f5f9; color: #475569; cursor: default; border-style: dashed; }
+.main-forms-input.mf-correct { border-color: #22c55e; background: #f0fdf4; color: #15803d; }
+.main-forms-input.mf-wrong   { border-color: #ef4444; background: #fef2f2; color: #b91c1c; }
+
+.mf-hint {
+  font-size: 14px;
+  font-weight: 600;
+  color: #15803d;
+  background: #dcfce7;
+  border-radius: 6px;
+  padding: 4px 10px;
+  white-space: nowrap;
+}
+
+.mf-submit-btn { margin-top: 8px; align-self: flex-start; }
+
+/* ── Verb Editor ── */
+.ed-detail { display: flex; flex-direction: column; gap: 20px; }
+
+.ed-dirty { border-left: 3px solid #f59e0b !important; }
+.ed-badge {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fcd34d;
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+.ed-section { display: flex; flex-direction: column; gap: 8px; }
+.ed-section-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+}
+.ed-section-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ed-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.ed-label {
+  font-size: 12px;
+  color: #64748b;
+  min-width: 170px;
+  flex-shrink: 0;
+}
+.ed-input {
+  flex: 1;
+  min-width: 160px;
+  padding: 6px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #fff;
+  color: #1e293b;
+}
+.ed-input:focus { outline: none; border-color: #3b82f6; }
+
+.ed-noncj-grid { display: flex; flex-direction: column; gap: 6px; }
+
+/* Conjugation table inputs */
+.ed-conj-table td { padding: 4px 6px; }
+.ed-conj-input {
+  width: 100%;
+  min-width: 80px;
+  padding: 4px 6px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #1e293b;
+  background: #fff;
+}
+.ed-conj-input:focus { outline: none; border-color: #3b82f6; }
+
+/* Examples */
+.ed-example {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ed-example-review {
+  background: #fffbeb;
+  border-color: #fbbf24;
+}
+.ed-review-badge {
+  font-size: 11px;
+  font-weight: 700;
+  color: #92400e;
+  background: #fef3c7;
+  border: 1px solid #fbbf24;
+  border-radius: 4px;
+  padding: 1px 7px;
+}
+.ed-review-clear-btn { font-size: 11px; padding: 2px 8px; color: #92400e; border-color: #fbbf24; margin-left: 4px; }
+.ed-review-clear-btn:hover { background: #fef3c7; }
+.ed-example-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ed-example-num {
+  font-size: 12px;
+  font-weight: 700;
+  color: #94a3b8;
+}
+.ed-add-btn  { font-size: 12px; padding: 3px 10px; }
+.ed-remove-btn { font-size: 11px; padding: 2px 8px; color: #ef4444; border-color: #fca5a5; }
+.ed-remove-btn:hover { color: #b91c1c; border-color: #ef4444; background: #fef2f2; }
+
+/* Save bar */
+.ed-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+  padding-top: 4px;
+  border-top: 1px solid #e2e8f0;
+  margin-top: 4px;
+}
+.ed-save-error { font-size: 13px; color: #ef4444; margin-right: auto; }
+.ed-save-ok    { font-size: 13px; color: #16a34a; font-weight: 600; margin-right: auto; }
 
 /* ── Responsive ── */
 @media (max-width: 540px) {
@@ -788,3 +1050,86 @@ table { border-collapse: collapse; }
 
 /* Align dots in progress rows to match header columns */
 
+/* ── Fortune page ── */
+.fortune-page {
+  max-width: 560px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-top: 16px;
+}
+
+.fortune-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.fortune-subtitle {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+  text-align: center;
+}
+
+.fortune-btn {
+  font-size: 18px;
+  padding: 14px 40px;
+  border-radius: 12px;
+}
+
+.fortune-card {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 28px 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.fortune-verb {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 14px;
+}
+
+.fortune-verb-infinitive {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.fortune-verb-translation {
+  font-size: 15px;
+  color: #64748b;
+  font-style: italic;
+}
+
+.fortune-example {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.fortune-lt {
+  font-size: 18px;
+  color: #1e293b;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.fortune-ru {
+  font-size: 15px;
+  color: #64748b;
+  margin: 0;
+  font-style: italic;
+}
