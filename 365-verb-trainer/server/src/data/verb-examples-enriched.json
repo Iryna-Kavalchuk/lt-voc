@@ -2601,8 +2601,7 @@
       {
         "hint": "pa-",
         "lt": "Jis padažė namą.",
-        "ru": "Он немного подкрасил дом",
-        "needs_review": true
+        "ru": "Он немного подкрасил дом."
       },
       {
         "hint": "ko?",
@@ -3117,8 +3116,7 @@
       {
         "hint": "ati-",
         "lt": "Kelis šimtus eurų atidėjau atostogoms.",
-        "ru": "Я отложила несколько сотен евро на",
-        "needs_review": true
+        "ru": "Я отложила несколько сотен евро на отпуск."
       },
       {
         "hint": "į-",
@@ -3138,8 +3136,7 @@
       {
         "hint": "pér-",
         "lt": "Obuolius iš lėkštės perdėjau į dubenį.",
-        "ru": "Я переложил / переложила яблоки из",
-        "needs_review": true
+        "ru": "Я переложил / переложила яблоки из из тарелки в миску."
       },
       {
         "hint": "pri-",
@@ -3407,14 +3404,12 @@
       {
         "hint": "iš-",
         "lt": "Moteris išdirbo / pradirbo muziejuje dvidešimt metų.",
-        "ru": "Женщина проработала",
-        "needs_review": true
+        "ru": "Женщина проработала в музее двадцать лет."
       },
       {
         "hint": "pa-",
         "lt": "Truputį padirbsiu ir eisiu namo.",
-        "ru": "Немного поработаю и пойду домой",
-        "needs_review": true
+        "ru": "Немного поработаю и пойду домой."
       },
       {
         "hint": "pa-",
@@ -3429,8 +3424,7 @@
       {
         "hint": "už-",
         "lt": "Mokytojas kas mėnesį uždirbo du tūkstančius eurų.",
-        "ru": "Учитель каждый месяц",
-        "needs_review": true
+        "ru": "Учитель каждый месяц заработал две тысячи евро."
       }
     ]
   },
@@ -3612,14 +3606,12 @@
       {
         "hint": "pri-",
         "lt": "Per gimtadienį draugai pridovanojo Jonui dovanų.",
-        "ru": "В день рождения",
-        "needs_review": true
+        "ru": "В день рождения друзья надарили Йонасу много подарков."
       },
       {
         "hint": "iš-",
         "lt": "Senelė išdovanojo savo papuošalus vaikaičiams.",
-        "ru": "Бабушка раздарила свои",
-        "needs_review": true
+        "ru": "Бабушка раздарила свои украшения внукам."
       }
     ]
   },
@@ -3796,14 +3788,12 @@
       {
         "hint": "su-",
         "lt": "Tėvas sudraudė negražiai besielgiantį sūnų.",
-        "ru": "Отец удержал сына от",
-        "needs_review": true
+        "ru": "Отец удержал сына от некрасивого поступка."
       },
       {
         "hint": "už-",
         "lt": "Mama uždraudė vaikams maudytis šaltame vandenyje.",
-        "ru": "Мама запретила",
-        "needs_review": true
+        "ru": "Мама запретила детям купаться в холодной воде."
       }
     ]
   },
@@ -3990,8 +3980,7 @@
       {
         "hint": "pér-",
         "lt": "Perduok linkėjimų savo seseriai.",
-        "ru": "Передай привет своей сестре",
-        "needs_review": true
+        "ru": "Передай привет своей сестре."
       },
       {
         "hint": "ko?",
@@ -4178,8 +4167,7 @@
       {
         "hint": "pér-",
         "lt": "Ji perdžiovė skalbinius ant stipresnės virvės.",
-        "ru": "Она перевесила белье для",
-        "needs_review": true
+        "ru": "Она перевесила белье для просушки на более крепкую веревку."
       },
       {
         "hint": "pri-",
@@ -4275,8 +4263,7 @@
       {
         "hint": "pa-",
         "lt": "Ji padžiovino vaistažoles lauke, o po to įnešė į vidų.",
-        "ru": "Она подсушила",
-        "needs_review": true
+        "ru": "Она подсушила лекарственные травы на воздухе, а затем внесла в дом."
       },
       {
         "hint": "pér-",
@@ -4674,8 +4661,7 @@
       {
         "hint": "pa-",
         "lt": "Šuniukas paėdė ir pradėjo žaisti su berniuku.",
-        "ru": "Щенок поел и стал играть с",
-        "needs_review": true
+        "ru": "Щенок поел и стал играть с мальчиком."
       },
       {
         "hint": "pérsi-",
@@ -4933,14 +4919,12 @@
       {
         "hint": "pri-",
         "lt": "Mokytoja prigalvojo mokiniams (daug) įdomių užduočių.",
-        "ru": "Учительница",
-        "needs_review": true
+        "ru": "Учительница по- навыдумывала для детей (много) интересных заданий."
       },
       {
         "hint": "su-",
         "lt": "Sugalvojau, ką darysime rytoj.",
-        "ru": "Я придумал / придумала, чем будем",
-        "needs_review": true
+        "ru": "Я придумал / придумала, чем будем заниматься завтра."
       }
     ]
   },
@@ -5233,8 +5217,7 @@
       {
         "hint": "pri-",
         "lt": "Svečiai privalgė ir prigėrė.",
-        "ru": "Гости вдоволь наелись и напились",
-        "needs_review": true
+        "ru": "Гости вдоволь наелись и напились."
       },
       {
         "hint": "ko?",
@@ -5436,8 +5419,7 @@
       {
         "hint": "pasi-",
         "lt": "Jie kasmet važiuoja į sanatoriją pasigydyti.",
-        "ru": "Они ежегодно едут в санаторий",
-        "needs_review": true
+        "ru": "Они ежегодно едут в санаторий подлечиться."
       },
       {
         "hint": "su-",
@@ -5867,8 +5849,7 @@
       {
         "hint": "pa-",
         "lt": "Porą metų šeima pagyveno mažame miestelyje.",
-        "ru": "Пару лет семья пожила в",
-        "needs_review": true
+        "ru": "Пару лет семья пожила в маленьком городке."
       }
     ]
   },
@@ -6040,8 +6021,7 @@
       {
         "hint": "nu-",
         "lt": "Nugroviau seną namą ir statau naują.",
-        "ru": "Я разрушил / разрушила старый дом",
-        "needs_review": true
+        "ru": "Я разрушил / разрушила старый дом."
       },
       {
         "hint": "par-",
@@ -6147,8 +6127,7 @@
       {
         "hint": "par-",
         "lt": "Gatvėje buvo labai slidu ir ji pargriuvo.",
-        "ru": "На улице было очень скользко, и",
-        "needs_review": true
+        "ru": "На улице было очень скользко, и она упала."
       },
       {
         "hint": "su-",
@@ -6158,8 +6137,7 @@
       {
         "hint": "už-",
         "lt": "Autobuso vairuotojas staigiai stabdė ir moteris užgriuvo ant manęs.",
-        "ru": "Водитель",
-        "needs_review": true
+        "ru": "Водитель автобуса резко затормозил, и женщина навалилась на меня."
       }
     ]
   },
@@ -6321,14 +6299,12 @@
       {
         "hint": "pa-",
         "lt": "Muzikantas pagrojo / sugrojo šiuolaikinio kompozitoriaus kūrinį.",
-        "ru": "Музыкант",
-        "needs_review": true
+        "ru": "Музыкант сыграл произведение современного композитора."
       },
       {
         "hint": "už-",
         "lt": "Kai muzikantas užgrojo, žmonės salėje nutilo.",
-        "ru": "Когда музыкант заиграл, люди",
-        "needs_review": true
+        "ru": "Когда музыкант заиграл, люди в зале затихли."
       }
     ]
   },
@@ -6566,8 +6542,7 @@
       {
         "hint": "ap-",
         "lt": "Policininkas apieškojo butą.",
-        "ru": "Полицейский обыскал квартиру",
-        "needs_review": true
+        "ru": "Полицейский обыскал квартиру."
       },
       {
         "hint": "ko?",
@@ -6911,8 +6886,7 @@
       {
         "hint": "nu-",
         "lt": "Ji nuėmė vaikui kepurytę.",
-        "ru": "Она сняла ребенку шапочку",
-        "needs_review": true
+        "ru": "Она сняла ребенку шапочку."
       },
       {
         "hint": "ko?",
@@ -7529,8 +7503,7 @@
       {
         "hint": "pra-",
         "lt": "Jie prajodinėjo visą dieną.",
-        "ru": "Они весь день проездили верхом",
-        "needs_review": true
+        "ru": "Они весь день проездили верхом."
       },
       {
         "hint": null,
@@ -7636,8 +7609,7 @@
       {
         "hint": "nu-",
         "lt": "Jis nujojo į mišką ir ten sustojo pailsėti.",
-        "ru": "Он поскакал в лес и там остановился",
-        "needs_review": true
+        "ru": "Он поскакал в лес и там остановился отдохнуть."
       },
       {
         "hint": "pa-",
@@ -7854,8 +7826,7 @@
       {
         "hint": "su-",
         "lt": "Vilnių ir Kauną sujungė puikus kelias.",
-        "ru": "Вильнюс и Каунас соединила",
-        "needs_review": true
+        "ru": "Вильнюс и Каунас соединила прекрасная дорога."
       }
     ]
   },
@@ -8022,14 +7993,12 @@
       {
         "hint": "pasi-",
         "lt": "Pasijuokėme iš anekdoto ir dirbome toliau.",
-        "ru": "Мы посмеялись над",
-        "needs_review": true
+        "ru": "Мы посмеялись над анекдотом и работали дальше."
       },
       {
         "hint": "prasi-",
         "lt": "Netikėtai jis prasijuokė.",
-        "ru": "Нечаянно он рассмеялся",
-        "needs_review": true
+        "ru": "Нечаянно он рассмеялся."
       },
       {
         "hint": "ko?",
@@ -8039,8 +8008,7 @@
       {
         "hint": "prisi-",
         "lt": "Žiūrėdami komediją prisijuokėme iki ašarų.",
-        "ru": "Мы насмеялись до слез, когда",
-        "needs_review": true
+        "ru": "Мы насмеялись до слез, когда смотрели комедию."
       }
     ]
   },
@@ -8136,14 +8104,12 @@
       {
         "hint": "pér-",
         "lt": "Paveikslą perkabinome ant kitos sienos.",
-        "ru": "Картину мы перевесили на",
-        "needs_review": true
+        "ru": "Картину мы перевесили на другую стену."
       },
       {
         "hint": "už-",
         "lt": "Gatvėje ją užkabino nepažįstamas vyras.",
-        "ru": "На улице к ней прицепился",
-        "needs_review": true
+        "ru": "На улице к ней прицепился незнакомый мужчина."
       }
     ]
   },
@@ -8315,8 +8281,7 @@
       {
         "hint": "pa-",
         "lt": "Norėčiau pakalbėti su jumis apie darbą.",
-        "ru": "Я хотел / хотела бы поговорить с",
-        "needs_review": true
+        "ru": "Я хотел / хотела бы поговорить с"
       },
       {
         "hint": "pra-",
@@ -8331,8 +8296,7 @@
       {
         "hint": "su-",
         "lt": "Kažkas sukalbėjo angliškai.",
-        "ru": "Кто-то заговорил по-английски",
-        "needs_review": true
+        "ru": "Кто-то заговорил по-английски."
       },
       {
         "hint": null,
@@ -8418,14 +8382,12 @@
       {
         "hint": "susi-",
         "lt": "Aš jau galiu lietuviškai susikalbėti kavinėje, parduotuvėje ir pašte.",
-        "ru": "Я уже",
-        "needs_review": true
+        "ru": "Я уже могу договориться по-литовски в кафе, в магазине и на почте."
       },
       {
         "hint": "užsi-",
         "lt": "Užsikalbėjau su tavimi ir pamiršau, kad orkaitėje kepa pyragas.",
-        "ru": "Я",
-        "needs_review": true
+        "ru": "Я заговорился / заговорилась с тобой и забыл / забыла, что в духовке печется пирог."
       }
     ]
   },
@@ -8536,8 +8498,7 @@
       {
         "hint": "pri-",
         "lt": "Jis prikalė daug vinių.",
-        "ru": "Он понабивал много гвоздей",
-        "needs_review": true
+        "ru": "Он понабивал много гвоздей."
       },
       {
         "hint": "ko?",
@@ -8739,8 +8700,7 @@
       {
         "hint": "pri-",
         "lt": "Ūkininkas prikasė daug bulvių.",
-        "ru": "Фермер накопал много картофеля",
-        "needs_review": true
+        "ru": "Фермер накопал много картофеля."
       },
       {
         "hint": null,
@@ -8841,8 +8801,7 @@
       {
         "hint": "at-",
         "lt": "Šuo atkando / nukando didelį gabalą dešros.",
-        "ru": "Собака откусила большой кусок",
-        "needs_review": true
+        "ru": "Собака откусила большой кусок"
       },
       {
         "hint": "į-",
@@ -9054,8 +9013,7 @@
       {
         "hint": "kuo?",
         "lt": "Miestas labai pasikeitė.",
-        "ru": "Город очень изменился",
-        "needs_review": true
+        "ru": "Город очень изменился."
       },
       {
         "hint": "kuo?",
@@ -9156,8 +9114,7 @@
       {
         "hint": "nu-",
         "lt": "Jie nukeliavo apie šimtą kilometrų pėsčiomis.",
-        "ru": "Они прошагали пешком около",
-        "needs_review": true
+        "ru": "Они прошагали пешком около"
       },
       {
         "hint": "pa-",
@@ -9273,8 +9230,7 @@
       {
         "hint": "pa-",
         "lt": "Mokinys pakėlė ranką.",
-        "ru": "Ученик поднял руку",
-        "needs_review": true
+        "ru": "Ученик поднял руку."
       },
       {
         "hint": "ko?",
@@ -9289,8 +9245,7 @@
       {
         "hint": "pri-",
         "lt": "Prašom prikelti / pakelti mane septintą valandą.",
-        "ru": "Прошу разбудить меня в семь",
-        "needs_review": true
+        "ru": "Прошу разбудить меня в семь"
       },
       {
         "hint": "už-",
@@ -9573,8 +9528,7 @@
       {
         "hint": "ap-",
         "lt": "Kurioje kirpykloje tave taip gražiai apkirpo / nukirpo?",
-        "ru": "В какой",
-        "needs_review": true
+        "ru": "В какой парикмахерской тебя так красиво подстригли?"
       },
       {
         "hint": "at-",
@@ -9584,8 +9538,7 @@
       {
         "hint": "pa-",
         "lt": "Prašom mane tik truputį pakirpti.",
-        "ru": "Пожалуйста, подстригите меня только",
-        "needs_review": true
+        "ru": "Пожалуйста, подстригите меня только чуть-чуть."
       },
       {
         "hint": "pér-",
@@ -9686,8 +9639,7 @@
       {
         "hint": "pér-",
         "lt": "Jis dar kartą perklausė autoatsakiklio žinutę.",
-        "ru": "Он еще раз прослушал запись",
-        "needs_review": true
+        "ru": "Он еще раз прослушал запись"
       }
     ]
   },
@@ -9849,8 +9801,7 @@
       {
         "hint": "pa-",
         "lt": "Norėčiau paklausti.",
-        "ru": "Я хотел / хотела бы спросить",
-        "needs_review": true
+        "ru": "Я хотел / хотела бы спросить."
       },
       {
         "hint": "ko?",
@@ -9941,8 +9892,7 @@
       {
         "hint": "pri-",
         "lt": "Jis priklijavo / užklijavo pašto ženklą ant voko.",
-        "ru": "Он наклеил почтовую марку",
-        "needs_review": true
+        "ru": "Он наклеил почтовую марку"
       },
       {
         "hint": "su-",
@@ -10432,8 +10382,7 @@
       {
         "hint": "į-",
         "lt": "Vilnių įkūrė kunigaikštis.",
-        "ru": "Вильнюс основал князь.",
-        "needs_review": true
+        "ru": "Вильнюс основал князь Гядиминас."
       },
       {
         "hint": "ko?",
@@ -10635,14 +10584,12 @@
       {
         "hint": "pri-",
         "lt": "Į festivalį jie prikvietė daug muzikantų.",
-        "ru": "На фестиваль они пригласили",
-        "needs_review": true
+        "ru": "На фестиваль они пригласили много музыкантов."
       },
       {
         "hint": "su-",
         "lt": "Į konferenciją organizatoriai sukvietė daug žmonių.",
-        "ru": "На конференцию",
-        "needs_review": true
+        "ru": "На конференцию организаторы пригласили много народу."
       }
     ]
   },
@@ -10844,8 +10791,7 @@
       {
         "hint": "su-",
         "lt": "Policija sulaikė vagį.",
-        "ru": "Полиция задержала вора",
-        "needs_review": true
+        "ru": "Полиция задержала вора."
       },
       {
         "hint": "ką? / kuo?",
@@ -10936,8 +10882,7 @@
       {
         "hint": "pasi-",
         "lt": "Pinigus jis nutarė pasilaikyti kelionei.",
-        "ru": "Деньги он решил попридержать для",
-        "needs_review": true
+        "ru": "Деньги он решил попридержать для"
       },
       {
         "hint": "prasi-",
@@ -11301,8 +11246,7 @@
       {
         "hint": "pra-",
         "lt": "Mes pralaukėme draugų visą vakarą, bet jie neatėjo.",
-        "ru": "Мы прождали друзей",
-        "needs_review": true
+        "ru": "Мы прождали друзей"
       },
       {
         "hint": "su-",
@@ -11509,8 +11453,7 @@
       {
         "hint": "su-",
         "lt": "Mokytoja suleido mokinius į klasę.",
-        "ru": "Учительница разрешила войти в класс",
-        "needs_review": true
+        "ru": "Учительница разрешила войти в класс"
       },
       {
         "hint": "už-",
@@ -11611,8 +11554,7 @@
       {
         "hint": "ap-",
         "lt": "Mūsų automobilį aplenkė / pralenkė autobusas.",
-        "ru": "Автобус обогнал наш",
-        "needs_review": true
+        "ru": "Автобус обогнал наш автоpraleñkti мобиль."
       },
       {
         "hint": "pa-",
@@ -11622,8 +11564,7 @@
       {
         "hint": "pa-",
         "lt": "Mama palenkė sijoną.",
-        "ru": "Мама подогнула юбку.",
-        "needs_review": true
+        "ru": "Мама подвернула юбку."
       },
       {
         "hint": "pér-",
@@ -12073,14 +12014,12 @@
       {
         "hint": "iš-",
         "lt": "Nedaug namų išliko nesugriautų per karą.",
-        "ru": "Осталось немного домов, не",
-        "needs_review": true
+        "ru": "Осталось немного домов, не разрушенных во время войны."
       },
       {
         "hint": "pa-",
         "lt": "Ji paliko langą atidarytą.",
-        "ru": "Окно она оставила открытым",
-        "needs_review": true
+        "ru": "Окно она оставила открытым. Ji paliko vaikams po"
       },
       {
         "hint": null,
@@ -12247,8 +12186,7 @@
       {
         "hint": "iš-",
         "lt": "Moteris išlipo iš troleibuso.",
-        "ru": "Женщина вышла из троллейбуса",
-        "needs_review": true
+        "ru": "Женщина вышла из троллейбуса."
       },
       {
         "hint": null,
@@ -12740,8 +12678,7 @@
       {
         "hint": "su-",
         "lt": "Visus produktus sumaišykite.",
-        "ru": "Все продукты смешайте",
-        "needs_review": true
+        "ru": "Все продукты смешайте."
       },
       {
         "hint": "ko?",
@@ -13282,8 +13219,7 @@
       {
         "hint": "išsi-",
         "lt": "Jis išsimaudė / nusimaudė šaltame vandenyje.",
-        "ru": "Он искупался в холодной",
-        "needs_review": true
+        "ru": "Он искупался в холодной"
       },
       {
         "hint": "pasi-",
@@ -13495,8 +13431,7 @@
       {
         "hint": "pérsi-",
         "lt": "Pirštinės sušlapo ir vaikas persimovė sausas.",
-        "ru": "Рукавицы промокли, и",
-        "needs_review": true
+        "ru": "Рукавицы промокли, и ребенок надел сухие."
       },
       {
         "hint": "užsi-",
@@ -13673,8 +13608,7 @@
       {
         "hint": "pri-",
         "lt": "Medžiotojai primedžiojo (daug) kiškių ir ančių.",
-        "ru": "Охотники добыли на",
-        "needs_review": true
+        "ru": "Охотники добыли на охоте много зайцев и уток."
       },
       {
         "hint": "su-",
@@ -14129,8 +14063,7 @@
       {
         "hint": "nu-",
         "lt": "Netyčia numečiau laišką ant grindų.",
-        "ru": "Нечаянно я уронил / уронила письмо",
-        "needs_review": true
+        "ru": "Нечаянно я уронил / уронила письмо"
       },
       {
         "hint": "pa-",
@@ -14226,8 +14159,7 @@
       {
         "hint": "iš-",
         "lt": "Visą naktį išmiegojau / pramiegojau puikiai.",
-        "ru": "Всю ночь я проспал /",
-        "needs_review": true
+        "ru": "Всю ночь я проспал / проспала прекрасно."
       },
       {
         "hint": "pa-",
@@ -14606,8 +14538,7 @@
       {
         "hint": "pa-",
         "lt": "Aš galiu jus pamokyti anglų kalbos.",
-        "ru": "Я могу вас немного поучить",
-        "needs_review": true
+        "ru": "Я могу вас немного поучить английскому языку."
       }
     ]
   },
@@ -14794,8 +14725,7 @@
       {
         "hint": "iš-",
         "lt": "Kas tau išmušė dantį?",
-        "ru": "Кто тебе выбил зуб?",
-        "needs_review": true
+        "ru": "Кто тебе выбил зуб?"
       },
       {
         "hint": "pri-",
@@ -14972,14 +14902,12 @@
       {
         "hint": "pasi-",
         "lt": "Ji pasinaudojo jo pagalba.",
-        "ru": "Она воспользовалась его помощью",
-        "needs_review": true
+        "ru": "Она воспользовалась его помощью. Pasinaudojau"
       },
       {
         "hint": "kuo?",
         "lt": "Pasinaudojautavo pieštuku.",
-        "ru": "Я воспользовался / воспользовалась твоим карандашом",
-        "needs_review": true
+        "ru": "Я воспользовался / воспользовалась твоим карандашом. Ji"
       },
       {
         "hint": "kuo?",
@@ -15313,8 +15241,7 @@
       {
         "hint": "pa-",
         "lt": "Tėvas panešiojo vaiką.",
-        "ru": "Отец поносил ребенка",
-        "needs_review": true
+        "ru": "Отец поносил ребенка."
       },
       {
         "hint": "ko?",
@@ -16351,8 +16278,7 @@
       {
         "hint": "pri-",
         "lt": "Jis pripasakojo daug linksmų nutikimų.",
-        "ru": "Он рассказал о многих веселых",
-        "needs_review": true
+        "ru": "Он рассказал о многих веселых"
       }
     ]
   },
@@ -17132,8 +17058,7 @@
       {
         "hint": "pér-",
         "lt": "Blogai nupiešiau, reikia perpiešti.",
-        "ru": "Я плохо нарисовал / нарисовала, надо",
-        "needs_review": true
+        "ru": "Я плохо нарисовал / нарисовала, надо"
       },
       {
         "hint": "pra-",
@@ -17143,8 +17068,7 @@
       {
         "hint": "pri-",
         "lt": "Jis pripiešė daug piešinių.",
-        "ru": "Они нарисовали много рисунков",
-        "needs_review": true
+        "ru": "Они нарисовали много рисунков."
       },
       {
         "hint": "ko?",
@@ -17301,8 +17225,7 @@
       {
         "hint": "į-",
         "lt": "Jis labai įpyko / supyko / užpyko ant manęs.",
-        "ru": "Он очень рассердился / разозлился",
-        "needs_review": true
+        "ru": "Он очень рассердился / разозлился"
       }
     ]
   },
@@ -17984,8 +17907,7 @@
       {
         "hint": "nu-",
         "lt": "Vaikai nuplaukė toli nuo kranto.",
-        "ru": "Дети отплыли далеко от берега",
-        "needs_review": true
+        "ru": "Дети отплыли далеко от берега. Vaikai"
       },
       {
         "hint": "ką?",
@@ -19434,8 +19356,7 @@
       {
         "hint": "už-",
         "lt": "Ji išėjo iš buto ir užrakino duris.",
-        "ru": "Она вышла из квартиры и заперла дверь на",
-        "needs_review": true
+        "ru": "Она вышла из квартиры и заперла дверь на"
       }
     ]
   },
@@ -19622,8 +19543,7 @@
       {
         "hint": "su-",
         "lt": "Jis pametė dokumentą, o ji surado / atrado.",
-        "ru": "Он потерял документ, а она",
-        "needs_review": true
+        "ru": "Он потерял документ, а она"
       }
     ]
   },
@@ -19744,8 +19664,7 @@
       {
         "hint": "su-",
         "lt": "Visus nežinomus žodžius ji surašė į sąsiuvinį.",
-        "ru": "Все незнакомые слова она",
-        "needs_review": true
+        "ru": "Все незнакомые слова она записала в тетрадь."
       },
       {
         "hint": "už-",
@@ -19841,14 +19760,12 @@
       {
         "hint": "pér-",
         "lt": "Reikia perregistruoti automobilį.",
-        "ru": "Надо вновь зарегистрировать",
-        "needs_review": true
+        "ru": "Надо вновь зарегистрировать автомобиль."
       },
       {
         "hint": "su-",
         "lt": "Organizatoriai suregistravo visus konferencijos dalyvius.",
-        "ru": "Организаторы",
-        "needs_review": true
+        "ru": "Организаторы зарегистрировали всех участников конференции."
       },
       {
         "hint": "už-",
@@ -19944,8 +19861,7 @@
       {
         "hint": "pa-",
         "lt": "Mokytojas iš mokinių pareikalavo gero elgesio.",
-        "ru": "Учитель потребовал",
-        "needs_review": true
+        "ru": "Учитель потребовал, чтобы ученики вели себя хорошо."
       }
     ]
   },
@@ -20491,14 +20407,12 @@
       {
         "hint": "prisi-",
         "lt": "Prisirengiau, nes šalta.",
-        "ru": "Я надел / надела много теплых вещей, так как",
-        "needs_review": true
+        "ru": "Я надел / надела много теплых вещей, так как холодно."
       },
       {
         "hint": "susi-",
         "lt": "Susirengiau visus šiltus drabužius, nes šalta.",
-        "ru": "Я надел / надела на себя всю",
-        "needs_review": true
+        "ru": "Я надел / надела на себя всю теплую одежду, так как холодно."
       }
     ]
   },
@@ -20604,8 +20518,7 @@
       {
         "hint": "pa-",
         "lt": "Ar galite parinkti šalikėlį prie suknelės?",
-        "ru": "Не могли бы вы подобрать шарфик",
-        "needs_review": true
+        "ru": "Не могли бы вы подобрать шарфик"
       },
       {
         "hint": "pér-",
@@ -20817,8 +20730,7 @@
       {
         "hint": "ap-",
         "lt": "Ji aprišo dukterį skarele.",
-        "ru": "Она завязала дочери платок",
-        "needs_review": true
+        "ru": "Она завязала дочери платок."
       },
       {
         "hint": "ko?",
@@ -21500,8 +21412,7 @@
       {
         "hint": "pasi-",
         "lt": "Gal galėtumėte pasirūpinti mano kate, kol aš sugrįšiu.",
-        "ru": "Не могли бы вы",
-        "needs_review": true
+        "ru": "Не могли бы вы позаботиться о моей кошке, пока я не вернусь."
       },
       {
         "hint": "prisi-",
@@ -21592,8 +21503,7 @@
       {
         "hint": "ko?",
         "lt": "Jis visada sakė: „Nereikia nieko bijoti!“",
-        "ru": "Он всегда говорил: „Не надо ничего бояться!“",
-        "needs_review": true
+        "ru": "Он всегда говорил: „Не надо ничего бояться!“"
       },
       {
         "hint": "at-",
@@ -21896,8 +21806,7 @@
       {
         "hint": "pra-",
         "lt": "Jie prasėdėjo prie durų keletą valandų.",
-        "ru": "Они просидели у дверей несколько",
-        "needs_review": true
+        "ru": "Они просидели у дверей несколько"
       }
     ]
   },
@@ -22109,8 +22018,7 @@
       {
         "hint": "nu-",
         "lt": "Šuo nusekė paskui šeimininką iki darbo.",
-        "ru": "Собака следовала за хозяином до",
-        "needs_review": true
+        "ru": "Собака следовала за хозяином до"
       },
       {
         "hint": "pa-",
@@ -22769,8 +22677,7 @@
       {
         "hint": "par-",
         "lt": "Tėvas parsiuntė mus namo.",
-        "ru": "Отец отправил нас домой",
-        "needs_review": true
+        "ru": "Отец отправил нас домой."
       },
       {
         "hint": "kuo?",
@@ -22896,8 +22803,7 @@
       {
         "hint": "už-",
         "lt": "Ji užsiuvo skylę megztinyje.",
-        "ru": "Она зашила дыру в свитере",
-        "needs_review": true
+        "ru": "Она зашила дыру в свитере."
       },
       {
         "hint": "kuo?",
@@ -22993,20 +22899,17 @@
       {
         "hint": "ap-",
         "lt": "Apskaičiavome, kiek kainuotų atostogos prie jūros.",
-        "ru": "Мы подсчитали",
-        "needs_review": true
+        "ru": "Мы подсчитали, сколько стоил бы отпуск у моря."
       },
       {
         "hint": "at-",
         "lt": "Ji atskaičiavo lygiai penkis eurus ir padavė vairuotojui.",
-        "ru": "Она отсчитала",
-        "needs_review": true
+        "ru": "Она отсчитала ровно пять евро и подала водителю."
       },
       {
         "hint": "iš-",
         "lt": "Kai kuriuos mokesčius išskaičiuoja iš algos.",
-        "ru": "Некоторые налоги",
-        "needs_review": true
+        "ru": "Некоторые налоги высчитывают из зарплаты."
       },
       {
         "hint": "pér-",
@@ -23213,8 +23116,7 @@
       {
         "hint": "pra-",
         "lt": "Visą šeštadienį praskalbiau drabužius.",
-        "ru": "Я в субботу весь день стирал /",
-        "needs_review": true
+        "ru": "Я в субботу весь день стирал / стирала одежду."
       },
       {
         "hint": "pri-",
@@ -23305,8 +23207,7 @@
       {
         "hint": "pra-",
         "lt": "Visą vakarą ji praskambino draugėms.",
-        "ru": "Весь вечер она названивала",
-        "needs_review": true
+        "ru": "Весь вечер она названивала"
       },
       {
         "hint": "prisi-",
@@ -23546,14 +23447,12 @@
       {
         "hint": "nu-",
         "lt": "Laivas nuskendo / paskendo Baltijos jūroje.",
-        "ru": "Корабль затонул в Балтийском",
-        "needs_review": true
+        "ru": "Корабль затонул в Балтийском"
       },
       {
         "hint": "pa-",
         "lt": "Jos brolis nuskendo / paskendo ežere praėjusią savaitę.",
-        "ru": "Ее брат утонул в",
-        "needs_review": true
+        "ru": "Ее брат утонул в"
       }
     ]
   },
@@ -23674,14 +23573,12 @@
       {
         "hint": "pa-",
         "lt": "Jį paskyrė direktoriumi.",
-        "ru": "Его назначили директором",
-        "needs_review": true
+        "ru": "Его назначили директором."
       },
       {
         "hint": "ko?",
         "lt": "Dalį pinigų paskyrėmeknygoms.",
-        "ru": "Часть денег мы выделили на книги",
-        "needs_review": true
+        "ru": "Часть денег мы выделили на книги."
       },
       {
         "hint": "ko?",
@@ -23777,8 +23674,7 @@
       {
         "hint": "išsi-",
         "lt": "Ji išsiskyrė su vyru.",
-        "ru": "Она развелась с мужем",
-        "needs_review": true
+        "ru": "Она развелась с мужем."
       },
       {
         "hint": "kuo?",
@@ -23985,8 +23881,7 @@
       {
         "hint": "par-",
         "lt": "Šįvakar parskrenda mano žmona.",
-        "ru": "Сегодня вечером прилетает моя жена",
-        "needs_review": true
+        "ru": "Сегодня вечером прилетает моя жена."
       },
       {
         "hint": null,
@@ -24213,8 +24108,7 @@
       {
         "hint": "nu-",
         "lt": "Pietums ji nuskuto bulvių.",
-        "ru": "На обед она начистила картошки",
-        "needs_review": true
+        "ru": "На обед она начистила картошки."
       },
       {
         "hint": null,
@@ -24320,8 +24214,7 @@
       {
         "hint": "ap-",
         "lt": "Jis apskundė / įskundė / paskundė savo kaimyną policijai.",
-        "ru": "Он донёс полиции на",
-        "needs_review": true
+        "ru": "Он донёс полиции на"
       }
     ]
   },
@@ -24407,8 +24300,7 @@
       {
         "hint": "prasi-",
         "lt": "Visą vakarą jie prasiskundė sunkiu gyvenimu.",
-        "ru": "Весь вечер они жаловались",
-        "needs_review": true
+        "ru": "Весь вечер они жаловались"
       }
     ]
   },
@@ -24668,8 +24560,7 @@
       {
         "hint": "pa-",
         "lt": "Ji pasodino gražią gėlę.",
-        "ru": "Она посадила красивый цветок",
-        "needs_review": true
+        "ru": "Она посадила красивый цветок."
       },
       {
         "hint": "ko?",
@@ -24694,8 +24585,7 @@
       {
         "hint": "su-",
         "lt": "Ji susodino gėles prie namo.",
-        "ru": "Все цветы она посадила возле дома",
-        "needs_review": true
+        "ru": "Все цветы она посадила возле дома. Ji susodino"
       },
       {
         "hint": "ko?",
@@ -25044,8 +24934,7 @@
       {
         "hint": "pa-",
         "lt": "Jam patinka paspręsti matematikos uždavinius.",
-        "ru": "Ему нравится порешать",
-        "needs_review": true
+        "ru": "Ему нравится порешать математические задачи."
       },
       {
         "hint": "pér-",
@@ -25055,14 +24944,12 @@
       {
         "hint": "pra-",
         "lt": "Visą pamoką mokiniai prasprendė uždavinius.",
-        "ru": "Целый урок ученики решали",
-        "needs_review": true
+        "ru": "Целый урок ученики решали задачи."
       },
       {
         "hint": "pri-",
         "lt": "Jis prisprendė pilną sąsiuvinį matematikos uždavinių.",
-        "ru": "Он нарешал всю",
-        "needs_review": true
+        "ru": "Он нарешал всю тетрадь математических задач."
       }
     ]
   },
@@ -25148,8 +25035,7 @@
       {
         "hint": "su-",
         "lt": "Kelių policija sustabdė automobilį.",
-        "ru": "Дорожная полиция остановила",
-        "needs_review": true
+        "ru": "Дорожная полиция остановила автомобиль."
       }
     ]
   },
@@ -25260,14 +25146,12 @@
       {
         "hint": "pér-",
         "lt": "Mama vėl perstatė baldus.",
-        "ru": "Мама опять переставила мебель",
-        "needs_review": true
+        "ru": "Мама опять переставила мебель."
       },
       {
         "hint": "ko?",
         "lt": "Jis perstatėautomobilį į kitą vietą.",
-        "ru": "Он переставил автомобиль на другое место",
-        "needs_review": true
+        "ru": "Он переставил автомобиль на другое место. Jis"
       },
       {
         "hint": "ko?",
@@ -25287,8 +25171,7 @@
       {
         "hint": "su-",
         "lt": "Jie sustatė baldus į vietas.",
-        "ru": "Они поставили всю мебель на место",
-        "needs_review": true
+        "ru": "Они поставили всю мебель на место."
       },
       {
         "hint": "ko?",
@@ -25576,8 +25459,7 @@
       {
         "hint": "su-",
         "lt": "Pirkėjai sustojo į eilę.",
-        "ru": "Покупатели встали в очередь",
-        "needs_review": true
+        "ru": "Покупатели встали в очередь."
       },
       {
         "hint": "ką?",
@@ -26978,8 +26860,7 @@
       {
         "hint": "pér-",
         "lt": "Mano sūnus peršalo ir dabar sunkiai serga.",
-        "ru": "Мой сын простыл и теперь тяжело",
-        "needs_review": true
+        "ru": "Мой сын простыл и теперь тяжело болеет."
       },
       {
         "hint": "su-",
@@ -27201,8 +27082,7 @@
       {
         "hint": "pér-",
         "lt": "Nusikaltėlis peršovė policininkui ranką.",
-        "ru": "Преступник прострелил",
-        "needs_review": true
+        "ru": "Преступник прострелил полицейскому руку."
       },
       {
         "hint": "pra-",
@@ -27904,8 +27784,7 @@
       {
         "hint": "pri-",
         "lt": "Jie prišnekėjo visokių niekų.",
-        "ru": "Они наговорили всяких глупостей",
-        "needs_review": true
+        "ru": "Они наговорили всяких глупостей."
       },
       {
         "hint": "ką?",
@@ -28011,8 +27890,7 @@
       {
         "hint": "pa-",
         "lt": "Ji pašoko su savo vyru.",
-        "ru": "Она потанцевала со своим мужем",
-        "needs_review": true
+        "ru": "Она потанцевала со своим мужем."
       },
       {
         "hint": "ko?",
@@ -28815,8 +28693,7 @@
       {
         "hint": "iš-",
         "lt": "Jis negali ištarti garso „r“.",
-        "ru": "Он не может выговорить звук „р",
-        "needs_review": true
+        "ru": "Он не может выговорить звук „р“."
       },
       {
         "hint": "iš-",
@@ -29094,8 +28971,7 @@
       {
         "hint": "ko?",
         "lt": "Informacijos teiraukitės telefonu 52 21 33.",
-        "ru": "За информацией обращайтесь по телефону",
-        "needs_review": true
+        "ru": "За информацией обращайтесь по телефону"
       },
       {
         "hint": "ko?",
@@ -29287,8 +29163,7 @@
       {
         "hint": "iš-",
         "lt": "Ši upė išteka iš Galvės ežero.",
-        "ru": "Эта река вытекает из озера Гальве",
-        "needs_review": true
+        "ru": "Эта река вытекает из озера Гальве."
       },
       {
         "hint": "ko?",
@@ -29414,8 +29289,7 @@
       {
         "hint": "iš-",
         "lt": "Ji ištepė / sutepė stalą medumi.",
-        "ru": "Она испачкала стол медом",
-        "needs_review": true
+        "ru": "Она испачкала стол медом."
       },
       {
         "hint": "ką? ko? ant ko?",
@@ -29425,8 +29299,7 @@
       {
         "hint": "ið-/su-",
         "lt": "Jis ištepė / sutepė užraktą.",
-        "ru": "Он смазал замок.",
-        "needs_review": true
+        "ru": "Он смазал замок."
       },
       {
         "hint": "pa-",
@@ -29770,8 +29643,7 @@
       {
         "hint": "nu-",
         "lt": "Ji nutylėjo kai kuriuos savo gyvenimo faktus.",
-        "ru": "Она умолчала о некоторых",
-        "needs_review": true
+        "ru": "Она умолчала о некоторых фактах своей жизни."
       },
       {
         "hint": "pa-",
@@ -30049,8 +29921,7 @@
       {
         "hint": "nu-",
         "lt": "Kojos nutirpo.",
-        "ru": "Ноги онемели.",
-        "needs_review": true
+        "ru": "Ноги онемели."
       }
     ]
   },
@@ -30313,8 +30184,7 @@
       {
         "hint": "su-",
         "lt": "Liga jam sutrukdė baigti darbą laiku.",
-        "ru": "Болезнь помешала ему закончить",
-        "needs_review": true
+        "ru": "Болезнь помешала ему закончить работу вовремя."
       }
     ]
   },
@@ -30663,8 +30533,7 @@
       {
         "hint": "pa-",
         "lt": "Paukštis patupėjo ir nuskrido.",
-        "ru": "Птица посидела немного и улетела",
-        "needs_review": true
+        "ru": "Птица посидела немного и улетела."
       },
       {
         "hint": null,
@@ -30674,8 +30543,7 @@
       {
         "hint": "pra-",
         "lt": "Paukštis pratupėjo / ištupėjo ant palangės visą vakarą.",
-        "ru": "Птица просидела на",
-        "needs_review": true
+        "ru": "Птица просидела на подоконнике весь вечер."
       }
     ]
   },
@@ -31251,8 +31119,7 @@
       {
         "hint": "pa-",
         "lt": "Jis pavadino mane vardu.",
-        "ru": "Он назвал меня по имени",
-        "needs_review": true
+        "ru": "Он назвал меня по имени."
       },
       {
         "hint": "ko?",
@@ -31338,8 +31205,7 @@
       {
         "hint": "iš-",
         "lt": "Jis išvadovavo / pravadovavo mokyklai trisdešimt metų.",
-        "ru": "Он проруководил",
-        "needs_review": true
+        "ru": "Он проруководил школой тридцать лет."
       },
       {
         "hint": "pa-",
@@ -31430,8 +31296,7 @@
       {
         "hint": "iš-",
         "lt": "Aktorius išvaidino / pravaidino teatre dvidešimt metų.",
-        "ru": "Актер проиграл в",
-        "needs_review": true
+        "ru": "Актер проиграл в театре двадцать лет."
       },
       {
         "hint": "pa-",
@@ -31542,8 +31407,7 @@
       {
         "hint": "pra-",
         "lt": "Visą šeštadienį jis pravaikščiojo / išvaikščiojo po mišką.",
-        "ru": "В субботу он",
-        "needs_review": true
+        "ru": "В субботу он весь день проходил по лесу."
       }
     ]
   },
@@ -32220,8 +32084,7 @@
       {
         "hint": "iš-",
         "lt": "Svečiai išvažinėjo namo.",
-        "ru": "Гости разъехались по домам",
-        "needs_review": true
+        "ru": "Гости разъехались по домам."
       },
       {
         "hint": null,
@@ -32937,8 +32800,7 @@
       {
         "hint": "at-",
         "lt": "Ji atvedė vaiką į mokyklą.",
-        "ru": "Она привела ребенка в школу",
-        "needs_review": true
+        "ru": "Она  привела ребенка в школу."
       },
       {
         "hint": "ko?",
@@ -32948,8 +32810,7 @@
       {
         "hint": "iš-",
         "lt": "Ji išvedė vaiką į kiemą.",
-        "ru": "Она вывела ребенка во двор",
-        "needs_review": true
+        "ru": "Она вывела ребенка во двор."
       },
       {
         "hint": "ko?",
@@ -32989,8 +32850,7 @@
       {
         "hint": "pér-",
         "lt": "Ji pervedė vaiką per gatvę.",
-        "ru": "Она перевела ребенка через улицу",
-        "needs_review": true
+        "ru": "Она перевела ребенка через улицу."
       },
       {
         "hint": "ko?",
@@ -33000,8 +32860,7 @@
       {
         "hint": "pra-",
         "lt": "Ji pravedė vaiką pro šunį.",
-        "ru": "Она провела ребенка мимо собаки",
-        "needs_review": true
+        "ru": "Она провела ребенка мимо собаки."
       },
       {
         "hint": "ko?",
@@ -33884,8 +33743,7 @@
       {
         "hint": "su-",
         "lt": "Vaisiai sužadino apetitą.",
-        "ru": "Фрукты возбудили аппетит",
-        "needs_review": true
+        "ru": "Фрукты возбудили аппетит."
       },
       {
         "hint": "ko?",
