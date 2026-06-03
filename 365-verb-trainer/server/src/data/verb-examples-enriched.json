@@ -15345,13 +15345,13 @@
         "ru": "Все цветы с балкона мы снесли"
       },
       {
-        "hint": "ko?",
-        "lt": "užnèšti *Užnešiau draugei knygą.",
-        "ru": "Я занес / занесла подруге книгу. Vyrai užnešė senas"
+        "hint": "už-",
+        "lt": "Užnešiau draugei knygą.",
+        "ru": "Я занес / занесла подруге книгу."
       },
       {
-        "hint": "ko?",
-        "lt": "knygas į palėpę.",
+        "hint": "už-",
+        "lt": "Vyrai užnešė senas knygas į palėpę.",
         "ru": "Мужчины занесли старые книги на чердак."
       }
     ]
