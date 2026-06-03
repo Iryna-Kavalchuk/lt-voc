@@ -21456,23 +21456,23 @@
         "ru": "Он всегда говорил: „Не надо ничего бояться!“"
       },
       {
-        "hint": "ko?",
-        "lt": "*atsakýti Prašom atsakyti į klausimą.",
+        "hint": "at-",
+        "lt": "*Prašom atsakyti į klausimą.",
         "ru": "Ответьте, пожалуйста, на вопрос."
       },
       {
-        "hint": "ko?",
-        "lt": "*įsakýti Direktorius įsakė darbą pradėti viena valanda anksčiau.",
-        "ru": "Директор приказал"
+        "hint": "į-",
+        "lt": "*Direktorius įsakė darbą pradėti viena valanda anksčiau.",
+        "ru": "Директор приказал начать работу на час раньше."
       },
       {
         "hint": "pa-",
         "lt": "Viršininkas pasakė, kad rytoj bus susirinkimas.",
-        "ru": "Начальник сказал, что завтра"
+        "ru": "Начальник сказал, что завтра будет собрание."
       },
       {
-        "hint": "ko?",
-        "lt": "*užsakýti Ar užsakėte bilietus į koncertą?",
+        "hint": "už-",
+        "lt": "*Ar užsakėte bilietus į koncertą?",
         "ru": "Вы заказали билеты на концерт?"
       }
     ]
