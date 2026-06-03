@@ -2448,8 +2448,8 @@
         "ru": "Откройте окно! Parduotuvę atidaro aštuntą valandą. – Магазин открывается в восемь часов."
       },
       {
-        "hint": "ko?",
-        "lt": "įdarýti Žuvį galima įdaryti ryžiais arba daržovėmis.",
+        "hint": "į-",
+        "lt": "Žuvį galima įdaryti ryžiais arba daržovėmis.",
         "ru": "Рыбу можно начинить рисом или овощами."
       },
       {
@@ -2479,7 +2479,7 @@
       },
       {
         "hint": "ko?",
-        "lt": "Studentas sudarėperskaitytų knygų sąrašą.",
+        "lt": "Studentas sudarė perskaitytų knygų sąrašą.",
         "ru": "Студент составил список прочитанных книг."
       },
       {
@@ -2781,8 +2781,8 @@
         "ru": "Во время пожара мужчина обжег руку."
       },
       {
-        "hint": "ko?",
-        "lt": "įdègti Kaip gražiai tu įdegei!",
+        "hint": "į-",
+        "lt": "Kaip gražiai tu įdegei!",
         "ru": "Как красиво ты загорел / загорела."
       },
       {
@@ -3953,8 +3953,8 @@
         "ru": "Андрюс, не можешь ли передать книгу своему брату?"
       },
       {
-        "hint": "ko?",
-        "lt": "uždúoti Studentai uždavė dėstytojui daug klausimų.",
+        "hint": "už-",
+        "lt": "Studentai uždavė dėstytojui daug klausimų.",
         "ru": "Студенты задали преподавателю мно го вопросов."
       }
     ]
@@ -5039,8 +5039,8 @@
         "ru": "Она не достала билет на концерт итальянской певицы."
       },
       {
-        "hint": "ko?",
-        "lt": "apgáuti Jie mane apgavo.",
+        "hint": "ap-",
+        "lt": "Jie mane apgavo.",
         "ru": "Они обманули меня."
       },
       {
@@ -5054,18 +5054,18 @@
         "ru": "Я одолжил / одолжила книгу соседу и долго не мог / не могла получить ее обратно."
       },
       {
-        "hint": "ko?",
-        "lt": "pagáuti /  Katė pagavo / sugavo pelę.",
-        "ru": "Кошка поймала мышь"
+        "hint": "pa-",
+        "lt": "Katė pagavo / sugavo pelę.",
+        "ru": "Кошка поймала мышь."
       },
       {
-        "hint": "ko?",
-        "lt": "Policininkas pagavo /sugáuti sugavo vagį.",
+        "hint": "su-",
+        "lt": "Policininkas pagavo / sugavo vagį.",
         "ru": "Полицейский поймал вора."
       },
       {
-        "hint": "ko?",
-        "lt": "užgáuti Kas tave užgavo?",
+        "hint": "už-",
+        "lt": "Kas tave užgavo?",
         "ru": "Кто тебя задел / задела? Что тебя задело?"
       }
     ]
@@ -5782,13 +5782,13 @@
         "ru": "Все лето она жила в деревне у родственников."
       },
       {
-        "hint": "ką?",
-        "lt": "nugyvénti Jie visiškai nugyveno ūkį.",
+        "hint": "nu-",
+        "lt": "Jie visiškai nugyveno ūkį.",
         "ru": "Они совсем разорили хозяйство."
       },
       {
-        "hint": "ką?",
-        "lt": "nusigyvénti Jie visiškai nusigyveno.",
+        "hint": "nusi-",
+        "lt": "Jie visiškai nusigyveno.",
         "ru": "Они совсем обнищали."
       },
       {
@@ -6844,13 +6844,13 @@
         "ru": "Возьмите, пожалуйста, торта."
       },
       {
-        "hint": "ko?",
-        "lt": "suim̃ti Policininkai suėmė vagį.",
+        "hint": "su-",
+        "lt": "Policininkai suėmė vagį.",
         "ru": "Полицейские арестовали вора."
       },
       {
-        "hint": "ko?",
-        "lt": "užim̃ti Aš užimsiu tau vietą.",
+        "hint": "už-",
+        "lt": "Aš užimsiu tau vietą.",
         "ru": "Я займу тебе место. Užimk svečią. – Займи гостя"
       },
       {
@@ -7269,8 +7269,8 @@
         "ru": "Он чувствовал, что в комнате был еще кто-то."
       },
       {
-        "hint": "ne- ko?",
-        "lt": "nujaũsti Ji nujautė nelaimę.",
+        "hint": "nu-",
+        "lt": "Ji nujautė nelaimę.",
         "ru": "Она предчувствовала несчастье."
       },
       {
@@ -7279,8 +7279,8 @@
         "ru": "Он почувствовал, что погода меняется."
       },
       {
-        "hint": "ko?",
-        "lt": "užjaũsti Užjaučiu tave!",
+        "hint": "už-",
+        "lt": "Užjaučiu tave!",
         "ru": "Сочувствую тебе!"
       }
     ]
@@ -8022,8 +8022,8 @@
         "ru": "Не вешай картину на этой стене."
       },
       {
-        "hint": "ko?",
-        "lt": "apkabi̇ǹti Mama apkabino sūnų.",
+        "hint": "ap-",
+        "lt": "Mama apkabino sūnų.",
         "ru": "Мама обняла сына."
       },
       {
@@ -8199,13 +8199,13 @@
         "ru": "Вчера они говорили об отпуске."
       },
       {
-        "hint": null,
-        "lt": "apkalbė́ti Ji mus apkalbėjo.",
+        "hint": "ap-",
+        "lt": "Ji mus apkalbėjo.",
         "ru": "Она нас оговорила."
       },
       {
-        "hint": null,
-        "lt": "atkalbė́ti Ji atkalbėjo seserį pirkti kailinius.",
+        "hint": "at-",
+        "lt": "Ji atkalbėjo seserį pirkti kailinius.",
         "ru": "Она отговорила сестру от покупки шубы."
       },
       {
@@ -8749,8 +8749,8 @@
         "ru": "Мальчик раскусил конфету (напополам)."
       },
       {
-        "hint": "ko?",
-        "lt": "užką́sti Nuėjome į kavinę užkąsti.",
+        "hint": "už-",
+        "lt": "Nuėjome į kavinę užkąsti.",
         "ru": "Мы пошли в кафе перекусить."
       },
       {
@@ -10764,8 +10764,8 @@
         "ru": "Друг продержал ее книгу полгода."
       },
       {
-        "hint": "ką? / kuo?",
-        "lt": "sulaikýti Policija sulaikė vagį.",
+        "hint": "su-",
+        "lt": "Policija sulaikė vagį.",
         "ru": "Полиция задержала вора"
       },
       {
@@ -11881,8 +11881,8 @@
         "ru": "Она сравнивает литовский и латышский языки."
       },
       {
-        "hint": "ko?",
-        "lt": "atlýginti Jie atlygino man padarytus nuostolius.",
+        "hint": "at-",
+        "lt": "Jie atlygino man padarytus nuostolius.",
         "ru": "Они возместили убытки, причинен ные мне."
       },
       {
@@ -11972,13 +11972,13 @@
         "ru": "Он остался один дома."
       },
       {
-        "hint": null,
-        "lt": "atli̇k̀ti Jis atliko namų darbus.",
+        "hint": "at-",
+        "lt": "Jis atliko namų darbus.",
         "ru": "Он выполнил домашнее задание."
       },
       {
-        "hint": null,
-        "lt": "išli̇k̀ti Nedaug namų išliko nesugriautų per karą.",
+        "hint": "iš-",
+        "lt": "Nedaug namų išliko nesugriautų per karą.",
         "ru": "Осталось немного домов, не разру-"
       },
       {
@@ -12823,8 +12823,8 @@
         "ru": "Полагаю, что завтра будет хорошая погода."
       },
       {
-        "hint": null,
-        "lt": "išmanýti Jis gerai išmano matematiką.",
+        "hint": "iš-",
+        "lt": "Jis gerai išmano matematiką.",
         "ru": "Он хорошо разбирается в математике."
       },
       {
@@ -12833,8 +12833,8 @@
         "ru": "Я подумал / подумала, что вы уехали."
       },
       {
-        "hint": null,
-        "lt": "sumanýti Sumanėme nueiti į koncertą.",
+        "hint": "su-",
+        "lt": "Sumanėme nueiti į koncertą.",
         "ru": "Решили пойти на концерт."
       }
     ]
@@ -12919,8 +12919,8 @@
         "ru": "Она видела, как я разговаривал / разговаривала с другом."
       },
       {
-        "hint": "ko?",
-        "lt": "numatýti Kas galėjo numatyti, kad taip atsitiks?",
+        "hint": "nu-",
+        "lt": "Kas galėjo numatyti, kad taip atsitiks?",
         "ru": "Кто мог предположить, что так слу чится?"
       },
       {
@@ -14122,8 +14122,8 @@
         "ru": "dabar jaučiuosi geriau. – Я поспал / поспала – теперь чув-"
       },
       {
-        "hint": null,
-        "lt": "pramiegóti Pramiegojau pirmą paskaitą.",
+        "hint": "pra-",
+        "lt": "Pramiegojau pirmą paskaitą.",
         "ru": "Я проспал / проспала первую лекцию."
       }
     ]
@@ -14683,8 +14683,8 @@
         "ru": "Его избили хулиганы."
       },
       {
-        "hint": "ko?",
-        "lt": "užmùšti Jį užmušė chuliganai.",
+        "hint": "už-",
+        "lt": "Jį užmušė chuliganai.",
         "ru": "Его убили хулиганы."
       }
     ]
@@ -17456,8 +17456,8 @@
         "ru": "Она купила подарок брату."
       },
       {
-        "hint": "ko?",
-        "lt": "papirk̃ti Jie papirko liudytojus.",
+        "hint": "pa-",
+        "lt": "Jie papirko liudytojus.",
         "ru": "Они подкупили свидетелей."
       },
       {
@@ -19476,18 +19476,18 @@
         "ru": "Он не нашел гриб."
       },
       {
-        "hint": "ko?",
-        "lt": "atràsti Kas atrado Ameriką?",
+        "hint": "at-",
+        "lt": "Kas atrado Ameriką?",
         "ru": "Кто открыл Америку?"
       },
       {
-        "hint": "ko?",
-        "lt": "išràsti Kas išrado ratą?",
+        "hint": "iš-",
+        "lt": "Kas išrado ratą?",
         "ru": "Кто изобрел колесо?"
       },
       {
-        "hint": "ko?",
-        "lt": "prarasti Jie prarado visą turtą.",
+        "hint": "pra-",
+        "lt": "Jie prarado visą turtą.",
         "ru": "Они лишились всего имущества."
       },
       {
@@ -21355,8 +21355,8 @@
         "ru": "Он заботиться о детях."
       },
       {
-        "hint": null,
-        "lt": "apsirū́pinti Apsirūpinkite maistu.",
+        "hint": "apsi-",
+        "lt": "Apsirūpinkite maistu.",
         "ru": "Запаситесь едой."
       },
       {
@@ -25240,8 +25240,8 @@
         "ru": "Она наблюдает, как играют дети."
       },
       {
-        "hint": "ko?",
-        "lt": "pastebė́ti Visi pastebėjo, kad jis labai pasikeitė.",
+        "hint": "pa-",
+        "lt": "Visi pastebėjo, kad jis labai pasikeitė.",
         "ru": "Все заметили, что он очень изменился."
       }
     ]
@@ -25806,8 +25806,8 @@
         "ru": "Автомобиль повернул во двор."
       },
       {
-        "hint": "ko?",
-        "lt": "užsùkti Užsukite rytoj pas mus.",
+        "hint": "už-",
+        "lt": "Užsukite rytoj pas mus.",
         "ru": "Заскочите завтра к нам."
       }
     ]
@@ -28621,8 +28621,8 @@
         "ru": "Мой ребенок не выговаривает „р“."
       },
       {
-        "hint": "ko?",
-        "lt": "aptart̃i Aptarėme daug reikalų.",
+        "hint": "ap-",
+        "lt": "Aptarėme daug reikalų.",
         "ru": "Мы обсудили много дел."
       },
       {
@@ -28631,18 +28631,18 @@
         "ru": "Он не может выговорить звук „р"
       },
       {
-        "hint": "ko?",
-        "lt": "“. Vaikas ištarėpirmąjį žodį.",
+        "hint": "iš-",
+        "lt": "Vaikas ištarė pirmąjį žodį.",
         "ru": "Ребенок произнес первое слово."
       },
       {
-        "hint": "ko?",
-        "lt": "nutart̃i Nutarėme išvažiuoti rytoj.",
+        "hint": "nu-",
+        "lt": "Nutarėme išvažiuoti rytoj.",
         "ru": "Мы решили уехать завтра."
       },
       {
-        "hint": "ko?",
-        "lt": "patart̃i Prašom patarti, ką daryti.",
+        "hint": "pa-",
+        "lt": "Prašom patarti, ką daryti.",
         "ru": "Посоветуйте, пожалуйста, что делать."
       },
       {
@@ -28651,18 +28651,18 @@
         "ru": "Он не мог вымолвить ни слова."
       },
       {
-        "hint": "ko?",
-        "lt": "pritart̃i Pritariu jūsų nuomonei.",
+        "hint": "pri-",
+        "lt": "Pritariu jūsų nuomonei.",
         "ru": "Я поддерживаю ваше мнение."
       },
       {
-        "hint": "ko?",
-        "lt": "sutart̃i Mes gerai sutariame.",
+        "hint": "su-",
+        "lt": "Mes gerai sutariame.",
         "ru": "Мы хорошо ладим друг с другом."
       },
       {
-        "hint": "ko?",
-        "lt": "užtart̃i Jį užtarė draugai.",
+        "hint": "už-",
+        "lt": "Jį užtarė draugai.",
         "ru": "За него заступились друзья."
       }
     ]
@@ -31977,8 +31977,8 @@
         "ru": "Он проездил весь день."
       },
       {
-        "hint": null,
-        "lt": "suvažinė́ti Jis suvažinėjo šunį.",
+        "hint": "su-",
+        "lt": "Jis suvažinėjo šunį.",
         "ru": "Он переехал собаку."
       }
     ]
@@ -34270,8 +34270,8 @@
         "ru": "Убийца истребил всю семью."
       },
       {
-        "hint": "ko?",
-        "lt": "pražudýti Jį pražudė pinigai.",
+        "hint": "pra-",
+        "lt": "Jį pražudė pinigai.",
         "ru": "Его погубили деньги."
       },
       {
@@ -34351,8 +34351,8 @@
         "ru": "Они погибли во время аварии."
       },
       {
-        "hint": null,
-        "lt": "pražū́ti Jo senelis pražuvo kare.",
+        "hint": "pra-",
+        "lt": "Jo senelis pražuvo kare.",
         "ru": "Его дедушка пропал на войне. Jo piniginė pražuvo. – Пропал его кошелек."
       },
       {
