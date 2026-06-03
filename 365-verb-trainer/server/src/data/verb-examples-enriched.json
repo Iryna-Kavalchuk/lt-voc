@@ -1194,8 +1194,7 @@
       {
         "hint": "pér-",
         "lt": "Sunku perauklėti blogai besielgiančius žmones.",
-        "ru": "Трудно перевоспитать",
-        "needs_review": true
+        "ru": "Трудно перевоспитать людей, совершающих плохие поступки."
       }
     ]
   },
@@ -1291,14 +1290,12 @@
       {
         "hint": "nusi-",
         "lt": "Labai malonu nusiauti batus ir basam pavaikščioti po žolę.",
-        "ru": "Очень приятно",
-        "needs_review": true
+        "ru": "Очень приятно разуться и босиком походить по траве."
       },
       {
         "hint": "pérsi-",
         "lt": "Kai pareiname namo, persiauname šlepetėmis.",
-        "ru": "Когда возвращаемся домой",
-        "needs_review": true
+        "ru": "Когда возвращаемся домой, переобуваемся в тапочки."
       }
     ]
   },
@@ -1690,8 +1687,7 @@
       {
         "hint": "api-",
         "lt": "Berniukas apibėgo aplink namą.",
-        "ru": "Мальчик обежал вокруг дома",
-        "needs_review": true
+        "ru": "Мальчик обежал вокруг дома."
       },
       {
         "hint": null,
@@ -1761,14 +1757,17 @@
       {
         "hint": "už-",
         "lt": "Vaikai užbėgo už namo.",
-        "ru": "Дети забежали за дом",
-        "needs_review": true
+        "ru": "Дети забежали за дом."
+      },
+      {
+        "hint": "už-",
+        "lt": "Ji užbėgo pas kaimynę pasikalbėti.",
+        "ru": "Она забежала к соседке поговорить."
       },
       {
         "hint": null,
         "lt": "Berniukas užbėgo ant kalno.",
-        "ru": "Мальчик взбежал на гору. *Ji užbėgo pas kaimynę pasikalbėti. – Она забежала к соседке поговорить.",
-        "needs_review": true
+        "ru": "Мальчик взбежал на гору."
       }
     ]
   },
