@@ -30161,46 +30161,6 @@
         "hint": "už-",
         "lt": "Jis užtruko darbe.",
         "ru": "Он задержался на работе."
-      },
-      {
-        "hint": null,
-        "lt": "Virvė trūko.",
-        "ru": "Веревка разорвалась."
-      },
-      {
-        "hint": null,
-        "lt": "Man trūksta vitaminų.",
-        "ru": "Мне не хватает витаминов."
-      },
-      {
-        "hint": null,
-        "lt": "Jam trūksta pinigų.",
-        "ru": "Ему не хватает денег."
-      },
-      {
-        "hint": null,
-        "lt": "Mums trūksta tavęs.",
-        "ru": "Нам недостает тебя."
-      },
-      {
-        "hint": "į-",
-        "lt": "Įtrūko automobilio stiklas.",
-        "ru": "Треснуло стекло автомобиля."
-      },
-      {
-        "hint": "nu-",
-        "lt": "Virvė nutrūko.",
-        "ru": "Веревка разорвалась. Mūsų draugystė nutrūko. – Наша"
-      },
-      {
-        "hint": "pri-",
-        "lt": "Jam pritrūko pinigų.",
-        "ru": "У него не хватило денег."
-      },
-      {
-        "hint": "su-",
-        "lt": "Sutrūko automobilio stiklas.",
-        "ru": "Потрескалось стекло автомобиля."
       }
     ]
   },
@@ -30271,7 +30231,7 @@
       {
         "hint": null,
         "lt": "Virvė trūko.",
-        "ru": "Веревка разорвалась."
+        "ru": "Веревка рвалась."
       },
       {
         "hint": null,
@@ -30296,7 +30256,12 @@
       {
         "hint": "nu-",
         "lt": "Virvė nutrūko.",
-        "ru": "Веревка разорвалась. Mūsų draugystė nutrūko. – Наша"
+        "ru": "Веревка разорвалась."
+      },
+      {
+        "hint": "nu-",
+        "lt": "Mūsų draugystė nutrūko.",
+        "ru": "Наша дружба оборвалась."
       },
       {
         "hint": "pri-",
