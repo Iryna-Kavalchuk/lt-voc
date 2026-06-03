@@ -430,8 +430,7 @@
       {
         "hint": "pa-",
         "lt": "Pernai Jono šeima puikiai paatostogavo prie jūros.",
-        "ru": "В прошлом году семья",
-        "needs_review": true
+        "ru": "В прошлом году семья Йонаса прекрасно провела отпуск у моря."
       }
     ]
   },
@@ -991,28 +990,24 @@
         "ru": "Летом они не выращивают овощи."
       },
       {
-        "hint": "iš-",
+        "hint": "iš-/už-",
         "lt": "Tėvai išaugino / užaugino keturis vaikus.",
-        "ru": "Родители воспитали четверых",
-        "needs_review": true
+        "ru": "Родители воспитали четверых детей."
       },
       {
-        "hint": "už-",
+        "hint": "iš-/už-",
         "lt": "Jie išaugino / užaugino gerą kopūstų derlių.",
-        "ru": "Они вырастили хороший",
-        "needs_review": true
+        "ru": "Они вырастили хороший урожай капусты."
       },
       {
         "hint": "pa-",
         "lt": "Paauginusi sūnų, ji grįš į darbą.",
-        "ru": "Когда подрастет сын, она вернется на",
-        "needs_review": true
+        "ru": "Когда подрастет сын, она вернется на работу."
       },
       {
         "hint": "pri-",
         "lt": "Jie paprastai priaugina daug daržovių.",
-        "ru": "Обычно они выращивают много",
-        "needs_review": true
+        "ru": "Обычно они выращивают много овощей."
       }
     ]
   },
@@ -1088,8 +1083,12 @@
       {
         "hint": "iš-",
         "lt": "Miške išaugo medis.",
-        "ru": "В лесу выросло дерево. *Šalyje išaugo nedarbas. – В стране выросла безработица.",
-        "needs_review": true
+        "ru": "В лесу выросло дерево."
+      },
+      {
+        "hint": "iš-",
+        "lt": "Šalyje išaugo nedarbas.",
+        "ru": "В стране выросла безработица."
       },
       {
         "hint": "pa-",
@@ -1109,8 +1108,7 @@
       {
         "hint": "už-",
         "lt": "Kai vaikai užaugo, motina išėjo dirbti.",
-        "ru": "Когда дети выросли, мать пошла",
-        "needs_review": true
+        "ru": "Когда дети выросли, мать пошла работать."
       }
     ]
   },
