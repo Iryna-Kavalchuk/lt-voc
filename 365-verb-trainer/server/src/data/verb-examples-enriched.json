@@ -69,7 +69,7 @@
         "ru": "Я сомневался в его словах."
       },
       {
-        "hint": "dėl kо?",
+        "hint": "ko?",
         "lt": "Visada abejojau dėl jo sugebėjimo virti.",
         "ru": "Я всегда сомневался / сомневалaсь насчет его умения готовить."
       },
@@ -165,17 +165,17 @@
         "ru": "Сегодня учительница нам объясняла но вое правило."
       },
       {
-        "hint": "neáiškinti kо?",
+        "hint": "neáiškinti ko?",
         "lt": "Mokytoja mums neaiškino naujos taisyklės.",
         "ru": "Учительница нам не объясняла новое правило."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Jis mums aiškino apie žvaigždes.",
         "ru": "Он нам рассказывал о звездах."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Mama aiškino vaikams, kaip reikia elgtis svečiuose.",
         "ru": "Мама объясняла детям, как себя вести в гостях."
       },
@@ -352,7 +352,7 @@
         "ru": "Продавца уволили с работы за невежливое обращение с клиентами."
       },
       {
-        "hint": "neatléisti kо?",
+        "hint": "ne-",
         "lt": "Pardavėjo neatleido iš darbo už nemandagų elgesį su klientais.",
         "ru": "Продавца не уволили с ра боты за невежливое обращение с клиентами."
       }
@@ -656,17 +656,17 @@
     },
     "examples": [
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Ji atsiliepė į mano prašymą.",
         "ru": "Она откликнулась на мою просьбу."
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Vakar vakare mes skambinome tau. Tavo sūnus atsiliepė.",
         "ru": "Вчера вечером мы звонили тебе. Ответил твой сын."
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Motinai pašaukus vaikai tuojau atsiliepė.",
         "ru": "Дети сразу же откликнулись на зов матери."
       }
@@ -742,12 +742,12 @@
         "ru": "Вспоминаешь ли тот прекрасный день?"
       },
       {
-        "hint": "neatsimiñti kо?",
+        "hint": "ne-",
         "lt": "Ar tu neatsimeni tos gražios dienos?",
         "ru": "Не помнишь ли ты тот прекрасный день?"
       },
       {
-        "hint": "neatsimiñti kо?",
+        "hint": "ko?",
         "lt": "Ar atsimeni, kaip mes susipažinome?",
         "ru": "Помнишь ли, как мы познакомились?"
       }
@@ -818,17 +818,17 @@
     },
     "examples": [
       {
-        "hint": "kо? už ką?",
+        "hint": "ko? už ką?",
         "lt": "Atsiprašyk draugo už blogą elgesį.",
         "ru": "Извинись перед другом за плохое поведение."
       },
       {
-        "hint": "dėl kо?",
+        "hint": "ko?",
         "lt": "Atsiprašome (jūsų) dėl visų nesklandumų.",
         "ru": "Просим прощения за все недоразумения."
       },
       {
-        "hint": "dėl kо?",
+        "hint": "ko?",
         "lt": "Jie atsiprašė, kad pavėlavo.",
         "ru": "Они извинились за опоздание."
       }
@@ -985,17 +985,17 @@
         "ru": "Она растит двух сыновей."
       },
       {
-        "hint": "neaugi̇ǹti kо?",
+        "hint": "ne- ko?",
         "lt": "Vasarą jie neaugina daržovių.",
         "ru": "Летом они не выращивают овощи."
       },
       {
-        "hint": "neaugi̇ǹti kо?",
+        "hint": "ko?",
         "lt": "išaugi̇ǹti / Tėvai išaugino / užaugino keturis vaikus.",
         "ru": "Родители воспитали четверых"
       },
       {
-        "hint": "neaugi̇ǹti kо?",
+        "hint": "ko?",
         "lt": "užaugi̇ǹti детей. Jie išaugino / užaugino gerą kopūstų derlių.",
         "ru": "Они вырастили хороший"
       },
@@ -1273,17 +1273,17 @@
         "ru": "reikia autis žieminiais batais. – Похолодало, нужно обувать зимнюю обувь."
       },
       {
-        "hint": "nesiaũti ko?",
+        "hint": "ne- ko?",
         "lt": "Nesiaukite šių batų.",
         "ru": "Не обувайте эту обувь."
       },
       {
-        "hint": "nesiaũti ko?",
+        "hint": "ko?",
         "lt": "apsiaũti Ji apsiavė naujais bateliais.",
         "ru": "Она обула новые туфельки."
       },
       {
-        "hint": "nesiaũti ko?",
+        "hint": "ko?",
         "lt": "nusiaũti Labai malonu nusiauti batus ir basam pavaikščioti po žolę.",
         "ru": "Очень приятно"
       },
@@ -1364,17 +1364,17 @@
         "ru": "Работу заканчиваем в шесть часов."
       },
       {
-        "hint": "nebai̇g̃ti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nebaigė darbo.",
         "ru": "Он не закончил работу."
       },
       {
-        "hint": "nebai̇g̃ti ko?",
+        "hint": "ko?",
         "lt": "Jis baigia rašyti straipsnį.",
         "ru": "Он завершает работу над статъей."
       },
       {
-        "hint": "nebai̇g̃ti ko?",
+        "hint": "ko?",
         "lt": "pabai̇g̃ti / Jau pabaigiau / užbaigiau darbą.",
         "ru": "Я уже закончил / закончила работу."
       }
@@ -1513,22 +1513,22 @@
         "ru": "Ученые испытывали новые лекарства."
       },
       {
-        "hint": "nebandýti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nebandė naujų vaistų.",
         "ru": "Она не пробовала новые лекарства."
       },
       {
-        "hint": "nebandýti ko?",
+        "hint": "ko?",
         "lt": "Ji bandė susikaupti.",
         "ru": "Она пыталась сосредоточиться."
       },
       {
-        "hint": "nebandýti ko?",
+        "hint": "ko?",
         "lt": "išbandýti Ji išbandė naujus vaistus.",
         "ru": "Она испробовала новые лекарства."
       },
       {
-        "hint": "nebandýti ko?",
+        "hint": "ko?",
         "lt": "pabandýti Rytoj pabandysiu ateiti anksčiau.",
         "ru": "Завтра попытаюсь прийти пораньше."
       }
@@ -1831,17 +1831,17 @@
         "ru": "Он боится собак."
       },
       {
-        "hint": "dėl ko?",
+        "hint": "ko?",
         "lt": "Mergaitė bijo dėl motinos sveikatos.",
         "ru": "Девочка переживает за здоровье матери."
       },
       {
-        "hint": "dėl ko?",
+        "hint": "ko?",
         "lt": "Ji bijo vairuoti automobilį dideliame mieste.",
         "ru": "Она боится водить машину в большом городе."
       },
       {
-        "hint": "dėl ko?",
+        "hint": "ko?",
         "lt": "Bijau, kad užpuls šunys.",
         "ru": "Боюсь, что нападут собаки."
       },
@@ -1922,7 +1922,7 @@
         "ru": "Она его целует."
       },
       {
-        "hint": "nebučiúoti ko?",
+        "hint": "ne- ko?",
         "lt": "Nebučiuok jo!",
         "ru": "Не целуй его."
       },
@@ -2261,12 +2261,12 @@
         "ru": "Она пела колыбельную младенцу."
       },
       {
-        "hint": "nedainuoti ko?",
+        "hint": "ne- ko?",
         "lt": "Choras nedainavo tos dainos.",
         "ru": "Хор не исполнял ту песню."
       },
       {
-        "hint": "nedainuoti ko?",
+        "hint": "ko?",
         "lt": "padainúoti / Padainuokime / sudainuokime dar kartą tą dainą.",
         "ru": "Давайте еще раз споем ту"
       },
@@ -2428,37 +2428,37 @@
         "ru": "Что ты делаешь сегодня вечером."
       },
       {
-        "hint": "nedarýti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji dabar nieko nedaro.",
         "ru": "Теперь она ничего не делает."
       },
       {
-        "hint": "nedarýti ko?",
+        "hint": "ne- ko?",
         "lt": "Vaikai negerai daro, kai neklauso mokytojų.",
         "ru": "Дети поступают нехорошо, когда не слушают учителей."
       },
       {
-        "hint": "nedarýti ko?",
+        "hint": "ko?",
         "lt": "Darbas daro gyvenimą įdomų.",
         "ru": "Труд делает жизнь интересной."
       },
       {
-        "hint": "nedarýti ko?",
+        "hint": "ko?",
         "lt": "Kažkas daro duris.",
         "ru": "Кто-то открывает / закрывает дверь."
       },
       {
-        "hint": "nedarýti ko?",
+        "hint": "ko?",
         "lt": "atidarýti Atidarykite langą!",
         "ru": "Откройте окно! Parduotuvę atidaro aštuntą valandą. – Магазин открывается в восемь часов."
       },
       {
-        "hint": "nedarýti ko?",
+        "hint": "ko?",
         "lt": "*įdarýti Žuvį galima įdaryti ryžiais arba daržovėmis.",
         "ru": "Рыбу можно начинить рисом или овощами."
       },
       {
-        "hint": "nedarýti ko?",
+        "hint": "ko?",
         "lt": "padarýti Jau viską padariau, ar galiu eiti?",
         "ru": "Я уже все сделал / сделала, могу идти?"
       },
@@ -2468,27 +2468,27 @@
         "ru": "Он должен переделать работу заново."
       },
       {
-        "hint": "nedarýti ko?",
+        "hint": "ko?",
         "lt": "pradarýti Ji pradarė duris.",
         "ru": "Она приоткрыла дверь."
       },
       {
-        "hint": "nedarýti ko?",
+        "hint": "ko?",
         "lt": "pridarýti Pridarykite langą.",
         "ru": "Призакройте окно. Ji pridarė tėvams daug rūpesčių. –"
       },
       {
-        "hint": "nedarýti ko?",
+        "hint": "ko?",
         "lt": "sudarýti Knygą sudarė trys autoriai.",
         "ru": "Книгу составили три автора. Studentas sudarė"
       },
       {
-        "hint": "nedarýti ko?",
+        "hint": "ko?",
         "lt": "perskaitytų knygų sąrašą.",
         "ru": "Студент составил список прочитанных книг."
       },
       {
-        "hint": "nedarýti ko?",
+        "hint": "ko?",
         "lt": "uždarýti Uždarykite langą!",
         "ru": "Закройте окно! Parduotuvę uždaro aštuntą valandą. – Магазин закрывается в восемь часов."
       }
@@ -2564,27 +2564,27 @@
         "ru": "Он красит забор."
       },
       {
-        "hint": "nedažýti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nedažo tvoros.",
         "ru": "Она не красит забор."
       },
       {
-        "hint": "nedažýti ko?",
+        "hint": "ko?",
         "lt": "Kirpėja klientei dažė plaukus.",
         "ru": "Парикмахер красила волосы клиентке."
       },
       {
-        "hint": "nedažýti ko?",
+        "hint": "ko?",
         "lt": "nudažýti Jis nudažė namą.",
         "ru": "Он покрасил дом. Kirpėja klientei nudažė plaukus. – Парик махер покрасила волосы клиентке."
       },
       {
-        "hint": "nedažýti ko?",
+        "hint": "ko?",
         "lt": "padažýti Jis padažė namą.",
         "ru": "Он немного подкрасил дом. Kirpėja klientei padažė plau-"
       },
       {
-        "hint": "nedažýti ko?",
+        "hint": "ko?",
         "lt": "kus.",
         "ru": "Парикмахер немного подкрасила волосы клиентке."
       },
@@ -2670,17 +2670,17 @@
         "ru": "Она красит губы."
       },
       {
-        "hint": "nesidažýti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nesidažo lūpų.",
         "ru": "Она не красит губы."
       },
       {
-        "hint": "nesidažýti ko?",
+        "hint": "ko?",
         "lt": "nusidažýti Ji nusidažė lūpas.",
         "ru": "Она покрасила губы."
       },
       {
-        "hint": "nesidažýti ko?",
+        "hint": "ko?",
         "lt": "pasidažýti Ji pasidažė.",
         "ru": "Она подкрасилась. Ji pasidažė lūpas. – Она подкрасила губы."
       },
@@ -2771,12 +2771,12 @@
         "ru": "Мужчина прикуривал от зажигалки."
       },
       {
-        "hint": "nedègti ko?",
+        "hint": "ne- ko?",
         "lt": "Mama nedegė žvakučių ant torto.",
         "ru": "Мама не зажигала свечи на торте."
       },
       {
-        "hint": "nedègti ko?",
+        "hint": "ko?",
         "lt": "Ji degė šviesą kambaryje.",
         "ru": "Она в комнате включала свет."
       },
@@ -2786,7 +2786,7 @@
         "ru": "Во время пожара мужчина обжег руку."
       },
       {
-        "hint": "nedègti ko?",
+        "hint": "ko?",
         "lt": "*įdègti Kaip gražiai tu įdegei!",
         "ru": "Как красиво ты загорел / загорела."
       },
@@ -2811,7 +2811,7 @@
         "ru": "Перчатки сушились"
       },
       {
-        "hint": "nedègti ko?",
+        "hint": "ko?",
         "lt": "возле горячей печи и немного прогорели. Lempa pradegė visą naktį.",
         "ru": "Лампа прогорела всю ночь."
       },
@@ -2892,7 +2892,7 @@
     },
     "examples": [
       {
-        "hint": "už ką?",
+        "hint": "ką?",
         "lt": "Dėkojame tau už viską.",
         "ru": "Благодарим тебя за все."
       },
@@ -2973,12 +2973,12 @@
         "ru": "Эта преподователь преподает иностран цам литовский язык."
       },
       {
-        "hint": "nedė́styti ko?",
+        "hint": "ne- ko?",
         "lt": "Ši dėstytoja nedėsto lietuvių kalbos.",
         "ru": "Эта преподователь не преподает литовский язык."
       },
       {
-        "hint": "nedė́styti ko?",
+        "hint": "ko?",
         "lt": "Naujas darbuotojas dėstė direktoriui savo darbo planą.",
         "ru": "Новый сотрудник излагал директору свой рабочий план."
       },
@@ -2988,7 +2988,7 @@
         "ru": "Новый сотрудник из-"
       },
       {
-        "hint": "nedė́styti ko?",
+        "hint": "ko?",
         "lt": "geografijos kursą.",
         "ru": "Учительница изложила весь курс географии пятого класса."
       },
@@ -3074,7 +3074,7 @@
         "ru": "Она кладėт пирога на тарелочку."
       },
       {
-        "hint": "nedė́ti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nededa knygų ant stalo.",
         "ru": "Она не кладет книги на стол."
       },
@@ -3099,7 +3099,7 @@
         "ru": "Хозяйка на стол поставила много"
       },
       {
-        "hint": "nedė́ti ko?",
+        "hint": "ko?",
         "lt": "блюд. Jis padėjo vainiką ant kapo.",
         "ru": "Он возложил на могилу венок."
       },
@@ -3200,7 +3200,7 @@
         "ru": "На вечеринке он был в новом модном костюме."
       },
       {
-        "hint": "nedėvė́ti ko?",
+        "hint": "ne- ko?",
         "lt": "Moterys vasarą nedėvi kailinių.",
         "ru": "Летом женщины не носят шубы."
       },
@@ -3362,7 +3362,7 @@
         "ru": "Она хорошо выполняет свою работу."
       },
       {
-        "hint": "nedi̇r̀bti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nedirba nieko.",
         "ru": "Она ничего не делает."
       },
@@ -3372,7 +3372,7 @@
         "ru": "Рабочий отработал смену и ушел домой."
       },
       {
-        "hint": "nedi̇r̀bti ko?",
+        "hint": "ko?",
         "lt": "išdi̇r̀bti / Moteris išdirbo / pradirbo muziejuje dvidešimt metų.",
         "ru": "Женщина проработала"
       },
@@ -3382,7 +3382,7 @@
         "ru": "Немного поработаю и пойду домой. Savaitę"
       },
       {
-        "hint": "nedi̇r̀bti ko?",
+        "hint": "ko?",
         "lt": "padirbau",
         "ru": "dabar galiu ir pailsėti. – Неделю поработал / поработала – теперь могу и отдохнуть."
       },
@@ -3554,12 +3554,12 @@
         "ru": "Юноша дарил своей подруге розу."
       },
       {
-        "hint": "nedovanóti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nieko jam nedovanojo.",
         "ru": "Она ничего ему не дарила."
       },
       {
-        "hint": "nedovanóti ko?",
+        "hint": "ne- ko?",
         "lt": "Dovanok, kad neateisiu.",
         "ru": "Извини, что не приду."
       },
@@ -3746,22 +3746,22 @@
         "ru": "Люди чаще всего страхуют имущество от несчастных случаев."
       },
       {
-        "hint": "nedraũsti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nedraudė savo turto.",
         "ru": "Он не страховал свое имущество."
       },
       {
-        "hint": "nedraũsti ko?",
+        "hint": "ko?",
         "lt": "apdraũsti Šeima apdraudė savo turtą.",
         "ru": "Семья застраховала свое имущество."
       },
       {
-        "hint": "nedraũsti ko?",
+        "hint": "ne- ko?",
         "lt": "sudraũsti Tėvas sudraudė negražiai besielgiantį sūnų.",
         "ru": "Отец удержал сына от некраси-"
       },
       {
-        "hint": "nedraũsti ko?",
+        "hint": "ko?",
         "lt": "uždraũsti Mama uždraudė vaikams maudytis šaltame vandenyje.",
         "ru": "Мама запретила де-"
       }
@@ -3837,12 +3837,12 @@
         "ru": "Очень разумно – страховать имущество."
       },
       {
-        "hint": "nesidraũsti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nesidraudžia sveikatos.",
         "ru": "Он не страхует свое здоровье."
       },
       {
-        "hint": "nesidraũsti ko?",
+        "hint": "ko?",
         "lt": "apsidraũsti Mano brolis apsidraudė automobilį.",
         "ru": "Мой брат застраховал свой автомобиль."
       }
@@ -3923,12 +3923,12 @@
         "ru": "Дайте мне, пожалуйста, розы."
       },
       {
-        "hint": "nedúoti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nedavė man  knygos.",
         "ru": "Она не дала мне книгу."
       },
       {
-        "hint": "nedúoti ko?",
+        "hint": "ko?",
         "lt": "Duok valgyti!",
         "ru": "Дай поесть."
       },
@@ -3953,12 +3953,12 @@
         "ru": "Передай привет своей сестре. Andriau, ar"
       },
       {
-        "hint": "nedúoti ko?",
+        "hint": "ko?",
         "lt": "gali perduoti knygą savo broliui?",
         "ru": "Андрюс, не можешь ли передать книгу своему брату?"
       },
       {
-        "hint": "nedúoti ko?",
+        "hint": "ko?",
         "lt": "*uždúoti Studentai uždavė dėstytojui daug klausimų.",
         "ru": "Студенты задали преподавателю мно го вопросов."
       }
@@ -4125,7 +4125,7 @@
         "ru": "Она развешивает белье для просушки."
       },
       {
-        "hint": "nedžiáuti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji niekada nedžiauna skalbinių balkone.",
         "ru": "Она никогда не сушит белье на балконе."
       },
@@ -4221,7 +4221,7 @@
         "ru": "Она сушит лекарственные травы."
       },
       {
-        "hint": "nedžiovi̇ǹti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji niekada nedžiovina vaistažolių.",
         "ru": "Она никогда не сушит лекарственные травы."
       },
@@ -4604,7 +4604,7 @@
         "ru": "Кошка ест рыбу."
       },
       {
-        "hint": "neė́sti ko?",
+        "hint": "ne- ko?",
         "lt": "Katė neėda žuvies.",
         "ru": "Кошка не ест рыбу."
       },
@@ -4624,7 +4624,7 @@
         "ru": "Кошка объелась."
       },
       {
-        "hint": "neė́sti ko?",
+        "hint": "ko?",
         "lt": "priė́sti / Katė priėdė / prisiėdė žuvies.",
         "ru": "Кошка наелась рыбы."
       },
@@ -4847,12 +4847,12 @@
     },
     "examples": [
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Mes dažnai  galvojame apie ateitį.",
         "ru": "Мы часто думаем о будущем."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Šeima galvoja, kur važiuoti atostogauti.",
         "ru": "Семья думает, куда поехать в отпуск."
       },
@@ -4953,7 +4953,7 @@
         "ru": "На том заводе производят телевизоры."
       },
       {
-        "hint": "negami̇ǹti ko?",
+        "hint": "ne- ko?",
         "lt": "Toje gamykloje negamina televizorių.",
         "ru": "На том заводе не производят телевизоры."
       },
@@ -5039,37 +5039,37 @@
         "ru": "Я хочу достать билет на концерт итальян ской певицы."
       },
       {
-        "hint": "negáuti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji negavo bilieto į italų daininkės koncertą.",
         "ru": "Она не достала билет на концерт итальянской певицы."
       },
       {
-        "hint": "negáuti ko?",
+        "hint": "ko?",
         "lt": "*apgáuti Jie mane apgavo.",
         "ru": "Они обманули меня."
       },
       {
-        "hint": "negáuti ko?",
+        "hint": "ko?",
         "lt": "*atgáuti Apalpusi moteris greitai atgavo sąmonę.",
         "ru": "Женщина, потерявшая созна-"
       },
       {
-        "hint": "negáuti ko?",
+        "hint": "ko?",
         "lt": "atgauti.",
         "ru": "Я одолжил / одолжила книгу соседу и долго не мог / не могла получить ее обратно."
       },
       {
-        "hint": "negáuti ko?",
+        "hint": "ko?",
         "lt": "*pagáuti /  Katė pagavo / sugavo pelę.",
         "ru": "Кошка поймала мышь. Policininkas pagavo /"
       },
       {
-        "hint": "negáuti ko?",
+        "hint": "ko?",
         "lt": "sugáuti sugavo vagį.",
         "ru": "Полицейский поймал вора."
       },
       {
-        "hint": "negáuti ko?",
+        "hint": "ko?",
         "lt": "*užgáuti Kas tave užgavo?",
         "ru": "Кто тебя задел / задела? Что тебя задело?"
       }
@@ -5150,7 +5150,7 @@
         "ru": "Утром всегда пью только воды."
       },
       {
-        "hint": "negérti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji niekada negeria pieno.",
         "ru": "Она никогда не пьет молоко."
       },
@@ -5175,7 +5175,7 @@
         "ru": "Гости вдоволь наелись и напились. *Šiame"
       },
       {
-        "hint": "negérti ko?",
+        "hint": "ko?",
         "lt": "ežere  pernai prigėrė žvejys.",
         "ru": "В этом озере в прошлом году утонул рыбак."
       },
@@ -5190,7 +5190,7 @@
         "ru": "Дождевая вода быстро впитается в зем-"
       },
       {
-        "hint": "negérti ko?",
+        "hint": "ko?",
         "lt": "лю. Šis kremas gerai susigeria į odą.",
         "ru": "Этот крем хорошо впитывается в кожу."
       }
@@ -5271,7 +5271,7 @@
         "ru": "Пожарные тушили огонь водой."
       },
       {
-        "hint": "negesi̇ǹti ko?",
+        "hint": "ne- ko?",
         "lt": "Negesinkite žvakučių!",
         "ru": "Не тушите свечки!"
       },
@@ -5357,27 +5357,27 @@
         "ru": "Врач лечит больного от воспаления легких."
       },
       {
-        "hint": "negýdyti ko?",
+        "hint": "ne- ko?",
         "lt": "Gydytojas negydo ligonio stipriais vaistais.",
         "ru": "Врач не лечит больного крепкими лекар ствами."
       },
       {
-        "hint": "negýdyti ko?",
+        "hint": "ko?",
         "lt": "išgýdyti / Gydytojas pagydė / išgydė ligonį.",
         "ru": "Врач вылечил больного."
       },
       {
-        "hint": "negýdyti ko?",
+        "hint": "ko?",
         "lt": "išsigýdyti Išsigydžiau slogą.",
         "ru": "Я вылечил / вылечила свой насморк."
       },
       {
-        "hint": "negýdyti ko?",
+        "hint": "ko?",
         "lt": "pasigýdyti Jie kasmet važiuoja į sanatoriją pasigydyti.",
         "ru": "Они ежегодно едут в санаторий"
       },
       {
-        "hint": "negýdyti ko?",
+        "hint": "ko?",
         "lt": "sugýdyti / Gydytojas sugydė / užgydė  žaizdą.",
         "ru": "Врач залечил рану."
       }
@@ -5453,12 +5453,12 @@
         "ru": "Первого сына женщина рожала бу дучи еще очень молодой."
       },
       {
-        "hint": "negimdýti ko?",
+        "hint": "ne- ko?",
         "lt": "Antrojo kūdikio moteris negimdė toje pačioje ligoninėje.",
         "ru": "Второго младенца женщина не рожала в той самой больнице."
       },
       {
-        "hint": "negimdýti ko?",
+        "hint": "ko?",
         "lt": "pagimdýti Moteris pagimdė sveiką kūdikį.",
         "ru": "Женщина родила здорового младенца."
       }
@@ -5620,7 +5620,7 @@
         "ru": "Он всегда меня защищает."
       },
       {
-        "hint": "negi̇ǹti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis niekada negina manęs.",
         "ru": "Он никогда меня не защищает."
       },
@@ -5701,17 +5701,17 @@
         "ru": "Ту песню я уже слышал / слышала."
       },
       {
-        "hint": "negirdė́ti ko?",
+        "hint": "ne- ko?",
         "lt": "Nieko negirdžiu, prašom kalbėti garsiau.",
         "ru": "Ничего не слышу, пожалуйста, говорите громче."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Jie jau girdėjo apie anglų kalbos kursus.",
         "ru": "Они уже слышали о курсах английского языка."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Girdėjau, kad daržovės turguje pigesnės.",
         "ru": "Я слышал / слышала, что овощи на базаре дешевле."
       }
@@ -5782,17 +5782,17 @@
     },
     "examples": [
       {
-        "hint": "pas ką?",
+        "hint": "ką?",
         "lt": "Visą vasarą ji gyveno kaime pas gimines.",
         "ru": "Все лето она жила в деревне у родственников."
       },
       {
-        "hint": "pas ką?",
+        "hint": "ką?",
         "lt": "*nugyvénti Jie visiškai nugyveno ūkį.",
         "ru": "Они совсем разорили хозяйство."
       },
       {
-        "hint": "pas ką?",
+        "hint": "ką?",
         "lt": "*nusigyvénti Jie visiškai nusigyveno.",
         "ru": "Они совсем обнищали."
       },
@@ -5873,12 +5873,12 @@
         "ru": "Она вернула книгу другу."
       },
       {
-        "hint": "negrąži̇ǹti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji negrąžino draugui knygos.",
         "ru": "Она не вернула книгу другу."
       },
       {
-        "hint": "negrąži̇ǹti ko?",
+        "hint": "ko?",
         "lt": "Skolą bankui jis grąžino po dvejų metų.",
         "ru": "Долг банку он вернул через два года."
       },
@@ -5959,7 +5959,7 @@
         "ru": "Сильный ветер рушил дома."
       },
       {
-        "hint": "negriáuti ko?",
+        "hint": "ne- ko?",
         "lt": "Negriauk mano pilies!",
         "ru": "Не разрушай мой замок."
       },
@@ -6237,17 +6237,17 @@
         "ru": "Оркестр играет вальс."
       },
       {
-        "hint": "negróti ko?",
+        "hint": "ne- ko?",
         "lt": "Šis orkestras negroja šiuolaikinės muzikos.",
         "ru": "Этот оркестр не играет современную музыку."
       },
       {
-        "hint": "negróti ko?",
+        "hint": "ko?",
         "lt": "Jis puikiai groja keliais instrumentais.",
         "ru": "Он прекрасно играет на нескольких инструментах."
       },
       {
-        "hint": "negróti ko?",
+        "hint": "ko?",
         "lt": "pagróti / Muzikantas pagrojo / sugrojo šiuolaikinio kompozitoriaus kūrinį.",
         "ru": "Музыкант сы-"
       },
@@ -6581,7 +6581,7 @@
         "ru": "Я доверяю вам взять мою зарплату."
       },
       {
-        "hint": "neįgalióti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji neįgaliojo manęs paimti jos algą.",
         "ru": "Она не доверила мне взять ее зарплату."
       }
@@ -6738,7 +6738,7 @@
         "ru": "Наша страна импортирует нефть."
       },
       {
-        "hint": "neimportuoti ko?",
+        "hint": "ne- ko?",
         "lt": "Mūsų šalis neimportuoja pieno produktų.",
         "ru": "Наша страна не импортирует молочные продукты."
       }
@@ -6819,12 +6819,12 @@
         "ru": "Он берет (кусочек) торта."
       },
       {
-        "hint": "neim̃ti ko?",
+        "hint": "ne- ko?",
         "lt": "Vaikas neima saldainio.",
         "ru": "Ребенок не берет конфету."
       },
       {
-        "hint": "neim̃ti ko?",
+        "hint": "ko?",
         "lt": "Visi ėmė klausinėti, kas atsitiko.",
         "ru": "Все стали расспрашивать, что случилось."
       },
@@ -6839,7 +6839,7 @@
         "ru": "Она сняла ребенку шапочку. Jis nuėmė nuo spintos"
       },
       {
-        "hint": "neim̃ti ko?",
+        "hint": "ko?",
         "lt": "knygą.",
         "ru": "Он снял со шкафа книгу."
       },
@@ -6849,17 +6849,17 @@
         "ru": "Возьмите, пожалуйста, торта."
       },
       {
-        "hint": "neim̃ti ko?",
+        "hint": "ko?",
         "lt": "*suim̃ti Policininkai suėmė vagį.",
         "ru": "Полицейские арестовали вора."
       },
       {
-        "hint": "neim̃ti ko?",
+        "hint": "ko?",
         "lt": "*užim̃ti Aš užimsiu tau vietą.",
         "ru": "Я займу тебе место. Užimk svečią. – Займи гостя. Šis"
       },
       {
-        "hint": "neim̃ti ko?",
+        "hint": "ko?",
         "lt": "stalas užima daug vietos.",
         "ru": "Этот стол занимает много места."
       },
@@ -6945,7 +6945,7 @@
         "ru": "Организаторы информировали нас о мероприятиях фестиваля."
       },
       {
-        "hint": "neinformúoti ko?",
+        "hint": "ne- ko?",
         "lt": "Organizatoriai neinformavo mūsų.",
         "ru": "Организаторы не информировали нас."
       }
@@ -7021,12 +7021,12 @@
         "ru": "Ученик выучил стихотворение."
       },
       {
-        "hint": "neišmókti ko?",
+        "hint": "ne- ko?",
         "lt": "Mokinys neišmoko eilėraščio.",
         "ru": "Ученик не выучил стихотворение."
       },
       {
-        "hint": "neišmókti ko?",
+        "hint": "ko?",
         "lt": "Mergaitė išmoko megzti.",
         "ru": "Девочка научилась вязать."
       }
@@ -7102,7 +7102,7 @@
         "ru": "Подруга оскорбила меня."
       },
       {
-        "hint": "neįžei̇s̃ti ko?",
+        "hint": "ne- ko?",
         "lt": "Draugė neįžeidė manęs.",
         "ru": "Подруга не оскорбила меня."
       }
@@ -7178,12 +7178,12 @@
         "ru": "Узнав о присужденной награ де, он очень разволновался."
       },
       {
-        "hint": "dėl kо?",
+        "hint": "ko?",
         "lt": "Ji jaudinasi dėl visko.",
         "ru": "Она волнуется из-за всего."
       },
       {
-        "hint": "dėl kо?",
+        "hint": "ko?",
         "lt": "Tėvai jaudinasi, nes vaikas tingi mokytis.",
         "ru": "Родители переживают, потому что ребенок ленит ся учиться."
       },
@@ -7264,17 +7264,17 @@
         "ru": "Он испытывает к ней ненависть."
       },
       {
-        "hint": "nejaũsti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nejaučia neapykantos.",
         "ru": "Он не испытывает ненависть."
       },
       {
-        "hint": "nejaũsti ko?",
+        "hint": "ko?",
         "lt": "Jis jautė, kad kambaryje buvo dar kažkas.",
         "ru": "Он чувствовал, что в комнате был еще кто-то."
       },
       {
-        "hint": "nejaũsti ko?",
+        "hint": "ne- ko?",
         "lt": "*nujaũsti Ji nujautė nelaimę.",
         "ru": "Она предчувствовала несчастье."
       },
@@ -7284,7 +7284,7 @@
         "ru": "Он почувствовал, что погода меняется."
       },
       {
-        "hint": "nejaũsti ko?",
+        "hint": "ko?",
         "lt": "*užjaũsti Užjaučiu tave!",
         "ru": "Сочувствую тебе!"
       }
@@ -7739,12 +7739,12 @@
         "ru": "Включаю плиту."
       },
       {
-        "hint": "nejùngti ko?",
+        "hint": "ne- ko?",
         "lt": "Nejunk viryklės!",
         "ru": "Не включай плиту!"
       },
       {
-        "hint": "nejùngti ko?",
+        "hint": "ko?",
         "lt": "Kauną su Vilniumi jungia puikus kelias.",
         "ru": "Каунас с Вильнюсом соединяет прекрасная дорога."
       },
@@ -7916,12 +7916,12 @@
         "ru": "Мы смотрели комедию и смеялись."
       },
       {
-        "hint": "iš ko?",
+        "hint": "ko?",
         "lt": "Moterys ilgai juokėsi iš anekdoto.",
         "ru": "Женщины долго смеялись над анекдотом."
       },
       {
-        "hint": "iš ko?",
+        "hint": "ko?",
         "lt": "Berniukai juokėsi iš draugo (gali būti ir piktai).",
         "ru": "Мальчик смеялись (насмехались) над другом."
       },
@@ -7941,7 +7941,7 @@
         "ru": "Нечаянно он рассмеялся. Visą vakarą"
       },
       {
-        "hint": "iš ko?",
+        "hint": "ko?",
         "lt": "prasijuokėme.",
         "ru": "Весь вечер мы просмеялись."
       },
@@ -8022,12 +8022,12 @@
         "ru": "Посоветуй, куда вешать картину."
       },
       {
-        "hint": "nekabi̇ǹti ko?",
+        "hint": "ne- ko?",
         "lt": "Nekabink paveikslo ant šios sienos.",
         "ru": "Не вешай картину на этой стене."
       },
       {
-        "hint": "nekabi̇ǹti ko?",
+        "hint": "ko?",
         "lt": "*apkabi̇ǹti Mama apkabino sūnų.",
         "ru": "Мама обняла сына."
       },
@@ -8047,7 +8047,7 @@
         "ru": "Картину мы перевесили на дру-"
       },
       {
-        "hint": "nekabi̇ǹti ko?",
+        "hint": "ne- ko?",
         "lt": "užkabi̇ǹti *Gatvėje ją užkabino nepažįstamas vyras.",
         "ru": "На улице к ней прицепился не-"
       }
@@ -8123,7 +8123,7 @@
         "ru": "Книга стоит пять евро."
       },
       {
-        "hint": "nekainúoti ko?",
+        "hint": "ne- ko?",
         "lt": "Knyga nekainavo penkių eurų.",
         "ru": "Книга не стоила пяти евро."
       }
@@ -8401,22 +8401,22 @@
         "ru": "Он вбивает гвоздь новым молотком."
       },
       {
-        "hint": "nekálti ko?",
+        "hint": "ne- ko?",
         "lt": "Nekalk vinies į šią sieną.",
         "ru": "Не вбивай гвоздь в эту стену."
       },
       {
-        "hint": "nekálti ko?",
+        "hint": "ko?",
         "lt": "Jis kala skulptūrą iš akmens.",
         "ru": "Он высекает скульптуру из камня."
       },
       {
-        "hint": "nekálti ko?",
+        "hint": "ko?",
         "lt": "Jis kala pasagą.",
         "ru": "Он кует подкову."
       },
       {
-        "hint": "nekálti ko?",
+        "hint": "ko?",
         "lt": "Čia kala monetas.",
         "ru": "Здесь чеканят монеты."
       },
@@ -8441,7 +8441,7 @@
         "ru": "Он понабивал много гвоздей. Jis prikalė nulūžusią"
       },
       {
-        "hint": "nekálti ko?",
+        "hint": "ko?",
         "lt": "kėdės koją.",
         "ru": "Он прибил сломанную ножку стула."
       },
@@ -8522,7 +8522,7 @@
         "ru": "Я еще раз повторяю последнее предложение."
       },
       {
-        "hint": "nekartóti ko?",
+        "hint": "ne- ko?",
         "lt": "Nekartokite šio žodžio.",
         "ru": "Не повторяйте это слово."
       },
@@ -8532,7 +8532,7 @@
         "ru": "Повторите, пожалуйста, номер телефона."
       },
       {
-        "hint": "nekartóti ko?",
+        "hint": "ne- ko?",
         "lt": "Prašom pakartoti, aš nesuprantu.",
         "ru": "Повторите, пожалуйста, я не понимаю."
       }
@@ -8613,7 +8613,7 @@
         "ru": "Семья фермера на следующей неделе будет копать картошку."
       },
       {
-        "hint": "nekàsti kо?",
+        "hint": "ne-",
         "lt": "Ūkininko šeima kitą savaitę dar nekas bulvių.",
         "ru": "Семья фермера на следующей неделе еще не будет копать картошку."
       },
@@ -8643,7 +8643,7 @@
         "ru": "Фермер накопал много картофеля. Jis prikasė"
       },
       {
-        "hint": "nekàsti kо?",
+        "hint": "ko?",
         "lt": "kibirą žemės.",
         "ru": "Он накопал ведро земли."
       },
@@ -8729,7 +8729,7 @@
         "ru": "Он кусил большой кусок хлеба."
       },
       {
-        "hint": "neką́sti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nekando nė duonos kąsnio.",
         "ru": "Он не кусил даже куска хлеба."
       },
@@ -8739,7 +8739,7 @@
         "ru": "Он откусил бутерброд."
       },
       {
-        "hint": "neką́sti ko?",
+        "hint": "ko?",
         "lt": "atką́sti / Šuo atkando / nukando didelį gabalą dešros.",
         "ru": "Собака откусила большой кусок"
       },
@@ -8754,7 +8754,7 @@
         "ru": "Мальчик раскусил конфету (напополам)."
       },
       {
-        "hint": "neką́sti ko?",
+        "hint": "ko?",
         "lt": "*užką́sti Nuėjome į kavinę užkąsti.",
         "ru": "Мы пошли в кафе перекусить."
       },
@@ -8885,7 +8885,7 @@
         "ru": "Он менял доллары на евро."
       },
       {
-        "hint": "nekei̇s̃ti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis nekeitė dolerių į eurus.",
         "ru": "Он не менял доллары на евро."
       },
@@ -8895,7 +8895,7 @@
         "ru": "Поменяйте, пожалуйста, евро на доллары."
       },
       {
-        "hint": "nekei̇s̃ti kо?",
+        "hint": "ko?",
         "lt": "Galite iškeisti šimtą eurų smulkesniais?",
         "ru": "Не можете ли разменять сто евро на более мелкие?"
       },
@@ -8905,7 +8905,7 @@
         "ru": "Эта книга немного разорвана, по-"
       },
       {
-        "hint": "nekei̇s̃ti kо?",
+        "hint": "ko?",
         "lt": "жалуйста, замените ее на другую. Nauja šukuosena ją labai pakeitė.",
         "ru": "Новая прическа ее очень изменила."
       }
@@ -8986,7 +8986,7 @@
         "ru": "Она меняет доллары на евро."
       },
       {
-        "hint": "nesikei̇s̃ti kо? į ką?",
+        "hint": "ne- ką?",
         "lt": "Ji nesikeičia dolerių į eurus.",
         "ru": "Она не меняет доллары на евро."
       },
@@ -9193,17 +9193,17 @@
         "ru": "Мужчина с трудом поднимает ящик."
       },
       {
-        "hint": "nekélti ko?",
+        "hint": "ne- ko?",
         "lt": "Vyras nekelia sunkios dėžės.",
         "ru": "Мужчина не поднимает тяжелый ящик."
       },
       {
-        "hint": "nekélti ko?",
+        "hint": "ko?",
         "lt": "Ji kelia sūnų aštuntą valandą.",
         "ru": "Она поднимает сына в восемь часов."
       },
       {
-        "hint": "nekélti ko?",
+        "hint": "ko?",
         "lt": "Sūnų keliame į kitą mokyklą.",
         "ru": "Сына переводим в другую школу."
       },
@@ -9228,7 +9228,7 @@
         "ru": "Ученик поднял руку. Negaliu pakelti krepšio – labai"
       },
       {
-        "hint": "nekélti ko?",
+        "hint": "ko?",
         "lt": "sunkus.",
         "ru": "Не могу поднять сумку – очень тяжелая."
       },
@@ -9238,7 +9238,7 @@
         "ru": "Ребенка перевели в другую школу."
       },
       {
-        "hint": "nekélti ko?",
+        "hint": "ko?",
         "lt": "prikélti / Prašom prikelti / pakelti mane septintą valandą.",
         "ru": "Прошу разбудить меня в семь"
       },
@@ -9410,7 +9410,7 @@
         "ru": "Мама печет пирог."
       },
       {
-        "hint": "nekèpti kо?",
+        "hint": "ne-",
         "lt": "Mama nekepa pyrago.",
         "ru": "Мама не печет пирог."
       },
@@ -9511,12 +9511,12 @@
         "ru": "Портниха раскраивает материал."
       },
       {
-        "hint": "nekirp̃ti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nekerpa medžiagos.",
         "ru": "Она не раскраивает материал."
       },
       {
-        "hint": "nekirp̃ti kо?",
+        "hint": "ko?",
         "lt": "apkirp̃ti / Kurioje kirpykloje tave taip gražiai apkirpo / nukirpo?",
         "ru": "В какой парикмахер-"
       },
@@ -9779,12 +9779,12 @@
         "ru": "Учительница спрашивает ученика, есть ли у него карандаш."
       },
       {
-        "hint": "nekláusti kо?",
+        "hint": "ne-",
         "lt": "Mokytoja neklausė mokinio.",
         "ru": "Учительница не спрашивала ученика."
       },
       {
-        "hint": "kо?",
+        "hint": "ko?",
         "lt": "Mokytoja paklausė mokinį sunkaus klausimo.",
         "ru": "Учительница задала ученику трудный вопрос."
       },
@@ -9794,7 +9794,7 @@
         "ru": "Я хотел / хотела бы спросить. Jis paklausė, ar aš turiu"
       },
       {
-        "hint": "kо?",
+        "hint": "ko?",
         "lt": "žodyną.",
         "ru": "Он спросил, есть ли у меня словарь."
       }
@@ -9870,7 +9870,7 @@
         "ru": "Он наклеивает почтовую марку на конверт."
       },
       {
-        "hint": "neklijúoti ko?",
+        "hint": "ne- ko?",
         "lt": "Prašom neklijuoti pašto ženklo ant šio voko.",
         "ru": "Пожалуйста, не наклеивайте марку на этот конверт."
       },
@@ -9880,7 +9880,7 @@
         "ru": "Она обклеит коробку цветной бумагой."
       },
       {
-        "hint": "neklijúoti ko?",
+        "hint": "ko?",
         "lt": "priklijúoti / Jis priklijavo / užklijavo pašto ženklą ant voko.",
         "ru": "Он наклеил почтовую марку"
       },
@@ -9971,7 +9971,7 @@
         "ru": "Она накрывает ребенка."
       },
       {
-        "hint": "neklóti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nekloja lovos.",
         "ru": "Она не стелит постель."
       },
@@ -10153,12 +10153,12 @@
         "ru": "Солдаты сражались с врагами."
       },
       {
-        "hint": "dėl kо?",
+        "hint": "ko?",
         "lt": "Sportininkės kovojo dėl pirmosios vietos.",
         "ru": "Спортсменки боролись за первое место."
       },
       {
-        "hint": "dėl kо?",
+        "hint": "ko?",
         "lt": "Šalis kovoja dėl nepriklausomybės.",
         "ru": "Страна борется за независимость."
       },
@@ -10360,7 +10360,7 @@
         "ru": "Дети разводят костер."
       },
       {
-        "hint": "nekùrti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nekuria eilėraščių.",
         "ru": "Она не пишет стихи."
       },
@@ -10370,7 +10370,7 @@
         "ru": "Развести огонь было трудно. Vilnių įkūrė kunigaikštis"
       },
       {
-        "hint": "nekùrti kо?",
+        "hint": "ko?",
         "lt": "Gediminas.",
         "ru": "Вильнюс основал князь Гядиминас."
       },
@@ -10380,7 +10380,7 @@
         "ru": "Кто сочинил музыку к этому фильму?"
       },
       {
-        "hint": "nekùrti kо?",
+        "hint": "ko?",
         "lt": "Rašytojas sukūrė tris romanus.",
         "ru": "Писатель написал три романа."
       },
@@ -10390,7 +10390,7 @@
         "ru": "Путешественники развели костер."
       },
       {
-        "hint": "nekùrti kо?",
+        "hint": "ko?",
         "lt": "Užkurkime krosnį",
         "ru": "bus šilčiau. – Давай, затопим печку – будет теплее."
       }
@@ -10542,7 +10542,7 @@
         "ru": "Приглашаю тебя на концерт."
       },
       {
-        "hint": "nekviesti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nekviečia manęs į koncertą.",
         "ru": "Он не приглашает меня на концерт."
       },
@@ -10648,7 +10648,7 @@
         "ru": "Старушку хоронили на городском кладбище."
       },
       {
-        "hint": "neláidoti ko?",
+        "hint": "ne- ko?",
         "lt": "Senutės nelaidojo miesto kapinėse.",
         "ru": "Старушку не хоронили на городском кладбище."
       },
@@ -10729,17 +10729,17 @@
         "ru": "Он дома держит собаку."
       },
       {
-        "hint": "nelaikýti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nelaiko namuose šuns.",
         "ru": "Он не держит собаку дома."
       },
       {
-        "hint": "nelaikýti ko?",
+        "hint": "ko?",
         "lt": "Mergaitė rankose laiko knygą.",
         "ru": "Девочка в руках держит книгу."
       },
       {
-        "hint": "nelaikýti ko?",
+        "hint": "ko?",
         "lt": "Rytoj mes laikysime egzaminą.",
         "ru": "Завтра мы будем сдавать экзамены."
       },
@@ -10845,7 +10845,7 @@
     },
     "examples": [
       {
-        "hint": "už ko?",
+        "hint": "ko?",
         "lt": "Lipdama laiptais ji laikėsi už turėklų.",
         "ru": "Она шла по ступеням, держась за перила."
       },
@@ -10961,12 +10961,12 @@
         "ru": "Он выиграл соревнования (спор, пари)."
       },
       {
-        "hint": "nelaimė́ti ko?",
+        "hint": "ne- ko?",
         "lt": "Dviratininkas nelaimėjo pirmosios vietos.",
         "ru": "Велосипедист не занял первое место."
       },
       {
-        "hint": "prieš ką?",
+        "hint": "ką?",
         "lt": "Kauno krepšinio komanda laimėjo prieš Vilniaus krepšininkus.",
         "ru": "Баскетбольная команда Кау наса одержала победу над баскетболистами Вильнюса."
       },
@@ -11047,7 +11047,7 @@
         "ru": "Она поливает цветы."
       },
       {
-        "hint": "neláistyti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nelaisto gėlių kasdien.",
         "ru": "Она не поливает цветы каждый день."
       },
@@ -11138,17 +11138,17 @@
         "ru": "Мальчик уже посещает школу."
       },
       {
-        "hint": "nelankýti ko?",
+        "hint": "ne- ko?",
         "lt": "Jie nelanko mūsų.",
         "ru": "Они не навещают нас."
       },
       {
-        "hint": "nelankýti ko?",
+        "hint": "ko?",
         "lt": "Jie mėgsta lankyti dailės parodas.",
         "ru": "Они любят посещать художественные выставки."
       },
       {
-        "hint": "nelankýti ko?",
+        "hint": "ko?",
         "lt": "aplankýti Mane aplankė draugai.",
         "ru": "Меня навестили друзья. Ji aplankė naują muziejų. – Она посетила новый музей."
       }
@@ -11386,12 +11386,12 @@
         "ru": "Она тратит деньги на книги."
       },
       {
-        "hint": "neléisti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji neleidžia pinigų knygoms.",
         "ru": "Она не тратит деньги на книги."
       },
       {
-        "hint": "neléisti ko?",
+        "hint": "ko?",
         "lt": "Ši leidykla leidžia knygas vaikams.",
         "ru": "Это издательство издает книги для детей."
       },
@@ -11406,12 +11406,12 @@
         "ru": "Издательство издало альбом фотогра-"
       },
       {
-        "hint": "neléisti ko?",
+        "hint": "ko?",
         "lt": "фий. Mama išleido vaiką į kiemą.",
         "ru": "Мама отправила ребенка погулять во"
       },
       {
-        "hint": "neléisti ko?",
+        "hint": "ko?",
         "lt": "двор. Ji išleidžia daug pinigų maistui.",
         "ru": "Она тратит много денег на еду."
       },
@@ -11512,27 +11512,27 @@
         "ru": "Автобус обгоняет наш автомобиль."
       },
       {
-        "hint": "neleñkti ko?",
+        "hint": "ne- ko?",
         "lt": "Autobusas nelenkia mūsų automobilio.",
         "ru": "Автобус не обгоняет наш автомобиль."
       },
       {
-        "hint": "neleñkti ko?",
+        "hint": "ko?",
         "lt": "O dabar popieriaus lapą lenkite per pusę.",
         "ru": "А теперь согните лист бумаги пополам."
       },
       {
-        "hint": "neleñkti ko?",
+        "hint": "ko?",
         "lt": "Tėvas lenkia šaką.",
         "ru": "Отец наклоняет ветку."
       },
       {
-        "hint": "neleñkti ko?",
+        "hint": "ko?",
         "lt": "Mama lenkia sijoną.",
         "ru": "Мама подворачивает юбку."
       },
       {
-        "hint": "neleñkti ko?",
+        "hint": "ko?",
         "lt": "apleñkti / Mūsų automobilį aplenkė / pralenkė autobusas.",
         "ru": "Автобус обогнал наш авто-"
       },
@@ -11628,7 +11628,7 @@
         "ru": "Отец провожал ребенка в школу."
       },
       {
-        "hint": "nelydė́ti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nelydi jos.",
         "ru": "Он не провожает ее."
       },
@@ -11800,7 +11800,7 @@
         "ru": "Ребенок дотрагивается до экспонатов."
       },
       {
-        "hint": "neliẽsti kо?",
+        "hint": "ne- ko?",
         "lt": "Prašom neliesti eksponatų!",
         "ru": "Не трогайте, пожалуйста, экспонаты!"
       },
@@ -11881,32 +11881,32 @@
         "ru": "Она гладит белье горячим утюгом."
       },
       {
-        "hint": "nelýginti kо?",
+        "hint": "ne-",
         "lt": "Ji nelygina skalbinių.",
         "ru": "Она не гладит белье."
       },
       {
-        "hint": "nelýginti kо?",
+        "hint": "ko?",
         "lt": "Ji lygina lietuvių ir latvių kalbas.",
         "ru": "Она сравнивает литовский и латышский языки."
       },
       {
-        "hint": "nelýginti kо?",
+        "hint": "ko?",
         "lt": "*atlýginti Jie atlygino man padarytus nuostolius.",
         "ru": "Они возместили убытки, причинен ные мне."
       },
       {
-        "hint": "nelýginti kо?",
+        "hint": "ko?",
         "lt": "išlýginti Ji išlygino skalbinius.",
         "ru": "Она выгладила белье."
       },
       {
-        "hint": "nelýginti kо?",
+        "hint": "ko?",
         "lt": "palýginti Ji palygino skalbinius ir pavargo.",
         "ru": "Она немного погладила белье и устала."
       },
       {
-        "hint": "nelýginti kо?",
+        "hint": "ko?",
         "lt": "Prašom palyginti lietuvių ir latvių kalbas.",
         "ru": "Сравните, пожалуйста, литовский и латышский языки."
       }
@@ -12333,12 +12333,12 @@
     },
     "examples": [
       {
-        "hint": "dėl kо?",
+        "hint": "ko?",
         "lt": "Ji liūdi dėl draugo nesėkmės.",
         "ru": "Она переживает о неудаче друга."
       },
       {
-        "hint": "dėl kо?",
+        "hint": "ko?",
         "lt": "Kodėl tu liūdi?",
         "ru": "Почему ты грустишь?"
       },
@@ -12424,12 +12424,12 @@
         "ru": "Она чистила апельсин."
       },
       {
-        "hint": "nelùpti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nelupo obuolio.",
         "ru": "Она не чистила яблоко."
       },
       {
-        "hint": "nelùpti kо?",
+        "hint": "ko?",
         "lt": "Vaisius reikia lupti šiuo peiliu.",
         "ru": "Фрукты надо чистить этим ножом."
       },
@@ -12611,47 +12611,47 @@
         "ru": "Она размешивала / мешала тесто деревянной ложкой."
       },
       {
-        "hint": "nemaišýti kо?",
+        "hint": "ne-",
         "lt": "Ji nemaišė košės.",
         "ru": "Она не мешала кашу."
       },
       {
-        "hint": "nemaišýti kо?",
+        "hint": "ko?",
         "lt": "Dailininkas maišo baltus dažus su mėlynais.",
         "ru": "Художник смешивает белую краску с синей."
       },
       {
-        "hint": "nemaišýti kо?",
+        "hint": "ko?",
         "lt": "Visada maišau tavo skėtį su savo skėčiu.",
         "ru": "Всегда путаю твой зонтик со своим."
       },
       {
-        "hint": "nemaišýti kо?",
+        "hint": "ko?",
         "lt": "įmaišýti Į tešlą įmaišykite truputį cinamono.",
         "ru": "Вмешайте в тесто немного корицы."
       },
       {
-        "hint": "nemaišýti kо?",
+        "hint": "ko?",
         "lt": "išmaišýti Tešlą gerai išmaišykite.",
         "ru": "Тесто хорошо размешайте."
       },
       {
-        "hint": "nemaišýti kо?",
+        "hint": "ko?",
         "lt": "pamaišýti Nepamirškite pamaišyti košės.",
         "ru": "Не забудьте помешать кашу."
       },
       {
-        "hint": "nemaišýti kо?",
+        "hint": "ko?",
         "lt": "sumaišýti Visus produktus sumaišykite.",
         "ru": "Все продукты смешайте. Sumaišiau tavo skėtį"
       },
       {
-        "hint": "nemaišýti kо?",
+        "hint": "ko?",
         "lt": "su savo skėčiu.",
         "ru": "Я перепутал / перепутала твой зонт со своим."
       },
       {
-        "hint": "nemaišýti kо?",
+        "hint": "ko?",
         "lt": "užmaišýti Senelė užmaišė tešlą blynams.",
         "ru": "Бабушка замесила тесто на блины."
       }
@@ -12727,12 +12727,12 @@
         "ru": "Она кормит ребенка кашой."
       },
       {
-        "hint": "nemaiti̇ǹti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nemaitina kūdikio.",
         "ru": "Она не кормит младенца."
       },
       {
-        "hint": "nemaiti̇ǹti ko?",
+        "hint": "ko?",
         "lt": "Jis maitina šeimą.",
         "ru": "Он содержит семью."
       },
@@ -12919,17 +12919,17 @@
         "ru": "Мы уже видели тот фильм."
       },
       {
-        "hint": "nematýti kо?",
+        "hint": "ne- ko?",
         "lt": "Mes dar nematėme to filmo.",
         "ru": "Мы еще не видели тот фильм."
       },
       {
-        "hint": "nematýti kо?",
+        "hint": "ko?",
         "lt": "Ji matė, kaip aš kalbėjau su draugu.",
         "ru": "Она видела, как я разговаривал / разговаривала с другом."
       },
       {
-        "hint": "nematýti kо?",
+        "hint": "ko?",
         "lt": "*numatýti Kas galėjo numatyti, kad taip atsitiks?",
         "ru": "Кто мог предположить, что так слу чится?"
       },
@@ -13010,7 +13010,7 @@
         "ru": "Женщина примеряет новую одежду."
       },
       {
-        "hint": "nesimatúoti kо?",
+        "hint": "ne- ko?",
         "lt": "Moteris nesimatavo naujų drabužių.",
         "ru": "Женщина не примеряла новую одежду."
       },
@@ -13096,12 +13096,12 @@
         "ru": "Она купает ребенка."
       },
       {
-        "hint": "nemáudyti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nemaudo vaiko.",
         "ru": "Она не купает ребенка."
       },
       {
-        "hint": "nemáudyti ko?",
+        "hint": "ko?",
         "lt": "išmáudyti / Motina išmaudė / numaudė vaikus.",
         "ru": "Мать выкупала / искупала детей."
       }
@@ -13273,12 +13273,12 @@
         "ru": "Мама одевает / снимает брюки ребенку."
       },
       {
-        "hint": "nemáuti kо?",
+        "hint": "ne-",
         "lt": "Маmа nemovė vaikui šiltų kelnių.",
         "ru": "Мама не одевала ребенку теплые брюки."
       },
       {
-        "hint": "nemáuti kо?",
+        "hint": "ko?",
         "lt": "apmáuti / Mama vaikui apmovė / užmovė pirštines.",
         "ru": "Мама одела ребенку варежки."
       },
@@ -13374,7 +13374,7 @@
         "ru": "Ребенок надевает / снимает рукавицы."
       },
       {
-        "hint": "nesimáuti ko?",
+        "hint": "ne- ko?",
         "lt": "Vaikas nesimovė pirštinių.",
         "ru": "Ребенок не надевал / не снимал рукавицы."
       },
@@ -13475,7 +13475,7 @@
         "ru": "Сугробы становятся меньше."
       },
       {
-        "hint": "kо?",
+        "hint": "ko?",
         "lt": "Mažėja studentų.",
         "ru": "Уменьшается число студентов."
       },
@@ -13556,7 +13556,7 @@
         "ru": "Они охотились на зайцев."
       },
       {
-        "hint": "nemedžióti kо?",
+        "hint": "ne-",
         "lt": "Jie nemedžiojo kiškių.",
         "ru": "Они не охотились на зайцев."
       },
@@ -13652,12 +13652,12 @@
         "ru": "Он любит кофе."
       },
       {
-        "hint": "nemė́gti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis nemėgsta kavos.",
         "ru": "Он не любит кофе."
       },
       {
-        "hint": "nemė́gti kо?",
+        "hint": "ko?",
         "lt": "Jis mėgsta skaityti.",
         "ru": "Он любит читать."
       },
@@ -13738,12 +13738,12 @@
         "ru": "Она вяжет сыну рукавицы."
       },
       {
-        "hint": "nemègzti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nemezga pirštinių.",
         "ru": "Она не вяжет рукавицы."
       },
       {
-        "hint": "nemègzti ko?",
+        "hint": "ko?",
         "lt": "Ji mezga virbalais.",
         "ru": "Она вяжет на спицах."
       },
@@ -13915,12 +13915,12 @@
         "ru": "Он лжет другу."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Ji melavo apie pažintį su garsiu poetu.",
         "ru": "Она лгала о знакомстве с известным поэтом."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Ji meluoja, kad tau skambino.",
         "ru": "Она лжет, что тебе звонила."
       },
@@ -14001,12 +14001,12 @@
         "ru": "Мальчик бросил мяч другу."
       },
       {
-        "hint": "nemèsti kо?",
+        "hint": "ne-",
         "lt": "Berniukas nemetė draugui kamuolio.",
         "ru": "Мальчик не бросал мяч другу."
       },
       {
-        "hint": "nemèsti kо?",
+        "hint": "ko?",
         "lt": "Jis metė rūkyti.",
         "ru": "Он бросил курить."
       },
@@ -14021,7 +14021,7 @@
         "ru": "Он выбросил письмо в мусорный ящик."
       },
       {
-        "hint": "nemèsti kо?",
+        "hint": "ko?",
         "lt": "Ją išmetė iš darbo.",
         "ru": "Ее уволили с работы."
       },
@@ -14208,7 +14208,7 @@
         "ru": "Он ее любит."
       },
       {
-        "hint": "nemylė́ti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis nemyli jos.",
         "ru": "Он не любит ее."
       }
@@ -14375,22 +14375,22 @@
         "ru": "Я знаю литовский язык."
       },
       {
-        "hint": "nemokė́ti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nemoka lietuvių kalbos.",
         "ru": "Она не знает литовский язык."
       },
       {
-        "hint": "nemokė́ti ko?",
+        "hint": "ko?",
         "lt": "Moku kalbėti lietuviškai.",
         "ru": "Я умею говорить по-литовски."
       },
       {
-        "hint": "nemokė́ti ko?",
+        "hint": "ko?",
         "lt": "Moku virti.",
         "ru": "Я умею готовить."
       },
       {
-        "hint": "nemokė́ti ko?",
+        "hint": "ko?",
         "lt": "Prašom mokėti tris eurus.",
         "ru": "Пожалуйста, уплатите три евро."
       },
@@ -14486,12 +14486,12 @@
         "ru": "Он учит нас английскому языку."
       },
       {
-        "hint": "nemókyti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis nemoko mūsų anglų kalbos.",
         "ru": "Он не учит нас английскому языку."
       },
       {
-        "hint": "nemókyti kо?",
+        "hint": "ko?",
         "lt": "Jis mus moko dainuoti.",
         "ru": "Он учит нас петь."
       },
@@ -14572,7 +14572,7 @@
     },
     "examples": [
       {
-        "hint": "kо?",
+        "hint": "ko?",
         "lt": "Ji mokosi lietuvių kalbos.",
         "ru": "Она изучает литовский язык."
       },
@@ -14582,12 +14582,12 @@
         "ru": "Она учит стихотворение наизусть."
       },
       {
-        "hint": "nesimókyti kо?",
+        "hint": "ne-",
         "lt": "Ji nesimokė eilėraščio atmintinai.",
         "ru": "Она не учила стихотворение наизусть."
       },
       {
-        "hint": "nesimókyti kо?",
+        "hint": "ko?",
         "lt": "Jie mokosi šokti.",
         "ru": "Они учатся танцевать."
       },
@@ -14673,7 +14673,7 @@
         "ru": "Хулиганы били его кулаками."
       },
       {
-        "hint": "nemùšti ko?",
+        "hint": "ne- ko?",
         "lt": "Chuliganai jo nemušė.",
         "ru": "Хулиганы не били его."
       },
@@ -14688,12 +14688,12 @@
         "ru": "Дети выбили окно. Kas tau išmušė dantį? – Кто тебе"
       },
       {
-        "hint": "nemùšti ko?",
+        "hint": "ko?",
         "lt": "primùšti / Jį primušė / sumušė chuliganai.",
         "ru": "Его избили хулиганы."
       },
       {
-        "hint": "nemùšti ko?",
+        "hint": "ko?",
         "lt": "*užmùšti Jį užmušė chuliganai.",
         "ru": "Его убили хулиганы."
       }
@@ -14769,7 +14769,7 @@
         "ru": "Этот стиральный поро шок я использую при стирке шерстяных изделий."
       },
       {
-        "hint": "nenaudóti ko?",
+        "hint": "ne- ko?",
         "lt": "Šių skalbimo miltelių nenaudoju vilnoniams drabužiams skalbti.",
         "ru": "При стирке шерстяного бе лья не пользуюсь этим стиральным порошком."
       },
@@ -15017,7 +15017,7 @@
         "ru": "Меня раздражают шумные соседи."
       },
       {
-        "hint": "nenèrvinti ko?",
+        "hint": "ne- ko?",
         "lt": "Manęs nenervina triukšmingi kaimynai.",
         "ru": "Меня не раздражают шумные соседи."
       },
@@ -15093,7 +15093,7 @@
     },
     "examples": [
       {
-        "hint": "dėl ko?",
+        "hint": "ko?",
         "lt": "Ji nervinasi dėl darbo.",
         "ru": "Она нервничает из-за работы."
       },
@@ -15179,7 +15179,7 @@
         "ru": "Летом он носит футболку."
       },
       {
-        "hint": "nenešióti kо?",
+        "hint": "ne- ko?",
         "lt": "Žiemą jis nenešioja marškinėlių.",
         "ru": "Зимой он не носит футболку."
       },
@@ -15194,7 +15194,7 @@
         "ru": "По утрам почтальон разносит письма."
       },
       {
-        "hint": "nenešióti kо?",
+        "hint": "ko?",
         "lt": "nunešióti / Jis jau nunešiojo / sunešiojo džinsus.",
         "ru": "Он уже износил джинсы."
       },
@@ -15204,7 +15204,7 @@
         "ru": "Отец поносил ребенка. Dar nebloga ta striukė, gali"
       },
       {
-        "hint": "nenešióti kо?",
+        "hint": "ko?",
         "lt": "panešioti.",
         "ru": "Эта куртка еще неплохая, можешь поносить."
       },
@@ -15214,7 +15214,7 @@
         "ru": "Всю зиму она проходила в шубе."
       },
       {
-        "hint": "nenešióti kо?",
+        "hint": "ko?",
         "lt": "Tėvas pranešiojo sergantį vaiką visą naktį.",
         "ru": "Всю ночь отец проносил больного ребенка на руках."
       }
@@ -15290,7 +15290,7 @@
         "ru": "Несу книгу другу."
       },
       {
-        "hint": "nenèšti kо?",
+        "hint": "ne-",
         "lt": "Nenešu knygos draugui.",
         "ru": "Не несу книгу другу."
       },
@@ -15345,12 +15345,12 @@
         "ru": "Все цветы с балкона мы снесли"
       },
       {
-        "hint": "nenèšti kо?",
+        "hint": "ko?",
         "lt": "užnèšti *Užnešiau draugei knygą.",
         "ru": "Я занес / занесла подруге книгу. Vyrai užnešė senas"
       },
       {
-        "hint": "nenèšti kо?",
+        "hint": "ko?",
         "lt": "knygas į palėpę.",
         "ru": "Мужчины занесли старые книги на чердак."
       }
@@ -15507,17 +15507,17 @@
         "ru": "Он пересилил страх."
       },
       {
-        "hint": "nenugalė́ti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis nenugalėjo baimės.",
         "ru": "Он не преодолел страх."
       },
       {
-        "hint": "nenugalė́ti kо?",
+        "hint": "ko?",
         "lt": "Jie nugalėjo priešus.",
         "ru": "Они победили врагов."
       },
       {
-        "hint": "nenugalė́ti kо?",
+        "hint": "ko?",
         "lt": "Viena futbolo komanda nugalėjo kitą.",
         "ru": "Одна футбольная команда победила другую."
       }
@@ -15593,7 +15593,7 @@
         "ru": "Он сдает квартиру внаем в старом городе."
       },
       {
-        "hint": "nenuomoti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nenuomoja buto.",
         "ru": "Он не сдает квартиру внаем."
       },
@@ -15740,12 +15740,12 @@
     },
     "examples": [
       {
-        "hint": "dėl ko?",
+        "hint": "ko?",
         "lt": "Nustebau dėl jų elgesio.",
         "ru": "Я удивился / удивилась их поведению."
       },
       {
-        "hint": "dėl ko?",
+        "hint": "ko?",
         "lt": "Nustebome, kad jie atsisakė eiti į koncertą.",
         "ru": "Мы удивились, что они отказались пойти на концерт."
       }
@@ -15968,7 +15968,7 @@
         "ru": "Продавец упаковывает наши покупки."
       },
       {
-        "hint": "nepakúoti ko?",
+        "hint": "ne- ko?",
         "lt": "Pardavėja nepakavo mūsų pirkinių.",
         "ru": "Продавец не упаковывала наши покупки."
       },
@@ -16054,7 +16054,7 @@
         "ru": "Извините, я забыл / забыла ваше имя."
       },
       {
-        "hint": "nepamirš̃ti kо?",
+        "hint": "ne- ko?",
         "lt": "Aš nepamiršau jūsų vardo.",
         "ru": "Я не забыл / не забыла ваше имя."
       }
@@ -16130,7 +16130,7 @@
         "ru": "Он продал дом своему знакомому."
       },
       {
-        "hint": "nepardúoti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis nepardavė namo.",
         "ru": "Он не продал дом."
       }
@@ -16206,22 +16206,22 @@
         "ru": "Он рассказывал нам свою биографию."
       },
       {
-        "hint": "nepãsakoti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nepasakojo mums savo biografijos.",
         "ru": "Он не рассказывал нам свою биографию."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Ji pasakojo draugei apie savo gyvenimą.",
         "ru": "Она рассказывала подруге о своей жизни."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Žmonės pasakoja, kad anksčiau čia buvo didelis kaimas.",
         "ru": "Люди рассказывают, что рань ше здесь была большая деревня."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Ji pasakojo, kaip nuvažiuoti į jos namus.",
         "ru": "Она рассказывала, как добраться до ее дома."
       },
@@ -16383,12 +16383,12 @@
         "ru": "Под этим документом распишется директор."
       },
       {
-        "hint": "nepasirašýti kо?",
+        "hint": "ne-",
         "lt": "Direktorius nepasirašė šio dokumento.",
         "ru": "Директор не подписал этот документ."
       },
       {
-        "hint": "nepasirašýti kо?",
+        "hint": "ko?",
         "lt": "Prašom pasirašyti, kad gavote siuntinį.",
         "ru": "Пожалуйста, распишитесь, что получили посылку."
       }
@@ -16464,7 +16464,7 @@
         "ru": "Он встретил друга в аэропорту."
       },
       {
-        "hint": "nepasiti̇k̀ti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nepasitiko draugo oro uoste.",
         "ru": "Он не встретил друга в аэропорту."
       }
@@ -16540,12 +16540,12 @@
         "ru": "Он заметил пятно на пиджаке."
       },
       {
-        "hint": "nepastebė́ti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nepastebėjo dėmės ant švarko.",
         "ru": "Он не заметил пятно на пиджаке."
       },
       {
-        "hint": "nepastebė́ti ko?",
+        "hint": "ko?",
         "lt": "Tėvai pastebėjo, kad vaikas karščiuoja.",
         "ru": "Родители заметили, что у ребенка жар."
       }
@@ -16702,7 +16702,7 @@
     },
     "examples": [
       {
-        "hint": "nuo ko?",
+        "hint": "ko?",
         "lt": "Ji pavargo nuo triukšmo.",
         "ru": "Она устала от шума."
       }
@@ -16849,7 +16849,7 @@
         "ru": "Водитель нарушил правила движения."
       },
       {
-        "hint": "nepažei̇s̃ti ko?",
+        "hint": "ne- ko?",
         "lt": "Vairuotojas nepažeidė eismo taisyklių.",
         "ru": "Водитель не нарушил правила движения."
       }
@@ -16925,7 +16925,7 @@
         "ru": "Знаете ли вы того мужчину?"
       },
       {
-        "hint": "nepaži̇ǹti ko?",
+        "hint": "ne- ko?",
         "lt": "Aš nepažįstu to vyro.",
         "ru": "Я не знаю того мужчину."
       }
@@ -17001,7 +17001,7 @@
         "ru": "Он рисует солнце желтым карандашом."
       },
       {
-        "hint": "nepiẽšti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nepiešia saulės.",
         "ru": "Он не рисует солнце."
       },
@@ -17031,7 +17031,7 @@
         "ru": "Они нарисовали много рисунков. Jis pripiešė są-"
       },
       {
-        "hint": "nepiẽšti ko?",
+        "hint": "ko?",
         "lt": "siuvinį.",
         "ru": "Он изрисовал целую тетрадь."
       }
@@ -17178,12 +17178,12 @@
     },
     "examples": [
       {
-        "hint": "ant ko?",
+        "hint": "ko?",
         "lt": "Jis ilgai pyko ant manęs.",
         "ru": "Он долго сердился на меня."
       },
       {
-        "hint": "ant ko?",
+        "hint": "ko?",
         "lt": "įpỹkti / Jis labai įpyko / supyko / užpyko ant manęs.",
         "ru": "Он очень рассердился / разозлился"
       }
@@ -17254,7 +17254,7 @@
     },
     "examples": [
       {
-        "hint": "su kuo?",
+        "hint": "kuo?",
         "lt": "Jie dažnai pykstasi su kaimynais.",
         "ru": "Они часто ссорятся с соседями."
       },
@@ -17340,7 +17340,7 @@
         "ru": "Она наливает ему кофе."
       },
       {
-        "hint": "nepi̇l̀ti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji jam nepylė kavos.",
         "ru": "Она не наливала ему кофе."
       },
@@ -17451,7 +17451,7 @@
         "ru": "Она покупает цветы для подруги."
       },
       {
-        "hint": "nepirk̃ti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji neperka draugei gėlės.",
         "ru": "Она не покупает подруге цветок."
       },
@@ -17466,7 +17466,7 @@
         "ru": "Она купила подарок брату."
       },
       {
-        "hint": "nepirk̃ti ko?",
+        "hint": "ko?",
         "lt": "*papirk̃ti Jie papirko liudytojus.",
         "ru": "Они подкупили свидетелей."
       },
@@ -17552,7 +17552,7 @@
         "ru": "Она режет колбасу острым ножом."
       },
       {
-        "hint": "nepjáuti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nepjauna dešros.",
         "ru": "Она не режет колбасу."
       },
@@ -17663,7 +17663,7 @@
         "ru": "Они планировали отпуск на взморье."
       },
       {
-        "hint": "neplanúoti ko?",
+        "hint": "ko?",
         "lt": "Jie planavo atostogauti pajūryje.",
         "ru": "Они планировали провести отпуск на взморье."
       },
@@ -17835,12 +17835,12 @@
         "ru": "Дети плывут к берегу."
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Į Nidą mes plaukėme valtimi.",
         "ru": "В Ниду мы плыли на лодке."
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Jie plaukė žvejoti.",
         "ru": "Они плыли рыбачить."
       },
@@ -17870,7 +17870,7 @@
         "ru": "Дети отплыли далеко от берега. Vaikai"
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "nuplaukė į kitą krantą.",
         "ru": "Дети поплыли на другой берег."
       },
@@ -17981,7 +17981,7 @@
         "ru": "Она моет пол мокрой тряпкой."
       },
       {
-        "hint": "nepláuti kо?",
+        "hint": "ne-",
         "lt": "Ji neplovė grindų šlapiu skuduru.",
         "ru": "Она не мыла пол мокрой тряпкой."
       },
@@ -18001,7 +18001,7 @@
         "ru": "Посуду надо перемыть."
       },
       {
-        "hint": "nepláuti kо?",
+        "hint": "ko?",
         "lt": "supláuti / Ji suplovė / išplovė indus.",
         "ru": "Она перемыла всю посуду."
       }
@@ -18077,7 +18077,7 @@
         "ru": "Она моет руки теплой водой."
       },
       {
-        "hint": "nesipláuti kо?",
+        "hint": "ne-",
         "lt": "Ji nesiplovė rankų šiltu vandeniu.",
         "ru": "Она не мыла руки теплой водой."
       },
@@ -18259,12 +18259,12 @@
         "ru": "Профессор начал лекцию в девять часов."
       },
       {
-        "hint": "nepradė́ti kо?",
+        "hint": "ne- ko?",
         "lt": "Profesorius nepradėjo paskaitos devintą valandą.",
         "ru": "Профессор не начал лекцию в девять часов."
       },
       {
-        "hint": "nepradė́ti kо?",
+        "hint": "ko?",
         "lt": "Vaikas pradėjo verkti.",
         "ru": "Ребенок начал плакать."
       }
@@ -18340,12 +18340,12 @@
         "ru": "Он сообщил мне хорошую новость."
       },
       {
-        "hint": "nepranèšti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nepranešė man naujienos.",
         "ru": "Он не сообщил мне новость."
       },
       {
-        "hint": "nepranèšti ko?",
+        "hint": "ko?",
         "lt": "Per žinias pranešė, kad rytoj bus puikus oras.",
         "ru": "В новостях сообщили, что завтра будет пре красная погода."
       }
@@ -18469,27 +18469,27 @@
         "ru": "Она просила брата о помощи."
       },
       {
-        "hint": "neprašýti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis neprašė brolio pagalbos.",
         "ru": "Он не просил брата о помощи."
       },
       {
-        "hint": "neprašýti ko?",
+        "hint": "ko?",
         "lt": "Vaikas prašo valgyti.",
         "ru": "Ребенок просит есть."
       },
       {
-        "hint": "neprašýti ko?",
+        "hint": "ko?",
         "lt": "išprašýti Berniukas išprašė iš draugo visus saldainius.",
         "ru": "Мальчик выпросил у друга все конфеты."
       },
       {
-        "hint": "neprašýti ko?",
+        "hint": "ko?",
         "lt": "paprašýti Jis paprašė brolį pagalbos.",
         "ru": "Он попросил брата о помощи."
       },
       {
-        "hint": "neprašýti ko?",
+        "hint": "ko?",
         "lt": "priprašýti Jie priprašė mus pasilikti.",
         "ru": "Они упросили нас остаться."
       }
@@ -18565,7 +18565,7 @@
         "ru": "Мама мыла ребенка теплой водой."
       },
       {
-        "hint": "nepraũsti ko?",
+        "hint": "ne- ko?",
         "lt": "Mama neprausė vaiko",
         "ru": "Мама не мыла ребенка."
       },
@@ -18646,7 +18646,7 @@
         "ru": "Они моют лицо холоной водой."
       },
       {
-        "hint": "nesipraũsti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nesiprausia veido šaltu vandeniu.",
         "ru": "Он не моет лицо холоной водой."
       },
@@ -18722,12 +18722,12 @@
     },
     "examples": [
       {
-        "hint": "prie ko?",
+        "hint": "ko?",
         "lt": "Jis priprato prie lietuviško maisto.",
         "ru": "Он привык к литовской пище."
       },
       {
-        "hint": "prie ko?",
+        "hint": "ko?",
         "lt": "Jis priprato dirbti naktį.",
         "ru": "Он привык работать ночью."
       }
@@ -18803,7 +18803,7 @@
         "ru": "Она представила друга родителям."
       },
       {
-        "hint": "nepristatýti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nepristatė draugo tėvams.",
         "ru": "Она не представила друга родителям."
       }
@@ -18950,7 +18950,7 @@
         "ru": "Она украшает комнату цветами."
       },
       {
-        "hint": "nepuõšti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nepuošia kambario gėlėmis.",
         "ru": "Она не украшает комнату цветами."
       },
@@ -19203,7 +19203,7 @@
         "ru": "Ребенок надувает шар."
       },
       {
-        "hint": "nepū̃sti ko?",
+        "hint": "ne- ko?",
         "lt": "Vaikas nepūtė baliono.",
         "ru": "Ребенок не надувал шар."
       },
@@ -19304,7 +19304,7 @@
         "ru": "Она запирает дверь на два ключа. Она запирает дверь двумя ключами."
       },
       {
-        "hint": "nerakinti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nerakino durų.",
         "ru": "Она не запирала / не отпирала дверь."
       },
@@ -19390,7 +19390,7 @@
         "ru": "Она успокаивает плачущего ребенка."
       },
       {
-        "hint": "nerami̇ǹti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji neramina verkiančio vaiko.",
         "ru": "Она не успокаивает плачущего ребенка."
       },
@@ -19481,27 +19481,27 @@
         "ru": "Он нашел гриб."
       },
       {
-        "hint": "neràsti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nerado grybo.",
         "ru": "Он не нашел гриб."
       },
       {
-        "hint": "neràsti ko?",
+        "hint": "ko?",
         "lt": "*atràsti Kas atrado Ameriką?",
         "ru": "Кто открыл Америку?"
       },
       {
-        "hint": "neràsti ko?",
+        "hint": "ko?",
         "lt": "*išràsti Kas išrado ratą?",
         "ru": "Кто изобрел колесо?"
       },
       {
-        "hint": "neràsti ko?",
+        "hint": "ko?",
         "lt": "*prarasti Jie prarado visą turtą.",
         "ru": "Они лишились всего имущества."
       },
       {
-        "hint": "neràsti ko?",
+        "hint": "ko?",
         "lt": "suràsti / Jis pametė dokumentą, o ji surado / atrado.",
         "ru": "Он потерял документ, а она"
       }
@@ -19577,37 +19577,37 @@
         "ru": "Он пишет письмо маме."
       },
       {
-        "hint": "nerašýti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nerašo laiško mamai.",
         "ru": "Он не пишет письмо маме."
       },
       {
-        "hint": "nerašýti ko?",
+        "hint": "ko?",
         "lt": "Per egzaminą reikia rašyti tik pieštuku.",
         "ru": "Во время экзамена следует писать только карандашом."
       },
       {
-        "hint": "nerašýti ko?",
+        "hint": "ko?",
         "lt": "aprašýti Aprašykite tai, ką matote paveikslėlyje.",
         "ru": "Опишите, что видите на картинке."
       },
       {
-        "hint": "nerašýti ko?",
+        "hint": "ko?",
         "lt": "įrašýti Įrašykite praleistas raides.",
         "ru": "Впишите пропущенные буквы."
       },
       {
-        "hint": "nerašýti ko?",
+        "hint": "ne- ko?",
         "lt": "išrašýti Iš teksto išrašykite nežinomus žodžius.",
         "ru": "Выпишите из текста незнакомые слова."
       },
       {
-        "hint": "nerašýti ko?",
+        "hint": "ko?",
         "lt": "nurašýti Nurašykite viską nuo lentos.",
         "ru": "Спишите все с доски."
       },
       {
-        "hint": "nerašýti ko?",
+        "hint": "ko?",
         "lt": "parašýti Parašyk man laišką.",
         "ru": "Напиши мне письмо."
       },
@@ -19622,12 +19622,12 @@
         "ru": "Он исписал всю тетрадь."
       },
       {
-        "hint": "nerašýti ko?",
+        "hint": "ne- ko?",
         "lt": "surašýti Visus nežinomus žodžius ji surašė į sąsiuvinį.",
         "ru": "Все незнакомые слова она"
       },
       {
-        "hint": "nerašýti ko?",
+        "hint": "ko?",
         "lt": "užrašýti Ji užrašė savo telefono numerį.",
         "ru": "Она записала свой номер телефона."
       }
@@ -19703,7 +19703,7 @@
         "ru": "Организаторы конференции регистри ровали участников."
       },
       {
-        "hint": "neregistrúoti kо?",
+        "hint": "ne-",
         "lt": "Konferencijos organizatoriai dar neregistruoja dalyvių.",
         "ru": "Организаторы конференции еще не регистрируют участников."
       },
@@ -19956,7 +19956,7 @@
         "ru": "Что обозначает это слово по-литовски?"
       },
       {
-        "hint": "neréikšti kо?",
+        "hint": "ne-",
         "lt": "Šis žodis nereiškia nieko blogo.",
         "ru": "Это слово не обозначает ничего плохого."
       },
@@ -20042,12 +20042,12 @@
     },
     "examples": [
       {
-        "hint": "ant ko?",
+        "hint": "ko?",
         "lt": "Jis rėkė ant manęs.",
         "ru": "Он кричал на меня."
       },
       {
-        "hint": "iš ko?",
+        "hint": "ko?",
         "lt": "Jis rėkė iš skausmo.",
         "ru": "Он кричал от боли."
       },
@@ -20067,7 +20067,7 @@
         "ru": "Он покричал на друга и ушел."
       },
       {
-        "hint": "iš ko?",
+        "hint": "ko?",
         "lt": "prarėk̃ti / Vaikas visą naktį prarėkė / išrėkė.",
         "ru": "Ребенок прокричал всю ночь."
       },
@@ -20148,7 +20148,7 @@
         "ru": "Он готовит выставку."
       },
       {
-        "hint": "nereñgti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nerengia parodos.",
         "ru": "Он не готовит выставку."
       },
@@ -20274,7 +20274,7 @@
         "ru": "Она одевает ребенка в чистую одежду."
       },
       {
-        "hint": "nereñgti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nerengia vaiko švariais drabužiais.",
         "ru": "Она не одевает ребенка в чистую одежду."
       },
@@ -20375,7 +20375,7 @@
         "ru": "Она надевает новую одежду."
       },
       {
-        "hint": "nesirengti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nesirengia naujų drabužių.",
         "ru": "Она не надевает новую одежду."
       },
@@ -20481,7 +20481,7 @@
         "ru": "Выбираю подарок для друга."
       },
       {
-        "hint": "neriñkti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nerenka dovanos draugui.",
         "ru": "Она не выбирает подарок для друга."
       },
@@ -20607,17 +20607,17 @@
         "ru": "Она выбирает яблоки для себя."
       },
       {
-        "hint": "nesirinkti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nesirenka obuolių.",
         "ru": "Она не выбирает яблоки."
       },
       {
-        "hint": "nesirinkti kо?",
+        "hint": "ko?",
         "lt": "Studentai renkasi prie auditorijos.",
         "ru": "Студенты собираются возле аудитории."
       },
       {
-        "hint": "nesirinkti kо?",
+        "hint": "ko?",
         "lt": "Jie renkasi aptarti egzamino rezultatų.",
         "ru": "Они собираются, чтобы обсудить результаты экзаменов."
       },
@@ -20632,7 +20632,7 @@
         "ru": "На танцы собралось много молодежи."
       },
       {
-        "hint": "nesirinkti kо?",
+        "hint": "ko?",
         "lt": "Miške jie prisirinko daug uogų.",
         "ru": "В лесу они насобирали много ягод."
       },
@@ -20713,22 +20713,22 @@
         "ru": "Мама лентой завязывает волосы дочери."
       },
       {
-        "hint": "neri̇š̀ti kо?",
+        "hint": "ne- ko?",
         "lt": "Mama neriša dukters plaukų kaspinu.",
         "ru": "Мама не завязывает волосы дочери лентой."
       },
       {
-        "hint": "neri̇š̀ti kо?",
+        "hint": "ko?",
         "lt": "Gydytojas riša žaizdą.",
         "ru": "Доктор перевязывает рану."
       },
       {
-        "hint": "neri̇š̀ti kо?",
+        "hint": "ko?",
         "lt": "apri̇š̀ti / Ji aprišo dukterį skarele.",
         "ru": "Она завязала дочери платок. Gydytojas aprišo / užrišo"
       },
       {
-        "hint": "neri̇š̀ti kо?",
+        "hint": "ko?",
         "lt": "užri̇š̀ti sužeistą pirštą.",
         "ru": "Доктор перевязал пораненный палец."
       },
@@ -20834,17 +20834,17 @@
         "ru": "На карте учительни ца географии указкой показывает детям моря и горы."
       },
       {
-        "hint": "neródyti kо?",
+        "hint": "ne-",
         "lt": "Jis nerodė draugui žaislo.",
         "ru": "Он не показывал игрушку другу."
       },
       {
-        "hint": "neródyti kо?",
+        "hint": "ko?",
         "lt": "Jis rodo draugams gerą pavyzdį.",
         "ru": "Он показывает друзьям хороший пример."
       },
       {
-        "hint": "neródyti kо?",
+        "hint": "ko?",
         "lt": "Tai rodo, kad jis nėra kvailas.",
         "ru": "Это значит, что он неглупый."
       },
@@ -20930,32 +20930,32 @@
         "ru": "Он курит трубку."
       },
       {
-        "hint": "nerūkýti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nerūko pypkės.",
         "ru": "Он не курит трубку."
       },
       {
-        "hint": "nerūkýti ko?",
+        "hint": "ko?",
         "lt": "Jie rūko žuvį.",
         "ru": "Они коптят рыбу."
       },
       {
-        "hint": "nerūkýti ko?",
+        "hint": "ko?",
         "lt": "išrūkýti Jie išrūkė žuvį.",
         "ru": "Они выкоптили рыбу."
       },
       {
-        "hint": "nerūkýti ko?",
+        "hint": "ko?",
         "lt": "parūkýti Jie parūkė ir grįžo į kambarį.",
         "ru": "Они покурили и вернулись в комнату. Jie"
       },
       {
-        "hint": "nerūkýti ko?",
+        "hint": "ko?",
         "lt": "parūkė žuvį.",
         "ru": "Они покоптили рыбу."
       },
       {
-        "hint": "nerūkýti ko?",
+        "hint": "ko?",
         "lt": "surūkýti Jie surūkė keletą cigarečių.",
         "ru": "Они выкурили несколько сигарет."
       }
@@ -21026,7 +21026,7 @@
     },
     "examples": [
       {
-        "hint": "su kuo?",
+        "hint": "kuo?",
         "lt": "Italijos krepšininkai rungtyniavo su Lietuvos komanda.",
         "ru": "Баскетболисты Италии состяза лись с командой Литвы."
       },
@@ -21107,12 +21107,12 @@
         "ru": "Она готовит ужин для семьи."
       },
       {
-        "hint": "neruõšti kо?",
+        "hint": "ne- ko?",
         "lt": "Šį vakarą ji neruošia vakarienės.",
         "ru": "Сегодня вечером она не готовит ужин."
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Ji ruošia vyrą į kelionę.",
         "ru": "Она собирает мужа в поездку."
       },
@@ -21122,7 +21122,7 @@
         "ru": "Они устроили комнату для детей."
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "išruõšti / Ji išruošė / suruošė vyrą į kelionę.",
         "ru": "Она собрала мужа в поездку."
       },
@@ -21213,12 +21213,12 @@
         "ru": "Учитель готовится к уроку."
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Aš ruošiuosi į kelionę.",
         "ru": "Я собираюсь в поездку."
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Mes ruošiamės valgyti.",
         "ru": "Мы собираемся кушать."
       },
@@ -21228,7 +21228,7 @@
         "ru": "Они обустроили себе квартиру."
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "išsiruõšti / Jis išsiruošė / susiruošė į kelionę.",
         "ru": "Он собрался в путешествие."
       },
@@ -21491,32 +21491,32 @@
         "ru": "Он мне говорит правду."
       },
       {
-        "hint": "nesakýti kо?",
+        "hint": "ne-",
         "lt": "Jis man nesako tiesos.",
         "ru": "Он мне не говорит правду."
       },
       {
-        "hint": "nesakýti kо?",
+        "hint": "ko?",
         "lt": "Jis visada sakė: „Nereikia nieko bijoti!“",
         "ru": "Он всегда говорил: „Не надо ничего бояться!“"
       },
       {
-        "hint": "nesakýti kо?",
+        "hint": "ko?",
         "lt": "*atsakýti Prašom atsakyti į klausimą.",
         "ru": "Ответьте, пожалуйста, на вопрос."
       },
       {
-        "hint": "nesakýti kо?",
+        "hint": "ko?",
         "lt": "*įsakýti Direktorius įsakė darbą pradėti viena valanda anksčiau.",
         "ru": "Директор приказал"
       },
       {
-        "hint": "nesakýti kо?",
+        "hint": "ko?",
         "lt": "pasakýti Viršininkas pasakė, kad rytoj bus susirinkimas.",
         "ru": "Начальник сказал, что завтра"
       },
       {
-        "hint": "nesakýti kо?",
+        "hint": "ko?",
         "lt": "*užsakýti Ar užsakėte bilietus į koncertą?",
         "ru": "Вы заказали билеты на концерт?"
       }
@@ -21592,7 +21592,7 @@
         "ru": "Я часто вижу вас во сне."
       },
       {
-        "hint": "nesapnúoti kо?",
+        "hint": "ne- ko?",
         "lt": "Niekada nesapnuoju jūsų.",
         "ru": "Никогда не вижу вас во сне."
       },
@@ -21673,12 +21673,12 @@
         "ru": "Собака охраняла дом."
       },
       {
-        "hint": "nesáugoti kо?",
+        "hint": "ne-",
         "lt": "Šuo nesaugojo namo.",
         "ru": "Собака не охраняла дом."
       },
       {
-        "hint": "nesáugoti kо?",
+        "hint": "ko?",
         "lt": "Jis saugo sveikatą.",
         "ru": "Он бережет свое здоровье."
       },
@@ -21875,12 +21875,12 @@
         "ru": "Она пристегивала брошь к новому платью."
       },
       {
-        "hint": "nesègti kо?",
+        "hint": "ne-",
         "lt": "Ji nesega sagės prie naujos suknelės.",
         "ru": "Она не пристегивает брошь к новому платью."
       },
       {
-        "hint": "nesègti kо?",
+        "hint": "ko?",
         "lt": "Ji segė sagas.",
         "ru": "Она застегивала пуговицы."
       },
@@ -21991,12 +21991,12 @@
         "ru": "Полицейский следит за вором."
       },
       {
-        "hint": "nesèkti kо?",
+        "hint": "ne-",
         "lt": "Policininkas neseka vagies.",
         "ru": "Полицейский не следит за вором."
       },
       {
-        "hint": "paskui ką?",
+        "hint": "ką?",
         "lt": "Šuo seka paskui šeimininką.",
         "ru": "Собака следует за хозяином."
       },
@@ -22544,17 +22544,17 @@
         "ru": "Я мальчику предлагал / предлагала яблок."
       },
       {
-        "hint": "nesiū́lyti kо?",
+        "hint": "ne- ko?",
         "lt": "Berniukui nesiūliau obuolio.",
         "ru": "Я не предлагал / не предлагала мальчику яблоко."
       },
       {
-        "hint": "nesiū́lyti kо?",
+        "hint": "ko?",
         "lt": "Jonai, siūlau važiuoti kartu su mumis.",
         "ru": "Йонас, предлагаю тебе ехать вместе с нами."
       },
       {
-        "hint": "nesiū́lyti kо?",
+        "hint": "ko?",
         "lt": "Pardavėjas siūlo jiems itališką skalbiamąją mašiną.",
         "ru": "Продавец предлагает им итальянскую стиральную машину."
       },
@@ -22640,7 +22640,7 @@
         "ru": "Посылаю вам книги."
       },
       {
-        "hint": "nesių̃sti kо?",
+        "hint": "ne- ko?",
         "lt": "Nesiųsk man laiškų.",
         "ru": "Не присылай мне писем."
       },
@@ -22761,7 +22761,7 @@
         "ru": "Она шьет платье для подруги."
       },
       {
-        "hint": "nesiū́ti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nesiuva suknelės draugei.",
         "ru": "Она не шьет платье для подруги."
       },
@@ -22877,7 +22877,7 @@
         "ru": "Она считает деньги."
       },
       {
-        "hint": "neskaičiúoti kо?",
+        "hint": "ne-",
         "lt": "Ji neskaičiuoja pinigų.",
         "ru": "Она не считает деньги."
       },
@@ -22993,12 +22993,12 @@
         "ru": "Он читает книгу."
       },
       {
-        "hint": "neskaitýti kо?",
+        "hint": "ne-",
         "lt": "Jis neskaito knygos.",
         "ru": "Он не читает книгу."
       },
       {
-        "hint": "neskaitýti kо?",
+        "hint": "ko?",
         "lt": "paskaitýti Jis mėgsta paskaityti.",
         "ru": "Он любит почитать. Paskaityk man pasaką. – Почитай мне сказку."
       },
@@ -23008,7 +23008,7 @@
         "ru": "Он уже прочитал книгу."
       },
       {
-        "hint": "neskaitýti kо?",
+        "hint": "ko?",
         "lt": "praskaitýti Jis praskaitė visą naktį.",
         "ru": "Он читал всю ночь."
       }
@@ -23084,7 +23084,7 @@
         "ru": "Она стирает одeжду новым стиральным порошком."
       },
       {
-        "hint": "neskalb̃ti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji neskalbia drabužių šiais skalbimo milteliais.",
         "ru": "Она не стирает одeжду этим стиральным порошком."
       },
@@ -23253,7 +23253,7 @@
         "ru": "У нее болит голова."
       },
       {
-        "hint": "neskaudė́ti kо?",
+        "hint": "ne- ko?",
         "lt": "Jai neskauda galvos.",
         "ru": "У нее не болит голова."
       },
@@ -23344,12 +23344,12 @@
         "ru": "Самую важную информа цию администрация сообщает раз в неделю."
       },
       {
-        "hint": "neskélbti kо?",
+        "hint": "ne-",
         "lt": "Prašom neskelbti šios informacijos.",
         "ru": "Прошу эту информацию не оглашать."
       },
       {
-        "hint": "neskélbti kо?",
+        "hint": "ko?",
         "lt": "Savivaldybė skelbė, kad nuo rytojaus pabrangs miesto transportas.",
         "ru": "Самоуправление инфор мировало, что с завтрашнего дня подорожает городской транспорт."
       },
@@ -23526,17 +23526,17 @@
         "ru": "Директор назначает время собрания."
       },
       {
-        "hint": "ką? / kо?",
+        "hint": "ką? / ko?",
         "lt": "Visus pinigus jie skiria knygoms.",
         "ru": "Все деньги они предназначают на книги."
       },
       {
-        "hint": "ką? / kо?",
+        "hint": "ką? / ko?",
         "lt": "Reikia skirti pinigų vadovėliams.",
         "ru": "Надо выделить деньги на учебники."
       },
       {
-        "hint": "ką? / kо?",
+        "hint": "ką? / ko?",
         "lt": "Šią knygą skyriau savo mokytojui.",
         "ru": "Эту книгу я посвятил / посвятила своему учителю."
       },
@@ -23546,7 +23546,7 @@
         "ru": "Его назначают директором."
       },
       {
-        "hint": "neski̇r̀ti kо?",
+        "hint": "ne- ko?",
         "lt": "Jo neskiria direktoriumi.",
         "ru": "Его не назначают директором."
       },
@@ -23566,12 +23566,12 @@
         "ru": "Его назначили директором. Dalį pinigų paskyrėme"
       },
       {
-        "hint": "neski̇r̀ti kо?",
+        "hint": "ko?",
         "lt": "knygoms.",
         "ru": "Часть денег мы выделили на книги. Direktorius paskyrė susirinkimo"
       },
       {
-        "hint": "neski̇r̀ti kо?",
+        "hint": "ko?",
         "lt": "laiką.",
         "ru": "Директор назначил время собания."
       },
@@ -23647,17 +23647,17 @@
     },
     "examples": [
       {
-        "hint": "nuo ko?",
+        "hint": "ko?",
         "lt": "Seserys labai skriasi viena nuo kitos.",
         "ru": "Сестры очень отличаются одна от другой."
       },
       {
-        "hint": "iš ko?",
+        "hint": "ko?",
         "lt": "Jis skiriasi iš kitų studentų savarankiškumu.",
         "ru": "Он отличается от других студентов своей самостоятельностью."
       },
       {
-        "hint": "su kuo?",
+        "hint": "kuo?",
         "lt": "Ji skiriasi su vyru.",
         "ru": "Она разводится с мужем."
       },
@@ -23667,7 +23667,7 @@
         "ru": "Она развелась с мужем. Jis išsiskyrė iš kitų studentų"
       },
       {
-        "hint": "su kuo?",
+        "hint": "kuo?",
         "lt": "savarankiškumu.",
         "ru": "Он отличался от других студентов своей самостоятельно стью."
       }
@@ -23748,7 +23748,7 @@
         "ru": "Он давал другу деньги взаймы."
       },
       {
-        "hint": "neskõlinti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis neskolina draugui knygos.",
         "ru": "Он не одалживает книгу другу."
       },
@@ -24091,12 +24091,12 @@
         "ru": "Она чистит картошку."
       },
       {
-        "hint": "neskùsti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji neskuta bulvių.",
         "ru": "Она не чистит картошку."
       },
       {
-        "hint": "neskùsti kо?",
+        "hint": "ko?",
         "lt": "Kirpėjas jam skuta barzdą.",
         "ru": "Парикмахер бреет ему бороду."
       },
@@ -24106,7 +24106,7 @@
         "ru": "На обед она начистила картошки. Kirpėjas jam"
       },
       {
-        "hint": "neskùsti kо?",
+        "hint": "ko?",
         "lt": "nuskuto barzdą.",
         "ru": "Парикмахер сбрил ему бороду."
       },
@@ -24197,17 +24197,17 @@
         "ru": "Мальчик ябедничает учителю на друга."
       },
       {
-        "hint": "neskų́sti ko?",
+        "hint": "ne- ko?",
         "lt": "Neskųsk draugo.",
         "ru": "Не ябедничай на друга."
       },
       {
-        "hint": "neskų́sti ko?",
+        "hint": "ko?",
         "lt": "Jis skundžia savo kaimyną policijai.",
         "ru": "Он доносит полиции на своего соседа."
       },
       {
-        "hint": "neskų́sti ko?",
+        "hint": "ko?",
         "lt": "apskų́sti / Jis apskundė / įskundė / paskundė savo kaimyną policijai.",
         "ru": "Он донёс полиции на"
       },
@@ -24573,17 +24573,17 @@
         "ru": "Она сажает цветы."
       },
       {
-        "hint": "nesodi̇ǹti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nesodina gėlių.",
         "ru": "Она не сажает цветы."
       },
       {
-        "hint": "nesodi̇ǹti ko?",
+        "hint": "ko?",
         "lt": "Ji sodina svečius prie stalo.",
         "ru": "Она сажает гостей за стол."
       },
       {
-        "hint": "nesodi̇ǹti ko?",
+        "hint": "ko?",
         "lt": "Juos sodina į kalėjimą.",
         "ru": "Их сажают в тюрьму."
       },
@@ -24593,7 +24593,7 @@
         "ru": "Она посадила красивый цветок. Ji pasodino svečius"
       },
       {
-        "hint": "nesodi̇ǹti ko?",
+        "hint": "ko?",
         "lt": "prie stalo.",
         "ru": "Она посадила гостей за стол. Juos pasodino į kalėjimą. – Их по садили в тюрьму."
       },
@@ -24613,7 +24613,7 @@
         "ru": "Все цветы она посадила возле дома. Ji susodino"
       },
       {
-        "hint": "nesodi̇ǹti ko?",
+        "hint": "ko?",
         "lt": "svečius prie stalo.",
         "ru": "Всех гостей она посадила за стол."
       }
@@ -24689,17 +24689,17 @@
         "ru": "Она печатает документ."
       },
       {
-        "hint": "nespáusdinti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nespausdina dokumento.",
         "ru": "Она не печатает документ."
       },
       {
-        "hint": "nespáusdinti ko?",
+        "hint": "ko?",
         "lt": "Spausdintuvas spausdina dokumentą.",
         "ru": "Принтер печатает документ."
       },
       {
-        "hint": "nespáusdinti ko?",
+        "hint": "ko?",
         "lt": "Čia spausdina knygas.",
         "ru": "Здесь печатаются книги."
       },
@@ -24780,12 +24780,12 @@
     },
     "examples": [
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Ar tu vakar spėjai į koncertą?",
         "ru": "Успел / успела ли ты вчера на концерт?"
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Spėju ir dirbti, ir mokytis.",
         "ru": "Я успеваю и работать, и учиться."
       },
@@ -24942,12 +24942,12 @@
         "ru": "Он решает математическую задачу."
       },
       {
-        "hint": "nesprę́sti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nesprendžia matematikos uždavinio.",
         "ru": "Он не решает математическую задачу."
       },
       {
-        "hint": "nesprę́sti ko?",
+        "hint": "ko?",
         "lt": "Jie sprendė svarbią problemą.",
         "ru": "Они решали важную проблему."
       },
@@ -25048,7 +25048,7 @@
         "ru": "Дорожная полиция останавливала автомобили."
       },
       {
-        "hint": "nestabdýti ko?",
+        "hint": "ne- ko?",
         "lt": "Kelių policija nestabdė mūsų automobilio.",
         "ru": "Дорожная полиция не останавливала наш автомобиль."
       },
@@ -25134,17 +25134,17 @@
         "ru": "Он строит дом из кирпича."
       },
       {
-        "hint": "nestatýti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nestato namo.",
         "ru": "Он не строит дом."
       },
       {
-        "hint": "nestatýti ko?",
+        "hint": "ko?",
         "lt": "Jie stato stalą vidury kambario.",
         "ru": "Они ставят стол в середине комнаты."
       },
       {
-        "hint": "nestatýti ko?",
+        "hint": "ko?",
         "lt": "Jis stato mašiną savo kieme.",
         "ru": "Он ставит машину во дворе."
       },
@@ -25169,12 +25169,12 @@
         "ru": "Мама опять переставила мебель. Jis perstatė"
       },
       {
-        "hint": "nestatýti ko?",
+        "hint": "ko?",
         "lt": "automobilį į kitą vietą.",
         "ru": "Он переставил автомобиль на другое место. Jis"
       },
       {
-        "hint": "nestatýti ko?",
+        "hint": "ko?",
         "lt": "perstatė namą.",
         "ru": "Он перестроил дом."
       },
@@ -25184,7 +25184,7 @@
         "ru": "В нашем городе понастроили мно-"
       },
       {
-        "hint": "nestatýti ko?",
+        "hint": "ko?",
         "lt": "го новых домов. Pasieniais jie pristatė daug kėdžių.",
         "ru": "Вдоль стен они пона ставили много стульев."
       },
@@ -25194,7 +25194,7 @@
         "ru": "Они поставили всю мебель на место. Jie sustatė"
       },
       {
-        "hint": "nestatýti ko?",
+        "hint": "ko?",
         "lt": "automobilius kieme.",
         "ru": "Они поставили все автомобили во дворе."
       },
@@ -25280,17 +25280,17 @@
         "ru": "Она наблюдает за детьми."
       },
       {
-        "hint": "nestebė́ti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nestebi vaikų.",
         "ru": "Она не наблюдает за детьми."
       },
       {
-        "hint": "nestebė́ti kо?",
+        "hint": "ko?",
         "lt": "Ji stebi, kaip žaidžia vaikai.",
         "ru": "Она наблюдает, как играют дети."
       },
       {
-        "hint": "nestebė́ti kо?",
+        "hint": "ko?",
         "lt": "*pastebė́ti Visi pastebėjo, kad jis labai pasikeitė.",
         "ru": "Все заметили, что он очень изменился."
       }
@@ -25442,17 +25442,17 @@
     },
     "examples": [
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Stokite į eilę!",
         "ru": "Становитесь в очередь!"
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Mašina stoja.",
         "ru": "Машина останавливается."
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Kitais metais jis stos į universitetą.",
         "ru": "В будущем году он будет поступать в университет."
       },
@@ -25477,7 +25477,7 @@
         "ru": "Покупатели встали в очередь. Į universitetą sustojo daug"
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "mano draugų.",
         "ru": "В университет поступило много моих друзей."
       }
@@ -25720,12 +25720,12 @@
         "ru": "Он изучает физику в университете."
       },
       {
-        "hint": "nestudijúoti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nestudijuoja fizikos.",
         "ru": "Он не изучает физику."
       },
       {
-        "hint": "nestudijúoti ko?",
+        "hint": "ko?",
         "lt": "Jis studijuoja lietuvių kalbą.",
         "ru": "Он изучает литовский язык."
       },
@@ -25811,22 +25811,22 @@
         "ru": "Рабочий закручивает гайку."
       },
       {
-        "hint": "nesùkti ko?",
+        "hint": "ne- ko?",
         "lt": "Darbininkas nesuka veržlės.",
         "ru": "Рабочий не закручивает гайку."
       },
       {
-        "hint": "nesùkti ko?",
+        "hint": "ko?",
         "lt": "Paukščiai suka padangėje.",
         "ru": "Птицы кружатся в поднебесье."
       },
       {
-        "hint": "nesùkti ko?",
+        "hint": "ko?",
         "lt": "Mašina suka į kiemą.",
         "ru": "Машина заворачивает во двор."
       },
       {
-        "hint": "nesùkti ko?",
+        "hint": "ko?",
         "lt": "Paukštis suka lizdą.",
         "ru": "Птица вьет гнездо."
       },
@@ -25836,7 +25836,7 @@
         "ru": "Птицы сделали несколько кругов"
       },
       {
-        "hint": "nesùkti ko?",
+        "hint": "ko?",
         "lt": "над нашим домом. Jie apsuko mašiną ir išvažiavo.",
         "ru": "Они развернули машину и уехали."
       },
@@ -25856,7 +25856,7 @@
         "ru": "Автомобиль повернул во двор."
       },
       {
-        "hint": "nesùkti ko?",
+        "hint": "ko?",
         "lt": "*užsùkti Užsukite rytoj pas mus.",
         "ru": "Заскочите завтра к нам."
       }
@@ -25932,17 +25932,17 @@
         "ru": "В зале кружатся пары танцоров."
       },
       {
-        "hint": "aplink ką?",
+        "hint": "ką?",
         "lt": "Žemė sukasi aplink Saulę.",
         "ru": "Земля крутится вокруг Солнца."
       },
       {
-        "hint": "aplink ką?",
+        "hint": "ką?",
         "lt": "Mašina sukasi.",
         "ru": "Машина разворачивается."
       },
       {
-        "hint": "aplink ką?",
+        "hint": "ką?",
         "lt": "Man sukasi galva.",
         "ru": "У меня кружится голова."
       },
@@ -25967,7 +25967,7 @@
         "ru": "Она повернулась ко мне."
       },
       {
-        "hint": "aplink ką?",
+        "hint": "ką?",
         "lt": "susisùkti / Man susisuko / apsisuko galva.",
         "ru": "У меня закружилась голова."
       }
@@ -26043,7 +26043,7 @@
         "ru": "Познакомь меня со своим братом."
       },
       {
-        "hint": "nesupaži̇ǹdinti ko?",
+        "hint": "ne- ko?",
         "lt": "Kodėl tu nesupažindinai manęs su savo broliu?",
         "ru": "Почему ты не познакомил / не познако мила меня со своим братом?"
       }
@@ -26119,12 +26119,12 @@
         "ru": "Все поняли значение того слова."
       },
       {
-        "hint": "nesupràsti kо?",
+        "hint": "ne-",
         "lt": "Niekas nesuprato to žodžio reikšmės.",
         "ru": "Никто не понял значения того слова."
       },
       {
-        "hint": "nesupràsti kо?",
+        "hint": "ko?",
         "lt": "Supratome, kaip reikia atlikti namų darbą.",
         "ru": "Мы поняли, как надо выполнять домашнюю работу."
       }
@@ -26195,12 +26195,12 @@
     },
     "examples": [
       {
-        "hint": "su kuo?",
+        "hint": "kuo?",
         "lt": "Norėčiau susipažinti su tavo broliu.",
         "ru": "Я хотел / хотела бы познакомиться с твоим братом."
       },
       {
-        "hint": "su kuo?",
+        "hint": "kuo?",
         "lt": "Susipažinkite su naujausia literatūra.",
         "ru": "Ознакомьтесь с новейшей литературой."
       }
@@ -26276,12 +26276,12 @@
         "ru": "Вчера я встретил / встретила старого друга."
       },
       {
-        "hint": "nesusiti̇k̀ti kо?",
+        "hint": "ne- ko?",
         "lt": "Vakar nesusitikau draugo.",
         "ru": "Вчера я не встретил / не встретила друга."
       },
       {
-        "hint": "su kuo?",
+        "hint": "kuo?",
         "lt": "Vakar susitikau su senu draugu.",
         "ru": "Вчера я встретился / встретилась со старым другом."
       }
@@ -26357,12 +26357,12 @@
         "ru": "Я встретил / встретила друга."
       },
       {
-        "hint": "nesuti̇k̀ti ko?",
+        "hint": "ne- ko?",
         "lt": "Buvau Vilniuje, bet nesutikau savo seno draugo.",
         "ru": "Я был / была в Вильнюсе, но не встретил / не встретила своего старого друга."
       },
       {
-        "hint": "su kuo?",
+        "hint": "kuo?",
         "lt": "Sutinku su tavimi.",
         "ru": "Я согласен / согласна с тобой."
       }
@@ -26433,7 +26433,7 @@
     },
     "examples": [
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Svajoju apie atostogas.",
         "ru": "Я мечтаю об отпуске."
       },
@@ -26514,7 +26514,7 @@
         "ru": "Поздравляем тебя с днем рождения."
       },
       {
-        "hint": "nesvéikinti ko?",
+        "hint": "ne- ko?",
         "lt": "Ar jie nesveikino tavęs gimtadienio proga?",
         "ru": "Не поздравляли ли они тебя с днем рождения?"
       },
@@ -26590,7 +26590,7 @@
     },
     "examples": [
       {
-        "hint": "su kuo?",
+        "hint": "kuo?",
         "lt": "Jis sveikinosi su svečiais.",
         "ru": "Он здоровался с гостями."
       },
@@ -26757,12 +26757,12 @@
         "ru": "Рыба весит два килограмма."
       },
       {
-        "hint": "nesverti kо?",
+        "hint": "ne- ko?",
         "lt": "Žuvis nesveria dviejų kilogramų.",
         "ru": "Рыба не весит двух килограммов."
       },
       {
-        "hint": "nesverti kо?",
+        "hint": "ko?",
         "lt": "pasvert̃i Pardavėja pasvėrė žuvį.",
         "ru": "Продавец взвесила рыбу."
       },
@@ -26954,7 +26954,7 @@
         "ru": "На улице кто-то кричит."
       },
       {
-        "hint": "ant ko?",
+        "hint": "ko?",
         "lt": "Ji šaukia ant jo.",
         "ru": "Она кричит на него."
       },
@@ -26964,17 +26964,17 @@
         "ru": "Она зовет сына."
       },
       {
-        "hint": "nešaũkti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nešaukė sūnaus namo.",
         "ru": "Она не звала сына домой."
       },
       {
-        "hint": "nešaũkti ko?",
+        "hint": "ko?",
         "lt": "Direktorius šaukia susirinkimą.",
         "ru": "Директор созывает собрание."
       },
       {
-        "hint": "nešaũkti ko?",
+        "hint": "ko?",
         "lt": "Jį šaukia į teismą.",
         "ru": "Его вызывают в суд."
       },
@@ -27065,7 +27065,7 @@
         "ru": "Охотник стрелял зайца. Medžiotojas šovė į kiškį. – Охотник стре лял в зайца."
       },
       {
-        "hint": "nešáuti kо?",
+        "hint": "ne-",
         "lt": "Medžiotojas nešovė kiškio.",
         "ru": "Охотник не стрелял зайца."
       },
@@ -27161,7 +27161,7 @@
         "ru": "Она кормит кошку рыбой."
       },
       {
-        "hint": "nešérti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nešeria katės žuvimi.",
         "ru": "Она никогда не кормит кошку рыбой."
       },
@@ -27262,12 +27262,12 @@
         "ru": "Она подогревает (немного) молока."
       },
       {
-        "hint": "neši̇l̀dyti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nešildo pieno.",
         "ru": "Она не подогревает молоко."
       },
       {
-        "hint": "neši̇l̀dyti kо?",
+        "hint": "ko?",
         "lt": "Jie šildo butą elektriniais šildytuvais.",
         "ru": "Они обогревают квартиру электрическими обогрева телями."
       },
@@ -27540,12 +27540,12 @@
         "ru": "Она вытирает стол тряпочкой."
       },
       {
-        "hint": "nešlúostyti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nešluosto dulkių.",
         "ru": "Она не утирает пыль."
       },
       {
-        "hint": "nešlúostyti kо?",
+        "hint": "ko?",
         "lt": "Ji šluosto sūnui rankas.",
         "ru": "Она вытирает сыну руки."
       },
@@ -27646,7 +27646,7 @@
         "ru": "Он подметает двор новой метлой."
       },
       {
-        "hint": "nešlúoti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis nešluoja kiemo.",
         "ru": "Он не подметает двор."
       },
@@ -27752,12 +27752,12 @@
         "ru": "Они говорят глупости."
       },
       {
-        "hint": "nešneka ko?",
+        "hint": "ne- ko?",
         "lt": "Jie nešneka niekų.",
         "ru": "Они нe говорят глупости."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Jie šneka apie tave.",
         "ru": "Они говорят о тебе."
       },
@@ -27782,7 +27782,7 @@
         "ru": "Они наговорили всяких глупостей. Prišnekėjau"
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "juos važiuoti kartu.",
         "ru": "Я уговорил / уговорила их ехать вместе."
       }
@@ -27858,12 +27858,12 @@
         "ru": "Она танцует вальс со своим мужем."
       },
       {
-        "hint": "nešókti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nešoko valso.",
         "ru": "Она не танцевала вальс."
       },
       {
-        "hint": "nešókti ko?",
+        "hint": "ko?",
         "lt": "Jis aukštai šoko.",
         "ru": "Он прыгнул высоко."
       },
@@ -27888,7 +27888,7 @@
         "ru": "Она потанцевала со своим мужем. Jis pašoko iš"
       },
       {
-        "hint": "nešókti ko?",
+        "hint": "ko?",
         "lt": "džiaugsmo.",
         "ru": "Он подпрыгнул с радости. Jis pašoko nuo kėdės. – Он вскочил со стула."
       },
@@ -27979,12 +27979,12 @@
         "ru": "Она причесывает волосы дочери."
       },
       {
-        "hint": "nešukúoti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nešukuoja plaukų dukteriai.",
         "ru": "Она не причесывает волосы дочери."
       },
       {
-        "hint": "nešukúoti ko?",
+        "hint": "ko?",
         "lt": "Kirpėja šukuoja klientei plaukus šukomis.",
         "ru": "Парикмахер причесывает волосы клиентки расческой."
       },
@@ -28080,7 +28080,7 @@
         "ru": "Она причесывается расческой."
       },
       {
-        "hint": "nesišukúoti?",
+        "hint": "ne-",
         "lt": "Ji nesišukuoja plaukų šukomis.",
         "ru": "Она не причесывается расческой."
       },
@@ -28176,7 +28176,7 @@
         "ru": "Сегодня он празднует день рождения."
       },
       {
-        "hint": "nešvęs̃ti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nešvenčia gimtadienio.",
         "ru": "Он не празднует день рождения."
       },
@@ -28267,12 +28267,12 @@
         "ru": "Врач делает мне рентген легких."
       },
       {
-        "hint": "nešviẽsti ko?",
+        "hint": "ne- ko?",
         "lt": "Gydytojas nešviečia man plaučių.",
         "ru": "Врач не делает мне рентген легких."
       },
       {
-        "hint": "nešviẽsti ko?",
+        "hint": "ko?",
         "lt": "Jis švietė žmones.",
         "ru": "Он просвещал людей."
       },
@@ -28368,12 +28368,12 @@
         "ru": "Он ремонтирует телевизор."
       },
       {
-        "hint": "netaisýti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis netaiso televizoriaus.",
         "ru": "Он не ремонтирует телевизор."
       },
       {
-        "hint": "netaisýti ko?",
+        "hint": "ko?",
         "lt": "Mokytoja taisė mokinių namų darbus raudonu pieštuku.",
         "ru": "Учительница исправляла до машние работы учеников красным карандашом."
       },
@@ -28403,7 +28403,7 @@
         "ru": "Весь вечер учительница"
       },
       {
-        "hint": "netaisýti ko?",
+        "hint": "ko?",
         "lt": "исправляла сочинения учеников. Visą dieną jis prataisė laikrodį.",
         "ru": "Весь день он прочинил часы."
       },
@@ -28484,7 +28484,7 @@
         "ru": "Художник пишет портрет."
       },
       {
-        "hint": "netapýti ko?",
+        "hint": "ne- ko?",
         "lt": "Šis dailininkas netapo portretų.",
         "ru": "Этот художник не пишет портреты."
       },
@@ -28666,52 +28666,52 @@
         "ru": "Он хорошо произносит литовские слова."
       },
       {
-        "hint": "netart̃i kо?",
+        "hint": "ne- ko?",
         "lt": "Mano vaikas netaria „r“.",
         "ru": "Мой ребенок не выговаривает „р“."
       },
       {
-        "hint": "netart̃i kо?",
+        "hint": "ko?",
         "lt": "*aptart̃i Aptarėme daug reikalų.",
         "ru": "Мы обсудили много дел."
       },
       {
-        "hint": "netart̃i kо?",
+        "hint": "ne- ko?",
         "lt": "ištart̃i Jis negali ištarti garso „r“.",
         "ru": "Он не может выговорить звук „р“. Vaikas ištarė"
       },
       {
-        "hint": "netart̃i kо?",
+        "hint": "ko?",
         "lt": "pirmąjį žodį.",
         "ru": "Ребенок произнес первое слово."
       },
       {
-        "hint": "netart̃i kо?",
+        "hint": "ko?",
         "lt": "*nutart̃i Nutarėme išvažiuoti rytoj.",
         "ru": "Мы решили уехать завтра."
       },
       {
-        "hint": "netart̃i kо?",
+        "hint": "ko?",
         "lt": "*patart̃i Prašom patarti, ką daryti.",
         "ru": "Посоветуйте, пожалуйста, что делать."
       },
       {
-        "hint": "netart̃i kо?",
+        "hint": "ne- ko?",
         "lt": "pratart̃i Jis negalėjo nė žodžio pratarti.",
         "ru": "Он не мог вымолвить ни слова."
       },
       {
-        "hint": "netart̃i kо?",
+        "hint": "ko?",
         "lt": "*pritart̃i Pritariu jūsų nuomonei.",
         "ru": "Я поддерживаю ваше мнение."
       },
       {
-        "hint": "netart̃i kо?",
+        "hint": "ko?",
         "lt": "*sutart̃i Mes gerai sutariame.",
         "ru": "Мы хорошо ладим друг с другом."
       },
       {
-        "hint": "netart̃i kо?",
+        "hint": "ko?",
         "lt": "*užtart̃i Jį užtarė draugai.",
         "ru": "За него заступились друзья."
       }
@@ -28787,7 +28787,7 @@
         "ru": "Она копит деньги на поездку."
       },
       {
-        "hint": "netaupýti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji netaupo pinigų.",
         "ru": "Она не копит деньги."
       },
@@ -29040,7 +29040,7 @@
         "ru": "Его судили за воровство."
       },
       {
-        "hint": "netei̇s̃ti kо?",
+        "hint": "ne- ko?",
         "lt": "Jo neteisė už vagystę.",
         "ru": "Его не судили за воровство."
       },
@@ -29116,17 +29116,17 @@
     },
     "examples": [
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Upė teka į jūrą.",
         "ru": "Река течет в море."
       },
       {
-        "hint": "iš kо?",
+        "hint": "ko?",
         "lt": "Iš žaizdos teka kraujas.",
         "ru": "Из раны льется кровь."
       },
       {
-        "hint": "už kо?",
+        "hint": "ko?",
         "lt": "Ji teka už Jono.",
         "ru": "Она выходит замуж за Йонаса. Saulė teka. – Солнце всходит."
       },
@@ -29141,7 +29141,7 @@
         "ru": "Эта река вытекает из озера Гальве. Ji ištekėjo"
       },
       {
-        "hint": "už kо?",
+        "hint": "ko?",
         "lt": "už Jono.",
         "ru": "Она вышла замуж за Йонаса."
       },
@@ -29237,7 +29237,7 @@
         "ru": "Смазывайте ногу этой мазью."
       },
       {
-        "hint": "netèpti ko?",
+        "hint": "ne- ko?",
         "lt": "Netepkite kojos šiuo tepalu.",
         "ru": "Не смазывайте ногу этой мазью."
       },
@@ -29692,7 +29692,7 @@
         "ru": "Сколько пассажиров помещается в автобус?"
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Į autobusą telpa šešiasdešimt keleivių.",
         "ru": "B автобус помещается шестьдесят пассажиров."
       },
@@ -29950,12 +29950,12 @@
         "ru": "Полиция расследует дело."
       },
       {
-        "hint": "neti̇r̀ti kо?",
+        "hint": "ne- ko?",
         "lt": "Policija netiria bylos.",
         "ru": "Полиция не расследует дело."
       },
       {
-        "hint": "neti̇r̀ti kо?",
+        "hint": "ko?",
         "lt": "Gydytojai tiria ligonius šiuolaikiška aparatūra.",
         "ru": "Врачи обследуют больных на современной аппаратуре."
       },
@@ -30425,7 +30425,7 @@
     },
     "examples": [
       {
-        "hint": "su kuo?",
+        "hint": "kuo?",
         "lt": "Jis tuokiasi su mano pussesere šeštadienį.",
         "ru": "В субботу он венчается с моей двоюродной сестрой."
       },
@@ -30612,37 +30612,37 @@
         "ru": "У меня есть друзья."
       },
       {
-        "hint": "neturė́ti ko?",
+        "hint": "ne- ko?",
         "lt": "Neturiu draugo.",
         "ru": "У меня нет друга."
       },
       {
-        "hint": "neturė́ti ko?",
+        "hint": "ko?",
         "lt": "Gandras turi ilgas kojas.",
         "ru": "У аиста длинные ноги."
       },
       {
-        "hint": "neturė́ti ko?",
+        "hint": "ko?",
         "lt": "Jis turi gerą atmintį.",
         "ru": "У него хорошая память."
       },
       {
-        "hint": "neturė́ti ko?",
+        "hint": "ko?",
         "lt": "Ką ji turi rankose?",
         "ru": "Что у нее в руках?"
       },
       {
-        "hint": "neturė́ti ko?",
+        "hint": "ko?",
         "lt": "Metai turi dvylika mėnesių.",
         "ru": "В году двенадцать месяцев."
       },
       {
-        "hint": "neturė́ti ko?",
+        "hint": "ko?",
         "lt": "Turiu viltį. / Turiu vilties.",
         "ru": "У меня есть надежда."
       },
       {
-        "hint": "neturė́ti ko?",
+        "hint": "ko?",
         "lt": "Turiu eiti.",
         "ru": "Я должен / должна идти."
       }
@@ -30718,7 +30718,7 @@
         "ru": "Она убирает комнаты."
       },
       {
-        "hint": "netvarkýti kо?",
+        "hint": "ne-",
         "lt": "Ji netvarko kambarių.",
         "ru": "Она не убирает комнаты."
       },
@@ -31087,12 +31087,12 @@
         "ru": "Называйте, пожалуйста, меня по имени."
       },
       {
-        "hint": "nevadi̇ǹti ko?",
+        "hint": "ne- ko?",
         "lt": "Nevadink jo vardu.",
         "ru": "Не называй его по имени."
       },
       {
-        "hint": "nevadi̇ǹti ko?",
+        "hint": "ko?",
         "lt": "Gatves vadina žymių žmonių vardais.",
         "ru": "Улицы называют в честь известных людей."
       },
@@ -31107,7 +31107,7 @@
         "ru": "Он назвал меня по имени. Gatvę pavadino garsaus"
       },
       {
-        "hint": "nevadi̇ǹti ko?",
+        "hint": "ko?",
         "lt": "poeto vardu.",
         "ru": "Улицу назвали в честь известного поэта."
       },
@@ -31274,12 +31274,12 @@
         "ru": "Она исполняет роль принцессы. Она изображает принцессу."
       },
       {
-        "hint": "nevaidi̇ǹti kо?",
+        "hint": "ne- ko?",
         "lt": "Ji nevaidina princesės.",
         "ru": "Она не исполняет роль принцессы. Она не изображает принцессу."
       },
       {
-        "hint": "nevaidi̇ǹti kо?",
+        "hint": "ko?",
         "lt": "išvaidi̇ǹti / Aktorius išvaidino / pravaidino teatre dvidešimt metų.",
         "ru": "Актер проиграл в"
       },
@@ -31466,7 +31466,7 @@
         "ru": "Мой брат водит автомобиль."
       },
       {
-        "hint": "nevairúoti kо?",
+        "hint": "ne- ko?",
         "lt": "Mano brolis nevairuoja automobilio.",
         "ru": "Мой брат не водит автомобиль."
       },
@@ -31476,7 +31476,7 @@
         "ru": "Я хотел / хотела бы поводить твой"
       },
       {
-        "hint": "nevairúoti kо?",
+        "hint": "ko?",
         "lt": "автомобиль. Jis leido sūnui pavairuoti automobilį.",
         "ru": "Он разрешил сыну поводить автомобиль."
       },
@@ -31557,7 +31557,7 @@
         "ru": "Он угощает гостей вином."
       },
       {
-        "hint": "neváišinti ko?",
+        "hint": "ne- ko?",
         "lt": "Jis nevaišina svečių.",
         "ru": "Он не угощает гостей."
       },
@@ -31724,12 +31724,12 @@
         "ru": "Они ели рыбу."
       },
       {
-        "hint": "neválgyti ko?",
+        "hint": "ne- ko?",
         "lt": "Jie nevalgo žuvies.",
         "ru": "Они не едят рыбу."
       },
       {
-        "hint": "neválgyti ko?",
+        "hint": "ko?",
         "lt": "Tortą ji valgo šakute.",
         "ru": "Торт она ест вилкой."
       },
@@ -31835,7 +31835,7 @@
         "ru": "Она чистит ковер. Ji valo dulkes šluoste. – Она тряпкой вытирает пыль."
       },
       {
-        "hint": "nevalýti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nevalo kilimo.",
         "ru": "Она не чистит ковер."
       },
@@ -31936,17 +31936,17 @@
         "ru": "Она принимает лекарства."
       },
       {
-        "hint": "nevartóti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nevartoja vaistų.",
         "ru": "Она не принимает лекарства."
       },
       {
-        "hint": "nevartóti ko?",
+        "hint": "ko?",
         "lt": "Jis vartoja daug daržovių.",
         "ru": "Он ест (употребляет) много овощей."
       },
       {
-        "hint": "nevartóti ko?",
+        "hint": "ko?",
         "lt": "Ji vartoja daug tarptautinių žodžių.",
         "ru": "Она использует много международных слов."
       },
@@ -32375,12 +32375,12 @@
     },
     "examples": [
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Vėluoju į susirinkimą.",
         "ru": "Я опаздываю на собрание."
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Laikrodis vėluoja.",
         "ru": "Часы опаздывают."
       },
@@ -32471,7 +32471,7 @@
         "ru": "Он переворачивает другую страницу."
       },
       {
-        "hint": "nevers̃ti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji neverčia kito puslapio.",
         "ru": "Она не переворачивает другую страницу."
       },
@@ -32607,12 +32607,12 @@
         "ru": "Он очень ценит дружбу."
       },
       {
-        "hint": "nevértinti kо?",
+        "hint": "ne-",
         "lt": "Jis nevertina draugystės.",
         "ru": "Он не ценит дружбу."
       },
       {
-        "hint": "nevértinti kо?",
+        "hint": "ko?",
         "lt": "Dėstytojas vertina studentų darbus.",
         "ru": "Преподаватель оценивает работы студентов."
       },
@@ -32632,7 +32632,7 @@
         "ru": "Преподаватель переоценил работу"
       },
       {
-        "hint": "nevértinti kо?",
+        "hint": "ko?",
         "lt": "студента. *Jis pervertino savo jėgas.",
         "ru": "Он переоценил свои силы."
       }
@@ -32708,37 +32708,37 @@
         "ru": "Она ведет / водит ребенка в детский сад."
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ne-",
         "lt": "Ji neveda vaiko į darželį.",
         "ru": "Она не ведет / не водит ребенка в детский сад."
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ko?",
         "lt": "Ji veda vaiką per gatvę.",
         "ru": "Она ведет ребенка через улицу."
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ko?",
         "lt": "Jis veda televizijos laidą.",
         "ru": "Он ведет телевизионную передачу."
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ko?",
         "lt": "Brolis vedė.",
         "ru": "Брат женился."
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ko?",
         "lt": "Jis vedė draugo seserį.",
         "ru": "Он женился на сестре друга."
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ko?",
         "lt": "Šios obelys gerai veda.",
         "ru": "Эти яблони хорошо плодоносят."
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ko?",
         "lt": "Katė veda keturis kartus per metus.",
         "ru": "Кошка приносит котят четыре раза в год."
       },
@@ -32753,7 +32753,7 @@
         "ru": "Она привела ребенка в школу. Katė atvedė tris"
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ko?",
         "lt": "kačiukus.",
         "ru": "Кошка принесла троих котят."
       },
@@ -32763,7 +32763,7 @@
         "ru": "Она вывела ребенка во двор. Jis išvedė naują obelų"
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ko?",
         "lt": "veislę.",
         "ru": "Он вывел новый сорт яблок. Išveskite vidurkį. – Посчитайте среднее арифметическое."
       },
@@ -32783,7 +32783,7 @@
         "ru": "Она отвела ребенка подальше от реки."
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ko?",
         "lt": "*Tą darbą pavedžiau jam.",
         "ru": "Эту работу я поручил / поручила ему."
       },
@@ -32798,7 +32798,7 @@
         "ru": "Она перевела ребенка через улицу. *Pinigus"
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ko?",
         "lt": "pervedėme į jūsų sąskaitą.",
         "ru": "Деньги мы перевели на ваш счет."
       },
@@ -32808,7 +32808,7 @@
         "ru": "Она провела ребенка мимо собаки. Jis pravedė"
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ko?",
         "lt": "televizijos laidą.",
         "ru": "Он провел телевизионную передачу."
       },
@@ -32828,7 +32828,7 @@
         "ru": "Он завел ребенка на гopy. *Ji užvedė savo seserį"
       },
       {
-        "hint": "nevèsti kо?",
+        "hint": "ko?",
         "lt": "pas mane.",
         "ru": "Она (ненадолго) привела свою сестру ко мне."
       }
@@ -32904,12 +32904,12 @@
         "ru": "Он везет сына на автомобиле."
       },
       {
-        "hint": "nevèžti kо?",
+        "hint": "ne-",
         "lt": "Jis neveža sūnaus automobiliu.",
         "ru": "Он не везет сына на автомобиле."
       },
       {
-        "hint": "nevèžti kо?",
+        "hint": "ko?",
         "lt": "Jis veža sūnų į mokyklą.",
         "ru": "Он везет сына в школу."
       },
@@ -32974,7 +32974,7 @@
         "ru": "Завези меня на ту высокую гору."
       },
       {
-        "hint": "nevèžti kо?",
+        "hint": "ko?",
         "lt": "*Užvežk mane į parduotuvę.",
         "ru": "Завези меня в магазин."
       }
@@ -33161,7 +33161,7 @@
         "ru": "Он носит новый костюм."
       },
       {
-        "hint": "nevilkė́ti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis nevilki naujo kostiumo.",
         "ru": "Он не носит новый костюм."
       },
@@ -33176,7 +33176,7 @@
         "ru": "Она проносила то пальто четыре"
       },
       {
-        "hint": "nevilkė́ti kо?",
+        "hint": "ko?",
         "lt": "года. Noriu pravilkėti naująjį paltą.",
         "ru": "Хочу проносить новое пальто."
       }
@@ -33257,7 +33257,7 @@
         "ru": "Он надевеат пальто."
       },
       {
-        "hint": "nesivilk̃ti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis nesivelka palto.",
         "ru": "Он не надеват пальто."
       },
@@ -33373,12 +33373,12 @@
         "ru": "Вчера я варил / варила мясо."
       },
       {
-        "hint": "nevi̇r̀ti ko?",
+        "hint": "ne- ko?",
         "lt": "Mes neverdame mėsos pietums.",
         "ru": "Мы не варим мясо на обед."
       },
       {
-        "hint": "nevi̇r̀ti ko?",
+        "hint": "ko?",
         "lt": "Vakarienę virs sesuo.",
         "ru": "Ужин будет готовить сестра."
       },
@@ -33489,7 +33489,7 @@
         "ru": "Она крала деньги."
       },
       {
-        "hint": "nevõgti ko?",
+        "hint": "ne- ko?",
         "lt": "Ji nevogė pinigų.",
         "ru": "Она не крала деньги."
       },
@@ -33580,17 +33580,17 @@
         "ru": "Он обещает сыну велосипед."
       },
       {
-        "hint": "nežadė́ti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis nežada sūnui dviračio.",
         "ru": "Он не обещает сыну велосипед."
       },
       {
-        "hint": "nežadė́ti kо?",
+        "hint": "ko?",
         "lt": "Jis žada man padėti.",
         "ru": "Он обещает мне помочь."
       },
       {
-        "hint": "nežadė́ti kо?",
+        "hint": "ko?",
         "lt": "pažadė́ti / Jis pažadėjo / prižadėjo sūnui dviratį.",
         "ru": "Он пообещал сыну велосипед."
       }
@@ -33666,22 +33666,22 @@
         "ru": "Отец будит / поднимает детей."
       },
       {
-        "hint": "nežãdinti kо?",
+        "hint": "ne-",
         "lt": "Tėvas nežadina vaikų.",
         "ru": "Отец не будит / не поднимает детей."
       },
       {
-        "hint": "nežãdinti kо?",
+        "hint": "ko?",
         "lt": "Ši muzika žadina prisiminimus.",
         "ru": "Эта музыка пробуждает воспоминания."
       },
       {
-        "hint": "nežãdinti kо?",
+        "hint": "ko?",
         "lt": "Vaisiai žadina apetitą.",
         "ru": "Фрукты возбуждают аппетит."
       },
       {
-        "hint": "nežãdinti kо?",
+        "hint": "ko?",
         "lt": "pažãdinti / Tėvas pažadino / prižadino vaikus.",
         "ru": "Отец разбудил детей."
       },
@@ -33691,7 +33691,7 @@
         "ru": "Фрукты возбудили аппетит. Ši muzika sužadino"
       },
       {
-        "hint": "nežãdinti kо?",
+        "hint": "ko?",
         "lt": "prisiminimus.",
         "ru": "Эта музыка пробудила воспоминания."
       }
@@ -33830,7 +33830,7 @@
         "ru": "Они играют в футбол."
       },
       {
-        "hint": "nežai̇s̃ti kо?",
+        "hint": "ne- ko?",
         "lt": "Jie nežaidžia futbolo.",
         "ru": "Они не играют в футбол."
       },
@@ -33931,7 +33931,7 @@
         "ru": "Меня ранят твои слова."
       },
       {
-        "hint": "nežei̇s̃ti kо?",
+        "hint": "ne- ko?",
         "lt": "Manęs nežeidžia tavo žodžiai.",
         "ru": "Меня не ранят твои слова."
       },
@@ -34118,22 +34118,22 @@
         "ru": "Знаете ли вы правду?"
       },
       {
-        "hint": "nežinóti kо?",
+        "hint": "ne- ko?",
         "lt": "Jūs nežinote tiesos.",
         "ru": "Вы не знаете правды."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Aš viską apie tave žinau.",
         "ru": "Я о тебе знаю все."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Aš žinau, kur jis gyvena.",
         "ru": "Я знаю, где он живет."
       },
       {
-        "hint": "apie ką?",
+        "hint": "ką?",
         "lt": "Aš žinau, kad jis dirba Vilniuje.",
         "ru": "Я знаю, что он работает в Вильнюсе."
       },
@@ -34209,12 +34209,12 @@
     },
     "examples": [
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Ji žiūri į jį.",
         "ru": "Она смотрит на него."
       },
       {
-        "hint": "pro ką?",
+        "hint": "ką?",
         "lt": "Ji žiūri pro langą.",
         "ru": "Она смотрит в окно."
       },
@@ -34224,17 +34224,17 @@
         "ru": "По вечерам мы смотрим телевизор."
       },
       {
-        "hint": "nežiūrė́ti kо?",
+        "hint": "ne- ko?",
         "lt": "Vakarais mes nežiūrime televizoriaus.",
         "ru": "По вечерам мы не смотрим телевизор."
       },
       {
-        "hint": "į ką?",
+        "hint": "ką?",
         "lt": "Jis rimtai žiūri į gyvenimą.",
         "ru": "Он серьезно относится к жизни."
       },
       {
-        "hint": "kо?",
+        "hint": "ko?",
         "lt": "Žiūrėkite savo reikalų!",
         "ru": "Поглядите на себя!"
       },
@@ -34345,7 +34345,7 @@
         "ru": "Преступник убивал свои жертвы ножом."
       },
       {
-        "hint": "nežudýti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis nežudė nieko.",
         "ru": "Он никого не убивал."
       },
@@ -34355,7 +34355,7 @@
         "ru": "Убийца истребил всю семью."
       },
       {
-        "hint": "nežudýti kо?",
+        "hint": "ko?",
         "lt": "*pražudýti Jį pražudė pinigai.",
         "ru": "Его погубили деньги."
       },
@@ -34517,12 +34517,12 @@
         "ru": "Он ловит окуней."
       },
       {
-        "hint": "nežvejóti kо?",
+        "hint": "ne- ko?",
         "lt": "Jis nežvejoju ešerių.",
         "ru": "Он не ловит окуней."
       },
       {
-        "hint": "nežvejóti kо?",
+        "hint": "ko?",
         "lt": "Jis žvejoja tinklu.",
         "ru": "Он ловит рыбу сетью."
       },
@@ -34532,7 +34532,7 @@
         "ru": "По выходным они часто едут по-"
       },
       {
-        "hint": "nežvejóti kо?",
+        "hint": "ko?",
         "lt": "рыбачить. Jie pažvejojo porą valandų ir susiruošė namo.",
         "ru": "Они порыбачили пару часов и собрались домой."
       },
