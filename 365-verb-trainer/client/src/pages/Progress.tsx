@@ -1,17 +1,6 @@
 import { useEffect, useState } from "react";
 import { api, type ProgressData, type QuestionMode, type VerbEntry } from "../api/client";
-
-// ---------------------------------------------------------------------------
-// Helpers
-// ---------------------------------------------------------------------------
-
-const MODE_LABEL: Record<QuestionMode, string> = {
-  verb_translation:  "Transl",
-  conjugation_drill: "Conj",
-  main_forms:        "Forms",
-  fill_blank:        "Blank",
-  fill_blank_hint:   "Blank+",
-};
+import { useLang } from "../context/LangContext";
 
 const ALL_MODES: QuestionMode[] = [
   "verb_translation",
@@ -31,34 +20,35 @@ function getUserId(): string {
   return id;
 }
 
-// ---------------------------------------------------------------------------
-// PointDots — 5 circles in a row
-// ---------------------------------------------------------------------------
-
-function PointDots({ earnedModes }: { earnedModes: Set<string> }) {
+function PointDots({ earnedModes, modeLabels }: { earnedModes: Set<string>; modeLabels: Record<QuestionMode, string> }) {
   return (
     <span className="point-dots">
       {ALL_MODES.map((mode) => (
         <span
           key={mode}
           className={`point-dot ${earnedModes.has(mode) ? "earned" : "empty"}`}
-          title={MODE_LABEL[mode]}
+          title={modeLabels[mode]}
         />
       ))}
     </span>
   );
 }
 
-// ---------------------------------------------------------------------------
-// Main Progress component
-// ---------------------------------------------------------------------------
-
 export default function Progress() {
+  const { t } = useLang();
   const [data, setData] = useState<ProgressData | null>(null);
   const [verbs, setVerbs] = useState<Map<number, VerbEntry>>(new Map());
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [openGroups, setOpenGroups] = useState<Set<number>>(new Set());
+
+  const MODE_LABELS: Record<QuestionMode, string> = {
+    verb_translation:  t.mode_verb_translation,
+    conjugation_drill: t.mode_conjugation_drill,
+    main_forms:        t.mode_main_forms,
+    fill_blank:        t.mode_fill_blank,
+    fill_blank_hint:   t.mode_fill_blank_hint,
+  };
 
   useEffect(() => {
     const userId = getUserId();
@@ -83,17 +73,15 @@ export default function Progress() {
     });
   };
 
-  if (loading) return <div className="progress-page"><p className="status-msg">Loading…</p></div>;
+  if (loading) return <div className="progress-page"><p className="status-msg">{t.progress_loading}</p></div>;
   if (error)   return <div className="progress-page"><p className="status-msg error">{error}</p></div>;
   if (!data)   return null;
 
-  // Build verb lookup from byVerb
   const verbMap = new Map<number, Set<string>>();
   for (const row of data.byVerb) {
     verbMap.set(row.verbId, new Set(row.modes));
   }
 
-  // Group verbs by point count (1–5)
   const groups: Map<number, number[]> = new Map();
   for (let p = 5; p >= 1; p--) groups.set(p, []);
 
@@ -102,19 +90,16 @@ export default function Progress() {
     if (pts >= 1 && pts <= 5) groups.get(pts)!.push(row.verbId);
   }
 
-  // Count untouched verbs (0 points)
   const touchedCount = data.byVerb.length;
   const untouchedCount = 365 - touchedCount;
-
   const pct = Math.round((data.totalPoints / data.maxPoints) * 100);
 
   return (
     <div className="progress-page">
-      {/* Total score */}
       <div className="progress-summary">
         <div className="progress-total">
           <span className="progress-score">{data.totalPoints}</span>
-          <span className="progress-max"> / {data.maxPoints} points</span>
+          <span className="progress-max"> / {data.maxPoints} {t.progress_points(data.maxPoints).replace(/^\d+ /, "")}</span>
         </div>
         <div className="progress-bar-wrap">
           <div className="progress-bar-fill" style={{ width: `${pct}%` }} />
@@ -122,7 +107,6 @@ export default function Progress() {
         <span className="progress-pct">{pct}%</span>
       </div>
 
-      {/* Groups 5 → 1 */}
       {[5, 4, 3, 2, 1].map((pts) => {
         const verbIds = groups.get(pts) ?? [];
         if (verbIds.length === 0) return null;
@@ -133,35 +117,34 @@ export default function Progress() {
               className="progress-group-header"
               onClick={() => toggleGroup(pts)}
             >
-              <span className="progress-group-pts">{pts} point{pts !== 1 ? "s" : ""}</span>
-              <span className="progress-group-count">({verbIds.length} verbs)</span>
+              <span className="progress-group-pts">{t.progress_points(pts)}</span>
+              <span className="progress-group-count">{t.progress_verbs(verbIds.length)}</span>
               <span className="progress-group-chevron">{isOpen ? "▲" : "▼"}</span>
             </button>
 
             {isOpen && (
               <div className="progress-group-body">
                 {verbIds.sort((a, b) => a - b).map((verbId) => {
-                    const earned = verbMap.get(verbId) ?? new Set();
-                    const verb = verbs.get(verbId);
-                    return (
-                      <div key={verbId} className="progress-verb-row">
-                        <span className="progress-verb-id">{verbId}.</span>
-                        <span className="progress-verb-name">{verb?.infinitive ?? `#${verbId}`}</span>
-                        <PointDots earnedModes={earned} />
-                      </div>
-                    );
-                  })}
+                  const earned = verbMap.get(verbId) ?? new Set();
+                  const verb = verbs.get(verbId);
+                  return (
+                    <div key={verbId} className="progress-verb-row">
+                      <span className="progress-verb-id">{verbId}.</span>
+                      <span className="progress-verb-name">{verb?.infinitive ?? `#${verbId}`}</span>
+                      <PointDots earnedModes={earned} modeLabels={MODE_LABELS} />
+                    </div>
+                  );
+                })}
               </div>
             )}
           </div>
         );
       })}
 
-      {/* 0 points — count only */}
       <div className="progress-group progress-group-zero">
         <div className="progress-group-header progress-group-header-zero">
-          <span className="progress-group-pts">0 points</span>
-          <span className="progress-group-count">({untouchedCount} verbs not yet started)</span>
+          <span className="progress-group-pts">{t.progress_points(0)}</span>
+          <span className="progress-group-count">{t.progress_not_started(untouchedCount)}</span>
         </div>
       </div>
     </div>

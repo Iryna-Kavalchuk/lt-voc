@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { api, type VerbEntry, type QuestionMode } from "../api/client";
 import VerbCard from "../components/VerbCard";
+import { useLang } from "../context/LangContext";
 
 const ALL_MODES: QuestionMode[] = [
   "verb_translation",
@@ -10,14 +11,6 @@ const ALL_MODES: QuestionMode[] = [
   "fill_blank_hint",
 ];
 
-const MODE_TITLE: Record<QuestionMode, string> = {
-  verb_translation:  "Translation",
-  conjugation_drill: "Conjugation",
-  main_forms:        "Main forms",
-  fill_blank:        "Fill blank",
-  fill_blank_hint:   "Fill blank+",
-};
-
 function getUserId(): string {
   const key = "verb_trainer_user_id";
   let id = localStorage.getItem(key);
@@ -25,14 +18,14 @@ function getUserId(): string {
   return id;
 }
 
-function PointDots({ earnedModes }: { earnedModes: Set<string> }) {
+function PointDots({ earnedModes, modeLabels }: { earnedModes: Set<string>; modeLabels: Record<QuestionMode, string> }) {
   return (
     <span className="point-dots">
       {ALL_MODES.map((mode) => (
         <span
           key={mode}
           className={`point-dot ${earnedModes.has(mode) ? "earned" : "empty"}`}
-          title={MODE_TITLE[mode]}
+          title={modeLabels[mode]}
         />
       ))}
     </span>
@@ -52,6 +45,7 @@ function speakForms(verbId: number) {
 }
 
 export default function VerbList() {
+  const { t } = useLang();
   const [verbs, setVerbs] = useState<VerbEntry[]>([]);
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
@@ -59,6 +53,14 @@ export default function VerbList() {
   const [expanded, setExpanded] = useState<number | null>(null);
   const [letterFilter, setLetterFilter] = useState("");
   const [pointsMap, setPointsMap] = useState<Map<number, Set<string>>>(new Map());
+
+  const MODE_LABELS: Record<QuestionMode, string> = {
+    verb_translation:  t.mode_verb_translation,
+    conjugation_drill: t.mode_conjugation_drill,
+    main_forms:        t.mode_main_forms,
+    fill_blank:        t.mode_fill_blank,
+    fill_blank_hint:   t.mode_fill_blank_hint,
+  };
 
   useEffect(() => {
     const userId = getUserId();
@@ -78,7 +80,6 @@ export default function VerbList() {
       .finally(() => setLoading(false));
   }, []);
 
-  // Client-side filtering
   const visible = verbs.filter((v) => {
     const q = search.toLowerCase();
     const matchesSearch =
@@ -91,7 +92,6 @@ export default function VerbList() {
     return matchesSearch && matchesLetter;
   });
 
-  // Build unique first-letter index
   const letters = [...new Set(verbs.map((v) => v.infinitive[0]?.toUpperCase() ?? ""))].sort();
 
   return (
@@ -99,20 +99,19 @@ export default function VerbList() {
       <div className="filters">
         <input
           type="search"
-          placeholder="Search by infinitive or translation…"
+          placeholder={t.verblist_search}
           value={search}
           onChange={(e) => { setSearch(e.target.value); setLetterFilter(""); }}
           className="filter-input"
         />
       </div>
 
-      {/* Letter index */}
       <div className="letter-index">
         <button
           className={`letter-btn ${letterFilter === "" ? "active" : ""}`}
           onClick={() => setLetterFilter("")}
         >
-          All
+          {t.verblist_all}
         </button>
         {letters.map((l) => (
           <button
@@ -125,12 +124,12 @@ export default function VerbList() {
         ))}
       </div>
 
-      {loading && <p className="status-msg">Loading verbs…</p>}
+      {loading && <p className="status-msg">{t.verblist_loading}</p>}
       {error && <p className="status-msg error">{error}</p>}
 
       {!loading && !error && (
         <>
-          <p className="result-count">{visible.length} verbs</p>
+          <p className="result-count">{t.verblist_count(visible.length)}</p>
           <div className="verblist-grid">
             {visible.map((verb) => (
               <div key={verb.id} className="verblist-item">
@@ -143,7 +142,7 @@ export default function VerbList() {
                     <span className="verblist-infinitive">{verb.infinitive}</span>
                     <span className="verblist-forms">{verb.forms.slice(1).join(", ")}</span>
                     <span className="verblist-translation">{verb.translation}</span>
-                    <PointDots earnedModes={pointsMap.get(verb.id) ?? new Set()} />
+                    <PointDots earnedModes={pointsMap.get(verb.id) ?? new Set()} modeLabels={MODE_LABELS} />
                     <span className="verblist-chevron">{expanded === verb.id ? "▲" : "▼"}</span>
                   </button>
                   <button

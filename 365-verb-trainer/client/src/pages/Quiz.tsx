@@ -1,6 +1,7 @@
 import { useState, useCallback, useRef } from "react";
 import { api, type VerbQuestion, type StatsResult, type VerbEntry, type TenseName, type QuestionMode } from "../api/client";
 import VerbCard from "../components/VerbCard";
+import { useLang } from "../context/LangContext";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -25,13 +26,13 @@ interface SessionStats {
 const QUIZ_SIZES = [10, 25, 50] as const;
 type QuizSize = typeof QUIZ_SIZES[number];
 
-const TENSE_LABEL: Record<TenseName, string> = {
-  present: "Present",
-  past: "Past",
-  subjunctive: "Subjunctive / Conditional",
-  future: "Future",
-  imperative: "Imperative",
-};
+const ALL_MODES: QuestionMode[] = [
+  "verb_translation",
+  "conjugation_drill",
+  "main_forms",
+  "fill_blank",
+  "fill_blank_hint",
+];
 
 const PERSON_LABEL: Record<string, string> = {
   as: "aš (I)",
@@ -40,24 +41,6 @@ const PERSON_LABEL: Record<string, string> = {
   mes: "mes (we)",
   jus: "jūs (you pl.)",
 };
-
-const MODE_LABEL: Record<QuestionMode, string> = {
-  verb_translation:  "Verb translation",
-  conjugation_drill: "Conjugation drill",
-  main_forms:        "Main forms",
-  fill_blank:        "Fill in the blank",
-  fill_blank_hint:   "Fill in the blank (with hint)",
-};
-
-const FORM_LABEL = ["Infinitive", "Present (3rd)", "Past (3rd)"];
-
-const ALL_MODES: QuestionMode[] = [
-  "verb_translation",
-  "conjugation_drill",
-  "main_forms",
-  "fill_blank",
-  "fill_blank_hint",
-];
 
 // ---------------------------------------------------------------------------
 // Session ID helpers
@@ -90,8 +73,10 @@ interface MainFormsInputProps {
 }
 
 function MainFormsInput({ question, answered, inputs, onInputChange, onSubmit }: MainFormsInputProps) {
+  const { t } = useLang();
   const givenIndex = question.givenIndex ?? 0;
   const correctForms = question.choices;
+  const FORM_LABEL = [t.form_infinitive, t.form_present_3rd, t.form_past_3rd];
 
   const handleKey = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" && !answered) onSubmit();
@@ -129,7 +114,7 @@ function MainFormsInput({ question, answered, inputs, onInputChange, onSubmit }:
       })}
       {!answered && (
         <button className="btn-primary mf-submit-btn" onClick={onSubmit}>
-          Check
+          {t.btn_check}
         </button>
       )}
     </div>
@@ -141,9 +126,10 @@ function MainFormsInput({ question, answered, inputs, onInputChange, onSubmit }:
 // ---------------------------------------------------------------------------
 
 function ReviewPanel({ verb }: { verb: VerbEntry }) {
+  const { t } = useLang();
   return (
     <div className="review-panel">
-      <h3 className="review-title">Verb review</h3>
+      <h3 className="review-title">{t.review_title}</h3>
       <VerbCard verb={verb} />
     </div>
   );
@@ -154,6 +140,24 @@ function ReviewPanel({ verb }: { verb: VerbEntry }) {
 // ---------------------------------------------------------------------------
 
 export default function Quiz() {
+  const { t } = useLang();
+
+  const MODE_LABEL: Record<QuestionMode, string> = {
+    verb_translation:  t.mode_verb_translation,
+    conjugation_drill: t.mode_conjugation_drill,
+    main_forms:        t.mode_main_forms,
+    fill_blank:        t.mode_fill_blank,
+    fill_blank_hint:   t.mode_fill_blank_hint,
+  };
+
+  const TENSE_LABEL: Record<TenseName, string> = {
+    present:           t.tense_present,
+    past:              t.tense_past,
+    subjunctive:       t.tense_subjunctive,
+    future:            t.tense_future,
+    imperative:        t.tense_imperative,
+  };
+
   const [quizSize, setQuizSize] = useState<QuizSize>(25);
   const [selectedModes, setSelectedModes] = useState<QuestionMode[]>([...ALL_MODES]);
   const [state, setState] = useState<QuizPhase>({ phase: "setup" });
@@ -287,7 +291,6 @@ export default function Quiz() {
   const toggleMode = (mode: QuestionMode) => {
     setSelectedModes((prev) => {
       if (prev.includes(mode)) {
-        // Don't allow deselecting the last mode
         if (prev.length === 1) return prev;
         return prev.filter((m) => m !== mode);
       }
@@ -296,25 +299,23 @@ export default function Quiz() {
   };
 
   const isAllSelected = selectedModes.length === ALL_MODES.length;
-
   const accuracy = stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : null;
 
-  // ── Setup screen ────────────────────────────────────────────────────────────
+  // ── Setup screen ──────────────────────────────────────────────────────────
   if (state.phase === "setup") {
     return (
       <div className="quiz-page">
         <div className="quiz-setup">
-          <h2 className="setup-title">Start a training session</h2>
+          <h2 className="setup-title">{t.setup_title}</h2>
 
-          {/* Mode picker */}
           <div className="setup-section">
-            <span className="setup-label">Question types:</span>
+            <span className="setup-label">{t.setup_modes_label}</span>
             <div className="mode-picker">
               <button
                 className={`mode-btn ${isAllSelected ? "active" : ""}`}
                 onClick={() => setSelectedModes([...ALL_MODES])}
               >
-                Mixed
+                {t.mode_mixed}
               </button>
               {ALL_MODES.map((m) => (
                 <button
@@ -322,7 +323,6 @@ export default function Quiz() {
                   className={`mode-btn ${!isAllSelected && selectedModes.includes(m) ? "active" : ""}`}
                   onClick={() => {
                     if (isAllSelected) {
-                      // Switch from mixed to single-mode selection
                       setSelectedModes([m]);
                     } else {
                       toggleMode(m);
@@ -335,9 +335,8 @@ export default function Quiz() {
             </div>
           </div>
 
-          {/* Quiz size */}
           <div className="setup-section">
-            <span className="setup-label">Questions per session:</span>
+            <span className="setup-label">{t.setup_size_label}</span>
             <div className="setup-size-row">
               {QUIZ_SIZES.map((n) => (
                 <button
@@ -352,25 +351,25 @@ export default function Quiz() {
           </div>
 
           <button className="btn-primary" onClick={startSession}>
-            Start ({quizSize} questions)
+            {t.setup_start(quizSize)}
           </button>
         </div>
       </div>
     );
   }
 
-  // ── Score bar (shown during active quiz) ────────────────────────────────────
+  // ── Score bar ─────────────────────────────────────────────────────────────
   const currentQ = Math.min(stats.total + (state.phase === "question" ? 1 : 0), quizSize);
 
   return (
     <div className="quiz-page">
       {!finished && (
         <div className="score-bar">
-          <span>Question: <strong>{currentQ}/{quizSize}</strong></span>
-          <span>Score: <strong>{stats.correct}/{stats.total}</strong></span>
+          <span>{t.scorebar_question}: <strong>{currentQ}/{quizSize}</strong></span>
+          <span>{t.scorebar_score}: <strong>{stats.correct}/{stats.total}</strong></span>
           {accuracy !== null && <span className="accuracy">{accuracy}%</span>}
           <button className="btn-ghost" onClick={() => setState({ phase: "setup" })}>
-            Restart
+            {t.scorebar_restart}
           </button>
         </div>
       )}
@@ -378,19 +377,19 @@ export default function Quiz() {
       {/* ── Finished screen ── */}
       {finished && (
         <div className="quiz-card quiz-results">
-          <h2 className="results-title">Session complete!</h2>
+          <h2 className="results-title">{t.results_complete}</h2>
           <p className="results-score">{stats.correct} / {quizSize}</p>
-          <p className="results-accuracy">{accuracy}% accuracy</p>
+          <p className="results-accuracy">{t.results_accuracy(accuracy ?? 0)}</p>
           {statsResult && statsResult.totalResults > 1 && (
             <div className="percentile-banner">
-              Better than <strong>{statsResult.percentile}%</strong> of all sessions
+              {t.results_better} <strong>{statsResult.percentile}%</strong>
               {statsResult.totalResults >= 10 && (
-                <span className="percentile-count"> ({statsResult.totalResults} total)</span>
+                <span className="percentile-count"> {t.results_sessions(statsResult.totalResults)}</span>
               )}
             </div>
           )}
           <button className="btn-primary" onClick={() => setState({ phase: "setup" })}>
-            New session
+            {t.results_new}
           </button>
         </div>
       )}
@@ -426,7 +425,7 @@ export default function Quiz() {
               </div>
             )}
 
-            {/* fill_blank / fill_blank_hint: hint shown above the Russian sentence */}
+            {/* fill_blank hint */}
             {(state.question.mode === "fill_blank" || state.question.mode === "fill_blank_hint") && state.question.hint && (
               <div className="fill-blank-hint-wrap">
                 <span className="fill-blank-hint">{state.question.hint}</span>
@@ -446,15 +445,12 @@ export default function Quiz() {
                   <span className="fill-blank-hint">{state.question.prompt.split(" — ")[0]}</span>
                   <span className="drill-translation">{state.question.verbEntry.translation}</span>
                 </div>
-              ) : state.question.mode === "fill_blank" || state.question.mode === "fill_blank_hint" ? (
-                /* fill_blank / fill_blank_hint: show the RU sentence as the main prompt */
-                <p className="quiz-sentence">{state.question.prompt}</p>
               ) : (
                 <p className="quiz-sentence">{state.question.prompt}</p>
               )}
             </div>
 
-            {/* fill_blank / fill_blank_hint: LT sentence with blank */}
+            {/* fill_blank: LT sentence with blank */}
             {(state.question.mode === "fill_blank" || state.question.mode === "fill_blank_hint") && (
               <div className="fill-blank-context">
                 <p className="fill-blank-lt">{state.question.sentenceLt}</p>
@@ -462,13 +458,13 @@ export default function Quiz() {
             )}
 
             <p className="quiz-instruction">
-              {state.question.mode === "verb_translation" && "Pick the Russian translation"}
-              {state.question.mode === "conjugation_drill" && "Type the correct conjugated form"}
-              {state.question.mode === "main_forms" && "Type the 3 main forms"}
-              {(state.question.mode === "fill_blank" || state.question.mode === "fill_blank_hint") && "Type the missing verb form"}
+              {state.question.mode === "verb_translation"  && t.instr_verb_translation}
+              {state.question.mode === "conjugation_drill" && t.instr_conjugation_drill}
+              {state.question.mode === "main_forms"        && t.instr_main_forms}
+              {(state.question.mode === "fill_blank" || state.question.mode === "fill_blank_hint") && t.instr_fill_blank}
             </p>
 
-            {/* Main forms: 3 text inputs */}
+            {/* Main forms */}
             {state.question.mode === "main_forms" ? (
               <MainFormsInput
                 question={state.question}
@@ -480,7 +476,6 @@ export default function Quiz() {
                 onSubmit={handleMainFormsSubmit}
               />
             ) : state.question.mode === "conjugation_drill" ? (
-              /* Conjugation drill: single text input */
               <div className="conj-drill-input-wrap">
                 <input
                   className={`conj-drill-input ${
@@ -505,12 +500,11 @@ export default function Quiz() {
                     onClick={handleConjDrillSubmit}
                     disabled={!conjDrillInput.trim()}
                   >
-                    Check
+                    {t.btn_check}
                   </button>
                 )}
               </div>
             ) : state.question.mode === "fill_blank" || state.question.mode === "fill_blank_hint" ? (
-              /* Fill in the blank (with or without full hint): single text input */
               <div className="conj-drill-input-wrap">
                 <input
                   className={`conj-drill-input ${
@@ -535,7 +529,7 @@ export default function Quiz() {
                     onClick={handleFillBlankSubmit}
                     disabled={!fillBlankInput.trim()}
                   >
-                    Check
+                    {t.btn_check}
                   </button>
                 )}
               </div>
@@ -566,34 +560,33 @@ export default function Quiz() {
             {state.phase === "answered" && (
               <div className={`feedback ${state.correct ? "feedback-correct" : "feedback-wrong"}`}>
                 {state.correct
-                  ? "Correct!"
+                  ? t.feedback_correct
                   : state.question.mode === "main_forms"
-                    ? "Not quite — see the correct forms above"
+                    ? t.feedback_wrong_forms
                     : state.question.mode === "conjugation_drill" || state.question.mode === "fill_blank" || state.question.mode === "fill_blank_hint"
-                      ? "Not quite — see the correct form above"
-                      : `Wrong — the answer is "${state.correctAnswer}"`}
+                      ? t.feedback_wrong_form
+                      : t.feedback_wrong_choice(state.correctAnswer)}
                 {state.pointEarned && (
-                  <span className="point-notice point-earned">+ 1 point earned</span>
+                  <span className="point-notice point-earned">{t.feedback_point_earned}</span>
                 )}
                 {state.pointLost && (
-                  <span className="point-notice point-lost">− 1 point lost</span>
+                  <span className="point-notice point-lost">{t.feedback_point_lost}</span>
                 )}
                 <button
                   className="btn-ghost review-toggle"
                   onClick={() => setShowReview((v) => !v)}
                 >
-                  {showReview ? "Hide verb details" : "Show verb details"}
+                  {showReview ? t.hide_verb_details : t.show_verb_details}
                 </button>
                 {!finished && (
                   <button className="btn-primary next-btn" onClick={handleNext}>
-                    Next question →
+                    {t.next_question}
                   </button>
                 )}
               </div>
             )}
           </div>
 
-          {/* Verb review card shown after answering */}
           {state.phase === "answered" && showReview && (
             <ReviewPanel verb={state.question.verbEntry} />
           )}

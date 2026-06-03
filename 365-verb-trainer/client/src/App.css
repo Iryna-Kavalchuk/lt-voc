@@ -28,12 +28,39 @@ table { border-collapse: collapse; }
   z-index: 10;
 }
 
+.header-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 6px;
+}
+
 .header-left {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 0 6px;
 }
+
+/* ── Language toggle ── */
+.lang-toggle {
+  display: flex;
+  gap: 4px;
+}
+
+.lang-btn {
+  background: transparent;
+  border: 1px solid #475569;
+  border-radius: 5px;
+  color: #94a3b8;
+  padding: 3px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.lang-btn:hover { background: #334155; color: #f1f5f9; border-color: #64748b; }
+.lang-btn.active { background: #3b82f6; border-color: #3b82f6; color: #fff; }
 
 .app-logo { font-size: 22px; flex-shrink: 0; }
 .app-title {
