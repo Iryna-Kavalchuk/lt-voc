@@ -1,6 +1,15 @@
 import type { VerbEntry, TenseName, ConjugationRow } from "../api/client";
 import { useLang } from "../context/LangContext";
 
+let currentAudio: HTMLAudioElement | null = null;
+
+function speakForms(verbId: number) {
+  if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+  const audio = new Audio(`/audio/${verbId}.mp3`);
+  currentAudio = audio;
+  audio.play().catch(() => {});
+}
+
 const TENSES: { key: TenseName; labelKey: keyof ReturnType<typeof useLang>["t"] }[] = [
   { key: "present",            labelKey: "tense_present" },
   { key: "past",               labelKey: "tense_past" },
@@ -35,6 +44,13 @@ export default function VerbCard({ verb, compact = false }: Props) {
         <div className="vc-infinitive-row">
           <span className="vc-infinitive">{verb.infinitive}</span>
           <span className="vc-forms">{verb.forms.join(", ")}</span>
+          <button
+            className="speak-btn vc-speak-btn"
+            title="Listen to main forms"
+            onClick={() => speakForms(verb.id)}
+          >
+            🔊
+          </button>
         </div>
         <div className="vc-translation">{verb.translation}</div>
       </div>
