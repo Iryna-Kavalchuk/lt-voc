@@ -58,7 +58,10 @@ ai-bootcamp/
 │   │   │   ├── context/LangContext.tsx
 │   │   │   ├── i18n.ts            # EN/RU/LT translations
 │   │   │   ├── App.tsx            # Shell, nav, hamburger menu
-│   │   │   └── App.css            # Single global stylesheet (~1350 lines)
+│   │   │   └── App.css            # Single global stylesheet (~1570 lines)
+│   │   ├── public/
+│   │   │   ├── book-cover.jpg     # Book cover image (used in header + About page)
+│   │   │   └── favicon.png        # Favicon (cropped book cover)
 │   │   └── vite.config.ts         # Proxies /api, /health, /audio to localhost:3001
 │   └── server/                    # Express backend (port 3001 in dev)
 │       ├── src/
@@ -97,6 +100,8 @@ cd 365-verb-trainer/client && npm run build  # note: 3 pre-existing TS errors in
   - Dropdown opens below header, closes on nav item tap or outside click
   - Animates to `×` when open
 - Language toggle (EN / RU / LT) in header top-right, persisted to `localStorage`
+- **Header**: book cover thumbnail (32px) + title (`365 VERBS` / `365 ГЛАГОЛОВ` / `365 VEIKSMAŽODŽIAI`)
+- **Favicon**: cropped book cover PNG (`public/favicon.png`)
 - Theme: warm burgundy `#7a3535` header, cream `#f5f0e8` background, crimson `#c0272d` accents
 
 ## Audio system
@@ -144,7 +149,7 @@ python generate_audio.py
 - Visible in Admin page under "Feedback" section (newest first, with avg rating)
 
 ## About page
-- Book credits card (authors, publisher, PDF link)
+- Book credits card with cover image (authors, publisher, PDF link)
 - "Made by" card — anonymous group description (IT relocants from Belarus learning Lithuanian)
 - Star-rating feedback form (interactive hover, success/error states, EN/RU/LT strings)
 - Non-commercial notice + copyright footer
@@ -159,6 +164,9 @@ python generate_audio.py
 ## Quiz results screen
 - Shows score, accuracy percentage, "New session" button
 - Percentile banner ("better than X%") removed — not meaningful with small user base
+- Last question feedback is shown before results — "See results →" button leads to summary screen
+
+## Quiz modes
 
 1. `verb_translation` — pick Russian translation from 4 choices
 2. `conjugation_drill` — type a conjugated form (tense + person)
@@ -168,9 +176,12 @@ python generate_audio.py
 
 ### Answer checking (typed modes)
 - Server strips diacritics/stress marks before comparing — `buti` accepted for `būti`
+- **Stress marks ignored**: combining acute (U+0301) and tilde (U+0303) are stripped before the imprecise check — omitting them does NOT trigger yellow. Only real Lithuanian letters (ą č ę ė į š ų ū ž) trigger it.
 - **Imprecise (yellow) state**: if the answer is correct content-wise but missing Lithuanian
   letters (e.g. `buti` instead of `būti`), the input turns yellow and shows the proper spelling
   as a soft reminder. Points awarded normally. Applies to all 3 typed modes.
+- **Multi-variant cells**: subjunctive `mes`/`jus` cells contain two forms separated by ` / `
+  (e.g. `abejótume / abejótumėme`) in 357/365 verbs. Either variant is accepted as correct.
 
 ### fill_blank question generation (`server/src/quiz.ts:buildFillBlankQuestion`)
 Key rules enforced to produce clean questions:
