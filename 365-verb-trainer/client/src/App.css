@@ -69,6 +69,13 @@ table { border-collapse: collapse; }
 .lang-btn.active { background: #7a3535; border-color: #7a3535; color: #fff; }
 
 .app-logo { font-size: 22px; flex-shrink: 0; }
+.app-logo-img {
+  height: 32px;
+  width: auto;
+  border-radius: 3px;
+  flex-shrink: 0;
+  display: block;
+}
 .app-title {
   font-size: 18px;
   font-weight: 600;

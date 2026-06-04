@@ -89,7 +89,7 @@ export default function App() {
         <header className="app-header" ref={menuRef}>
           <div className="header-top-row">
             <div className="header-left">
-              <span className="app-logo">🇱🇹</span>
+              <img src="/book-cover.jpg" alt="" className="app-logo-img" />
               <span className="app-title">{t.app_title}</span>
             </div>
             <div className="header-right">
