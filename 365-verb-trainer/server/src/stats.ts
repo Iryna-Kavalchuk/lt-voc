@@ -281,13 +281,20 @@ export async function getAdminStats(): Promise<AdminStats> {
 export async function getAdminUsers(): Promise<AdminUsers> {
   const res = await pool.query<{ user_id: string; points: string; last_activity: string }>(`
     SELECT
-      vp.user_id,
-      COUNT(*)::int                      AS points,
-      MAX(vp2.updated_at)                AS last_activity
-    FROM verb_points vp
-    JOIN verb_progress vp2 ON vp2.user_id = vp.user_id
-    GROUP BY vp.user_id
-    ORDER BY points DESC, last_activity DESC
+      pts.user_id,
+      pts.points,
+      prog.last_activity
+    FROM (
+      SELECT user_id, COUNT(*)::int AS points
+      FROM verb_points
+      GROUP BY user_id
+    ) pts
+    JOIN (
+      SELECT user_id, MAX(updated_at) AS last_activity
+      FROM verb_progress
+      GROUP BY user_id
+    ) prog ON prog.user_id = pts.user_id
+    ORDER BY pts.points DESC, prog.last_activity DESC
   `);
 
   return {
