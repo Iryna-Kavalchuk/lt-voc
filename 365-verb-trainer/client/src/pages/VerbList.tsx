@@ -32,18 +32,6 @@ function PointDots({ earnedModes, modeLabels }: { earnedModes: Set<string>; mode
   );
 }
 
-let currentAudio: HTMLAudioElement | null = null;
-
-function speakForms(verbId: number) {
-  if (currentAudio) {
-    currentAudio.pause();
-    currentAudio = null;
-  }
-  const audio = new Audio(`/audio/${verbId}.mp3`);
-  currentAudio = audio;
-  audio.play().catch(() => {});
-}
-
 export default function VerbList() {
   const { t } = useLang();
   const [verbs, setVerbs] = useState<VerbEntry[]>([]);
@@ -133,26 +121,17 @@ export default function VerbList() {
           <div className="verblist-grid">
             {visible.map((verb) => (
               <div key={verb.id} className="verblist-item">
-                <div className="verblist-row">
-                  <button
-                    className={`verblist-header ${expanded === verb.id ? "open" : ""}`}
-                    onClick={() => setExpanded(expanded === verb.id ? null : verb.id)}
-                  >
-                    <span className="verblist-num">{verb.id}.</span>
-                    <span className="verblist-infinitive">{verb.infinitive}</span>
-                    <span className="verblist-forms">{verb.forms.slice(1).join(", ")}</span>
-                    <span className="verblist-translation">{verb.translation}</span>
-                    <PointDots earnedModes={pointsMap.get(verb.id) ?? new Set()} modeLabels={MODE_LABELS} />
-                    <span className="verblist-chevron">{expanded === verb.id ? "▲" : "▼"}</span>
-                  </button>
-                  <button
-                    className="speak-btn"
-                    title="Listen to main forms"
-                    onClick={(e) => { e.stopPropagation(); speakForms(verb.id); }}
-                  >
-                    🔊
-                  </button>
-                </div>
+                <button
+                  className={`verblist-header ${expanded === verb.id ? "open" : ""}`}
+                  onClick={() => setExpanded(expanded === verb.id ? null : verb.id)}
+                >
+                  <span className="verblist-num">{verb.id}.</span>
+                  <span className="verblist-infinitive">{verb.infinitive}</span>
+                  <span className="verblist-forms">{verb.forms.slice(1).join(", ")}</span>
+                  <span className="verblist-translation">{verb.translation}</span>
+                  <PointDots earnedModes={pointsMap.get(verb.id) ?? new Set()} modeLabels={MODE_LABELS} />
+                  <span className="verblist-chevron">{expanded === verb.id ? "▲" : "▼"}</span>
+                </button>
 
                 {expanded === verb.id && (
                   <div className="verblist-detail">
