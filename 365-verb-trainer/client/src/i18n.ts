@@ -11,6 +11,7 @@ export const translations = {
     nav_verblist: "Verb List",
     nav_progress: "Progress",
     nav_fortune:  "Fortune",
+    app_title:    "365 Verb Trainer",
 
     // Quiz setup
     setup_title:       "Start a training session",
@@ -110,6 +111,7 @@ export const translations = {
     nav_verblist: "Глаголы",
     nav_progress: "Прогресс",
     nav_fortune:  "Фортуна",
+    app_title:    "365 глаголов",
 
     // Quiz setup
     setup_title:       "Начать тренировку",

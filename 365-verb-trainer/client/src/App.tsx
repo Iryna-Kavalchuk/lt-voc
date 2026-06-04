@@ -62,7 +62,7 @@ export default function App() {
           <div className="header-top-row">
             <div className="header-left">
               <span className="app-logo">🇱🇹</span>
-              <span className="app-title">365 Verb Trainer</span>
+              <span className="app-title">{t.app_title}</span>
             </div>
             <div className="lang-toggle">
               <button

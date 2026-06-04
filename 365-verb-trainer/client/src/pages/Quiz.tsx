@@ -35,11 +35,11 @@ const ALL_MODES: QuestionMode[] = [
 ];
 
 const PERSON_LABEL: Record<string, string> = {
-  as: "aš (I)",
-  tu: "tu (you)",
-  jis_ji_jie_jos: "jis / ji / jie / jos",
-  mes: "mes (we)",
-  jus: "jūs (you pl.)",
+  as: "aš (aš — я)",
+  tu: "tu (tu — ты)",
+  jis_ji_jie_jos: "jis / ji / jie / jos (он / она / они)",
+  mes: "mes (mes — мы)",
+  jus: "jūs (jūs — вы)",
 };
 
 // ---------------------------------------------------------------------------
