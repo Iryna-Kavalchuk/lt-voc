@@ -1509,3 +1509,61 @@ table { border-collapse: collapse; }
   color: #3a2a2a;
   line-height: 1.5;
 }
+
+/* ── Admin users table ──────────────────────────────────────── */
+
+.admin-users-table {
+  width: 100%;
+  font-size: 14px;
+  border-spacing: 0;
+}
+
+.admin-users-table th {
+  text-align: left;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #8a6060;
+  border-bottom: 1px solid #e0ccc0;
+}
+
+.admin-users-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #f0e4d8;
+  vertical-align: middle;
+}
+
+.admin-users-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.admin-users-table tbody tr:hover td {
+  background: #fdf6f0;
+}
+
+.admin-users-rank {
+  color: #9a7a7a;
+  font-size: 12px;
+  width: 32px;
+}
+
+.admin-users-id {
+  font-family: monospace;
+  font-size: 12px;
+  color: #5a4a4a;
+  word-break: break-all;
+}
+
+.admin-users-points {
+  font-weight: 700;
+  color: #7a3535;
+  white-space: nowrap;
+}
+
+.admin-users-date {
+  font-size: 12px;
+  color: #9a7a7a;
+  white-space: nowrap;
+}

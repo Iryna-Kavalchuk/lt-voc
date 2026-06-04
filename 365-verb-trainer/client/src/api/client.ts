@@ -125,6 +125,16 @@ export interface AdminFeedback {
   total: number;
 }
 
+export interface UserStat {
+  userId: string;
+  points: number;
+  lastActivity: string;
+}
+
+export interface AdminUsers {
+  users: UserStat[];
+}
+
 // ---------------------------------------------------------------------------
 // HTTP helpers
 // ---------------------------------------------------------------------------
@@ -256,6 +266,17 @@ export const api = {
           throw new Error((b as { error?: string }).error ?? `HTTP ${res.status}`);
         }
         return res.json() as Promise<AdminFeedback>;
+      });
+    },
+    users(password: string): Promise<AdminUsers> {
+      return fetch("/api/admin/users", {
+        headers: { "x-admin-password": password },
+      }).then(async (res) => {
+        if (!res.ok) {
+          const b = await res.json().catch(() => ({}));
+          throw new Error((b as { error?: string }).error ?? `HTTP ${res.status}`);
+        }
+        return res.json() as Promise<AdminUsers>;
       });
     },
   },

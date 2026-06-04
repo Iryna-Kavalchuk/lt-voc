@@ -417,14 +417,6 @@ export default function Quiz() {
           <h2 className="results-title">{t.results_complete}</h2>
           <p className="results-score">{stats.correct} / {quizSize}</p>
           <p className="results-accuracy">{t.results_accuracy(accuracy ?? 0)}</p>
-          {statsResult && statsResult.totalResults > 1 && (
-            <div className="percentile-banner">
-              {t.results_better} <strong>{statsResult.percentile}%</strong>
-              {statsResult.totalResults >= 10 && (
-                <span className="percentile-count"> {t.results_sessions(statsResult.totalResults)}</span>
-              )}
-            </div>
-          )}
           <button className="btn-primary" onClick={() => setState({ phase: "setup" })}>
             {t.results_new}
           </button>

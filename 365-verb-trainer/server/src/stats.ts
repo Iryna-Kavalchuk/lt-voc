@@ -206,6 +206,16 @@ export interface AdminStats {
   histogram: HistogramBucket[];
 }
 
+export interface UserStat {
+  userId: string;
+  points: number;
+  lastActivity: string;   // ISO timestamp
+}
+
+export interface AdminUsers {
+  users: UserStat[];
+}
+
 const BUCKET_LABELS = [
   "0–9%", "10–19%", "20–29%", "30–39%", "40–49%",
   "50–59%", "60–69%", "70–79%", "80–89%", "90–100%",
@@ -262,4 +272,29 @@ export async function getAdminStats(): Promise<AdminStats> {
   const histogram = buildHistogram(histRes.rows);
 
   return { counts, accuracy, histogram };
+}
+
+// ---------------------------------------------------------------------------
+// Admin users list — all users with total points + last activity
+// ---------------------------------------------------------------------------
+
+export async function getAdminUsers(): Promise<AdminUsers> {
+  const res = await pool.query<{ user_id: string; points: string; last_activity: string }>(`
+    SELECT
+      vp.user_id,
+      COUNT(*)::int                      AS points,
+      MAX(vp2.updated_at)                AS last_activity
+    FROM verb_points vp
+    JOIN verb_progress vp2 ON vp2.user_id = vp.user_id
+    GROUP BY vp.user_id
+    ORDER BY points DESC, last_activity DESC
+  `);
+
+  return {
+    users: res.rows.map((r) => ({
+      userId: r.user_id,
+      points: Number(r.points),
+      lastActivity: r.last_activity,
+    })),
+  };
 }

@@ -1,25 +1,7 @@
 import { useState } from "react";
-import { api, type AdminStats, type AdminFeedback, type HistogramBucket } from "../api/client";
+import { api, type AdminStats, type AdminFeedback, type AdminUsers } from "../api/client";
 
-function Histogram({ buckets }: { buckets: HistogramBucket[] }) {
-  const maxCount = Math.max(...buckets.map((b) => b.count), 1);
-  return (
-    <div className="histogram">
-      {buckets.map((b) => (
-        <div key={b.label} className="histogram-col">
-          <span className="histogram-count">{b.count > 0 ? b.count : ""}</span>
-          <div
-            className="histogram-bar"
-            style={{ height: `${Math.round((b.count / maxCount) * 100)}%` }}
-          />
-          <span className="histogram-label">{b.label}</span>
-        </div>
-      ))}
-    </div>
-  );
-}
-
-function StatCards({ counts, accuracy }: { counts: AdminStats["counts"]; accuracy: AdminStats["accuracy"] }) {
+function SessionCounts({ counts }: { counts: AdminStats["counts"] }) {
   return (
     <div className="admin-stat-grid">
       <div className="admin-stat-card">
@@ -34,23 +16,49 @@ function StatCards({ counts, accuracy }: { counts: AdminStats["counts"]; accurac
         <span className="admin-stat-value">{counts.month}</span>
         <span className="admin-stat-label">This month</span>
       </div>
-      <div className="admin-stat-card">
+      <div className="admin-stat-card accent">
         <span className="admin-stat-value">{counts.total}</span>
         <span className="admin-stat-label">Total</span>
       </div>
-      <div className="admin-stat-card accent">
-        <span className="admin-stat-value">{accuracy.avg}%</span>
-        <span className="admin-stat-label">Avg accuracy</span>
-      </div>
-      <div className="admin-stat-card">
-        <span className="admin-stat-value">{accuracy.min}%</span>
-        <span className="admin-stat-label">Min accuracy</span>
-      </div>
-      <div className="admin-stat-card">
-        <span className="admin-stat-value">{accuracy.max}%</span>
-        <span className="admin-stat-label">Max accuracy</span>
-      </div>
     </div>
+  );
+}
+
+function UsersSection({ adminUsers }: { adminUsers: AdminUsers }) {
+  const { users } = adminUsers;
+  return (
+    <section className="admin-section">
+      <h3 className="admin-section-title">
+        Users
+        <span className="admin-feedback-summary">{users.length} {users.length === 1 ? "user" : "users"}</span>
+      </h3>
+      {users.length === 0 ? (
+        <p className="admin-feedback-empty">No activity yet.</p>
+      ) : (
+        <table className="admin-users-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>User ID</th>
+              <th>Points</th>
+              <th>Last active</th>
+            </tr>
+          </thead>
+          <tbody>
+            {users.map((u, i) => (
+              <tr key={u.userId}>
+                <td className="admin-users-rank">{i + 1}</td>
+                <td className="admin-users-id">{u.userId}</td>
+                <td className="admin-users-points">{u.points}</td>
+                <td className="admin-users-date">
+                  {new Date(u.lastActivity).toLocaleString()}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+    </section>
   );
 }
 
@@ -96,21 +104,28 @@ export default function Admin() {
   const [password, setPassword] = useState("");
   const [input, setInput] = useState("");
   const [stats, setStats] = useState<AdminStats | null>(null);
+  const [adminUsers, setAdminUsers] = useState<AdminUsers | null>(null);
   const [feedback, setFeedback] = useState<AdminFeedback | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+
+  const loadAll = async (pw: string) => {
+    const [data, users, fb] = await Promise.all([
+      api.admin.stats(pw),
+      api.admin.users(pw),
+      api.admin.feedback(pw),
+    ]);
+    setStats(data);
+    setAdminUsers(users);
+    setFeedback(fb);
+  };
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setError(null);
     try {
-      const [data, fb] = await Promise.all([
-        api.admin.stats(input),
-        api.admin.feedback(input),
-      ]);
-      setStats(data);
-      setFeedback(fb);
+      await loadAll(input);
       setPassword(input);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed");
@@ -122,12 +137,7 @@ export default function Admin() {
   const handleRefresh = async () => {
     setLoading(true);
     try {
-      const [data, fb] = await Promise.all([
-        api.admin.stats(password),
-        api.admin.feedback(password),
-      ]);
-      setStats(data);
-      setFeedback(fb);
+      await loadAll(password);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed");
     } finally {
@@ -167,10 +177,11 @@ export default function Admin() {
       </div>
 
       <section className="admin-section">
-        <h3 className="admin-section-title">All sessions</h3>
-        <StatCards counts={stats.counts} accuracy={stats.accuracy} />
-        <Histogram buckets={stats.histogram} />
+        <h3 className="admin-section-title">Sessions</h3>
+        <SessionCounts counts={stats.counts} />
       </section>
+
+      {adminUsers && <UsersSection adminUsers={adminUsers} />}
 
       {feedback && <FeedbackSection feedback={feedback} />}
     </div>

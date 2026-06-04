@@ -3,7 +3,7 @@ import type { Request, Response } from "express";
 import { getAllVerbs, getVerbById, saveVerb } from "./data.js";
 import { buildRandomQuestion, checkAnswer, checkMainFormsAnswer, checkConjugationDrillAnswer, checkFillBlankAnswer } from "./quiz.js";
 import type { VerbQuestion, QuestionMode } from "./types.js";
-import { saveResult, recordAnswer, getDueVerbIds, getAdminStats, earnPoint, losePoint, getProgress } from "./stats.js";
+import { saveResult, recordAnswer, getDueVerbIds, getAdminStats, getAdminUsers, earnPoint, losePoint, getProgress } from "./stats.js";
 import { pool, dbAvailable } from "./db.js";
 
 export const router = Router();
@@ -338,6 +338,30 @@ router.post("/feedback", async (req: Request, res: Response) => {
       [rating, comment?.trim() || null, lang ?? "en"]
     );
     res.status(201).json(result.rows[0]);
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    res.status(500).json({ error: message });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// GET /admin/users
+// Header: x-admin-password
+// Returns all users with total points + last activity, sorted by points desc.
+// ---------------------------------------------------------------------------
+router.get("/admin/users", async (req: Request, res: Response) => {
+  const adminPassword = process.env.ADMIN_PASSWORD;
+  if (!adminPassword) {
+    res.status(503).json({ error: "Admin access not configured" });
+    return;
+  }
+  if (req.headers["x-admin-password"] !== adminPassword) {
+    res.status(401).json({ error: "Unauthorized" });
+    return;
+  }
+  try {
+    const data = await getAdminUsers();
+    res.json(data);
   } catch (err) {
     const message = err instanceof Error ? err.message : "Unknown error";
     res.status(500).json({ error: message });
