@@ -106,6 +106,12 @@ export default function App() {
                 >
                   RU
                 </button>
+                <button
+                  className={`lang-btn ${lang === "lt" ? "active" : ""}`}
+                  onClick={() => setLang("lt")}
+                >
+                  LT
+                </button>
               </div>
               <button
                 className={`hamburger-btn ${menuOpen ? "open" : ""}`}

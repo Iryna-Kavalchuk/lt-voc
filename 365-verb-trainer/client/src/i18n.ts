@@ -2,7 +2,7 @@
 // i18n — simple key/value translations + useLanguage hook
 // ---------------------------------------------------------------------------
 
-export type Lang = "en" | "ru";
+export type Lang = "en" | "ru" | "lt";
 
 export const translations = {
   en: {
@@ -260,6 +260,134 @@ export const translations = {
     about_feedback_error:       "Не удалось отправить. Попробуйте ещё раз.",
     about_feedback_star:        (n: number) => `${n} ${n === 1 ? "звезда" : n < 5 ? "звезды" : "звёзд"}`,
   },
+
+  lt: {
+    // Nav
+    nav_train:    "Treniruotis",
+    nav_verblist: "Veiksmažodžiai",
+    nav_progress: "Pažanga",
+    nav_fortune:  "Sėkmė",
+    app_title:    "365 veiksmažodžiai",
+
+    // Quiz setup
+    setup_title:       "Pradėti treniruotę",
+    setup_modes_label: "Klausimų tipai:",
+    setup_size_label:  "Klausimų per sesiją:",
+    setup_start:       (n: number) => `Pradėti (${n} klausimai)`,
+    mode_mixed:        "Mišrus",
+    mode_verb_translation:  "Veiksmažodžio vertimas",
+    mode_conjugation_drill: "Asmenavimas",
+    mode_main_forms:        "Pagrindinės formos",
+    mode_fill_blank:        "Užpildyti tarpą",
+    mode_fill_blank_hint:   "Užpildyti tarpą (su užuomina)",
+
+    // Quiz score bar
+    scorebar_question: "Klausimas",
+    scorebar_score:    "Rezultatas",
+    scorebar_restart:  "Pradėti iš naujo",
+
+    // Quiz instructions
+    instr_verb_translation:  "Pasirinkite vertimą į rusų kalbą",
+    instr_conjugation_drill: "Įveskite teisingą veiksmažodžio formą",
+    instr_main_forms:        "Įveskite 3 pagrindines formas",
+    instr_fill_blank:        "Įveskite trūkstamą veiksmažodžio formą",
+
+    // Quiz feedback
+    feedback_correct:        "Teisingai!",
+    feedback_imprecise:      (ans: string) => `✓ Teisingai — naudokite lietuvišką rašybą: ${ans}`,
+    feedback_wrong_choice:   (ans: string) => `Neteisingai — atsakymas yra „${ans}"`,
+    feedback_wrong_forms:    "Beveik — žr. teisingas formas aukščiau",
+    feedback_wrong_form:     "Beveik — žr. teisingą formą aukščiau",
+    feedback_point_earned:   "+ 1 taškas gautas",
+    feedback_point_lost:     "− 1 taškas prarastas",
+    show_verb_details:       "Rodyti veiksmažodį",
+    hide_verb_details:       "Slėpti veiksmažodį",
+    next_question:           "Kitas klausimas →",
+
+    // Quiz results
+    results_complete:  "Sesija baigta!",
+    results_accuracy:  (pct: number) => `${pct}% tikslumas`,
+    results_better:    "Geriau nei",
+    results_sessions:  (n: number) => `(iš viso ${n})`,
+    results_new:       "Nauja sesija",
+    review_title:      "Veiksmažodžio apžvalga",
+
+    // Main forms labels
+    form_infinitive:    "Bendratinis",
+    form_present_3rd:   "Esamasis (3 a.)",
+    form_past_3rd:      "Būtasis (3 a.)",
+    btn_check:          "Tikrinti",
+
+    // Tense labels
+    tense_present:           "Esamasis",
+    tense_past:              "Būtasis",
+    tense_subjunctive:       "Tariamoji nuosaka",
+    tense_frequentative_past:"Būtasis dažninis",
+    tense_future:            "Būsimasis",
+    tense_imperative:        "Liepiamoji nuosaka",
+
+    // VerbCard sections
+    vc_conjugation:       "Asmenavimas",
+    vc_nonconjugated:     "Neasmenuojamos formos",
+    vc_examples:          "Pavyzdžiai",
+
+    // Non-conjugated form names
+    noncj_1: "Esamojo laiko veikiamoji dalyvė",
+    noncj_2: "Būtojo laiko veikiamoji dalyvė",
+    noncj_3: "Būtojo dažninio laiko veikiamoji dalyvė",
+    noncj_4: "Būsimojo laiko veikiamoji dalyvė",
+    noncj_5: "Esamojo laiko neveikiamoji dalyvė",
+    noncj_6: "Būtojo laiko neveikiamoji dalyvė",
+    noncj_7: "Esamojo laiko padalyvis",
+    noncj_8: "Esamojo laiko pusdalyvis",
+    noncj_9: "Būtojo laiko pusdalyvis",
+
+    // Verb list
+    verblist_search:  "Ieškoti pagal bendraties formą ar vertimą…",
+    verblist_all:     "Visi",
+    verblist_count:   (n: number) => `${n} veiksmažodžiai`,
+    verblist_loading: "Kraunama…",
+
+    // Progress
+    progress_points:         (n: number) => `${n} ${n === 1 ? "taškas" : "taškai"}`,
+    progress_verbs:          (n: number) => `(${n} veiksmažodžiai)`,
+    progress_not_started:    (n: number) => `(${n} veiksmažodžiai dar nepradėti)`,
+    progress_loading:        "Kraunama…",
+
+    // Fortune
+    fortune_title:    "Sėkmė",
+    fortune_subtitle: 'Ištraukite atsitiktinį lietuvišką sakinį iš knygos „365 veiksmažodžiai"',
+    fortune_draw:     "Traukti",
+    fortune_again:    "Traukti dar kartą",
+    fortune_drawing:  "Kraunama…",
+
+    // About
+    nav_about:           "Apie",
+    about_title:         "Apie šią programą",
+    about_app_desc:      'Ši programa sukurta remiantis knyga „365 lietuvių kalbos veiksmažodžiai" (2015), skirta rusakalbiams, besimokantiems lietuvių kalbos. Joje pateikiami 365 dažniausiai vartojami veiksmažodžiai su pilnomis asmenavimo lentelėmis, neasmenuojamomis formomis ir vartojimo pavyzdžiais.',
+    about_book_title:    "Šaltinis",
+    about_book_authors:  "Virginija Stumbrienė, Loreta Vilkienė, Henrika Prosniakova",
+    about_book_pub:      "Vilniaus universitetas, 2015",
+    about_book_link:     "Skaityti knygą (PDF)",
+    about_thanks_title:  "Padėka",
+    about_thanks_text:   "Visi duomenys apie veiksmažodžius, asmenavimo lentelės ir vartojimo pavyzdžiai paimti tiesiai iš šios knygos. Dėkojame autoriams už šį išsamų ir prieinamą mokymosi šaltinį.",
+    about_noncommercial: "Ši programa yra nemokama edukacinė priemonė ir nenaudojama komerciniais tikslais.",
+    about_copyright:     "© Virginija Stumbrienė, © Loreta Vilkienė, © Henrika Prosniakova, © Vilniaus universitetas, 2015",
+
+    // Authors
+    about_authors_title:  "Sukūrė",
+    about_authors_text:   "IT specialistai iš Baltarusijos, persikėlę į Lietuvą, patys besimokantys kalbos ir norintys padėti kitiems.",
+
+    // Feedback form
+    about_feedback_title:       "Palikti atsiliepimą",
+    about_feedback_rating:      "Jūsų įvertinimas:",
+    about_feedback_comment:     "Komentaras (neprivaloma)",
+    about_feedback_submit:      "Siųsti atsiliepimą",
+    about_feedback_submitting:  "Siunčiama…",
+    about_feedback_success:     "Ačiū už atsiliepimą!",
+    about_feedback_error:       "Nepavyko išsiųsti. Bandykite dar kartą.",
+    about_feedback_star:        (n: number) => `${n} ${n === 1 ? "žvaigždutė" : "žvaigždutės"}`,
+  },
 } as const;
 
 export type Translations = typeof translations.en;
@@ -274,7 +402,8 @@ const STORAGE_KEY = "verb_trainer_lang";
 
 function getSavedLang(): Lang {
   const v = localStorage.getItem(STORAGE_KEY);
-  return v === "ru" ? "ru" : "en";
+  if (v === "ru" || v === "lt") return v;
+  return "en";
 }
 
 export function useLanguage() {
