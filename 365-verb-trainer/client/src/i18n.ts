@@ -38,6 +38,7 @@ export const translations = {
 
     // Quiz feedback
     feedback_correct:        "Correct!",
+    feedback_imprecise:      (ans: string) => `✓ Right — use Lithuanian spelling: ${ans}`,
     feedback_wrong_choice:   (ans: string) => `Wrong — the answer is "${ans}"`,
     feedback_wrong_forms:    "Not quite — see the correct forms above",
     feedback_wrong_form:     "Not quite — see the correct form above",
@@ -151,6 +152,7 @@ export const translations = {
 
     // Quiz feedback
     feedback_correct:        "Правильно!",
+    feedback_imprecise:      (ans: string) => `✓ Верно — литовское написание: ${ans}`,
     feedback_wrong_choice:   (ans: string) => `Неверно — правильный ответ: «${ans}»`,
     feedback_wrong_forms:    "Не совсем — см. правильные формы выше",
     feedback_wrong_form:     "Не совсем — см. правильную форму выше",

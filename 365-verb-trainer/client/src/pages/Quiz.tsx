@@ -12,7 +12,13 @@ type QuizPhase =
   | { phase: "loading" }
   | { phase: "error"; message: string }
   | { phase: "question"; question: VerbQuestion; selected: number | null }
-  | { phase: "answered"; question: VerbQuestion; selected: number; correct: boolean; correctAnswer: string; pointEarned: boolean; pointLost: boolean };
+  | { phase: "answered"; question: VerbQuestion; selected: number; correct: boolean; correctAnswer: string; pointEarned: boolean; pointLost: boolean; imprecise: boolean };
+
+/** True when the answer is correct content-wise but differs in Lithuanian
+ *  diacritics/stress marks (e.g. user typed "buti" instead of "būti"). */
+function isExactMatch(typed: string, correct: string): boolean {
+  return typed.trim().toLowerCase() === correct.trim().toLowerCase();
+}
 
 interface SessionStats {
   total: number;
@@ -68,11 +74,12 @@ interface MainFormsInputProps {
   question: VerbQuestion;
   answered: boolean;
   inputs: string[];
+  impreciseFields: boolean[];
   onInputChange: (idx: number, value: string) => void;
   onSubmit: () => void;
 }
 
-function MainFormsInput({ question, answered, inputs, onInputChange, onSubmit }: MainFormsInputProps) {
+function MainFormsInput({ question, answered, inputs, impreciseFields, onInputChange, onSubmit }: MainFormsInputProps) {
   const { t } = useLang();
   const givenIndex = question.givenIndex ?? 0;
   const correctForms = question.choices;
@@ -88,11 +95,14 @@ function MainFormsInput({ question, answered, inputs, onInputChange, onSubmit }:
         const isGiven = i === givenIndex;
         const normalize = (s: string) =>
           s.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036F]/g, "");
+        const isCorrect = answered && !isGiven && normalize(inputs[i]) === normalize(correctForms[i]);
+        const isImprecise = isCorrect && impreciseFields[i];
         let inputCls = "main-forms-input";
         if (answered && !isGiven) {
-          inputCls += normalize(inputs[i]) === normalize(correctForms[i]) ? " mf-correct" : " mf-wrong";
+          if (isImprecise)    inputCls += " mf-imprecise";
+          else if (isCorrect) inputCls += " mf-correct";
+          else                inputCls += " mf-wrong";
         }
-        const isCorrect = answered && !isGiven && normalize(inputs[i]) === normalize(correctForms[i]);
         return (
           <div key={i} className="main-forms-row">
             <span className="main-forms-label">{FORM_LABEL[i]}</span>
@@ -108,6 +118,9 @@ function MainFormsInput({ question, answered, inputs, onInputChange, onSubmit }:
             />
             {answered && !isGiven && !isCorrect && (
               <span className="mf-hint">{correctForms[i]}</span>
+            )}
+            {answered && !isGiven && isImprecise && (
+              <span className="mf-hint mf-hint-imprecise">{correctForms[i]}</span>
             )}
           </div>
         );
@@ -166,6 +179,7 @@ export default function Quiz() {
   const [statsResult, setStatsResult] = useState<StatsResult | null>(null);
   const [showReview, setShowReview] = useState(false);
   const [mainFormsInputs, setMainFormsInputs] = useState<string[]>(["", "", ""]);
+  const [mainFormsImprecise, setMainFormsImprecise] = useState<boolean[]>([false, false, false]);
   const [conjDrillInput, setConjDrillInput] = useState("");
   const [fillBlankInput, setFillBlankInput] = useState("");
 
@@ -224,6 +238,28 @@ export default function Quiz() {
     setShowReview(true);
 
     if (state.phase !== "question") return;
+
+    // Determine if the answer was correct but used ASCII instead of Lithuanian letters
+    let imprecise = false;
+    if (correct) {
+      const mode = state.question.mode;
+      if (mode === "conjugation_drill") {
+        imprecise = !isExactMatch(conjDrillInput, correctAnswer);
+      } else if (mode === "fill_blank" || mode === "fill_blank_hint") {
+        imprecise = !isExactMatch(fillBlankInput, correctAnswer);
+      } else if (mode === "main_forms") {
+        const givenIndex = state.question.givenIndex ?? 0;
+        const norm = (s: string) => s.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036F]/g, "");
+        const impreciseFields = [0, 1, 2].map((i) =>
+          i !== givenIndex &&
+          norm(mainFormsInputs[i]) === norm(state.question.choices[i]) &&
+          !isExactMatch(mainFormsInputs[i], state.question.choices[i])
+        );
+        setMainFormsImprecise(impreciseFields);
+        imprecise = impreciseFields.some(Boolean);
+      }
+    }
+
     setState({
       phase: "answered",
       question: state.question,
@@ -232,6 +268,7 @@ export default function Quiz() {
       correctAnswer,
       pointEarned,
       pointLost,
+      imprecise,
     });
 
     if (newStats.total >= quizSize) {
@@ -470,6 +507,7 @@ export default function Quiz() {
                 question={state.question}
                 answered={state.phase === "answered"}
                 inputs={mainFormsInputs}
+                impreciseFields={state.phase === "answered" ? mainFormsImprecise : [false, false, false]}
                 onInputChange={(i, v) =>
                   setMainFormsInputs((prev) => { const n = [...prev]; n[i] = v; return n; })
                 }
@@ -480,7 +518,9 @@ export default function Quiz() {
                 <input
                   className={`conj-drill-input ${
                     state.phase === "answered"
-                      ? state.correct ? "mf-correct" : "mf-wrong"
+                      ? state.correct
+                        ? state.imprecise ? "mf-imprecise" : "mf-correct"
+                        : "mf-wrong"
                       : ""
                   }`}
                   type="text"
@@ -493,6 +533,9 @@ export default function Quiz() {
                 />
                 {state.phase === "answered" && !state.correct && (
                   <span className="mf-hint">{state.correctAnswer}</span>
+                )}
+                {state.phase === "answered" && state.correct && state.imprecise && (
+                  <span className="mf-hint mf-hint-imprecise">{state.correctAnswer}</span>
                 )}
                 {state.phase === "question" && (
                   <button
@@ -509,7 +552,9 @@ export default function Quiz() {
                 <input
                   className={`conj-drill-input ${
                     state.phase === "answered"
-                      ? state.correct ? "mf-correct" : "mf-wrong"
+                      ? state.correct
+                        ? state.imprecise ? "mf-imprecise" : "mf-correct"
+                        : "mf-wrong"
                       : ""
                   }`}
                   type="text"
@@ -522,6 +567,9 @@ export default function Quiz() {
                 />
                 {state.phase === "answered" && !state.correct && (
                   <span className="mf-hint">{state.correctAnswer}</span>
+                )}
+                {state.phase === "answered" && state.correct && state.imprecise && (
+                  <span className="mf-hint mf-hint-imprecise">{state.correctAnswer}</span>
                 )}
                 {state.phase === "question" && (
                   <button
@@ -558,9 +606,15 @@ export default function Quiz() {
             )}
 
             {state.phase === "answered" && (
-              <div className={`feedback ${state.correct ? "feedback-correct" : "feedback-wrong"}`}>
+              <div className={`feedback ${
+                state.correct
+                  ? state.imprecise ? "feedback-imprecise" : "feedback-correct"
+                  : "feedback-wrong"
+              }`}>
                 {state.correct
-                  ? t.feedback_correct
+                  ? state.imprecise
+                    ? t.feedback_imprecise(state.correctAnswer)
+                    : t.feedback_correct
                   : state.question.mode === "main_forms"
                     ? t.feedback_wrong_forms
                     : state.question.mode === "conjugation_drill" || state.question.mode === "fill_blank" || state.question.mode === "fill_blank_hint"

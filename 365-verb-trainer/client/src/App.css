@@ -343,8 +343,9 @@ table { border-collapse: collapse; }
   align-items: center;
   gap: 12px;
 }
-.feedback-correct { background: #f0fdf4; color: #15803d; }
-.feedback-wrong   { background: #fef2f2; color: #b91c1c; }
+.feedback-correct   { background: #f0fdf4; color: #15803d; }
+.feedback-imprecise { background: #fefce8; color: #854d0e; }
+.feedback-wrong     { background: #fef2f2; color: #b91c1c; }
 
 .review-toggle { font-size: 12px; }
 .next-btn { width: 100%; max-width: 220px; }
@@ -714,8 +715,9 @@ table { border-collapse: collapse; }
 }
 .conj-drill-input:focus { outline: none; border-color: #c0272d; background: #fff; }
 .conj-drill-input[readonly] { cursor: default; }
-.conj-drill-input.mf-correct { border-color: #22c55e; background: #f0fdf4; color: #15803d; }
-.conj-drill-input.mf-wrong   { border-color: #ef4444; background: #fef2f2; color: #b91c1c; }
+.conj-drill-input.mf-correct   { border-color: #22c55e; background: #f0fdf4; color: #15803d; }
+.conj-drill-input.mf-imprecise { border-color: #eab308; background: #fefce8; color: #854d0e; }
+.conj-drill-input.mf-wrong     { border-color: #ef4444; background: #fef2f2; color: #b91c1c; }
 
 /* ── Main forms (text input mode) ── */
 .main-forms-grid {
@@ -754,8 +756,9 @@ table { border-collapse: collapse; }
 }
 .main-forms-input:focus { outline: none; border-color: #c0272d; background: #fff; }
 .main-forms-input[readonly] { background: #f0e8e0; color: #5a3a3a; cursor: default; border-style: dashed; }
-.main-forms-input.mf-correct { border-color: #22c55e; background: #f0fdf4; color: #15803d; }
-.main-forms-input.mf-wrong   { border-color: #ef4444; background: #fef2f2; color: #b91c1c; }
+.main-forms-input.mf-correct   { border-color: #22c55e; background: #f0fdf4; color: #15803d; }
+.main-forms-input.mf-imprecise { border-color: #eab308; background: #fefce8; color: #854d0e; }
+.main-forms-input.mf-wrong     { border-color: #ef4444; background: #fef2f2; color: #b91c1c; }
 
 .mf-hint {
   font-size: 14px;
@@ -765,6 +768,11 @@ table { border-collapse: collapse; }
   border-radius: 6px;
   padding: 4px 10px;
   white-space: nowrap;
+}
+
+.mf-hint.mf-hint-imprecise {
+  color: #854d0e;
+  background: #fef9c3;
 }
 
 .mf-submit-btn { margin-top: 8px; align-self: flex-start; }
