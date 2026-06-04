@@ -60,6 +60,15 @@ export async function initDb(): Promise<void> {
 
     CREATE INDEX IF NOT EXISTS idx_verb_points_user
       ON verb_points (user_id);
+
+    -- User feedback (star rating + optional comment, submitted from About page)
+    CREATE TABLE IF NOT EXISTS verb_feedback (
+      id         SERIAL PRIMARY KEY,
+      rating     SMALLINT    NOT NULL CHECK (rating BETWEEN 1 AND 5),
+      comment    TEXT,
+      lang       TEXT        NOT NULL DEFAULT 'en',
+      created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    );
   `);
   dbAvailable = true;
 }

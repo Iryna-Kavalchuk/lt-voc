@@ -111,6 +111,20 @@ export interface AdminStats {
   histogram: HistogramBucket[];
 }
 
+export interface FeedbackEntry {
+  id: number;
+  rating: number;
+  comment: string | null;
+  lang: string;
+  created_at: string;
+}
+
+export interface AdminFeedback {
+  entries: FeedbackEntry[];
+  avg_rating: number | null;
+  total: number;
+}
+
 // ---------------------------------------------------------------------------
 // HTTP helpers
 // ---------------------------------------------------------------------------
@@ -232,6 +246,23 @@ export const api = {
         }
         return res.json() as Promise<AdminStats>;
       });
+    },
+    feedback(password: string): Promise<AdminFeedback> {
+      return fetch("/api/admin/feedback", {
+        headers: { "x-admin-password": password },
+      }).then(async (res) => {
+        if (!res.ok) {
+          const b = await res.json().catch(() => ({}));
+          throw new Error((b as { error?: string }).error ?? `HTTP ${res.status}`);
+        }
+        return res.json() as Promise<AdminFeedback>;
+      });
+    },
+  },
+
+  feedback: {
+    submit(payload: { rating: number; comment?: string; lang: string }): Promise<FeedbackEntry> {
+      return post("/api/feedback", payload);
     },
   },
 };

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { api, type AdminStats, type HistogramBucket } from "../api/client";
+import { api, type AdminStats, type AdminFeedback, type HistogramBucket } from "../api/client";
 
 function Histogram({ buckets }: { buckets: HistogramBucket[] }) {
   const maxCount = Math.max(...buckets.map((b) => b.count), 1);
@@ -54,10 +54,49 @@ function StatCards({ counts, accuracy }: { counts: AdminStats["counts"]; accurac
   );
 }
 
+function FeedbackSection({ feedback }: { feedback: AdminFeedback }) {
+  return (
+    <section className="admin-section">
+      <h3 className="admin-section-title">
+        Feedback
+        <span className="admin-feedback-summary">
+          {feedback.total} {feedback.total === 1 ? "entry" : "entries"}
+          {feedback.avg_rating != null && (
+            <> · avg {feedback.avg_rating.toFixed(1)} ★</>
+          )}
+        </span>
+      </h3>
+      {feedback.entries.length === 0 ? (
+        <p className="admin-feedback-empty">No feedback yet.</p>
+      ) : (
+        <ul className="admin-feedback-list">
+          {feedback.entries.map((entry) => (
+            <li key={entry.id} className="admin-feedback-item">
+              <div className="admin-feedback-meta">
+                <span className="admin-feedback-stars">
+                  {"★".repeat(entry.rating)}{"☆".repeat(5 - entry.rating)}
+                </span>
+                <span className="admin-feedback-lang">{entry.lang}</span>
+                <span className="admin-feedback-date">
+                  {new Date(entry.created_at).toLocaleString()}
+                </span>
+              </div>
+              {entry.comment && (
+                <p className="admin-feedback-comment">{entry.comment}</p>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  );
+}
+
 export default function Admin() {
   const [password, setPassword] = useState("");
   const [input, setInput] = useState("");
   const [stats, setStats] = useState<AdminStats | null>(null);
+  const [feedback, setFeedback] = useState<AdminFeedback | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -66,8 +105,12 @@ export default function Admin() {
     setLoading(true);
     setError(null);
     try {
-      const data = await api.admin.stats(input);
+      const [data, fb] = await Promise.all([
+        api.admin.stats(input),
+        api.admin.feedback(input),
+      ]);
       setStats(data);
+      setFeedback(fb);
       setPassword(input);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed");
@@ -79,8 +122,12 @@ export default function Admin() {
   const handleRefresh = async () => {
     setLoading(true);
     try {
-      const data = await api.admin.stats(password);
+      const [data, fb] = await Promise.all([
+        api.admin.stats(password),
+        api.admin.feedback(password),
+      ]);
       setStats(data);
+      setFeedback(fb);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed");
     } finally {
@@ -124,6 +171,8 @@ export default function Admin() {
         <StatCards counts={stats.counts} accuracy={stats.accuracy} />
         <Histogram buckets={stats.histogram} />
       </section>
+
+      {feedback && <FeedbackSection feedback={feedback} />}
     </div>
   );
 }

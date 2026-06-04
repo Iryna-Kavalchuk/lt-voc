@@ -1359,3 +1359,160 @@ table { border-collapse: collapse; }
   .hamburger-btn  { display: flex; }
   .mobile-nav     { display: flex; }
 }
+
+/* ── About — authors ────────────────────────────────────────── */
+
+.about-authors-text {
+  font-weight: 600;
+  color: #5a2a2a;
+}
+
+/* ── Star rating ────────────────────────────────────────────── */
+
+.star-rating {
+  display: flex;
+  gap: 4px;
+}
+
+.star-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 28px;
+  line-height: 1;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.1s, transform 0.1s;
+}
+
+.star-btn:hover,
+.star-btn.filled {
+  color: #e8a020;
+}
+
+.star-btn:hover {
+  transform: scale(1.15);
+}
+
+/* ── Feedback form (About page) ─────────────────────────────── */
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.feedback-rating-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.feedback-rating-label {
+  font-size: 14px;
+  color: #5a3a3a;
+  font-weight: 500;
+}
+
+.feedback-textarea {
+  width: 100%;
+  border: 1px solid #d4c0b0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+  background: #fff;
+  color: #2a1a1a;
+  resize: vertical;
+  min-height: 72px;
+  transition: border-color 0.15s;
+}
+
+.feedback-textarea:focus {
+  outline: none;
+  border-color: #c0272d;
+}
+
+.feedback-submit {
+  align-self: flex-start;
+}
+
+.feedback-success {
+  color: #2a7a2a;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0;
+}
+
+.feedback-error {
+  color: #c0272d;
+  font-size: 13px;
+  margin: 0;
+}
+
+/* ── Admin feedback section ─────────────────────────────────── */
+
+.admin-feedback-summary {
+  font-size: 13px;
+  font-weight: 400;
+  color: #8a6060;
+  margin-left: 10px;
+}
+
+.admin-feedback-empty {
+  color: #8a6060;
+  font-size: 14px;
+}
+
+.admin-feedback-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-feedback-item {
+  background: #fff;
+  border: 1px solid #e8d8c8;
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.admin-feedback-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.admin-feedback-stars {
+  color: #e8a020;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.admin-feedback-lang {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #f0e0d0;
+  color: #7a3535;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.admin-feedback-date {
+  font-size: 12px;
+  color: #9a7a7a;
+  margin-left: auto;
+}
+
+.admin-feedback-comment {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #3a2a2a;
+  line-height: 1.5;
+}

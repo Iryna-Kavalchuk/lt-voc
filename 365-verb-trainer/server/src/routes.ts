@@ -4,6 +4,7 @@ import { getAllVerbs, getVerbById, saveVerb } from "./data.js";
 import { buildRandomQuestion, checkAnswer, checkMainFormsAnswer, checkConjugationDrillAnswer, checkFillBlankAnswer } from "./quiz.js";
 import type { VerbQuestion, QuestionMode } from "./types.js";
 import { saveResult, recordAnswer, getDueVerbIds, getAdminStats, earnPoint, losePoint, getProgress } from "./stats.js";
+import { pool, dbAvailable } from "./db.js";
 
 export const router = Router();
 
@@ -301,6 +302,81 @@ router.get("/progress", async (req: Request, res: Response) => {
   try {
     const data = await getProgress(userId);
     res.json(data);
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    res.status(500).json({ error: message });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// POST /feedback
+// Body: { rating: 1–5, comment?: string, lang?: "en"|"ru" }
+// Public — no auth required
+// ---------------------------------------------------------------------------
+router.post("/feedback", async (req: Request, res: Response) => {
+  const { rating, comment, lang } = req.body as {
+    rating?: number;
+    comment?: string;
+    lang?: string;
+  };
+
+  if (!rating || typeof rating !== "number" || rating < 1 || rating > 5) {
+    res.status(400).json({ error: "rating must be an integer 1–5" });
+    return;
+  }
+
+  if (!dbAvailable) {
+    res.status(503).json({ error: "Database not available" });
+    return;
+  }
+
+  try {
+    const result = await pool.query(
+      `INSERT INTO verb_feedback (rating, comment, lang)
+       VALUES ($1, $2, $3)
+       RETURNING id, rating, comment, lang, created_at`,
+      [rating, comment?.trim() || null, lang ?? "en"]
+    );
+    res.status(201).json(result.rows[0]);
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    res.status(500).json({ error: message });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// GET /admin/feedback
+// Header: x-admin-password
+// Returns all feedback entries, newest first.
+// ---------------------------------------------------------------------------
+router.get("/admin/feedback", async (req: Request, res: Response) => {
+  const adminPassword = process.env.ADMIN_PASSWORD;
+  if (!adminPassword) {
+    res.status(503).json({ error: "Admin access not configured" });
+    return;
+  }
+  if (req.headers["x-admin-password"] !== adminPassword) {
+    res.status(401).json({ error: "Unauthorized" });
+    return;
+  }
+
+  if (!dbAvailable) {
+    res.status(503).json({ error: "Database not available" });
+    return;
+  }
+
+  try {
+    const result = await pool.query(
+      `SELECT id, rating, comment, lang, created_at
+       FROM verb_feedback
+       ORDER BY created_at DESC
+       LIMIT 200`
+    );
+    const avgResult = await pool.query(
+      `SELECT ROUND(AVG(rating)::numeric, 2)::float AS avg_rating, COUNT(*)::int AS total
+       FROM verb_feedback`
+    );
+    res.json({ entries: result.rows, ...avgResult.rows[0] });
   } catch (err) {
     const message = err instanceof Error ? err.message : "Unknown error";
     res.status(500).json({ error: message });

@@ -117,6 +117,20 @@ export const translations = {
     about_thanks_text:   "All verb data, conjugation tables, and usage examples are taken directly from this book. We are grateful to the authors for creating such a thorough and accessible learning resource.",
     about_noncommercial: "This app is a free educational tool and is not used for any commercial purpose.",
     about_copyright:     "© Virginija Stumbrienė, © Loreta Vilkienė, © Henrika Prosniakova, © Vilnius University, 2015",
+
+    // Authors
+    about_authors_title:  "Made by",
+    about_authors_text:   "Iryna Kavalchuk",
+
+    // Feedback form
+    about_feedback_title:       "Leave feedback",
+    about_feedback_rating:      "Your rating:",
+    about_feedback_comment:     "Comment (optional)",
+    about_feedback_submit:      "Send feedback",
+    about_feedback_submitting:  "Sending…",
+    about_feedback_success:     "Thank you for your feedback!",
+    about_feedback_error:       "Could not send feedback. Please try again.",
+    about_feedback_star:        (n: number) => `${n} star${n !== 1 ? "s" : ""}`,
   },
 
   ru: {
@@ -231,6 +245,20 @@ export const translations = {
     about_thanks_text:   "Все данные о глаголах, таблицы спряжения и примеры использования взяты непосредственно из этой книги. Мы благодарны авторам за создание столь подробного и доступного учебного пособия.",
     about_noncommercial: "Приложение является бесплатным образовательным инструментом и не используется в коммерческих целях.",
     about_copyright:     "© Виргиния Стумбриене, © Лорета Вилкиене, © Генрика Проснякова, © Вильнюсский университет, 2015",
+
+    // Authors
+    about_authors_title:  "Создано",
+    about_authors_text:   "Ирина Кавальчук",
+
+    // Feedback form
+    about_feedback_title:       "Оставить отзыв",
+    about_feedback_rating:      "Ваша оценка:",
+    about_feedback_comment:     "Комментарий (необязательно)",
+    about_feedback_submit:      "Отправить",
+    about_feedback_submitting:  "Отправка…",
+    about_feedback_success:     "Спасибо за отзыв!",
+    about_feedback_error:       "Не удалось отправить. Попробуйте ещё раз.",
+    about_feedback_star:        (n: number) => `${n} ${n === 1 ? "звезда" : n < 5 ? "звезды" : "звёзд"}`,
   },
 } as const;
 
