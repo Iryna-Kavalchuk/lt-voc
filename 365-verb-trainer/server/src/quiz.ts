@@ -203,7 +203,8 @@ function buildFillBlankQuestion(
   for (const tense of DRILLABLE_TENSES) {
     for (const person of TENSE_PERSONS[tense]) {
       const f = getForm(verb, tense, person);
-      if (f) allForms.set(f.toLowerCase(), { tense, person });
+      // Skip empty/whitespace-only forms so a blank regex doesn't match everywhere
+      if (f && f.trim()) allForms.set(f.toLowerCase(), { tense, person });
     }
   }
   // Also include the infinitive as a form (strip stress marks for matching)
@@ -255,18 +256,24 @@ function buildFillBlankQuestion(
     }
   }
 
-  // Fallback: use infinitive as the form
+  // Fallback: use infinitive as the form, but only when it appears as a
+  // standalone word (not as a substring inside a prefixed verb like perdaryti).
+  const infWordBoundary = new RegExp(
+    `(?<![a-ząčęėįšųūžĄČĘĖĮŠŲŪŽ])${infNorm}(?![a-ząčęėįšųūžĄČĘĖĮŠŲŪŽ])`,
+    "i"
+  );
   const infExample = shuffledExamples.find((e) => {
-    const norm = e.lt.normalize("NFC").normalize("NFD").replace(/[\u0300-\u036F]/g, "").toLowerCase();
-    return norm.includes(infNorm);
+    const norm = e.lt.normalize("NFC").normalize("NFD").replace(/[\u0300-\u036F]/g, "");
+    return infWordBoundary.test(norm);
   });
   if (!infExample) return null;
 
   const sentNfc = infExample.lt.normalize("NFC");
   const sentStripped = sentNfc.normalize("NFD").replace(/[\u0300-\u036F]/g, "");
-  const infIdx = sentStripped.toLowerCase().indexOf(infNorm);
-  if (infIdx === -1) return null;
+  const infMatch = infWordBoundary.exec(sentStripped);
+  if (!infMatch) return null;
 
+  const infIdx = infMatch.index;
   const blanked = sentNfc.slice(0, infIdx) + "___" + sentNfc.slice(infIdx + infNorm.length);
   const correctForm = sentNfc.slice(infIdx, infIdx + infNorm.length);
 
