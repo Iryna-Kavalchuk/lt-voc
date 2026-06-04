@@ -17,7 +17,7 @@ table { border-collapse: collapse; }
 .app { min-height: 100vh; display: flex; flex-direction: column; }
 
 .app-header {
-  background: #8b1a1d;
+  background: #7a3535;
   color: #f0e8e0;
   padding: 0 16px;
   display: flex;
@@ -59,8 +59,8 @@ table { border-collapse: collapse; }
   cursor: pointer;
   transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
-.lang-btn:hover { background: #5c1a1d; color: #f0e8e0; border-color: #8a6060; }
-.lang-btn.active { background: #c0272d; border-color: #c0272d; color: #fff; }
+.lang-btn:hover { background: #5e2828; color: #f0e8e0; border-color: #8a6060; }
+.lang-btn.active { background: #7a3535; border-color: #7a3535; color: #fff; }
 
 .app-logo { font-size: 22px; flex-shrink: 0; }
 .app-title {
@@ -87,8 +87,8 @@ table { border-collapse: collapse; }
   transition: background 0.15s, color 0.15s;
   white-space: nowrap;
 }
-.nav-btn:hover { background: #5c1a1d; color: #f0e8e0; }
-.nav-btn.active { background: #c0272d; color: #fff; }
+.nav-btn:hover { background: #5e2828; color: #f0e8e0; }
+.nav-btn.active { background: #7a3535; color: #fff; }
 
 .app-main {
   flex: 1;
@@ -103,7 +103,7 @@ table { border-collapse: collapse; }
 .status-msg.error { color: #ef4444; }
 
 .btn-primary {
-  background: #c0272d;
+  background: #7a3535;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -112,7 +112,7 @@ table { border-collapse: collapse; }
   font-weight: 500;
   transition: background 0.15s;
 }
-.btn-primary:hover { background: #a01f24; }
+.btn-primary:hover { background: #5e2828; }
 .btn-primary:disabled { opacity: 0.5; cursor: default; }
 
 .btn-ghost {
@@ -185,8 +185,8 @@ table { border-collapse: collapse; }
   color: #5a3a3a;
   transition: border-color 0.15s, background 0.15s, color 0.15s;
 }
-.size-btn:hover { border-color: #c0272d; color: #c0272d; background: #fff0f0; }
-.size-btn.active { border-color: #c0272d; background: #c0272d; color: #fff; }
+.size-btn:hover { border-color: #7a3535; color: #7a3535; background: #fff0f0; }
+.size-btn.active { border-color: #7a3535; background: #7a3535; color: #fff; }
 
 /* Mode picker */
 .mode-picker {
@@ -206,8 +206,8 @@ table { border-collapse: collapse; }
   color: #5a3a3a;
   transition: border-color 0.15s, background 0.15s, color 0.15s;
 }
-.mode-btn:hover { border-color: #c0272d; color: #c0272d; background: #fff0f0; }
-.mode-btn.active { border-color: #c0272d; background: #c0272d; color: #fff; }
+.mode-btn:hover { border-color: #7a3535; color: #7a3535; background: #fff0f0; }
+.mode-btn.active { border-color: #7a3535; background: #7a3535; color: #fff; }
 
 /* Score bar */
 .score-bar {
@@ -494,7 +494,7 @@ table { border-collapse: collapse; }
   transition: background 0.12s, color 0.12s, border-color 0.12s;
 }
 .letter-btn:hover { background: #ecddd5; }
-.letter-btn.active { background: #c0272d; border-color: #c0272d; color: #fff; }
+.letter-btn.active { background: #7a3535; border-color: #7a3535; color: #fff; }
 
 /* Verb list accordion */
 .verblist-grid { display: flex; flex-direction: column; gap: 6px; }
@@ -630,7 +630,7 @@ table { border-collapse: collapse; }
 }
 .histogram-bar {
   width: 100%;
-  background: linear-gradient(to top, #c0272d, #e07070);
+  background: linear-gradient(to top, #7a3535, #b07070);
   border-radius: 4px 4px 0 0;
   min-height: 2px;
   transition: height 0.3s ease;
@@ -671,7 +671,7 @@ table { border-collapse: collapse; }
   display: inline-block;
   font-size: 18px;
   font-weight: 700;
-  color: #c0272d;
+  color: #7a3535;
   background: #fce8e8;
   border-radius: 6px;
   padding: 4px 12px;
@@ -907,7 +907,7 @@ table { border-collapse: collapse; }
 }
 
 .point-dot.earned {
-  background: #c0272d;
+  background: #7a3535;
 }
 
 .point-dot.empty {
@@ -976,7 +976,7 @@ table { border-collapse: collapse; }
 
 .progress-bar-fill {
   height: 100%;
-  background: #c0272d;
+  background: #7a3535;
   border-radius: 99px;
   transition: width 0.4s ease;
 }
