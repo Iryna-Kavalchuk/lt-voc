@@ -16,8 +16,19 @@ type QuizPhase =
 
 /** True when the answer is correct content-wise but differs in Lithuanian
  *  diacritics/stress marks (e.g. user typed "buti" instead of "būti"). */
+// Strip only stress/tone marks (acute U+0301 and tilde-above U+0303) but leave
+// all other combining characters intact so that Lithuanian diacritics survive:
+//   ą (a + U+0328 ogonek), č/š/ž (+ U+030C caron), ė (e + U+0307 dot above),
+//   ū (u + U+0304 macron), ę/į/ų (+ U+0328 ogonek).
+function stripStress(s: string): string {
+  return s.normalize("NFD").replace(/[\u0301\u0303]/g, "").normalize("NFC");
+}
+
 function isExactMatch(typed: string, correct: string): boolean {
-  return typed.trim().toLowerCase() === correct.trim().toLowerCase();
+  // Match ignoring case and stress marks only. If the user omitted a real Lithuanian
+  // letter (ą č ę ė į š ų ū ž) the strings will still differ → imprecise = true.
+  const norm = (s: string) => stripStress(s.trim().toLowerCase());
+  return norm(typed) === norm(correct);
 }
 
 interface SessionStats {
