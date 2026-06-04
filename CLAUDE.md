@@ -56,7 +56,7 @@ ai-bootcamp/
 │   │   │   │   └── VerbEditor.tsx # Password-protected verb data editor (URL: /edit)
 │   │   │   ├── components/VerbCard.tsx
 │   │   │   ├── context/LangContext.tsx
-│   │   │   ├── i18n.ts            # EN/RU translations
+│   │   │   ├── i18n.ts            # EN/RU/LT translations
 │   │   │   ├── App.tsx            # Shell, nav, hamburger menu
 │   │   │   └── App.css            # Single global stylesheet (~1350 lines)
 │   │   └── vite.config.ts         # Proxies /api, /health, /audio to localhost:3001
@@ -96,7 +96,7 @@ cd 365-verb-trainer/client && npm run build  # note: 3 pre-existing TS errors in
 - **Hamburger menu** at ≤540px: desktop nav hidden, `☰` button shown in header top-right
   - Dropdown opens below header, closes on nav item tap or outside click
   - Animates to `×` when open
-- Language toggle (EN / RU) in header top-right, persisted to `localStorage`
+- Language toggle (EN / RU / LT) in header top-right, persisted to `localStorage`
 - Theme: warm burgundy `#7a3535` header, cream `#f5f0e8` background, crimson `#c0272d` accents
 
 ## Audio system
@@ -137,7 +137,29 @@ python generate_audio.py
   python generate_audio.py
   ```
 
-## Quiz modes
+## User feedback
+- Star rating (1–5) + optional comment form on the About page
+- Submitted via `POST /api/feedback` (public, no auth)
+- Stored in `verb_feedback` table: `id`, `rating` (1–5), `comment` (nullable), `lang`, `created_at`
+- Visible in Admin page under "Feedback" section (newest first, with avg rating)
+
+## About page
+- Book credits card (authors, publisher, PDF link)
+- "Made by" card — anonymous group description (IT relocants from Belarus learning Lithuanian)
+- Star-rating feedback form (interactive hover, success/error states, EN/RU/LT strings)
+- Non-commercial notice + copyright footer
+
+## Admin page (`/admin`)
+- Password-gated (same `ADMIN_PASSWORD` env var)
+- **Sessions** section: 4 stat cards — Today / This week / This month / Total (no histogram, no accuracy)
+- **Users** section: table of all users with total points + last active timestamp, sorted by points desc
+  - Query uses subqueries (not a direct JOIN) to avoid row-multiplication between `verb_points` and `verb_progress`
+- **Feedback** section: list of all submitted feedback entries with star display, lang badge, date, comment
+
+## Quiz results screen
+- Shows score, accuracy percentage, "New session" button
+- Percentile banner ("better than X%") removed — not meaningful with small user base
+
 1. `verb_translation` — pick Russian translation from 4 choices
 2. `conjugation_drill` — type a conjugated form (tense + person)
 3. `main_forms` — given 1 of 3 main forms, type the other 2
@@ -162,7 +184,7 @@ Key rules enforced to produce clean questions:
   now fixed
 
 ## Database (PostgreSQL)
-- Tables: `verb_quiz_results`, `verb_progress`, `verb_points`
+- Tables: `verb_quiz_results`, `verb_progress`, `verb_points`, `verb_feedback`
 - Optional — server starts without it, spaced repetition disabled
 - Shared with lithuanian-vocab project on Render
 
