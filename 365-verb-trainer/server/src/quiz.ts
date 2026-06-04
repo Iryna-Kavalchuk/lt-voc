@@ -198,13 +198,19 @@ function buildFillBlankQuestion(
 
   const hint = buildFormsHint(verb.forms);
 
-  // Build map of all conjugated forms → tense+person
+  // Build map of all conjugated forms → tense+person.
+  // Some cells contain multiple variants separated by " / " or ", " (e.g. būti's
+  // present: "esu, būnu"). Split these so each individual form is tried.
   const allForms = new Map<string, { tense: TenseName; person: string }>();
   for (const tense of DRILLABLE_TENSES) {
     for (const person of TENSE_PERSONS[tense]) {
       const f = getForm(verb, tense, person);
-      // Skip empty/whitespace-only forms so a blank regex doesn't match everywhere
-      if (f && f.trim()) allForms.set(f.toLowerCase(), { tense, person });
+      if (!f) continue;
+      // Split on " / " or ", " to handle multi-variant cells
+      const variants = f.split(/\s*[\/,]\s*/).map((s) => s.trim()).filter(Boolean);
+      for (const variant of variants) {
+        allForms.set(variant.toLowerCase(), { tense, person });
+      }
     }
   }
   // Also include the infinitive as a form (strip stress marks for matching)
