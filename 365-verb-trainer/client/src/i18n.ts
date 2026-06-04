@@ -183,7 +183,7 @@ export const translations = {
     results_better:    "Лучше, чем",
     results_sessions:  (n: number) => `(всего ${n})`,
     results_new:       "Новая сессия",
-    results_see:       "Итоги →",
+    results_see:       "Результаты →",
     review_title:      "Разбор глагола",
 
     // Main forms labels
