@@ -1360,13 +1360,6 @@ table { border-collapse: collapse; }
   .mobile-nav     { display: flex; }
 }
 
-/* ── About — authors ────────────────────────────────────────── */
-
-.about-authors-text {
-  font-weight: 600;
-  color: #5a2a2a;
-}
-
 /* ── Star rating ────────────────────────────────────────────── */
 
 .star-rating {

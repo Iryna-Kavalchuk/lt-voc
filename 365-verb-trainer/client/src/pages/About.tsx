@@ -91,7 +91,7 @@ export default function About() {
       {/* Authors */}
       <div className="about-card">
         <h2 className="about-section-title">{t.about_authors_title}</h2>
-        <p className="about-desc about-authors-text">{t.about_authors_text}</p>
+        <p className="about-desc">{t.about_authors_text}</p>
       </div>
 
       {/* Feedback form */}

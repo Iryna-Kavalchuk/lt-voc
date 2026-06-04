@@ -120,7 +120,7 @@ export const translations = {
 
     // Authors
     about_authors_title:  "Made by",
-    about_authors_text:   "Iryna Kavalchuk",
+    about_authors_text:   "IT professionals from Belarus who relocated to Lithuania, are learning the language themselves, and want to help others do the same.",
 
     // Feedback form
     about_feedback_title:       "Leave feedback",
@@ -248,7 +248,7 @@ export const translations = {
 
     // Authors
     about_authors_title:  "Создано",
-    about_authors_text:   "Ирина Кавальчук",
+    about_authors_text:   "IT-специалистами из Беларуси, переехавшими в Литву, которые сами изучают язык и хотят помочь другим.",
 
     // Feedback form
     about_feedback_title:       "Оставить отзыв",
