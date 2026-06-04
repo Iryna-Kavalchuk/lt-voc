@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Quiz from "./pages/Quiz";
 import VerbList from "./pages/VerbList";
 import Progress from "./pages/Progress";
@@ -18,7 +18,34 @@ const isEditRoute  = path === "/edit";
 
 export default function App() {
   const [page, setPage] = useState<Page>("quiz");
+  const [menuOpen, setMenuOpen] = useState(false);
   const { lang, setLang, t } = useLanguage();
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  // Close menu on outside click
+  useEffect(() => {
+    if (!menuOpen) return;
+    function handleClick(e: MouseEvent) {
+      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
+        setMenuOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, [menuOpen]);
+
+  function navigate(p: Page) {
+    setPage(p);
+    setMenuOpen(false);
+  }
+
+  const navItems: { key: Page; label: string }[] = [
+    { key: "quiz",     label: t.nav_train },
+    { key: "verbs",    label: t.nav_verblist },
+    { key: "progress", label: t.nav_progress },
+    { key: "fortune",  label: t.nav_fortune },
+    { key: "about",    label: t.nav_about },
+  ];
 
   if (isAdminRoute) {
     return (
@@ -59,59 +86,64 @@ export default function App() {
   return (
     <LangContext.Provider value={{ lang, setLang, t }}>
       <div className="app">
-        <header className="app-header">
+        <header className="app-header" ref={menuRef}>
           <div className="header-top-row">
             <div className="header-left">
               <span className="app-logo">🇱🇹</span>
               <span className="app-title">{t.app_title}</span>
             </div>
-            <div className="lang-toggle">
+            <div className="header-right">
+              <div className="lang-toggle">
+                <button
+                  className={`lang-btn ${lang === "en" ? "active" : ""}`}
+                  onClick={() => setLang("en")}
+                >
+                  EN
+                </button>
+                <button
+                  className={`lang-btn ${lang === "ru" ? "active" : ""}`}
+                  onClick={() => setLang("ru")}
+                >
+                  RU
+                </button>
+              </div>
               <button
-                className={`lang-btn ${lang === "en" ? "active" : ""}`}
-                onClick={() => setLang("en")}
+                className={`hamburger-btn ${menuOpen ? "open" : ""}`}
+                onClick={() => setMenuOpen((o) => !o)}
+                aria-label="Toggle navigation"
               >
-                EN
-              </button>
-              <button
-                className={`lang-btn ${lang === "ru" ? "active" : ""}`}
-                onClick={() => setLang("ru")}
-              >
-                RU
+                <span /><span /><span />
               </button>
             </div>
           </div>
+
+          {/* Desktop nav — hidden on mobile via CSS */}
           <nav className="app-nav">
-            <button
-              className={`nav-btn ${page === "quiz" ? "active" : ""}`}
-              onClick={() => setPage("quiz")}
-            >
-              {t.nav_train}
-            </button>
-            <button
-              className={`nav-btn ${page === "verbs" ? "active" : ""}`}
-              onClick={() => setPage("verbs")}
-            >
-              {t.nav_verblist}
-            </button>
-            <button
-              className={`nav-btn ${page === "progress" ? "active" : ""}`}
-              onClick={() => setPage("progress")}
-            >
-              {t.nav_progress}
-            </button>
-            <button
-              className={`nav-btn ${page === "fortune" ? "active" : ""}`}
-              onClick={() => setPage("fortune")}
-            >
-              {t.nav_fortune}
-            </button>
-            <button
-              className={`nav-btn ${page === "about" ? "active" : ""}`}
-              onClick={() => setPage("about")}
-            >
-              {t.nav_about}
-            </button>
+            {navItems.map(({ key, label }) => (
+              <button
+                key={key}
+                className={`nav-btn ${page === key ? "active" : ""}`}
+                onClick={() => navigate(key)}
+              >
+                {label}
+              </button>
+            ))}
           </nav>
+
+          {/* Mobile dropdown */}
+          {menuOpen && (
+            <nav className="mobile-nav">
+              {navItems.map(({ key, label }) => (
+                <button
+                  key={key}
+                  className={`mobile-nav-btn ${page === key ? "active" : ""}`}
+                  onClick={() => navigate(key)}
+                >
+                  {label}
+                </button>
+              ))}
+            </nav>
+          )}
         </header>
 
         <main className="app-main">
