@@ -27,8 +27,10 @@ function stripStress(s: string): string {
 function isExactMatch(typed: string, correct: string): boolean {
   // Match ignoring case and stress marks only. If the user omitted a real Lithuanian
   // letter (ą č ę ė į š ų ū ž) the strings will still differ → imprecise = true.
+  // Also accepts any variant when correct contains " / " (e.g. subjunctive mes/jus).
   const norm = (s: string) => stripStress(s.trim().toLowerCase());
-  return norm(typed) === norm(correct);
+  const variants = correct.split(/\s*\/\s*/).map((v) => v.trim()).filter(Boolean);
+  return variants.some((v) => norm(typed) === norm(v));
 }
 
 interface SessionStats {

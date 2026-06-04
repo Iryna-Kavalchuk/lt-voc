@@ -456,6 +456,8 @@ export function checkFillBlankAnswer(
 /**
  * Check a conjugation_drill answer where the user typed the form.
  * Case-insensitive, diacritic-insensitive, trimmed.
+ * Accepts any variant when the correct answer contains multiple forms
+ * separated by " / " (e.g. subjunctive mes: "abejótume / abejótumėme").
  */
 export function checkConjugationDrillAnswer(
   question: VerbQuestion,
@@ -463,9 +465,11 @@ export function checkConjugationDrillAnswer(
 ): AnswerResult {
   const normalize = (s: string) =>
     s.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036F]/g, "");
-  const correct = question.choices[0]; // single entry holds the correct form
+  const correct = question.choices[0]; // single entry holds the correct form (may contain " / ")
+  const variants = correct.split(/\s*\/\s*/).map((v) => v.trim()).filter(Boolean);
+  const submittedNorm = normalize(submittedText);
   return {
-    correct: normalize(submittedText) === normalize(correct),
+    correct: variants.some((v) => normalize(v) === submittedNorm),
     correctAnswer: correct,
     pointEarned: false,
     pointLost: false,
