@@ -107,7 +107,7 @@ export const translations = {
   ru: {
     // Nav
     nav_train:    "Тренировка",
-    nav_verblist: "Список глаголов",
+    nav_verblist: "Глаголы",
     nav_progress: "Прогресс",
     nav_fortune:  "Фортуна",
 
@@ -162,10 +162,10 @@ export const translations = {
     // Tense labels
     tense_present:           "Настоящее",
     tense_past:              "Прошедшее",
-    tense_subjunctive:       "Сослагательное",
+    tense_subjunctive:       "Сослагат.",
     tense_frequentative_past:"Многокр. прош.",
     tense_future:            "Будущее",
-    tense_imperative:        "Повелительное",
+    tense_imperative:        "Повелит.",
 
     // VerbCard sections
     vc_conjugation:       "Спряжение",
