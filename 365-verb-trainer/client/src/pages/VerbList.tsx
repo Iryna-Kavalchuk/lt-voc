@@ -80,7 +80,8 @@ export default function VerbList() {
     return matchesSearch && matchesLetter;
   });
 
-  const letters = [...new Set(verbs.map((v) => v.infinitive[0]?.toUpperCase() ?? ""))].sort();
+  const ltCollator = new Intl.Collator("lt");
+  const letters = [...new Set(verbs.map((v) => v.infinitive[0]?.toUpperCase() ?? ""))].sort((a, b) => ltCollator.compare(a, b));
 
   return (
     <div className="verblist-page">
