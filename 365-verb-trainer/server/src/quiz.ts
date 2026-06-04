@@ -209,7 +209,10 @@ function buildFillBlankQuestion(
       // Split on " / " or ", " to handle multi-variant cells
       const variants = f.split(/\s*[\/,]\s*/).map((s) => s.trim()).filter(Boolean);
       for (const variant of variants) {
-        allForms.set(variant.toLowerCase(), { tense, person });
+        // Strip diacritics/stress marks before storing; skip if nothing remains
+        // (some data cells are bare combining marks like "̃" with no base character)
+        const key = variant.normalize("NFD").replace(/[\u0300-\u036F]/g, "").toLowerCase().trim();
+        if (key) allForms.set(key, { tense, person });
       }
     }
   }
