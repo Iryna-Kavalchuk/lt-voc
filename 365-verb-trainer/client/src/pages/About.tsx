@@ -67,7 +67,18 @@ export default function About() {
       <div className="about-card">
         <h2 className="about-section-title">{t.about_book_title}</h2>
         <div className="about-book">
-          <div className="about-book-num">365</div>
+          <a
+            className="about-book-cover-link"
+            href={BOOK_PDF_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="about-book-cover"
+              src="/book-cover.jpg"
+              alt="365 Lithuanian Verbs book cover"
+            />
+          </a>
           <div className="about-book-meta">
             <div className="about-book-authors">{t.about_book_authors}</div>
             <div className="about-book-pub">{t.about_book_pub}</div>

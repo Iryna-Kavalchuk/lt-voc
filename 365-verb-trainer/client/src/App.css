@@ -1232,6 +1232,18 @@ table { border-collapse: collapse; }
   gap: 20px;
 }
 
+.about-book-cover-link {
+  flex-shrink: 0;
+  display: block;
+}
+
+.about-book-cover {
+  width: 110px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  display: block;
+}
+
 .about-book-num {
   font-size: 3.2rem;
   font-weight: 900;
