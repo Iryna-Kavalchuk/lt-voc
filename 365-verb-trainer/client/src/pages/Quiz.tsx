@@ -187,6 +187,7 @@ export default function Quiz() {
   const [state, setState] = useState<QuizPhase>({ phase: "setup" });
   const [stats, setStats] = useState<SessionStats>({ total: 0, correct: 0 });
   const [finished, setFinished] = useState(false);
+  const [showResults, setShowResults] = useState(false);
   const [statsResult, setStatsResult] = useState<StatsResult | null>(null);
   const [showReview, setShowReview] = useState(false);
   const [mainFormsInputs, setMainFormsInputs] = useState<string[]>(["", "", ""]);
@@ -234,6 +235,7 @@ export default function Quiz() {
     sessionIdRef.current = getSessionId();
     setStats({ total: 0, correct: 0 });
     setFinished(false);
+    setShowResults(false);
     setStatsResult(null);
     setShowReview(false);
     startTimeRef.current = Date.now();
@@ -423,7 +425,7 @@ export default function Quiz() {
       )}
 
       {/* ── Finished screen ── */}
-      {finished && (
+      {finished && showResults && (
         <div className="quiz-card quiz-results">
           <h2 className="results-title">{t.results_complete}</h2>
           <p className="results-score">{stats.correct} / {quizSize}</p>
@@ -435,14 +437,14 @@ export default function Quiz() {
       )}
 
       {/* ── Loading ── */}
-      {!finished && state.phase === "loading" && (
+      {!showResults && state.phase === "loading" && (
         <div className="quiz-card">
           <p className="status-msg">Loading question…</p>
         </div>
       )}
 
       {/* ── Error ── */}
-      {!finished && state.phase === "error" && (
+      {!showResults && state.phase === "error" && (
         <div className="quiz-card">
           <p className="status-msg error">{state.message}</p>
           <button className="btn-primary" onClick={() => loadQuestion(stats.total + 1, modesRef.current)}>
@@ -452,7 +454,7 @@ export default function Quiz() {
       )}
 
       {/* ── Question / Answered ── */}
-      {!finished && (state.phase === "question" || state.phase === "answered") && (
+      {!showResults && (state.phase === "question" || state.phase === "answered") && (
         <>
           <div className="quiz-card">
             <span className="mode-badge">{MODE_LABEL[state.question.mode]}</span>
@@ -638,6 +640,11 @@ export default function Quiz() {
                 {!finished && (
                   <button className="btn-primary next-btn" onClick={handleNext}>
                     {t.next_question}
+                  </button>
+                )}
+                {finished && (
+                  <button className="btn-primary next-btn" onClick={() => setShowResults(true)}>
+                    {t.results_see}
                   </button>
                 )}
               </div>

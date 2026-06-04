@@ -54,6 +54,7 @@ export const translations = {
     results_better:    "Better than",
     results_sessions:  (n: number) => `(${n} total)`,
     results_new:       "New session",
+    results_see:       "See results →",
     review_title:      "Verb review",
 
     // Main forms labels
@@ -182,6 +183,7 @@ export const translations = {
     results_better:    "Лучше, чем",
     results_sessions:  (n: number) => `(всего ${n})`,
     results_new:       "Новая сессия",
+    results_see:       "Итоги →",
     review_title:      "Разбор глагола",
 
     // Main forms labels
@@ -310,6 +312,7 @@ export const translations = {
     results_better:    "Geriau nei",
     results_sessions:  (n: number) => `(iš viso ${n})`,
     results_new:       "Nauja sesija",
+    results_see:       "Rezultatai →",
     review_title:      "Veiksmažodžio apžvalga",
 
     // Main forms labels
