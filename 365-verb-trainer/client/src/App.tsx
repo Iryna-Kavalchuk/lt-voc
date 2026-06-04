@@ -5,11 +5,12 @@ import Progress from "./pages/Progress";
 import Admin from "./pages/Admin";
 import VerbEditor from "./pages/VerbEditor";
 import Fortune from "./pages/Fortune";
+import About from "./pages/About";
 import { LangContext } from "./context/LangContext";
 import { useLanguage } from "./i18n";
 import "./App.css";
 
-type Page = "quiz" | "verbs" | "progress" | "fortune";
+type Page = "quiz" | "verbs" | "progress" | "fortune" | "about";
 
 const path = window.location.pathname;
 const isAdminRoute = path === "/admin";
@@ -104,6 +105,12 @@ export default function App() {
             >
               {t.nav_fortune}
             </button>
+            <button
+              className={`nav-btn ${page === "about" ? "active" : ""}`}
+              onClick={() => setPage("about")}
+            >
+              {t.nav_about}
+            </button>
           </nav>
         </header>
 
@@ -112,6 +119,7 @@ export default function App() {
           {page === "verbs"    && <VerbList />}
           {page === "progress" && <Progress />}
           {page === "fortune"  && <Fortune />}
+          {page === "about"    && <About />}
         </main>
       </div>
     </LangContext.Provider>

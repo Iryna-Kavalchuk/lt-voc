@@ -103,6 +103,19 @@ export const translations = {
     fortune_draw:     "Draw",
     fortune_again:    "Draw again",
     fortune_drawing:  "Drawing…",
+
+    // About
+    nav_about:           "About",
+    about_title:         "About this app",
+    about_app_desc:      "This app is based on the book «365 Lithuanian Verbs» (2015), designed for Russian speakers learning Lithuanian. It covers 365 high-frequency verbs with full conjugation tables, non-conjugated forms, and usage examples.",
+    about_book_title:    "Source book",
+    about_book_authors:  "Virginija Stumbrienė, Loreta Vilkienė, Henrika Prosniakova",
+    about_book_pub:      "Vilnius University, 2015",
+    about_book_link:     "Read the book (PDF)",
+    about_thanks_title:  "Acknowledgements",
+    about_thanks_text:   "All verb data, conjugation tables, and usage examples are taken directly from this book. We are grateful to the authors for creating such a thorough and accessible learning resource.",
+    about_noncommercial: "This app is a free educational tool and is not used for any commercial purpose.",
+    about_copyright:     "© Virginija Stumbrienė, © Loreta Vilkienė, © Henrika Prosniakova, © Vilnius University, 2015",
   },
 
   ru: {
@@ -203,6 +216,19 @@ export const translations = {
     fortune_draw:     "Вытянуть",
     fortune_again:    "Ещё раз",
     fortune_drawing:  "Загрузка…",
+
+    // About
+    nav_about:           "О приложении",
+    about_title:         "О приложении",
+    about_app_desc:      "Приложение создано на основе книги «365 глаголов литовского языка» (2015), предназначенной для русскоязычных, изучающих литовский язык. В нём собраны 365 наиболее употребительных глаголов с полными таблицами спряжения, неспрягаемыми формами и примерами употребления.",
+    about_book_title:    "Источник",
+    about_book_authors:  "Виргиния Стумбриене, Лорета Вилкиене, Генрика Проснякова",
+    about_book_pub:      "Вильнюсский университет, 2015",
+    about_book_link:     "Читать книгу (PDF)",
+    about_thanks_title:  "Благодарности",
+    about_thanks_text:   "Все данные о глаголах, таблицы спряжения и примеры использования взяты непосредственно из этой книги. Мы благодарны авторам за создание столь подробного и доступного учебного пособия.",
+    about_noncommercial: "Приложение является бесплатным образовательным инструментом и не используется в коммерческих целях.",
+    about_copyright:     "© Виргиния Стумбриене, © Лорета Вилкиене, © Генрика Проснякова, © Вильнюсский университет, 2015",
   },
 } as const;
 

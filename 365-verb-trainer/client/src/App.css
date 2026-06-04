@@ -1168,3 +1168,110 @@ table { border-collapse: collapse; }
   margin: 0;
   font-style: italic;
 }
+
+/* ── About page ────────────────────────────────────────────── */
+
+.about-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px 0 40px;
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #2a1a1a;
+  margin: 0 0 4px;
+}
+
+.about-card {
+  background: #fff;
+  border: 1px solid #ecddd5;
+  border-radius: 16px;
+  padding: 24px 28px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.about-desc {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #2a1a1a;
+  margin: 0;
+}
+
+.about-section-title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #8a6060;
+  margin: 0 0 16px;
+}
+
+.about-book {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.about-book-num {
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: #7a3535;
+  line-height: 1;
+  flex-shrink: 0;
+  letter-spacing: -2px;
+}
+
+.about-book-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.about-book-authors {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2a1a1a;
+  line-height: 1.5;
+}
+
+.about-book-pub {
+  font-size: 13px;
+  color: #8a6060;
+}
+
+.about-book-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #c0272d;
+  text-decoration: none;
+}
+
+.about-book-link:hover {
+  text-decoration: underline;
+}
+
+.about-card-footer {
+  background: #faf6f2;
+  border-color: #e8d8ce;
+}
+
+.about-noncommercial {
+  font-size: 13px;
+  color: #8a6060;
+  margin: 0 0 6px;
+  font-style: italic;
+}
+
+.about-copyright {
+  font-size: 12px;
+  color: #b09090;
+  margin: 0;
+}
