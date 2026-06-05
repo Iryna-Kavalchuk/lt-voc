@@ -6806,21 +6806,21 @@
     "conjugation": {
       "present": {
         "as": "imù",
-        "tu": "imi̇",
+        "tu": "imi̇`",
         "jis_ji_jie_jos": "i̇m̀a",
         "mes": "i̇m̀ame",
         "jus": "i̇m̀ate"
       },
       "past": {
         "as": "ėmiaũ",
-        "tu": "̀",
         "jis_ji_jie_jos": "ėm̃ė",
         "mes": "ėm̃ėme",
-        "jus": "ėm̃ėte"
+        "jus": "ėm̃ėte",
+        "tu": "ėmei̇ ̃ "
       },
       "subjunctive": {
         "as": "im̃čiau",
-        "tu": "ėmei̇ ̃ im̃tum",
+        "tu": "im̃tum",
         "jis_ji_jie_jos": "im̃tų",
         "mes": "im̃tume / im̃tumėme",
         "jus": "im̃tute / im̃tumėte"
@@ -6874,7 +6874,7 @@
         "ru": "Ребенок не берет конфету."
       },
       {
-        "hint": "ko?",
+        "hint": null,
         "lt": "Visi ėmė klausinėti, kas atsitiko.",
         "ru": "Все стали расспрашивать, что случилось."
       },
@@ -6915,18 +6915,8 @@
       },
       {
         "hint": "ko?",
-        "lt": "Šisstalas užima daug vietos.",
+        "lt": "Šis stalas užima daug vietos.",
         "ru": "Этот стол занимает много места."
-      },
-      {
-        "hint": null,
-        "lt": "Organizatoriai informavo mus apie festivalio renginius.",
-        "ru": "Организаторы информировали нас о мероприятиях фестиваля."
-      },
-      {
-        "hint": null,
-        "lt": "Organizatoriai neinformavo mūsų.",
-        "ru": "Организаторы не информировали нас."
       }
     ]
   },
