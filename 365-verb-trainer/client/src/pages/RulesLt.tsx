@@ -2,7 +2,7 @@
 // Content is in Lithuanian (rules_lt.txt)
 
 import { useRef } from "react";
-import CollapsibleSection, { CollapsibleSectionHandle } from "../components/CollapsibleSection";
+import CollapsibleSection, { type CollapsibleSectionHandle } from "../components/CollapsibleSection";
 
 const LT_SECTIONS = [
   {

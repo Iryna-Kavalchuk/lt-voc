@@ -5,7 +5,7 @@
 import { useContext, useRef } from "react";
 import { LangContext } from "../context/LangContext";
 import RulesLt from "./RulesLt";
-import CollapsibleSection, { CollapsibleSectionHandle } from "../components/CollapsibleSection";
+import CollapsibleSection, { type CollapsibleSectionHandle } from "../components/CollapsibleSection";
 
 export default function Rules() {
   const { lang } = useContext(LangContext);
