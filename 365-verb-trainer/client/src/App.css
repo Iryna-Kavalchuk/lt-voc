@@ -1586,3 +1586,258 @@ table { border-collapse: collapse; }
   color: #9a7a7a;
   white-space: nowrap;
 }
+
+/* ===========================================================================
+   Rules page
+   =========================================================================== */
+
+.rules-page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Section card */
+.rules-section {
+  background: #fff;
+  border: 1px solid #e0ccc0;
+  border-radius: 10px;
+  padding: 28px 28px 32px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+/* Section H1 — mood heading */
+.rules-section-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #7a3535;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #c0272d;
+}
+
+/* Intro card inside indicative section */
+.rules-intro-card {
+  background: #fdf6f0;
+  border-left: 3px solid #c0272d;
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin-bottom: 28px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #3a2a2a;
+}
+
+.rules-intro-card ul {
+  margin: 8px 0 8px 20px;
+  padding: 0;
+}
+
+.rules-intro-card li {
+  margin-bottom: 2px;
+}
+
+/* Tense block */
+.rules-tense {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid #ecddd4;
+}
+
+/* Tense H2 */
+.rules-tense-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #5a2020;
+  margin: 0 0 12px;
+}
+
+/* Tense description paragraph */
+.rules-tense-desc {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #3a2a2a;
+}
+
+/* Bullet lists */
+.rules-list {
+  margin: 0 0 16px 20px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #3a2a2a;
+}
+
+.rules-list li {
+  margin-bottom: 4px;
+}
+
+/* Inline example sentence */
+.rules-example {
+  display: inline;
+  font-style: normal;
+  color: #5a2020;
+}
+
+.rules-example em {
+  color: #888;
+  font-style: italic;
+}
+
+/* Subsection H3 */
+.rules-sub-title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #8a5555;
+  margin: 20px 0 6px;
+}
+
+/* Pattern note */
+.rules-pattern-note {
+  font-size: 13px;
+  color: #5a4a4a;
+  margin: 0 0 12px;
+  font-style: italic;
+}
+
+/* Row of conjugation table blocks */
+.rules-tables-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+/* Individual table block */
+.rules-table-block {
+  flex: 0 0 auto;
+}
+
+.rules-table-label {
+  font-size: 12px;
+  color: #7a5555;
+  margin-bottom: 6px;
+  font-style: italic;
+}
+
+/* Conjugation table */
+.rules-conj-table {
+  border-collapse: collapse;
+  font-size: 14px;
+  background: #fdf6f0;
+  border: 1px solid #e0ccc0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.rules-conj-table td {
+  padding: 5px 12px;
+  border-bottom: 1px solid #ecddd4;
+  vertical-align: middle;
+}
+
+.rules-conj-table tr:last-child td {
+  border-bottom: none;
+}
+
+.rules-conj-table tr:hover td {
+  background: #faeee4;
+}
+
+/* Person column */
+.rules-person {
+  color: #8a6060;
+  font-size: 13px;
+  white-space: nowrap;
+  padding-right: 14px !important;
+  font-weight: 600;
+}
+
+/* Dash for missing form */
+.rules-empty {
+  color: #bbb;
+}
+
+/* Quote / example sentence block */
+.rules-quote {
+  border-left: 3px solid #e0ccc0;
+  margin: 12px 0 16px 0;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #5a2020;
+  background: #fdf6f0;
+  border-radius: 4px;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.rules-quote em {
+  color: #888;
+  font-style: italic;
+}
+
+/* Suffix formula group */
+.rules-formula-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 10px 0 16px 8px;
+}
+
+.rules-formula-group--compact {
+  margin-top: 8px;
+}
+
+.rules-formula {
+  font-size: 14px;
+  font-family: monospace;
+  color: #3a2a2a;
+  background: #f5ede4;
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.rules-stem-cut {
+  color: #c0272d;
+  font-weight: 700;
+}
+
+/* Note box */
+.rules-note {
+  background: #fdf6f0;
+  border: 1px solid #e0ccc0;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 13px;
+  color: #4a3535;
+  margin: 12px 0 16px;
+  line-height: 1.6;
+}
+
+/* Responsive: stack tables on narrow screens */
+@media (max-width: 600px) {
+  .rules-section {
+    padding: 20px 14px 24px;
+  }
+
+  .rules-tables-row {
+    flex-direction: column;
+  }
+
+  .rules-table-block {
+    width: 100%;
+  }
+
+  .rules-conj-table {
+    width: 100%;
+  }
+}

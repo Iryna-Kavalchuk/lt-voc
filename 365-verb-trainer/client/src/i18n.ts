@@ -11,6 +11,7 @@ export const translations = {
     nav_verblist: "Verb List",
     nav_progress: "Progress",
     nav_fortune:  "Fortune",
+    nav_rules:    "Rules",
     app_title:    "365 VERBS",
 
     // Quiz setup
@@ -140,6 +141,7 @@ export const translations = {
     nav_verblist: "Глаголы",
     nav_progress: "Прогресс",
     nav_fortune:  "Фортуна",
+    nav_rules:    "Правила",
     app_title:    "365 ГЛАГОЛОВ",
 
     // Quiz setup
@@ -269,6 +271,7 @@ export const translations = {
     nav_verblist: "Veiksmažodžiai",
     nav_progress: "Pažanga",
     nav_fortune:  "Sėkmė",
+    nav_rules:    "Taisyklės",
     app_title:    "365 VEIKSMAŽODŽIAI",
 
     // Quiz setup

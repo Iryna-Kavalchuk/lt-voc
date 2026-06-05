@@ -6,11 +6,12 @@ import Admin from "./pages/Admin";
 import VerbEditor from "./pages/VerbEditor";
 import Fortune from "./pages/Fortune";
 import About from "./pages/About";
+import Rules from "./pages/Rules";
 import { LangContext } from "./context/LangContext";
 import { useLanguage } from "./i18n";
 import "./App.css";
 
-type Page = "quiz" | "verbs" | "progress" | "fortune" | "about";
+type Page = "quiz" | "verbs" | "progress" | "fortune" | "about" | "rules";
 
 const path = window.location.pathname;
 const isAdminRoute = path === "/admin";
@@ -44,6 +45,7 @@ export default function App() {
     { key: "verbs",    label: t.nav_verblist },
     { key: "progress", label: t.nav_progress },
     { key: "fortune",  label: t.nav_fortune },
+    { key: "rules",    label: t.nav_rules },
     { key: "about",    label: t.nav_about },
   ];
 
@@ -157,6 +159,7 @@ export default function App() {
           {page === "verbs"    && <VerbList />}
           {page === "progress" && <Progress />}
           {page === "fortune"  && <Fortune />}
+          {page === "rules"    && <Rules />}
           {page === "about"    && <About />}
         </main>
       </div>
