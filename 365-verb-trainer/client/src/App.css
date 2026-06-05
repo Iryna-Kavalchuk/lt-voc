@@ -1605,8 +1605,26 @@ table { border-collapse: collapse; }
   background: #fff;
   border: 1px solid #e0ccc0;
   border-radius: 10px;
-  padding: 28px 28px 32px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+/* Clickable header row */
+.rules-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 22px 28px 18px;
+  text-align: left;
+  gap: 12px;
+}
+
+.rules-section-header:hover {
+  background: #fdf6f0;
 }
 
 /* Section H1 — mood heading */
@@ -1616,9 +1634,34 @@ table { border-collapse: collapse; }
   color: #7a3535;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  margin: 0 0 20px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #c0272d;
+  margin: 0;
+  padding: 0;
+  border: none;
+  flex: 1;
+}
+
+/* Chevron toggle indicator */
+.rules-section-chevron {
+  font-size: 20px;
+  color: #c0272d;
+  transition: transform 0.25s ease;
+  transform: rotate(-90deg);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.rules-section-chevron--open {
+  transform: rotate(0deg);
+}
+
+/* Collapsible body */
+.rules-section-body {
+  transition: height 0.3s ease;
+}
+
+.rules-section-body-inner {
+  padding: 0 28px 32px;
+  border-top: 2px solid #c0272d;
 }
 
 /* Intro card inside indicative section */
@@ -1825,8 +1868,12 @@ table { border-collapse: collapse; }
 
 /* Responsive: stack tables on narrow screens */
 @media (max-width: 600px) {
-  .rules-section {
-    padding: 20px 14px 24px;
+  .rules-section-header {
+    padding: 16px 14px 14px;
+  }
+
+  .rules-section-body-inner {
+    padding: 0 14px 24px;
   }
 
   .rules-tables-row {

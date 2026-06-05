@@ -5,6 +5,7 @@
 import { useContext } from "react";
 import { LangContext } from "../context/LangContext";
 import RulesLt from "./RulesLt";
+import CollapsibleSection from "../components/CollapsibleSection";
 
 export default function Rules() {
   const { lang } = useContext(LangContext);
@@ -21,8 +22,7 @@ function RulesContent() {
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 1 — Изъявительное наклонение                               */}
       {/* ------------------------------------------------------------------ */}
-      <section className="rules-section">
-        <h1 className="rules-section-title">Изъявительное наклонение</h1>
+      <CollapsibleSection title="Изъявительное наклонение">
 
         <div className="rules-intro-card">
           <p>
@@ -390,13 +390,12 @@ function RulesContent() {
             </div>
           </div>
         </div>
-      </section>
+      </CollapsibleSection>
 
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 2 — Повелительное наклонение                               */}
       {/* ------------------------------------------------------------------ */}
-      <section className="rules-section">
-        <h1 className="rules-section-title">Повелительное наклонение</h1>
+      <CollapsibleSection title="Повелительное наклонение">
 
         <p>
           Повелительное наклонение выражает волю говорящего в виде побуждения к действию,
@@ -461,13 +460,12 @@ function RulesContent() {
             </table>
           </div>
         </div>
-      </section>
+      </CollapsibleSection>
 
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 3 — Условное наклонение                                    */}
       {/* ------------------------------------------------------------------ */}
-      <section className="rules-section">
-        <h1 className="rules-section-title">Условное наклонение</h1>
+      <CollapsibleSection title="Условное наклонение">
 
         <p>
           Условное наклонение обозначает действия, которые возможны или желаемы:
@@ -523,7 +521,7 @@ function RulesContent() {
             </table>
           </div>
         </div>
-      </section>
+      </CollapsibleSection>
 
     </div>
   );

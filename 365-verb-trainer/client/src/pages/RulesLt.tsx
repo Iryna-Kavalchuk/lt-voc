@@ -1,6 +1,8 @@
 // Rules page — grammar rules from "365 Lithuanian Verbs" book
 // Content is in Lithuanian (rules_lt.txt)
 
+import CollapsibleSection from "../components/CollapsibleSection";
+
 export default function RulesLt() {
   return (
     <div className="rules-page">
@@ -8,8 +10,7 @@ export default function RulesLt() {
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 1 — Tiesioginė nuosaka                                     */}
       {/* ------------------------------------------------------------------ */}
-      <section className="rules-section">
-        <h1 className="rules-section-title">Tiesioginė nuosaka</h1>
+      <CollapsibleSection title="Tiesioginė nuosaka">
 
         <div className="rules-intro-card">
           <p>
@@ -364,13 +365,12 @@ export default function RulesLt() {
             </div>
           </div>
         </div>
-      </section>
+      </CollapsibleSection>
 
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 2 — Liepiamoji nuosaka                                     */}
       {/* ------------------------------------------------------------------ */}
-      <section className="rules-section">
-        <h1 className="rules-section-title">Liepiamoji nuosaka</h1>
+      <CollapsibleSection title="Liepiamoji nuosaka">
 
         <p>
           Šia nuosaka reiškiama kalbančiojo asmens valia: liepimas, raginimas, įsakymas
@@ -433,13 +433,12 @@ export default function RulesLt() {
             </table>
           </div>
         </div>
-      </section>
+      </CollapsibleSection>
 
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 3 — Tariamoji nuosaka                                      */}
       {/* ------------------------------------------------------------------ */}
-      <section className="rules-section">
-        <h1 className="rules-section-title">Tariamoji nuosaka</h1>
+      <CollapsibleSection title="Tariamoji nuosaka">
 
         <p>
           Ši nuosaka reiškia veiksmus, kurie galėtų įvykti arba kurie yra pageidaujami:
@@ -494,7 +493,7 @@ export default function RulesLt() {
             </table>
           </div>
         </div>
-      </section>
+      </CollapsibleSection>
 
     </div>
   );
