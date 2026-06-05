@@ -53,8 +53,8 @@ export default function App() {
         <div className="app">
           <header className="app-header">
             <div className="header-left">
-              <span className="app-logo">🇱🇹</span>
-              <span className="app-title">365 Verb Trainer</span>
+              <img src="/book-cover.jpg" alt="" className="app-logo-img" />
+              <span className="app-title">365 VERBS — Admin</span>
             </div>
           </header>
           <main className="app-main">
@@ -71,8 +71,8 @@ export default function App() {
         <div className="app">
           <header className="app-header">
             <div className="header-left">
-              <span className="app-logo">🇱🇹</span>
-              <span className="app-title">365 Verb Trainer — Editor</span>
+              <img src="/book-cover.jpg" alt="" className="app-logo-img" />
+              <span className="app-title">365 VERBS — Editor</span>
             </div>
           </header>
           <main className="app-main">
