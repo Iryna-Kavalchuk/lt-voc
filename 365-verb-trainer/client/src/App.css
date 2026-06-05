@@ -1600,6 +1600,68 @@ table { border-collapse: collapse; }
   gap: 40px;
 }
 
+/* Table of contents */
+.rules-toc {
+  background: #fff;
+  border: 1px solid #e0ccc0;
+  border-radius: 10px;
+  padding: 18px 24px 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.rules-toc-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #8a6060;
+  margin-bottom: 10px;
+}
+
+.rules-toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  counter-reset: toc-counter;
+}
+
+.rules-toc-list li {
+  counter-increment: toc-counter;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.rules-toc-list li::before {
+  content: counter(toc-counter) ".";
+  font-size: 12px;
+  color: #c0272d;
+  font-weight: 700;
+  min-width: 16px;
+}
+
+.rules-toc-link {
+  background: none;
+  border: none;
+  padding: 2px 0;
+  cursor: pointer;
+  font-size: 14px;
+  color: #7a3535;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: #e0ccc0;
+  text-underline-offset: 3px;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+.rules-toc-link:hover {
+  color: #c0272d;
+  text-decoration-color: #c0272d;
+}
+
 /* Section card */
 .rules-section {
   background: #fff;

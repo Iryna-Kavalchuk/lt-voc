@@ -1,16 +1,57 @@
 // Rules page — grammar rules from "365 Lithuanian Verbs" book
 // Content is in Lithuanian (rules_lt.txt)
 
-import CollapsibleSection from "../components/CollapsibleSection";
+import { useRef } from "react";
+import CollapsibleSection, { CollapsibleSectionHandle } from "../components/CollapsibleSection";
+
+const LT_SECTIONS = [
+  { id: "lt-indicative",  label: "Tiesioginė nuosaka" },
+  { id: "lt-imperative",  label: "Liepiamoji nuosaka" },
+  { id: "lt-conditional", label: "Tariamoji nuosaka" },
+];
+
+function scrollToSection(
+  id: string,
+  ref: React.RefObject<CollapsibleSectionHandle | null>
+) {
+  ref.current?.expand();
+  setTimeout(() => {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 50);
+}
 
 export default function RulesLt() {
+  const refs = {
+    indicative:  useRef<CollapsibleSectionHandle>(null),
+    imperative:  useRef<CollapsibleSectionHandle>(null),
+    conditional: useRef<CollapsibleSectionHandle>(null),
+  };
+
   return (
     <div className="rules-page">
+
+      {/* Table of contents */}
+      <nav className="rules-toc">
+        <div className="rules-toc-title">Turinys</div>
+        <ol className="rules-toc-list">
+          {LT_SECTIONS.map((s, i) => (
+            <li key={s.id}>
+              <button
+                className="rules-toc-link"
+                onClick={() => scrollToSection(s.id, Object.values(refs)[i] as React.RefObject<CollapsibleSectionHandle | null>)}
+              >
+                {s.label}
+              </button>
+            </li>
+          ))}
+        </ol>
+      </nav>
 
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 1 — Tiesioginė nuosaka                                     */}
       {/* ------------------------------------------------------------------ */}
-      <CollapsibleSection title="Tiesioginė nuosaka">
+      <CollapsibleSection id="lt-indicative" ref={refs.indicative} title="Tiesioginė nuosaka">
 
         <div className="rules-intro-card">
           <p>
@@ -370,7 +411,7 @@ export default function RulesLt() {
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 2 — Liepiamoji nuosaka                                     */}
       {/* ------------------------------------------------------------------ */}
-      <CollapsibleSection title="Liepiamoji nuosaka">
+      <CollapsibleSection id="lt-imperative" ref={refs.imperative} title="Liepiamoji nuosaka">
 
         <p>
           Šia nuosaka reiškiama kalbančiojo asmens valia: liepimas, raginimas, įsakymas
@@ -438,7 +479,7 @@ export default function RulesLt() {
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 3 — Tariamoji nuosaka                                      */}
       {/* ------------------------------------------------------------------ */}
-      <CollapsibleSection title="Tariamoji nuosaka">
+      <CollapsibleSection id="lt-conditional" ref={refs.conditional} title="Tariamoji nuosaka">
 
         <p>
           Ši nuosaka reiškia veiksmus, kurie galėtų įvykti arba kurie yra pageidaujami:

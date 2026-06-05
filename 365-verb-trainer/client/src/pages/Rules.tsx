@@ -2,10 +2,10 @@
 // Dispatches to the Lithuanian version when lang === "lt",
 // otherwise shows the Russian version (the book's primary target language).
 
-import { useContext } from "react";
+import { useContext, useRef } from "react";
 import { LangContext } from "../context/LangContext";
 import RulesLt from "./RulesLt";
-import CollapsibleSection from "../components/CollapsibleSection";
+import CollapsibleSection, { CollapsibleSectionHandle } from "../components/CollapsibleSection";
 
 export default function Rules() {
   const { lang } = useContext(LangContext);
@@ -15,14 +15,56 @@ export default function Rules() {
   return <RulesContent />;
 }
 
+const RU_SECTIONS = [
+  { id: "ru-indicative",    label: "Изъявительное наклонение" },
+  { id: "ru-imperative",    label: "Повелительное наклонение" },
+  { id: "ru-conditional",   label: "Условное наклонение" },
+  { id: "ru-nonconjugated", label: "Неспрягаемые формы глагола" },
+];
+
+function scrollToSection(
+  id: string,
+  ref: React.RefObject<CollapsibleSectionHandle | null>
+) {
+  ref.current?.expand();
+  setTimeout(() => {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 50);
+}
+
 function RulesContent() {
+  const refs = {
+    indicative:    useRef<CollapsibleSectionHandle>(null),
+    imperative:    useRef<CollapsibleSectionHandle>(null),
+    conditional:   useRef<CollapsibleSectionHandle>(null),
+    nonconjugated: useRef<CollapsibleSectionHandle>(null),
+  };
+
   return (
     <div className="rules-page">
+
+      {/* Table of contents */}
+      <nav className="rules-toc">
+        <div className="rules-toc-title">Содержание</div>
+        <ol className="rules-toc-list">
+          {RU_SECTIONS.map((s, i) => (
+            <li key={s.id}>
+              <button
+                className="rules-toc-link"
+                onClick={() => scrollToSection(s.id, Object.values(refs)[i] as React.RefObject<CollapsibleSectionHandle | null>)}
+              >
+                {s.label}
+              </button>
+            </li>
+          ))}
+        </ol>
+      </nav>
 
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 1 — Изъявительное наклонение                               */}
       {/* ------------------------------------------------------------------ */}
-      <CollapsibleSection title="Изъявительное наклонение">
+      <CollapsibleSection id="ru-indicative" ref={refs.indicative} title="Изъявительное наклонение">
 
         <div className="rules-intro-card">
           <p>
@@ -395,7 +437,7 @@ function RulesContent() {
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 2 — Повелительное наклонение                               */}
       {/* ------------------------------------------------------------------ */}
-      <CollapsibleSection title="Повелительное наклонение">
+      <CollapsibleSection id="ru-imperative" ref={refs.imperative} title="Повелительное наклонение">
 
         <p>
           Повелительное наклонение выражает волю говорящего в виде побуждения к действию,
@@ -465,7 +507,7 @@ function RulesContent() {
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 3 — Условное наклонение                                    */}
       {/* ------------------------------------------------------------------ */}
-      <CollapsibleSection title="Условное наклонение">
+      <CollapsibleSection id="ru-conditional" ref={refs.conditional} title="Условное наклонение">
 
         <p>
           Условное наклонение обозначает действия, которые возможны или желаемы:
@@ -526,7 +568,7 @@ function RulesContent() {
       {/* ------------------------------------------------------------------ */}
       {/* SECTION 4 — Неспрягаемые формы глагола                             */}
       {/* ------------------------------------------------------------------ */}
-      <CollapsibleSection title="Неспрягаемые формы глагола">
+      <CollapsibleSection id="ru-nonconjugated" ref={refs.nonconjugated} title="Неспрягаемые формы глагола">
 
         {/* ---- Причастия -------------------------------------------------- */}
         <div className="rules-tense">
