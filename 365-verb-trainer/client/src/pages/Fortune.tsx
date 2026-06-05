@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { api, type VerbEntry, type VerbExample } from "../api/client";
 import { useLang } from "../context/LangContext";
 
@@ -9,21 +9,37 @@ interface FortuneResult {
 
 type Status = "idle" | "loading" | "ready" | "error";
 
+function pickRandom(verbs: VerbEntry[]): FortuneResult {
+  const withExamples = verbs.filter((v) => v.examples.length > 0);
+  const verb = withExamples[Math.floor(Math.random() * withExamples.length)];
+  const example = verb.examples[Math.floor(Math.random() * verb.examples.length)];
+  return { verb, example };
+}
+
 export default function Fortune() {
   const { t } = useLang();
   const [status, setStatus] = useState<Status>("idle");
   const [result, setResult] = useState<FortuneResult | null>(null);
   const [error, setError] = useState("");
+  const verbsRef = useRef<VerbEntry[] | null>(null);
+
+  // Fetch verb list once on mount
+  useEffect(() => {
+    api.verbs.list()
+      .then(({ verbs }) => { verbsRef.current = verbs; })
+      .catch(() => {}); // non-fatal — draw() will retry if needed
+  }, []);
 
   async function draw() {
     setStatus("loading");
     setError("");
     try {
-      const { verbs } = await api.verbs.list();
-      const withExamples = verbs.filter((v) => v.examples.length > 0);
-      const verb = withExamples[Math.floor(Math.random() * withExamples.length)];
-      const example = verb.examples[Math.floor(Math.random() * verb.examples.length)];
-      setResult({ verb, example });
+      // Use cached list if available, otherwise fetch now
+      if (!verbsRef.current) {
+        const { verbs } = await api.verbs.list();
+        verbsRef.current = verbs;
+      }
+      setResult(pickRandom(verbsRef.current));
       setStatus("ready");
     } catch (e: unknown) {
       setError(e instanceof Error ? e.message : "Unknown error");
