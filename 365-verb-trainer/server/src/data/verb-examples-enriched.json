@@ -281,7 +281,7 @@
       },
       "past": {
         "as": "atléidau",
-        "tu": "atleidai",
+        "tu": "atléidai",
         "jis_ji_jie_jos": "atléido",
         "mes": "atléidome",
         "jus": "atléidote"
@@ -332,7 +332,7 @@
         "ru": "Прости! Извини меня!"
       },
       {
-        "hint": null,
+        "hint": "kam? ką? už ką?",
         "lt": "Atleiskite, kad sutrukdžiau.",
         "ru": "Извините за беспокойство."
       },
@@ -384,7 +384,7 @@
       },
       "subjunctive": {
         "as": "atostogáučiau",
-        "tu": "atostogáutum",
+        "tu": "̃ atostogáutum",
         "jis_ji_jie_jos": "atostogáutų",
         "mes": "atostogáutume / atostogáutumėme",
         "jus": "atostogáutute / atostogáutumėte"
@@ -529,14 +529,14 @@
       },
       "past": {
         "as": "atsakiaũ",
-        "tu": "atsakiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "atsãkė",
         "mes": "atsãkėme",
         "jus": "atsãkėte"
       },
       "subjunctive": {
         "as": "atsakýčiau",
-        "tu": "atsakýtum",
+        "tu": "atsakei̇ ̃ atsakýtum",
         "jis_ji_jie_jos": "atsakýtų",
         "mes": "atsakýtume / atsakýtumėme",
         "jus": "atsakýtute / atsakýtumėte"
@@ -610,14 +610,14 @@
       },
       "past": {
         "as": "atsi̇l̀iepiau",
-        "tu": "atsiliepiai",
+        "tu": "̀",
         "jis_ji_jie_jos": "atsi̇l̀iepė",
         "mes": "atsi̇l̀iepėme",
         "jus": "atsi̇l̀iepėte"
       },
       "subjunctive": {
         "as": "atsiliẽpčiau",
-        "tu": "atsiliẽptum",
+        "tu": "atsi̇l̀iepei atsiliẽptum",
         "jis_ji_jie_jos": "atsiliẽptų",
         "mes": "atsiliẽptume / atsiliẽptumėme",
         "jus": "atsiliẽptute / atsiliẽptumėte"
@@ -747,7 +747,7 @@
         "ru": "Не помнишь ли ты тот прекрасный день?"
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Ar atsimeni, kaip mes susipažinome?",
         "ru": "Помнишь ли, как мы познакомились?"
       }
@@ -772,14 +772,14 @@
       },
       "past": {
         "as": "atsiprašiaũ",
-        "tu": "atsiprasiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "atsiprãšė",
         "mes": "atsiprãšėme",
         "jus": "atsiprãšėte"
       },
       "subjunctive": {
         "as": "atsiprašýčiau",
-        "tu": "atsiprašýtum",
+        "tu": "atsiprašeĩ atsiprašýtum",
         "jis_ji_jie_jos": "atsiprašýtų",
         "mes": "atsiprašýtume / atsiprašýtumėme",
         "jus": "atsiprašýtute / atsiprašýtumėte"
@@ -828,7 +828,7 @@
         "ru": "Просим прощения за все недоразумения."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Jie atsiprašė, kad pavėlavo.",
         "ru": "Они извинились за опоздание."
       }
@@ -853,14 +853,14 @@
       },
       "past": {
         "as": "atsisakiaũ",
-        "tu": "atsisakiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "atsisãkė",
         "mes": "atsisãkėme",
         "jus": "atsisãkėte"
       },
       "subjunctive": {
         "as": "atsisakýčiau",
-        "tu": "atsisakýtum",
+        "tu": "atsisakei̇ ̃ atsisakýtum",
         "jis_ji_jie_jos": "atsisakýtų",
         "mes": "atsisakýtume / atsisakýtumėme",
         "jus": "atsisakýtute / atsisakýtumėte"
@@ -929,14 +929,14 @@
       },
       "past": {
         "as": "auginaũ",
-        "tu": "auginai",
+        "tu": "̀",
         "jis_ji_jie_jos": "augi̇ǹo",
         "mes": "augi̇ǹome",
         "jus": "augi̇ǹote"
       },
       "subjunctive": {
         "as": "augi̇ǹčiau",
-        "tu": "augi̇ǹtum",
+        "tu": "auginai̇ ̃ augi̇ǹtum",
         "jis_ji_jie_jos": "augi̇ǹtų",
         "mes": "augi̇ǹtume / augi̇ǹtumėme",
         "jus": "augi̇ǹtute / augi̇ǹtumėte"
@@ -1318,14 +1318,14 @@
       },
       "past": {
         "as": "baigiaũ",
-        "tu": "baigiai",
+        "tu": "̀",
         "jis_ji_jie_jos": "bai̇g̃ė",
         "mes": "bai̇g̃ėme",
         "jus": "bai̇g̃ėte"
       },
       "subjunctive": {
         "as": "bai̇g̃čiau",
-        "tu": "bai̇g̃tum",
+        "tu": "baigei̇ ̃ bai̇g̃tum",
         "jis_ji_jie_jos": "bai̇g̃tų",
         "mes": "bai̇g̃tume / bai̇g̃tumėme",
         "jus": "bai̇g̃tute / bai̇g̃tumėte"
@@ -1462,14 +1462,14 @@
       },
       "past": {
         "as": "bandžiaũ",
-        "tu": "bandziai",
+        "tu": "̃",
         "jis_ji_jie_jos": "bañdė",
         "mes": "bañdėme",
         "jus": "bañdėte"
       },
       "subjunctive": {
         "as": "bandýčiau",
-        "tu": "bandýtum",
+        "tu": "bandei̇ ̃ bandýtum",
         "jis_ji_jie_jos": "bandýtų",
         "mes": "bandýtume / bandýtumėme",
         "jus": "bandýtute / bandýtumėte"
@@ -1790,14 +1790,14 @@
       },
       "past": {
         "as": "bijójau",
-        "tu": "bijojai",
+        "tu": "̃",
         "jis_ji_jie_jos": "bijójo",
         "mes": "bijójome",
         "jus": "bijójote"
       },
       "subjunctive": {
         "as": "bijóčiau",
-        "tu": "bijótum",
+        "tu": "bijójai bijótum",
         "jis_ji_jie_jos": "bijótų",
         "mes": "bijótume / bijótumėme",
         "jus": "bijótute / bijótumėte"
@@ -1851,7 +1851,7 @@
         "ru": "Она боится водить машину в большом городе."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Bijau, kad užpuls šunys.",
         "ru": "Боюсь, что нападут собаки."
       },
@@ -2045,25 +2045,25 @@
     "translation": "быть, являться, находиться",
     "conjugation": {
       "present": {
-        "as": "esù, būnù",
-        "tu": "esi̇, būni̇̀",
-        "jis_ji_jie_jos": "yrà, bū̃na",
-        "mes": "ẽsame, bū̃name",
-        "jus": "ẽsate, bū̃nate"
+        "as": "esù,",
+        "tu": "esi̇,̀",
+        "jis_ji_jie_jos": "yrà,",
+        "mes": "ẽsame,",
+        "jus": "ẽsate,"
       },
       "past": {
-        "as": "buvaũ",
-        "tu": "buvai̇̃",
-        "jis_ji_jie_jos": "bùvo",
-        "mes": "bùvome",
-        "jus": "bùvote"
+        "as": "būnù",
+        "tu": "būni̇",
+        "jis_ji_jie_jos": "bū̃na",
+        "mes": "bū̃name",
+        "jus": "bū̃nate"
       },
       "subjunctive": {
-        "as": "bū́čiau",
-        "tu": "bū́tum",
-        "jis_ji_jie_jos": "bū́tų",
-        "mes": "bū́tume / bū́tumėme",
-        "jus": "bū́tute / bū́tumėte"
+        "as": "buvaũ bū́čiau",
+        "tu": "̀ buvai̇ ̃ bū́tum",
+        "jis_ji_jie_jos": "bùvo bū́tų",
+        "mes": "bùvome bū́tume / bū́tumėme",
+        "jus": "bùvote bū́tute / bū́tumėte"
       },
       "frequentative_past": {
         "as": "bū́davau",
@@ -2302,7 +2302,7 @@
       "past": {
         "as": "dalyvavaũ",
         "tu": "dalyvavai̇",
-        "jis_ji_jie_jos": "dalyvãvo",
+        "jis_ji_jie_jos": "alyvãvo",
         "mes": "dalyvãvome",
         "jus": "dalyvãvote"
       },
@@ -2372,14 +2372,14 @@
       },
       "past": {
         "as": "dariaũ",
-        "tu": "dariai",
+        "tu": "̃",
         "jis_ji_jie_jos": "dãrė",
         "mes": "dãrėme",
         "jus": "dãrėte"
       },
       "subjunctive": {
         "as": "darýčiau",
-        "tu": "darýtum",
+        "tu": "darei̇ ̃ darýtum",
         "jis_ji_jie_jos": "darýtų",
         "mes": "darýtume / darýtumėme",
         "jus": "darýtute /darýtumėte"
@@ -2433,7 +2433,7 @@
         "ru": "Теперь она ничего не делает."
       },
       {
-        "hint": null,
+        "hint": "ne- ko?",
         "lt": "Vaikai negerai daro, kai neklauso mokytojų.",
         "ru": "Дети поступают нехорошо, когда не слушают учителей."
       },
@@ -2528,14 +2528,14 @@
       },
       "past": {
         "as": "dažiaũ",
-        "tu": "daziai",
+        "tu": "̃",
         "jis_ji_jie_jos": "dãžė",
         "mes": "dãžėme",
         "jus": "dãžėte"
       },
       "subjunctive": {
         "as": "dažýčiau",
-        "tu": "dažýtum",
+        "tu": "dažei̇ ̃ dažýtum",
         "jis_ji_jie_jos": "dažýtų",
         "mes": "dažýtume / dažýtumėme",
         "jus": "dažýtute / dažýtumėte"
@@ -2740,14 +2740,14 @@
       },
       "past": {
         "as": "degiaũ",
-        "tu": "degiai",
+        "tu": "̀",
         "jis_ji_jie_jos": "dẽgė",
         "mes": "dẽgėme",
         "jus": "dẽgėte"
       },
       "subjunctive": {
         "as": "dègčiau",
-        "tu": "dègtum",
+        "tu": "degei̇ ̃ dègtum",
         "jis_ji_jie_jos": "dègtų",
         "mes": "dègtume / dègtumėme",
         "jus": "dègtute / dègtumėte"
@@ -3000,7 +3000,7 @@
       {
         "hint": "ką?",
         "lt": "Ši dėstytoja dėsto užsieniečiams lietuvių kalbą.",
-        "ru": "Эта преподователь преподает иностран цам литовский язык."
+        "ru": "Эта преподователь преподает иностранцам литовский язык."
       },
       {
         "hint": "ne- ko?",
@@ -3174,14 +3174,14 @@
       },
       "past": {
         "as": "dėvė́jau",
-        "tu": "devejai",
+        "tu": "̀",
         "jis_ji_jie_jos": "dėvė́jo",
         "mes": "dėvė́jome",
         "jus": "dėvė́jote"
       },
       "subjunctive": {
         "as": "dėvė́čiau",
-        "tu": "dėvė́tum",
+        "tu": "dėvė́jai dėvė́tum",
         "jis_ji_jie_jos": "dėvė́tų",
         "mes": "dėvė́tume / dėvė́tumėme",
         "jus": "dėvė́tute / dėvė́tumėte"
@@ -3589,7 +3589,7 @@
         "ru": "Она ничего ему не дарила."
       },
       {
-        "hint": null,
+        "hint": "ne- ko?",
         "lt": "Dovanok, kad neateisiu.",
         "ru": "Извини, что не приду."
       },
@@ -5139,14 +5139,14 @@
       },
       "past": {
         "as": "gė́riau",
-        "tu": "geriai",
+        "tu": "̀",
         "jis_ji_jie_jos": "gė́rė",
         "mes": "gė́rėme",
         "jus": "gė́rėte"
       },
       "subjunctive": {
         "as": "gérčiau",
-        "tu": "gértum",
+        "tu": "gė́rei gértum",
         "jis_ji_jie_jos": "gértų",
         "mes": "gértume / gértumėme",
         "jus": "gértute / gértumėte"
@@ -5447,14 +5447,14 @@
       },
       "past": {
         "as": "gimdžiaũ",
-        "tu": "gimdziai",
+        "tu": "̃",
         "jis_ji_jie_jos": "gim̃dė",
         "mes": "gim̃dėme",
         "jus": "gim̃dėte"
       },
       "subjunctive": {
         "as": "gimdýčiau",
-        "tu": "gimdýtum",
+        "tu": "gimdei̇ ̃ gimdýtum",
         "jis_ji_jie_jos": "gimdýtų",
         "mes": "gimdýtume / gimdýtumėme",
         "jus": "gimdýtute / gimdýtumėte"
@@ -6813,14 +6813,14 @@
       },
       "past": {
         "as": "ėmiaũ",
-        "tu": "emiai",
+        "tu": "̀",
         "jis_ji_jie_jos": "ėm̃ė",
         "mes": "ėm̃ėme",
         "jus": "ėm̃ėte"
       },
       "subjunctive": {
         "as": "im̃čiau",
-        "tu": "im̃tum",
+        "tu": "ėmei̇ ̃ im̃tum",
         "jis_ji_jie_jos": "im̃tų",
         "mes": "im̃tume / im̃tumėme",
         "jus": "im̃tute / im̃tumėte"
@@ -7106,14 +7106,14 @@
       },
       "past": {
         "as": "įž̃eidžiau",
-        "tu": "izeidziai",
+        "tu": "̀",
         "jis_ji_jie_jos": "įž̃eidė",
         "mes": "įž̃eidėme",
         "jus": "įž̃eidėte"
       },
       "subjunctive": {
         "as": "įžei̇s̃čiau",
-        "tu": "įžei̇s̃tum",
+        "tu": "įž̃eidei įžei̇s̃tum",
         "jis_ji_jie_jos": "įžei̇s̃tų",
         "mes": "įžei̇s̃tume / įžei̇s̃tumėme",
         "jus": "įžei̇s̃tute / įžei̇s̃tumėte"
@@ -7324,7 +7324,7 @@
         "ru": "Он не испытывает ненависть."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Jis jautė, kad kambaryje buvo dar kažkas.",
         "ru": "Он чувствовал, что в комнате был еще кто-то."
       },
@@ -8031,14 +8031,14 @@
       },
       "past": {
         "as": "kabinaũ",
-        "tu": "kabinai",
+        "tu": "̀",
         "jis_ji_jie_jos": "kabi̇ǹo",
         "mes": "kabi̇ǹome",
         "jus": "kabi̇ǹote"
       },
       "subjunctive": {
         "as": "kabi̇ǹčiau",
-        "tu": "kabi̇ǹtum",
+        "tu": "kabinai̇ ̃ kabi̇ǹtum",
         "jis_ji_jie_jos": "kabi̇ǹtų",
         "mes": "kabi̇ǹtume / kabi̇ǹtumėme",
         "jus": "kabi̇ǹtute / kabi̇ǹtumėte"
@@ -8281,7 +8281,7 @@
       {
         "hint": "pa-",
         "lt": "Norėčiau pakalbėti su jumis apie darbą.",
-        "ru": "Я хотел / хотела бы поговорить с вами о работе."
+        "ru": "Я хотел / хотела бы поговорить с"
       },
       {
         "hint": "pra-",
@@ -8410,14 +8410,14 @@
       },
       "past": {
         "as": "kaliaũ",
-        "tu": "kaliai",
+        "tu": "̀",
         "jis_ji_jie_jos": "kãlė",
         "mes": "kãlėme",
         "jus": "kãlėte"
       },
       "subjunctive": {
         "as": "kálčiau",
-        "tu": "káltum",
+        "tu": "kalei̇ ̃ káltum",
         "jis_ji_jie_jos": "káltų",
         "mes": "káltume / káltumėme",
         "jus": "káltute / káltumėte"
@@ -8801,7 +8801,7 @@
       {
         "hint": "at-",
         "lt": "Šuo atkando / nukando didelį gabalą dešros.",
-        "ru": "Собака откусила большой кусок колбасы."
+        "ru": "Собака откусила большой кусок"
       },
       {
         "hint": "į-",
@@ -9114,7 +9114,7 @@
       {
         "hint": "nu-",
         "lt": "Jie nukeliavo apie šimtą kilometrų pėsčiomis.",
-        "ru": "Они прошагали пешком около ста километров."
+        "ru": "Они прошагали пешком около"
       },
       {
         "hint": "pa-",
@@ -9245,7 +9245,7 @@
       {
         "hint": "pri-",
         "lt": "Prašom prikelti / pakelti mane septintą valandą.",
-        "ru": "Прошу разбудить меня в семь часов."
+        "ru": "Прошу разбудить меня в семь"
       },
       {
         "hint": "už-",
@@ -9571,14 +9571,14 @@
       },
       "past": {
         "as": "klausiaũ",
-        "tu": "klausiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "klaũsė",
         "mes": "klaũsėme",
         "jus": "klaũsėte"
       },
       "subjunctive": {
         "as": "klausýčiau",
-        "tu": "klausýtum",
+        "tu": "klausei̇ ̃ klausýtum",
         "jis_ji_jie_jos": "klausýtų",
         "mes": "klausýtume / klausýtumėme",
         "jus": "klausýtute / klausýtumėte"
@@ -9639,7 +9639,7 @@
       {
         "hint": "pér-",
         "lt": "Jis dar kartą perklausė autoatsakiklio žinutę.",
-        "ru": "Он ещё раз прослушал запись автоответчика."
+        "ru": "Он еще раз прослушал запись"
       }
     ]
   },
@@ -9784,7 +9784,7 @@
     },
     "examples": [
       {
-        "hint": null,
+        "hint": "ko? ką?",
         "lt": "Mokytoja klausia mokinio / mokinį, ar jis turi pieštuką.",
         "ru": "Учительница спрашивает ученика, есть ли у него карандаш."
       },
@@ -9804,7 +9804,7 @@
         "ru": "Я хотел / хотела бы спросить."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Jis paklausė, ar aš turiužodyną.",
         "ru": "Он спросил, есть ли у меня словарь."
       }
@@ -9892,7 +9892,7 @@
       {
         "hint": "pri-",
         "lt": "Jis priklijavo / užklijavo pašto ženklą ant voko.",
-        "ru": "Он наклеил почтовую марку на конверт."
+        "ru": "Он наклеил почтовую марку"
       },
       {
         "hint": "su-",
@@ -10198,14 +10198,14 @@
       },
       "past": {
         "as": "kritaũ",
-        "tu": "kritai",
+        "tu": "̀",
         "jis_ji_jie_jos": "kri̇t̀o",
         "mes": "kri̇t̀ome",
         "jus": "kri̇t̀ote"
       },
       "subjunctive": {
         "as": "kri̇s̀čiau",
-        "tu": "kri̇s̀tum",
+        "tu": "kritai̇ ̃ kri̇s̀tum",
         "jis_ji_jie_jos": "kri̇s̀tų",
         "mes": "kri̇s̀tume / kri̇s̀tumėme",
         "jus": "kri̇s̀tute / kri̇s̀tumėte"
@@ -10693,14 +10693,14 @@
       },
       "past": {
         "as": "laikiaũ",
-        "tu": "laikiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "lai̇k̃ė",
         "mes": "lai̇k̃ėme",
         "jus": "lai̇k̃ėte"
       },
       "subjunctive": {
         "as": "laikýčiau",
-        "tu": "laikýtum",
+        "tu": "laikei̇ ̃ laikýtum",
         "jis_ji_jie_jos": "laikýtų",
         "mes": "laikýtume / laikýtumėme",
         "jus": "laikýtute / laikýtumėte"
@@ -10882,7 +10882,7 @@
       {
         "hint": "pasi-",
         "lt": "Pinigus jis nutarė pasilaikyti kelionei.",
-        "ru": "Деньги он решил попридержать для поездки."
+        "ru": "Деньги он решил попридержать для"
       },
       {
         "hint": "prasi-",
@@ -11097,14 +11097,14 @@
       },
       "past": {
         "as": "lankiaũ",
-        "tu": "lankiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "lañkė",
         "mes": "lañkėme",
         "jus": "lankėte"
       },
       "subjunctive": {
         "as": "lankýčiau",
-        "tu": "lankýtum",
+        "tu": "lankei̇ ̃ lankýtum",
         "jis_ji_jie_jos": "lankýtų",
         "mes": "lankýtume / lankýtumėme",
         "jus": "lankýtute / lankýtumėte"
@@ -11246,7 +11246,7 @@
       {
         "hint": "pra-",
         "lt": "Mes pralaukėme draugų visą vakarą, bet jie neatėjo.",
-        "ru": "Мы прождали друзей весь вечер, но они не пришли."
+        "ru": "Мы прождали друзей"
       },
       {
         "hint": "su-",
@@ -11448,12 +11448,12 @@
       {
         "hint": "pri-",
         "lt": "Ji prileido vandens į vonią (kriauklę).",
-        "ru": "Она наполнила ванну (раковину) водой."
+        "ru": "Она наполнила ванну (раковину)"
       },
       {
         "hint": "su-",
         "lt": "Mokytoja suleido mokinius į klasę.",
-        "ru": "Учительница разрешила войти в класс ученикам."
+        "ru": "Учительница разрешила войти в класс"
       },
       {
         "hint": "už-",
@@ -12019,7 +12019,7 @@
       {
         "hint": "pa-",
         "lt": "Ji paliko langą atidarytą.",
-        "ru": "Окно она оставила открытым."
+        "ru": "Окно она оставила открытым. Ji paliko vaikams po"
       },
       {
         "hint": null,
@@ -12403,14 +12403,14 @@
       },
       "past": {
         "as": "lupaũ",
-        "tu": "lupai",
+        "tu": "̀",
         "jis_ji_jie_jos": "lùpo",
         "mes": "lùpome",
         "jus": "lùpote"
       },
       "subjunctive": {
         "as": "lùpčiau",
-        "tu": "lùptum",
+        "tu": "lupai̇̀ lùptum",
         "jis_ji_jie_jos": "lùptų",
         "mes": "lùptume / lùptumėme",
         "jus": "lùptute / lùptumėte"
@@ -12595,14 +12595,14 @@
       },
       "past": {
         "as": "maišiaũ",
-        "tu": "maisiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "mai̇š̃ė",
         "mes": "mai̇š̃ėme",
         "jus": "mai̇š̃ėte"
       },
       "subjunctive": {
         "as": "maišýčiau",
-        "tu": "maišýtum",
+        "tu": "maišei̇ ̃ maišýtum",
         "jis_ji_jie_jos": "maišýtų",
         "mes": "maišýtume / maišýtumėme",
         "jus": "maišýtute / maišýtumėte"
@@ -12817,14 +12817,14 @@
       },
       "past": {
         "as": "maniaũ",
-        "tu": "maniai",
+        "tu": "̃",
         "jis_ji_jie_jos": "mãnė",
         "mes": "mãnėme",
         "jus": "mãnėte"
       },
       "subjunctive": {
         "as": "manýčiau",
-        "tu": "manýtum",
+        "tu": "manei̇ ̃ manýtum",
         "jis_ji_jie_jos": "manýtų",
         "mes": "manýtume / manýtumėme",
         "jus": "manýtute / manýtumėte"
@@ -12903,14 +12903,14 @@
       },
       "past": {
         "as": "mačiaũ",
-        "tu": "maciai",
+        "tu": "̃",
         "jis_ji_jie_jos": "mãtė",
         "mes": "mãtėme",
         "jus": "mãtėte"
       },
       "subjunctive": {
         "as": "matýčiau",
-        "tu": "matýtum",
+        "tu": "matei̇ ̃ matýtum",
         "jis_ji_jie_jos": "matýtų",
         "mes": "matýtume / matýtumėme",
         "jus": "matýtute / matýtumėte"
@@ -12959,7 +12959,7 @@
         "ru": "Мы еще не видели тот фильм."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Ji matė, kaip aš kalbėjau su draugu.",
         "ru": "Она видела, как я разговаривал / разговаривала с другом."
       },
@@ -13219,7 +13219,7 @@
       {
         "hint": "išsi-",
         "lt": "Jis išsimaudė / nusimaudė šaltame vandenyje.",
-        "ru": "Он искупался в холодной воде."
+        "ru": "Он искупался в холодной"
       },
       {
         "hint": "pasi-",
@@ -14063,7 +14063,7 @@
       {
         "hint": "nu-",
         "lt": "Netyčia numečiau laišką ant grindų.",
-        "ru": "Нечаянно я уронил / уронила письмо на пол."
+        "ru": "Нечаянно я уронил / уронила письмо"
       },
       {
         "hint": "pa-",
@@ -14902,12 +14902,12 @@
       {
         "hint": "pasi-",
         "lt": "Ji pasinaudojo jo pagalba.",
-        "ru": "Она воспользовалась его помощью."
+        "ru": "Она воспользовалась его помощью. Pasinaudojau"
       },
       {
         "hint": "kuo?",
         "lt": "Pasinaudojautavo pieštuku.",
-        "ru": "Я воспользовался / воспользовалась твоим карандашом."
+        "ru": "Я воспользовался / воспользовалась твоим карандашом. Ji"
       },
       {
         "hint": "kuo?",
@@ -15785,7 +15785,7 @@
         "ru": "Я удивился / удивилась их поведению."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Nustebome, kad jie atsisakė eiti į koncertą.",
         "ru": "Мы удивились, что они отказались пойти на концерт."
       }
@@ -16043,14 +16043,14 @@
       },
       "past": {
         "as": "pamiršaũ",
-        "tu": "pamirsai",
+        "tu": "̀",
         "jis_ji_jie_jos": "pamirš̃o",
         "mes": "pamirš̃ome",
         "jus": "pamirš̃ote"
       },
       "subjunctive": {
         "as": "pamirš̃čiau",
-        "tu": "pamirš̃tum",
+        "tu": "pamiršai̇ ̃ pamirš̃tum",
         "jis_ji_jie_jos": "pamirš̃tų",
         "mes": "pamirš̃tume / pamirš̃tumėme",
         "jus": "pamirš̃tute / pamirš̃tumėte"
@@ -16278,7 +16278,7 @@
       {
         "hint": "pri-",
         "lt": "Jis pripasakojo daug linksmų nutikimų.",
-        "ru": "Он рассказал о многих весёлых случаях."
+        "ru": "Он рассказал о многих веселых"
       }
     ]
   },
@@ -16372,14 +16372,14 @@
       },
       "past": {
         "as": "pasirašiaũ",
-        "tu": "pasirasiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "pasirãšė",
         "mes": "pasirãšėme",
         "jus": "pasirãšėte"
       },
       "subjunctive": {
         "as": "pasirašýčiau",
-        "tu": "pasirašýtum",
+        "tu": "pasirašei̇ ̃ pasirašýtum",
         "jis_ji_jie_jos": "pasirašýtų",
         "mes": "pasirašýtume / pasirašýtumėme",
         "jus": "pasirašýtute / pasirašýtumėte"
@@ -16428,7 +16428,7 @@
         "ru": "Директор не подписал этот документ."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Prašom pasirašyti, kad gavote siuntinį.",
         "ru": "Пожалуйста, распишитесь, что получили посылку."
       }
@@ -16585,7 +16585,7 @@
         "ru": "Он не заметил пятно на пиджаке."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Tėvai pastebėjo, kad vaikas karščiuoja.",
         "ru": "Родители заметили, что у ребенка жар."
       }
@@ -16671,7 +16671,7 @@
         "ru": "Нравлюсь ли я тебе?"
       },
       {
-        "hint": null,
+        "hint": "kas?",
         "lt": "Mums patinka, kad jie niekada nevėluoja.",
         "ru": "Нам нравится, что они никогда не опаздывают."
       }
@@ -17058,7 +17058,7 @@
       {
         "hint": "pér-",
         "lt": "Blogai nupiešiau, reikia perpiešti.",
-        "ru": "Я плохо нарисовал / нарисовала, надо перерисовать."
+        "ru": "Я плохо нарисовал / нарисовала, надо"
       },
       {
         "hint": "pra-",
@@ -17225,7 +17225,7 @@
       {
         "hint": "į-",
         "lt": "Jis labai įpyko / supyko / užpyko ant manęs.",
-        "ru": "Он очень рассердился / разозлился на меня."
+        "ru": "Он очень рассердился / разозлился"
       }
     ]
   },
@@ -17907,7 +17907,7 @@
       {
         "hint": "nu-",
         "lt": "Vaikai nuplaukė toli nuo kranto.",
-        "ru": "Дети отплыли далеко от берега."
+        "ru": "Дети отплыли далеко от берега. Vaikai"
       },
       {
         "hint": "ką?",
@@ -18385,7 +18385,7 @@
         "ru": "Он не сообщил мне новость."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Per žinias pranešė, kad rytoj bus puikus oras.",
         "ru": "В новостях сообщили, что завтра будет пре красная погода."
       }
@@ -18458,14 +18458,14 @@
       },
       "past": {
         "as": "prašiaũ",
-        "tu": "prasiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "prãšė",
         "mes": "prãšėme",
         "jus": "prãšėte"
       },
       "subjunctive": {
         "as": "prašýčiau",
-        "tu": "prašýtum",
+        "tu": "prašei̇ ̃ prašýtum",
         "jis_ji_jie_jos": "prašýtų",
         "mes": "prašýtume / prašýtumėme",
         "jus": "prašýtute / prašýtumėte"
@@ -18792,14 +18792,14 @@
       },
       "past": {
         "as": "pristačiaũ",
-        "tu": "pristaciai",
+        "tu": "̃",
         "jis_ji_jie_jos": "pristãtė",
         "mes": "pristãtėme",
         "jus": "pristãtėte"
       },
       "subjunctive": {
         "as": "pristatýčiau",
-        "tu": "pristatýtum",
+        "tu": "pristatei̇ ̃ pristatýtum",
         "jis_ji_jie_jos": "pristatýtų",
         "mes": "pristatýtume / pristatýtumėme",
         "jus": "pristatýtute / pristatýtumėte"
@@ -18868,14 +18868,14 @@
       },
       "past": {
         "as": "privalė́jau",
-        "tu": "privalejai",
+        "tu": "̃",
         "jis_ji_jie_jos": "privalė́jo",
         "mes": "privalė́jome",
         "jus": "privalė́jote"
       },
       "subjunctive": {
         "as": "privalė́čiau",
-        "tu": "privalė́tum",
+        "tu": "privalė́jai privalė́tum",
         "jis_ji_jie_jos": "privalė́tų",
         "mes": "privalė́tume / privalė́tumėme",
         "jus": "privalė́tume / privalė́tumėte"
@@ -19293,14 +19293,14 @@
       },
       "past": {
         "as": "rakinaũ",
-        "tu": "rakinai",
+        "tu": "̀",
         "jis_ji_jie_jos": "raki̇ǹo",
         "mes": "raki̇ǹome",
         "jus": "raki̇ǹote"
       },
       "subjunctive": {
         "as": "raki̇ǹčiau",
-        "tu": "raki̇ǹtum",
+        "tu": "rakinai̇ ̃ raki̇ǹtum",
         "jis_ji_jie_jos": "raki̇ǹtų",
         "mes": "raki̇ǹtume / raki̇ǹtumėme",
         "jus": "raki̇ǹtute / raki̇ǹtumėte"
@@ -19356,7 +19356,7 @@
       {
         "hint": "už-",
         "lt": "Ji išėjo iš buto ir užrakino duris.",
-        "ru": "Она вышла из квартиры и заперла дверь на ключ."
+        "ru": "Она вышла из квартиры и заперла дверь на"
       }
     ]
   },
@@ -19543,7 +19543,7 @@
       {
         "hint": "su-",
         "lt": "Jis pametė dokumentą, o ji surado / atrado.",
-        "ru": "Он потерял документ, а она нашла / обнаружила."
+        "ru": "Он потерял документ, а она"
       }
     ]
   },
@@ -19566,14 +19566,14 @@
       },
       "past": {
         "as": "rašiaũ",
-        "tu": "rasiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "rãšė",
         "mes": "rãšėme",
         "jus": "rãšėte"
       },
       "subjunctive": {
         "as": "rašýčiau",
-        "tu": "rašýtum",
+        "tu": "rašei̇ ̃ rašýtum",
         "jis_ji_jie_jos": "rašýtų",
         "mes": "rašýtume / rašýtumėme",
         "jus": "rašýtute / rašýtumėte"
@@ -19849,7 +19849,7 @@
         "ru": "Он требует звонить ему ежедневно."
       },
       {
-        "hint": null,
+        "hint": "ko? iš ko?",
         "lt": "Tėvai reikalauja, kad vaikai mažiau žiūrėtų televizorių.",
         "ru": "Родители требуют, чтобы дети меньше смотрели телевизор."
       },
@@ -20518,7 +20518,7 @@
       {
         "hint": "pa-",
         "lt": "Ar galite parinkti šalikėlį prie suknelės?",
-        "ru": "Не могли бы вы подобрать шарфик к платью?"
+        "ru": "Не могли бы вы подобрать шарфик"
       },
       {
         "hint": "pér-",
@@ -20849,7 +20849,7 @@
         "ru": "Он показывает друзьям хороший пример."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Tai rodo, kad jis nėra kvailas.",
         "ru": "Это значит, что он неглупый."
       },
@@ -20884,14 +20884,14 @@
       },
       "past": {
         "as": "rūkiaũ",
-        "tu": "rukiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "rū̃kė",
         "mes": "rū̃kėme",
         "jus": "rū̃kėte"
       },
       "subjunctive": {
         "as": "rūkýčiau",
-        "tu": "rūkýtum",
+        "tu": "rūkei̇ ̃ rūkýtum",
         "jis_ji_jie_jos": "rūkýtų",
         "mes": "rūkýtume / rūkýtumėme",
         "jus": "rūkýtute / rūkýtumėte"
@@ -21445,14 +21445,14 @@
       },
       "past": {
         "as": "sakiaũ",
-        "tu": "sakiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "sãkė",
         "mes": "sãkėme",
         "jus": "sãkėte"
       },
       "subjunctive": {
         "as": "sakýčiau",
-        "tu": "sakýtum",
+        "tu": "sakei̇ ̃ sakýtum",
         "jis_ji_jie_jos": "sakýtų",
         "mes": "sakýtume / sakýtumėme",
         "jus": "sakýtute / sakýtumėte"
@@ -21806,7 +21806,7 @@
       {
         "hint": "pra-",
         "lt": "Jie prasėdėjo prie durų keletą valandų.",
-        "ru": "Они просидели у дверей несколько часов."
+        "ru": "Они просидели у дверей несколько"
       }
     ]
   },
@@ -22018,7 +22018,7 @@
       {
         "hint": "nu-",
         "lt": "Šuo nusekė paskui šeimininką iki darbo.",
-        "ru": "Собака следовала за хозяином до работы."
+        "ru": "Собака следовала за хозяином до"
       },
       {
         "hint": "pa-",
@@ -22947,14 +22947,14 @@
       },
       "past": {
         "as": "skaičiaũ",
-        "tu": "skaiciai",
+        "tu": "̃",
         "jis_ji_jie_jos": "skai̇t̃ė",
         "mes": "skai̇t̃ėme",
         "jus": "skai̇t̃ėte"
       },
       "subjunctive": {
         "as": "skaitýčiau",
-        "tu": "skaitýtum",
+        "tu": "skaitei̇ ̃ skaitýtum",
         "jis_ji_jie_jos": "skaitýtų",
         "mes": "skaitýtume / skaitýtumėme",
         "jus": "skaitýtute / skaitýtumėte"
@@ -23207,7 +23207,7 @@
       {
         "hint": "pra-",
         "lt": "Visą vakarą ji praskambino draugėms.",
-        "ru": "Весь вечер она названивала подругам."
+        "ru": "Весь вечер она названивала"
       },
       {
         "hint": "prisi-",
@@ -23359,7 +23359,7 @@
         "ru": "Прошу эту информацию не оглашать."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Savivaldybė skelbė, kad nuo rytojaus pabrangs miesto transportas.",
         "ru": "Самоуправление инфор мировало, что с завтрашнего дня подорожает городской транспорт."
       },
@@ -23447,12 +23447,12 @@
       {
         "hint": "nu-",
         "lt": "Laivas nuskendo / paskendo Baltijos jūroje.",
-        "ru": "Корабль затонул в Балтийском море."
+        "ru": "Корабль затонул в Балтийском"
       },
       {
         "hint": "pa-",
         "lt": "Jos brolis nuskendo / paskendo ežere praėjusią savaitę.",
-        "ru": "Её брат утонул в озере на прошлой неделе."
+        "ru": "Ее брат утонул в"
       }
     ]
   },
@@ -24214,7 +24214,7 @@
       {
         "hint": "ap-",
         "lt": "Jis apskundė / įskundė / paskundė savo kaimyną policijai.",
-        "ru": "Он донёс полиции на своего соседа."
+        "ru": "Он донёс полиции на"
       }
     ]
   },
@@ -24300,7 +24300,7 @@
       {
         "hint": "prasi-",
         "lt": "Visą vakarą jie prasiskundė sunkiu gyvenimu.",
-        "ru": "Весь вечер они жаловались на тяжёлую жизнь."
+        "ru": "Весь вечер они жаловались"
       }
     ]
   },
@@ -24585,7 +24585,7 @@
       {
         "hint": "su-",
         "lt": "Ji susodino gėles prie namo.",
-        "ru": "Все цветы она посадила возле дома."
+        "ru": "Все цветы она посадила возле дома. Ji susodino"
       },
       {
         "hint": "ko?",
@@ -24972,14 +24972,14 @@
       },
       "past": {
         "as": "stabdžiaũ",
-        "tu": "stabdziai",
+        "tu": "̃",
         "jis_ji_jie_jos": "stãbdė",
         "mes": "stãbdėme",
         "jus": "stãbdėte"
       },
       "subjunctive": {
         "as": "stabdýčiau",
-        "tu": "stabdýtum",
+        "tu": "stabdei̇ ̃ stabdýtum",
         "jis_ji_jie_jos": "stabdýtų",
         "mes": "stabdýtume / stabdýtumėme",
         "jus": "stabdýtute / stabdýtumėte"
@@ -25058,14 +25058,14 @@
       },
       "past": {
         "as": "stačiaũ",
-        "tu": "staciai",
+        "tu": "̃",
         "jis_ji_jie_jos": "stãtė",
         "mes": "stãtėme",
         "jus": "stãtėte"
       },
       "subjunctive": {
         "as": "statýčiau",
-        "tu": "statýtum",
+        "tu": "statei̇ ̃ statýtum",
         "jis_ji_jie_jos": "statýtų",
         "mes": "statýtume / statýtumėme",
         "jus": "statýtute / statýtumėte"
@@ -25151,7 +25151,7 @@
       {
         "hint": "ko?",
         "lt": "Jis perstatėautomobilį į kitą vietą.",
-        "ru": "Он переставил автомобиль на другое место."
+        "ru": "Он переставил автомобиль на другое место. Jis"
       },
       {
         "hint": "ko?",
@@ -25265,7 +25265,7 @@
         "ru": "Она не наблюдает за детьми."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Ji stebi, kaip žaidžia vaikai.",
         "ru": "Она наблюдает, как играют дети."
       },
@@ -26114,7 +26114,7 @@
         "ru": "Никто не понял значения того слова."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Supratome, kaip reikia atlikti namų darbą.",
         "ru": "Мы поняли, как надо выполнять домашнюю работу."
       }
@@ -28332,14 +28332,14 @@
       },
       "past": {
         "as": "taisiaũ",
-        "tu": "taisiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "tai̇s̃ė",
         "mes": "tai̇s̃ėme",
         "jus": "tai̇s̃ėte"
       },
       "subjunctive": {
         "as": "taisýčiau",
-        "tu": "taisýtum",
+        "tu": "taisei̇ ̃ taisýtum",
         "jis_ji_jie_jos": "taisýtų",
         "mes": "taisýtume / taisýtumėme",
         "jus": "taisýtute / taisýtumėte"
@@ -28448,14 +28448,14 @@
       },
       "past": {
         "as": "tapiaũ",
-        "tu": "tapiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "tãpė",
         "mes": "tãpėme",
         "jus": "tãpėte"
       },
       "subjunctive": {
         "as": "tapýčiau",
-        "tu": "tapýtum",
+        "tu": "tapei̇ ̃ tapýtum",
         "jis_ji_jie_jos": "tapýtų",
         "mes": "tapýtume / tapýtumėme",
         "jus": "tapýtute / tapýtumėte"
@@ -28751,14 +28751,14 @@
       },
       "past": {
         "as": "taupiaũ",
-        "tu": "taupiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "taũpė",
         "mes": "taũpėme",
         "jus": "taũpėte"
       },
       "subjunctive": {
         "as": "taupýčiau",
-        "tu": "taupýtum",
+        "tu": "taupei̇ ̃ taupýtum",
         "jis_ji_jie_jos": "taupýtų",
         "mes": "taupýtume / taupýtumėme",
         "jus": "taupýtute / taupýtumėte"
@@ -28971,10 +28971,10 @@
       {
         "hint": "ko?",
         "lt": "Informacijos teiraukitės telefonu 52 21 33.",
-        "ru": "За информацией обращайтесь по телефону 52 21 33."
+        "ru": "За информацией обращайтесь по телефону"
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Manęs teiravosi, ar jis čia dirba.",
         "ru": "Меня спрашивали, работает ли он здесь."
       },
@@ -29090,14 +29090,14 @@
       },
       "past": {
         "as": "tekė́jau",
-        "tu": "tekejai",
+        "tu": "̀",
         "jis_ji_jie_jos": "tekė́jo",
         "mes": "tekė́jome",
         "jus": "tekė́jote"
       },
       "subjunctive": {
         "as": "tekė́čiau",
-        "tu": "tekė́tum",
+        "tu": "tekė́jai tekė́tum",
         "jis_ji_jie_jos": "tekė́tų",
         "mes": "tekė́tume / tekė́tumėme",
         "jus": "tekė́tute / tekė́tumėte"
@@ -29474,7 +29474,7 @@
         "ru": "Я надеюсь на хорошие результаты."
       },
       {
-        "hint": null,
+        "hint": "ko?",
         "lt": "Aš tikiuosi, kad viskas bus gerai.",
         "ru": "Я надеюсь, что все будет хорошо."
       }
@@ -30121,14 +30121,14 @@
       },
       "past": {
         "as": "trukdžiaũ",
-        "tu": "trukdziai",
+        "tu": "̃",
         "jis_ji_jie_jos": "trùkdė",
         "mes": "trùkdėme",
         "jus": "trùkdėte"
       },
       "subjunctive": {
         "as": "trukdýčiau",
-        "tu": "trukdýtum",
+        "tu": "trukdei̇ ̃ trukdýtum",
         "jis_ji_jie_jos": "trukdýtų",
         "mes": "trukdýtume / trukdýtumėme",
         "jus": "trukdýtute / trukdýtumėte"
@@ -30682,14 +30682,14 @@
       },
       "past": {
         "as": "tvarkiaũ",
-        "tu": "tvarkiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "tvark̃ė",
         "mes": "tvark̃ėme",
         "jus": "tvark̃ėte"
       },
       "subjunctive": {
         "as": "tvarkýčiau",
-        "tu": "tvarkýtum",
+        "tu": "tvarkei̇ ̃ tvarkýtum",
         "jis_ji_jie_jos": "tvarkýtų",
         "mes": "tvarkýtume / tvarkýtumėme",
         "jus": "tvarkýtume / tvarkýtumėte"
@@ -31799,14 +31799,14 @@
       },
       "past": {
         "as": "valiaũ",
-        "tu": "valiai",
+        "tu": "̃",
         "jis_ji_jie_jos": "vãlė",
         "mes": "vãlėme",
         "jus": "vãlėte"
       },
       "subjunctive": {
         "as": "valýčiau",
-        "tu": "valýtum",
+        "tu": "valei̇ ̃ valýtum",
         "jis_ji_jie_jos": "valýtų",
         "mes": "valýtume / valýtumėme",
         "jus": "valýtute / valýtumėte"
@@ -34122,14 +34122,14 @@
       },
       "past": {
         "as": "žinójau",
-        "tu": "zinojai",
+        "tu": "̃",
         "jis_ji_jie_jos": "žinójo",
         "mes": "žinójome",
         "jus": "žinójote"
       },
       "subjunctive": {
         "as": "žinóčiau",
-        "tu": "žinótum",
+        "tu": "žinójai žinótum",
         "jis_ji_jie_jos": "žinótų",
         "mes": "žinótume / žinótumėme",
         "jus": "žinótute / žinótumėte"
@@ -34349,14 +34349,14 @@
       },
       "past": {
         "as": "žudžiaũ",
-        "tu": "zudziai",
+        "tu": "̃",
         "jis_ji_jie_jos": "žùdė",
         "mes": "žùdėme",
         "jus": "žùdėte"
       },
       "subjunctive": {
         "as": "žudýčiau",
-        "tu": "žudýtum",
+        "tu": "žudei̇ ̃ žudýtum",
         "jis_ji_jie_jos": "žudýtų",
         "mes": "žudýtume / žudýtumėme",
         "jus": "žudýtute / žūdýtumėte"
