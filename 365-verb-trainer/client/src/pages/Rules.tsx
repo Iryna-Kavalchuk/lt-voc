@@ -523,6 +523,328 @@ function RulesContent() {
         </div>
       </CollapsibleSection>
 
+      {/* ------------------------------------------------------------------ */}
+      {/* SECTION 4 — Неспрягаемые формы глагола                             */}
+      {/* ------------------------------------------------------------------ */}
+      <CollapsibleSection title="Неспрягаемые формы глагола">
+
+        {/* ---- Причастия -------------------------------------------------- */}
+        <div className="rules-tense">
+          <h2 className="rules-tense-title">Причастия</h2>
+
+          {/* Действительные — настоящее время */}
+          <h3 className="rules-sub-title">Действительные причастия настоящего времени</h3>
+          <p>
+            Образуются от 3&nbsp;лица настоящего времени изъявительного наклонения.
+            Формы мужского рода:
+          </p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">kalb<span className="rules-stem-cut">\</span>a + –ąs / –antis = <strong>kalbąs / kalbantis</strong></div>
+            <div className="rules-formula">myl<span className="rules-stem-cut">\</span>i + –įs / –intis = <strong>mylįs / mylintis</strong></div>
+            <div className="rules-formula">sak<span className="rules-stem-cut">\</span>o + –ąs / –antis = <strong>sakąs / sakantis</strong></div>
+          </div>
+          <div className="rules-note">
+            <strong>Мн. ч.:</strong> –ą / –antys, –į / –intys — например: <em>kalbą / kalbantys, mylį / mylintys</em>.<br />
+            <strong>Ж. р. ед. ч.:</strong> –anti, –inti — например: <em>kalbanti, mylinti</em>.<br />
+            <strong>Ж. р. мн. ч.:</strong> –ančios, –inčios — например: <em>kalbančios, mylinčios</em>.
+          </div>
+          <p>Возвратные формы образуются при помощи приставки <strong>be–</strong>:</p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">be– + mokosi + –antis = <strong>besimokantis</strong></div>
+            <div className="rules-formula">be– + mokosi + –anti = <strong>besimokanti</strong></div>
+          </div>
+          <p className="rules-pattern-note">Эти формы указывают на то, каков человек, предмет, явление и т.&nbsp;п.:</p>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Dainuojanti moteris patiko visiems.</span><span className="rules-ex-ru">Поющая женщина понравилась всем.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Žmonės žiūrėjo į besileidžiančią saulę.</span><span className="rules-ex-ru">Люди смотрели на закат солнца.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Ant stalo gulinti knyga yra mokytojo.</span><span className="rules-ex-ru">Лежащая на столе книга принадлежит учителю.</span></div>
+          </div>
+
+          {/* Действительные — прошедшее однократное */}
+          <h3 className="rules-sub-title">Действительные причастия прошедшего однократного времени</h3>
+          <p>Образуются от 3&nbsp;лица прошедшего времени:</p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">kalbėj<span className="rules-stem-cut">\</span>o + –ęs = <strong>kalbėjęs</strong></div>
+            <div className="rules-formula">sak<span className="rules-stem-cut">\</span>ė + –ęs = <strong>sakęs</strong></div>
+          </div>
+          <div className="rules-note">
+            <strong>Мн. ч.:</strong> –ę — например: <em>kalbėję, sakę</em>.<br />
+            <strong>Ж. р. ед. ч.:</strong> –usi, –iusi — например: <em>kalbėjusi, sakiusi</em>.<br />
+            <strong>Ж. р. мн. ч.:</strong> –usios, –iusios — например: <em>kalbėjusios, sakiusios</em>.
+          </div>
+          <p>Возвратные формы:</p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">mok<span className="rules-stem-cut">\</span>ėsi + –ęs = <strong>mokęsis</strong></div>
+            <div className="rules-formula">mok<span className="rules-stem-cut">\</span>ėsi + –ius = <strong>mokiusis</strong></div>
+          </div>
+          <p className="rules-pattern-note">Формы выражают:</p>
+          <ul className="rules-list">
+            <li>каков человек, предмет, явление:</li>
+          </ul>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Aš esu išalkęs.</span><span className="rules-ex-ru">Я голоден.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Mano brolis jau vedęs.</span><span className="rules-ex-ru">Мой брат уже женат.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Tėvas yra išvažiavęs į kaimą.</span><span className="rules-ex-ru">Отец в отъезде. Он в деревне.</span></div>
+          </div>
+          <ul className="rules-list">
+            <li>дополнительное действие:</li>
+          </ul>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Parėjęs namo brolis skaitė knygą.</span><span className="rules-ex-ru">Придя домой, брат читал книгу.</span></div>
+          </div>
+          <ul className="rules-list">
+            <li>действие, которое, возможно, выполнялось в прошлом:</li>
+          </ul>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Jis sako perskaitęs filosofijos istoriją.</span><span className="rules-ex-ru">Он говорит, что прочитал историю философии.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Jeigu būčiau žinojęs, kad lis, būčiau pasiėmęs skėtį.</span><span className="rules-ex-ru">Если бы я знал, что будет дождь, то взял бы зонтик.</span></div>
+          </div>
+
+          {/* Действительные — прошедшее многократное */}
+          <h3 className="rules-sub-title">Действительные причастия прошедшего многократного времени</h3>
+          <p>Образуются от неопределённой формы глагола:</p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">kalbė<span className="rules-stem-cut">\</span>ti + –davęs = <strong>kalbėdavęs</strong></div>
+            <div className="rules-formula">kalbė<span className="rules-stem-cut">\</span>ti + –davusi = <strong>kalbėdavusi</strong></div>
+          </div>
+          <div className="rules-note">
+            <strong>Мн. ч. м. р.:</strong> –ę — например: <em>kalbėdavę</em>.<br />
+            <strong>Мн. ч. ж. р.:</strong> –usios — например: <em>kalbėdavusios</em>.
+          </div>
+          <p>Возвратные формы:</p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">mokydav<span className="rules-stem-cut">\</span>osi + –ęs = <strong>mokydavęsis</strong></div>
+            <div className="rules-formula">mokydav<span className="rules-stem-cut">\</span>osi + –usi = <strong>mokydavusis</strong></div>
+          </div>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Jis sako mėgdavęs kiekvieną vakarą eiti pasivaikščioti.</span><span className="rules-ex-ru">Он говорит, что ему нравилось выходить на прогулку каждый вечер.</span></div>
+          </div>
+
+          {/* Действительные — будущее время */}
+          <h3 className="rules-sub-title">Действительные причастия будущего времени</h3>
+          <p>Образуются от неопределённой формы глагола. Формы мужского рода:</p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">kalbė<span className="rules-stem-cut">\</span>ti + –siąs / –siantis = <strong>kalbėsiąs / kalbėsiantis</strong></div>
+          </div>
+          <div className="rules-note">
+            <strong>Мн. ч.:</strong> –sią / –siantys — например: <em>kalbėsią / kalbėsiantys</em>.<br />
+            <strong>Ж. р. ед. ч.:</strong> –sianti — например: <em>kalbėsianti</em>.
+          </div>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Jis sako važiuosiąs į Rusiją.</span><span className="rules-ex-ru">Он говорит, что намерен поехать в Россию.</span></div>
+          </div>
+
+          {/* Страдательные — настоящее время */}
+          <h3 className="rules-sub-title">Страдательные причастия настоящего времени</h3>
+          <p>Образуются от 3&nbsp;лица настоящего времени. Суффикс <strong>–mas</strong> (м.&nbsp;р.) / <strong>–ma</strong> (ж.&nbsp;р.):</p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">stat<span className="rules-stem-cut">\</span>o + –mas = <strong>statomas</strong></div>
+          </div>
+          <div className="rules-note">
+            <strong>Мн. ч. м. р.:</strong> –mi — например: <em>statomi</em>.<br />
+            <strong>Мн. ч. ж. р.:</strong> –mos — например: <em>statomos</em>.
+          </div>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Šis namas jau statomas.</span><span className="rules-ex-ru">Этот дом уже строится.</span></div>
+          </div>
+
+          {/* Страдательные — прошедшее время */}
+          <h3 className="rules-sub-title">Страдательные причастия прошедшего времени</h3>
+          <p>Образуются от неопределённой формы. Суффикс <strong>–tas</strong> (м.&nbsp;р.) / <strong>–ta</strong> (ж.&nbsp;р.):</p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">staty<span className="rules-stem-cut">\</span>ti + –tas = <strong>statytas</strong></div>
+          </div>
+          <div className="rules-note">
+            <strong>Мн. ч. м. р.:</strong> –ti — например: <em>statyti</em>.<br />
+            <strong>Мн. ч. ж. р.:</strong> –tos — например: <em>statytos</em>.
+          </div>
+          <p>Возвратные и безличные формы:</p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">staty<span className="rules-stem-cut">\</span>tis + –tas = <strong>statytasis</strong></div>
+            <div className="rules-formula">rašy<span className="rules-stem-cut">\</span>ti + –ta = <strong>rašyta</strong> <em>(безличная)</em></div>
+          </div>
+          <div className="rules-note">
+            Безличная форма совпадает с формой именительного падежа женского рода, но не склоняется.
+          </div>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Vilniaus universitetas įkurtas 1579 metais.</span><span className="rules-ex-ru">Вильнюсский университет был основан в 1579 году.</span></div>
+          </div>
+
+          <div className="rules-note">
+            Причастия склоняются так же, как имена прилагательные.
+          </div>
+        </div>
+
+        {/* ---- Сложные формы времени ------------------------------------- */}
+        <div className="rules-tense">
+          <h2 className="rules-tense-title">Сложные формы времени</h2>
+
+          <h3 className="rules-sub-title">С действительными причастиями</h3>
+          <p>
+            Сложные формы времени образуются от действительных и страдательных причастий
+            настоящего и прошедшего однократного времени при помощи личных форм
+            вспомогательного глагола <strong>быть</strong>.
+          </p>
+
+          <p className="rules-pattern-note">Сложное совершенное время обозначает результативное состояние, возникшее от ранее совершённого действия:</p>
+          <div className="rules-note">
+            <strong>Настоящее:</strong> <em>yra buvęs, yra buvusi</em><br />
+            <strong>Прошедшее однократное:</strong> <em>buvo skaitęs, buvo skaičiusi</em><br />
+            <strong>Прошедшее многократное:</strong> <em>būdavo pagalvojęs, būdavo pagalvojusi</em><br />
+            <strong>Будущее:</strong> <em>bus pasiruošęs, bus pasiruošusi</em>
+          </div>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Ar tu esi buvęs Nidoje?</span><span className="rules-ex-ru">Был ли ты в Ниде?</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Jis jau buvo buvęs parodoje, bet nuėjo dar kartą.</span><span className="rules-ex-ru">Он уже был на выставке, но пошёл ещё раз.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Kai nuvažiuodavau pas močiutę, ji visada būdavo iškepusi pyragą.</span><span className="rules-ex-ru">Когда я приезжал к бабушке, у неё всегда был испечён пирог.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Kai tu grįši namo, aš jau būsiu išviręs vakarienę.</span><span className="rules-ex-ru">Когда ты вернёшься домой, мной уже будет приготовлен ужин.</span></div>
+          </div>
+
+          <p className="rules-pattern-note">Сложное несовершенное время обозначает действие, начатое ранее и ещё продолжающееся в момент другого действия:</p>
+          <div className="rules-note">
+            <strong>Образование (м. р.):</strong> <em>buvau beeinąs / beeinantis</em><br />
+            <strong>Образование (ж. р.):</strong> <em>buvau beeinanti</em>
+          </div>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Jau buvau besiunčiąs tau žinutę, bet tu man parašei.</span><span className="rules-ex-ru">Я уже было высылал тебе сообщение, но ты мне написал.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Jau buvau beskambinanti tau, bet tu man paskambinai.</span><span className="rules-ex-ru">Я уже было звонила тебе, но ты мне позвонил.</span></div>
+          </div>
+
+          <h3 className="rules-sub-title">Со страдательными причастиями настоящего времени</h3>
+          <p>
+            Образуются при помощи личных форм глагола <strong>быть</strong> + страдательное причастие настоящего времени.
+          </p>
+          <div className="rules-note">
+            <strong>Настоящее:</strong> <em>esu mylimas / mylima</em><br />
+            <strong>Прошедшее однократное:</strong> <em>buvo gerbiamas / gerbiama</em><br />
+            <strong>Прошедшее многократное:</strong> <em>būdavau laukiamas / laukiama</em><br />
+            <strong>Будущее:</strong> <em>būsi laukiamas / laukiama</em>
+          </div>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Tu esi mokinių mėgstama mokytoja.</span><span className="rules-ex-ru">Ты любима учениками учительница.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Jis buvo gerbiamas bendraklasių.</span><span className="rules-ex-ru">Он был уважаем одноклассниками.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Čia bus statomas namas.</span><span className="rules-ex-ru">Здесь будет строиться дом.</span></div>
+          </div>
+
+          <h3 className="rules-sub-title">Со страдательными причастиями прошедшего времени</h3>
+          <p>
+            Образуются при помощи личных форм глагола <strong>быть</strong> + страдательное причастие прошедшего времени.
+          </p>
+          <div className="rules-note">
+            <strong>Настоящее:</strong> <em>esu mylėtas / mylėta</em><br />
+            <strong>Прошедшее однократное:</strong> <em>buvo pakviestas / pakviesta</em><br />
+            <strong>Прошедшее многократное:</strong> <em>būdavai įvertintas / įvertinta</em><br />
+            <strong>Будущее:</strong> <em>bus paklaustas / paklausta</em>
+          </div>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Vaikai yra išmokyti mandagiai elgtis.</span><span className="rules-ex-ru">Дети научены вести себя вежливо.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Ant stalelio visada būdavo padėtas naujausias laikraštis.</span><span className="rules-ex-ru">На столик всегда бывала положена новейшая газета.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Vaikai bus išmokyti mandagiai elgtis.</span><span className="rules-ex-ru">Дети будут научены вести себя вежливо.</span></div>
+          </div>
+        </div>
+
+        {/* ---- Сложное условное наклонение ------------------------------- */}
+        <div className="rules-tense">
+          <h2 className="rules-tense-title">Сложное условное наклонение</h2>
+          <p>
+            Образуется при помощи личных форм глагола <strong>быть</strong> в условном наклонении
+            и действительных причастий прошедшего однократного времени. Употребляется для
+            выражения нереального условия.
+          </p>
+          <div className="rules-note">
+            <strong>М. р.:</strong> <em>būčiau žinojęs, būtume žinoję</em><br />
+            <strong>Ж. р.:</strong> <em>būtum žinojusi, būtumėte žinojusios</em>
+          </div>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Jeigu būtų buvęs geras oras, būtume važiavę į ekskursiją.</span><span className="rules-ex-ru">Если бы была хорошая погода, мы поехали бы на экскурсию.</span></div>
+            <div className="rules-example-row"><span className="rules-ex-lt">Jei būčiau buvusi jaunesnė, būčiau šokusi visą vakarą.</span><span className="rules-ex-ru">Если бы я была помоложе, то танцевала бы весь вечер.</span></div>
+          </div>
+        </div>
+
+        {/* ---- Полупричастия --------------------------------------------- */}
+        <div className="rules-tense">
+          <h2 className="rules-tense-title">Полупричастия</h2>
+          <p>
+            Полупричастия (<em>pusdalyvis</em>) образуются от основы неопределённой формы
+            при помощи окончания <strong>–damas</strong> (м.&nbsp;р.) / <strong>–dama</strong> (ж.&nbsp;р.):
+          </p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">ei<span className="rules-stem-cut">\</span>ti + –damas = <strong>eidamas</strong></div>
+            <div className="rules-formula">rašy<span className="rules-stem-cut">\</span>ti + –damas = <strong>rašydamas</strong></div>
+          </div>
+          <div className="rules-note">
+            <strong>Мн. ч. м. р.:</strong> –dami — например: <em>eidami, rašydami</em>.<br />
+            <strong>Мн. ч. ж. р.:</strong> –damos — например: <em>eidamos, rašydamos</em>.
+          </div>
+          <p>Возвратные формы:</p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">praus<span className="rules-stem-cut">\</span>tis + –damas = <strong>prausdamasis</strong></div>
+            <div className="rules-formula">praus<span className="rules-stem-cut">\</span>tis + –dama = <strong>prausdamasi</strong></div>
+          </div>
+          <p className="rules-pattern-note">
+            Полупричастия обозначают не основное, а сопутствующее действие, выполняемое
+            тем же лицом одновременно с основным:
+          </p>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Brolis, eidamas iš darbo namo, sutiko savo seną pažįstamą.</span><span className="rules-ex-ru">Брат, идя с работы домой, встретил своего старого знакомого.</span></div>
+          </div>
+        </div>
+
+        {/* ---- Деепричастия ---------------------------------------------- */}
+        <div className="rules-tense">
+          <h2 className="rules-tense-title">Деепричастия</h2>
+
+          <h3 className="rules-sub-title">Деепричастия настоящего времени</h3>
+          <p>
+            Образуются от основы глагола в форме настоящего времени при помощи суффиксов
+            <strong> –ant</strong> и <strong>–int</strong>:
+          </p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">kalb<span className="rules-stem-cut">\</span>a + –ant = <strong>kalbant</strong></div>
+            <div className="rules-formula">verč<span className="rules-stem-cut">\</span>ia + –iant = <strong>verčiant</strong></div>
+            <div className="rules-formula">sak<span className="rules-stem-cut">\</span>o + –ant = <strong>sakant</strong></div>
+            <div className="rules-formula">myl<span className="rules-stem-cut">\</span>i + –int = <strong>mylint</strong></div>
+          </div>
+          <p>Возвратные формы:</p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">stat<span className="rules-stem-cut">\</span>osi + –ant = <strong>statantis</strong></div>
+            <div className="rules-formula">tik<span className="rules-stem-cut">\</span>isi + –int = <strong>tikintis</strong></div>
+          </div>
+          <div className="rules-note">
+            В отличие от русского, в литовском языке действие деепричастия всегда относится
+            к лицу, совершающему побочное, второстепенное действие. Это лицо стоит в
+            дательном падеже.
+          </div>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Tėvams žiūrint televizorių, vaikai žaidė savo kambaryje.</span><span className="rules-ex-ru">В то время как родители смотрели телевизор, дети играли в своей комнате.</span></div>
+          </div>
+
+          <h3 className="rules-sub-title">Деепричастия прошедшего времени</h3>
+          <p>
+            Образуются от основы глагола прошедшего однократного времени при помощи
+            суффикса <strong>–(i)us</strong>:
+          </p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">kalbėj<span className="rules-stem-cut">\</span>o + –us = <strong>kalbėjus</strong></div>
+            <div className="rules-formula">vert<span className="rules-stem-cut">\</span>ė + –us = <strong>vertus</strong></div>
+            <div className="rules-formula">raš<span className="rules-stem-cut">\</span>ė + –ius = <strong>rašius</strong></div>
+          </div>
+          <p>Возвратные формы:</p>
+          <div className="rules-formula-group">
+            <div className="rules-formula">stat<span className="rules-stem-cut">\</span>ėsi + –ius = <strong>stačiusis</strong></div>
+            <div className="rules-formula">džiaug<span className="rules-stem-cut">\</span>ėsi + –us = <strong>džiaugusis</strong></div>
+          </div>
+          <p className="rules-pattern-note">
+            Деепричастия прошедшего времени указывают на дополнительное действие,
+            предшествовавшее основному. Зависимые слова ставятся в дательном падеже:
+          </p>
+          <div className="rules-examples-list">
+            <div className="rules-example-row"><span className="rules-ex-lt">Tėvui parėjus namo, visa šeima sėdo valgyti vakarienės.</span><span className="rules-ex-ru">После того как отец вернулся домой, вся семья села ужинать.</span></div>
+          </div>
+        </div>
+
+      </CollapsibleSection>
+
     </div>
   );
 }

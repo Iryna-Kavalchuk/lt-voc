@@ -1662,13 +1662,49 @@ table { border-collapse: collapse; }
 }
 
 .rules-section-body--open {
-  max-height: 4000px;
+  max-height: 12000px;
   transition: max-height 0.5s ease;
 }
 
 .rules-section-body-inner {
   padding: 0 28px 32px;
   border-top: 2px solid #c0272d;
+}
+
+/* Example rows — Lithuanian + Russian translation */
+.rules-examples-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 10px 0 16px;
+}
+
+.rules-example-row {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  background: #fdf6f0;
+  border-radius: 5px;
+  padding: 6px 12px;
+}
+
+.rules-ex-lt {
+  color: #5a2020;
+  flex: 1;
+  font-style: italic;
+}
+
+.rules-ex-ru {
+  color: #666;
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .rules-example-row {
+    flex-direction: column;
+    gap: 2px;
+  }
 }
 
 /* Intro card inside indicative section */
