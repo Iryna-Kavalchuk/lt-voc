@@ -51,14 +51,18 @@ ai-bootcamp/
 │   │   │   │   ├── VerbList.tsx   # Verb browser with 🔊 audio button
 │   │   │   │   ├── Progress.tsx   # Spaced repetition point tracker
 │   │   │   │   ├── Fortune.tsx    # Random verb+example draw
+│   │   │   │   ├── Rules.tsx      # Grammar rules page (RU content + LT dispatcher)
+│   │   │   │   ├── RulesLt.tsx    # Grammar rules page — Lithuanian content
 │   │   │   │   ├── About.tsx      # Book credits & acknowledgements
 │   │   │   │   ├── Admin.tsx      # Password-protected stats (URL: /admin)
 │   │   │   │   └── VerbEditor.tsx # Password-protected verb data editor (URL: /edit)
-│   │   │   ├── components/VerbCard.tsx
+│   │   │   ├── components/
+│   │   │   │   ├── VerbCard.tsx
+│   │   │   │   └── CollapsibleSection.tsx  # Reusable collapsible section with ref/expand API
 │   │   │   ├── context/LangContext.tsx
 │   │   │   ├── i18n.ts            # EN/RU/LT translations
 │   │   │   ├── App.tsx            # Shell, nav, hamburger menu
-│   │   │   └── App.css            # Single global stylesheet (~1570 lines)
+│   │   │   └── App.css            # Single global stylesheet (~1950 lines)
 │   │   ├── public/
 │   │   │   ├── book-cover.jpg     # Book cover image (used in header + About page)
 │   │   │   └── favicon.png        # Favicon (cropped book cover)
@@ -94,7 +98,7 @@ cd 365-verb-trainer/client && npm run build  # note: 3 pre-existing TS errors in
 
 ## Navigation / UI
 - Routing is state-based (`useState<Page>`) — no React Router
-- Pages: `quiz | verbs | progress | fortune | about`
+- Pages: `quiz | verbs | progress | fortune | rules | about`
 - Admin/editor at URL paths `/admin` and `/edit` (no nav, password-gated)
 - **Hamburger menu** at ≤540px: desktop nav hidden, `☰` button shown in header top-right
   - Dropdown opens below header, closes on nav item tap or outside click
@@ -103,6 +107,18 @@ cd 365-verb-trainer/client && npm run build  # note: 3 pre-existing TS errors in
 - **Header**: book cover thumbnail (32px) + title (`365 VERBS` / `365 ГЛАГОЛОВ` / `365 VEIKSMAŽODŽIAI`)
 - **Favicon**: cropped book cover PNG (`public/favicon.png`)
 - Theme: warm burgundy `#7a3535` header, cream `#f5f0e8` background, crimson `#c0272d` accents
+
+## Rules page
+- Nav label: `Rules` / `Правила` / `Taisyklės` (all 3 UI languages)
+- Content language: **Russian** by default (book's target language); switches to **Lithuanian** when `lang === "lt"`
+- Two separate page components: `Rules.tsx` (dispatcher + RU content) and `RulesLt.tsx` (LT content)
+- Structure: collapsible sections via `CollapsibleSection` component (top-level mood/category headings)
+  - RU: 4 sections — Изъявительное, Повелительное, Условное, Неспрягаемые формы
+  - LT: 3 sections — Tiesioginė, Liepiamoji, Tariamoji nuosaka
+- **Table of contents** card at top of page with numbered links; subsections shown indented
+  - Clicking a link auto-expands the target section (if collapsed) and smooth-scrolls to it
+  - Uses `useImperativeHandle` + `forwardRef` on `CollapsibleSection` to expose `expand()`
+- **`CollapsibleSection`** (`components/CollapsibleSection.tsx`): reusable, accepts `id`, `title`, `ref`, `defaultOpen`; uses `max-height` CSS transition for collapse animation
 
 ## Audio system
 - 365 MP3 files in `server/src/data/audio/<id>.mp3`
