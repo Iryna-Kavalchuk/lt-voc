@@ -1632,7 +1632,8 @@ table { border-collapse: collapse; }
   counter-increment: toc-counter;
   display: flex;
   align-items: baseline;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: 4px 8px;
 }
 
 .rules-toc-list li::before {
@@ -1641,6 +1642,44 @@ table { border-collapse: collapse; }
   color: #c0272d;
   font-weight: 700;
   min-width: 16px;
+}
+
+/* Indented subsection list */
+.rules-toc-sublist {
+  list-style: none;
+  margin: 4px 0 4px 24px;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  counter-reset: toc-sub-counter;
+}
+
+.rules-toc-sublist li {
+  counter-increment: toc-sub-counter;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.rules-toc-sublist li::before {
+  content: counter(toc-sub-counter) ".";
+  font-size: 11px;
+  color: #a07070;
+  font-weight: 600;
+  min-width: 14px;
+}
+
+.rules-toc-link--sub {
+  font-size: 13px;
+  color: #9a5a5a !important;
+  text-decoration-color: #e8d4cc !important;
+}
+
+.rules-toc-link--sub:hover {
+  color: #c0272d !important;
+  text-decoration-color: #c0272d !important;
 }
 
 .rules-toc-link {

@@ -16,10 +16,27 @@ export default function Rules() {
 }
 
 const RU_SECTIONS = [
-  { id: "ru-indicative",    label: "Изъявительное наклонение" },
-  { id: "ru-imperative",    label: "Повелительное наклонение" },
-  { id: "ru-conditional",   label: "Условное наклонение" },
-  { id: "ru-nonconjugated", label: "Неспрягаемые формы глагола" },
+  {
+    id: "ru-indicative", label: "Изъявительное наклонение", refKey: "indicative",
+    sub: [
+      { id: "ru-present",    label: "Настоящее время" },
+      { id: "ru-past-simple", label: "Прошедшее однократное" },
+      { id: "ru-past-freq",  label: "Прошедшее многократное" },
+      { id: "ru-future",     label: "Будущее время" },
+    ],
+  },
+  { id: "ru-imperative",    label: "Повелительное наклонение",    refKey: "imperative",    sub: [] },
+  { id: "ru-conditional",   label: "Условное наклонение",         refKey: "conditional",   sub: [] },
+  {
+    id: "ru-nonconjugated", label: "Неспрягаемые формы глагола",  refKey: "nonconjugated",
+    sub: [
+      { id: "ru-participles",          label: "Причастия" },
+      { id: "ru-compound-tenses",      label: "Сложные формы времени" },
+      { id: "ru-compound-conditional", label: "Сложное условное наклонение" },
+      { id: "ru-half-participles",     label: "Полупричастия" },
+      { id: "ru-gerunds",              label: "Деепричастия" },
+    ],
+  },
 ];
 
 function scrollToSection(
@@ -29,6 +46,17 @@ function scrollToSection(
   ref.current?.expand();
   setTimeout(() => {
     const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 50);
+}
+
+function scrollToSubsection(
+  subId: string,
+  parentRef: React.RefObject<CollapsibleSectionHandle | null>
+) {
+  parentRef.current?.expand();
+  setTimeout(() => {
+    const el = document.getElementById(subId);
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   }, 50);
 }
@@ -48,16 +76,33 @@ function RulesContent() {
       <nav className="rules-toc">
         <div className="rules-toc-title">Содержание</div>
         <ol className="rules-toc-list">
-          {RU_SECTIONS.map((s, i) => (
-            <li key={s.id}>
-              <button
-                className="rules-toc-link"
-                onClick={() => scrollToSection(s.id, Object.values(refs)[i] as React.RefObject<CollapsibleSectionHandle | null>)}
-              >
-                {s.label}
-              </button>
-            </li>
-          ))}
+          {RU_SECTIONS.map((s) => {
+            const ref = refs[s.refKey as keyof typeof refs];
+            return (
+              <li key={s.id}>
+                <button
+                  className="rules-toc-link"
+                  onClick={() => scrollToSection(s.id, ref)}
+                >
+                  {s.label}
+                </button>
+                {s.sub.length > 0 && (
+                  <ol className="rules-toc-sublist">
+                    {s.sub.map((sub) => (
+                      <li key={sub.id}>
+                        <button
+                          className="rules-toc-link rules-toc-link--sub"
+                          onClick={() => scrollToSubsection(sub.id, ref)}
+                        >
+                          {sub.label}
+                        </button>
+                      </li>
+                    ))}
+                  </ol>
+                )}
+              </li>
+            );
+          })}
         </ol>
       </nav>
 
@@ -86,7 +131,7 @@ function RulesContent() {
         </div>
 
         {/* ---- 1.1 Настоящее время ---------------------------------------- */}
-        <div className="rules-tense">
+        <div id="ru-present" className="rules-tense">
           <h2 className="rules-tense-title">1. Настоящее время</h2>
 
           <p className="rules-tense-desc">Настоящее время обозначает:</p>
@@ -205,7 +250,7 @@ function RulesContent() {
         </div>
 
         {/* ---- 1.2 Прошедшее однократное ---------------------------------- */}
-        <div className="rules-tense">
+        <div id="ru-past-simple" className="rules-tense">
           <h2 className="rules-tense-title">2. Прошедшее однократное время</h2>
 
           <p className="rules-tense-desc">Прошедшее однократное время обозначает:</p>
@@ -285,7 +330,7 @@ function RulesContent() {
         </div>
 
         {/* ---- 1.3 Прошедшее многократное --------------------------------- */}
-        <div className="rules-tense">
+        <div id="ru-past-freq" className="rules-tense">
           <h2 className="rules-tense-title">3. Прошедшее многократное время</h2>
 
           <p className="rules-tense-desc">
@@ -353,7 +398,7 @@ function RulesContent() {
         </div>
 
         {/* ---- 1.4 Будущее время ------------------------------------------ */}
-        <div className="rules-tense">
+        <div id="ru-future" className="rules-tense">
           <h2 className="rules-tense-title">4. Будущее время</h2>
 
           <p className="rules-tense-desc">
@@ -571,7 +616,7 @@ function RulesContent() {
       <CollapsibleSection id="ru-nonconjugated" ref={refs.nonconjugated} title="Неспрягаемые формы глагола">
 
         {/* ---- Причастия -------------------------------------------------- */}
-        <div className="rules-tense">
+        <div id="ru-participles" className="rules-tense">
           <h2 className="rules-tense-title">Причастия</h2>
 
           {/* Действительные — настоящее время */}
@@ -718,7 +763,7 @@ function RulesContent() {
         </div>
 
         {/* ---- Сложные формы времени ------------------------------------- */}
-        <div className="rules-tense">
+        <div id="ru-compound-tenses" className="rules-tense">
           <h2 className="rules-tense-title">Сложные формы времени</h2>
 
           <h3 className="rules-sub-title">С действительными причастиями</h3>
@@ -786,7 +831,7 @@ function RulesContent() {
         </div>
 
         {/* ---- Сложное условное наклонение ------------------------------- */}
-        <div className="rules-tense">
+        <div id="ru-compound-conditional" className="rules-tense">
           <h2 className="rules-tense-title">Сложное условное наклонение</h2>
           <p>
             Образуется при помощи личных форм глагола <strong>быть</strong> в условном наклонении
@@ -804,7 +849,7 @@ function RulesContent() {
         </div>
 
         {/* ---- Полупричастия --------------------------------------------- */}
-        <div className="rules-tense">
+        <div id="ru-half-participles" className="rules-tense">
           <h2 className="rules-tense-title">Полупричастия</h2>
           <p>
             Полупричастия (<em>pusdalyvis</em>) образуются от основы неопределённой формы
@@ -833,7 +878,7 @@ function RulesContent() {
         </div>
 
         {/* ---- Деепричастия ---------------------------------------------- */}
-        <div className="rules-tense">
+        <div id="ru-gerunds" className="rules-tense">
           <h2 className="rules-tense-title">Деепричастия</h2>
 
           <h3 className="rules-sub-title">Деепричастия настоящего времени</h3>

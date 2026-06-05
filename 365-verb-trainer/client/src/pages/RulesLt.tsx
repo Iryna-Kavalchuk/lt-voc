@@ -5,9 +5,17 @@ import { useRef } from "react";
 import CollapsibleSection, { CollapsibleSectionHandle } from "../components/CollapsibleSection";
 
 const LT_SECTIONS = [
-  { id: "lt-indicative",  label: "Tiesioginė nuosaka" },
-  { id: "lt-imperative",  label: "Liepiamoji nuosaka" },
-  { id: "lt-conditional", label: "Tariamoji nuosaka" },
+  {
+    id: "lt-indicative", label: "Tiesioginė nuosaka", refKey: "indicative",
+    sub: [
+      { id: "lt-present",    label: "Esamasis laikas" },
+      { id: "lt-past-simple", label: "Būtasis kartinis laikas" },
+      { id: "lt-past-freq",  label: "Būtasis dažninis laikas" },
+      { id: "lt-future",     label: "Būsimasis laikas" },
+    ],
+  },
+  { id: "lt-imperative",  label: "Liepiamoji nuosaka", refKey: "imperative",  sub: [] },
+  { id: "lt-conditional", label: "Tariamoji nuosaka",  refKey: "conditional", sub: [] },
 ];
 
 function scrollToSection(
@@ -17,6 +25,17 @@ function scrollToSection(
   ref.current?.expand();
   setTimeout(() => {
     const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 50);
+}
+
+function scrollToSubsection(
+  subId: string,
+  parentRef: React.RefObject<CollapsibleSectionHandle | null>
+) {
+  parentRef.current?.expand();
+  setTimeout(() => {
+    const el = document.getElementById(subId);
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   }, 50);
 }
@@ -35,16 +54,33 @@ export default function RulesLt() {
       <nav className="rules-toc">
         <div className="rules-toc-title">Turinys</div>
         <ol className="rules-toc-list">
-          {LT_SECTIONS.map((s, i) => (
-            <li key={s.id}>
-              <button
-                className="rules-toc-link"
-                onClick={() => scrollToSection(s.id, Object.values(refs)[i] as React.RefObject<CollapsibleSectionHandle | null>)}
-              >
-                {s.label}
-              </button>
-            </li>
-          ))}
+          {LT_SECTIONS.map((s) => {
+            const ref = refs[s.refKey as keyof typeof refs];
+            return (
+              <li key={s.id}>
+                <button
+                  className="rules-toc-link"
+                  onClick={() => scrollToSection(s.id, ref)}
+                >
+                  {s.label}
+                </button>
+                {s.sub.length > 0 && (
+                  <ol className="rules-toc-sublist">
+                    {s.sub.map((sub) => (
+                      <li key={sub.id}>
+                        <button
+                          className="rules-toc-link rules-toc-link--sub"
+                          onClick={() => scrollToSubsection(sub.id, ref)}
+                        >
+                          {sub.label}
+                        </button>
+                      </li>
+                    ))}
+                  </ol>
+                )}
+              </li>
+            );
+          })}
         </ol>
       </nav>
 
@@ -65,7 +101,7 @@ export default function RulesLt() {
         </div>
 
         {/* ---- 1.1 Esamasis laikas --------------------------------------- */}
-        <div className="rules-tense">
+        <div id="lt-present" className="rules-tense">
           <h2 className="rules-tense-title">1. Esamasis laikas</h2>
 
           <p className="rules-tense-desc">Esamasis laikas gali reikšti:</p>
@@ -183,7 +219,7 @@ export default function RulesLt() {
         </div>
 
         {/* ---- 1.2 Būtasis kartinis laikas -------------------------------- */}
-        <div className="rules-tense">
+        <div id="lt-past-simple" className="rules-tense">
           <h2 className="rules-tense-title">2. Būtasis kartinis laikas</h2>
 
           <p className="rules-tense-desc">Būtasis kartinis laikas gali reikšti:</p>
@@ -263,7 +299,7 @@ export default function RulesLt() {
         </div>
 
         {/* ---- 1.3 Būtasis dažninis laikas -------------------------------- */}
-        <div className="rules-tense">
+        <div id="lt-past-freq" className="rules-tense">
           <h2 className="rules-tense-title">3. Būtasis dažninis laikas</h2>
 
           <p className="rules-tense-desc">
@@ -327,7 +363,7 @@ export default function RulesLt() {
         </div>
 
         {/* ---- 1.4 Būsimasis laikas --------------------------------------- */}
-        <div className="rules-tense">
+        <div id="lt-future" className="rules-tense">
           <h2 className="rules-tense-title">4. Būsimasis laikas</h2>
 
           <p className="rules-tense-desc">
