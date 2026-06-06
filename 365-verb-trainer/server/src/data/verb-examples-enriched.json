@@ -384,7 +384,7 @@
       },
       "subjunctive": {
         "as": "atostogáučiau",
-        "tu": "̃ atostogáutum",
+        "tu": "atostogáutum",
         "jis_ji_jie_jos": "atostogáutų",
         "mes": "atostogáutume / atostogáutumėme",
         "jus": "atostogáutute / atostogáutumėte"
@@ -529,14 +529,14 @@
       },
       "past": {
         "as": "atsakiaũ",
-        "tu": "̃",
+        "tu": "atsakei̇",
         "jis_ji_jie_jos": "atsãkė",
         "mes": "atsãkėme",
         "jus": "atsãkėte"
       },
       "subjunctive": {
         "as": "atsakýčiau",
-        "tu": "atsakei̇ ̃ atsakýtum",
+        "tu": "atsakýtum",
         "jis_ji_jie_jos": "atsakýtų",
         "mes": "atsakýtume / atsakýtumėme",
         "jus": "atsakýtute / atsakýtumėte"
@@ -610,14 +610,14 @@
       },
       "past": {
         "as": "atsi̇l̀iepiau",
-        "tu": "̀",
+        "tu": "atsi̇l̀iepei",
         "jis_ji_jie_jos": "atsi̇l̀iepė",
         "mes": "atsi̇l̀iepėme",
         "jus": "atsi̇l̀iepėte"
       },
       "subjunctive": {
         "as": "atsiliẽpčiau",
-        "tu": "atsi̇l̀iepei atsiliẽptum",
+        "tu": "atsiliẽptum",
         "jis_ji_jie_jos": "atsiliẽptų",
         "mes": "atsiliẽptume / atsiliẽptumėme",
         "jus": "atsiliẽptute / atsiliẽptumėte"
@@ -772,14 +772,14 @@
       },
       "past": {
         "as": "atsiprašiaũ",
-        "tu": "̃",
+        "tu": "atsiprašeĩ",
         "jis_ji_jie_jos": "atsiprãšė",
         "mes": "atsiprãšėme",
         "jus": "atsiprãšėte"
       },
       "subjunctive": {
         "as": "atsiprašýčiau",
-        "tu": "atsiprašeĩ atsiprašýtum",
+        "tu": "atsiprašýtum",
         "jis_ji_jie_jos": "atsiprašýtų",
         "mes": "atsiprašýtume / atsiprašýtumėme",
         "jus": "atsiprašýtute / atsiprašýtumėte"
@@ -853,14 +853,14 @@
       },
       "past": {
         "as": "atsisakiaũ",
-        "tu": "̃",
+        "tu": "atsisakei̇",
         "jis_ji_jie_jos": "atsisãkė",
         "mes": "atsisãkėme",
         "jus": "atsisãkėte"
       },
       "subjunctive": {
         "as": "atsisakýčiau",
-        "tu": "atsisakei̇ ̃ atsisakýtum",
+        "tu": "atsisakýtum",
         "jis_ji_jie_jos": "atsisakýtų",
         "mes": "atsisakýtume / atsisakýtumėme",
         "jus": "atsisakýtute / atsisakýtumėte"
@@ -929,14 +929,14 @@
       },
       "past": {
         "as": "auginaũ",
-        "tu": "̀",
+        "tu": "auginai̇",
         "jis_ji_jie_jos": "augi̇ǹo",
         "mes": "augi̇ǹome",
         "jus": "augi̇ǹote"
       },
       "subjunctive": {
         "as": "augi̇ǹčiau",
-        "tu": "auginai̇ ̃ augi̇ǹtum",
+        "tu": "augi̇ǹtum",
         "jis_ji_jie_jos": "augi̇ǹtų",
         "mes": "augi̇ǹtume / augi̇ǹtumėme",
         "jus": "augi̇ǹtute / augi̇ǹtumėte"
@@ -1318,14 +1318,14 @@
       },
       "past": {
         "as": "baigiaũ",
-        "tu": "̀",
+        "tu": "baigei̇",
         "jis_ji_jie_jos": "bai̇g̃ė",
         "mes": "bai̇g̃ėme",
         "jus": "bai̇g̃ėte"
       },
       "subjunctive": {
         "as": "bai̇g̃čiau",
-        "tu": "baigei̇ ̃ bai̇g̃tum",
+        "tu": "bai̇g̃tum",
         "jis_ji_jie_jos": "bai̇g̃tų",
         "mes": "bai̇g̃tume / bai̇g̃tumėme",
         "jus": "bai̇g̃tute / bai̇g̃tumėte"
@@ -1462,14 +1462,14 @@
       },
       "past": {
         "as": "bandžiaũ",
-        "tu": "̃",
+        "tu": "bandei̇",
         "jis_ji_jie_jos": "bañdė",
         "mes": "bañdėme",
         "jus": "bañdėte"
       },
       "subjunctive": {
         "as": "bandýčiau",
-        "tu": "bandei̇ ̃ bandýtum",
+        "tu": "bandýtum",
         "jis_ji_jie_jos": "bandýtų",
         "mes": "bandýtume / bandýtumėme",
         "jus": "bandýtute / bandýtumėte"
@@ -1790,14 +1790,14 @@
       },
       "past": {
         "as": "bijójau",
-        "tu": "̃",
+        "tu": "bijójai",
         "jis_ji_jie_jos": "bijójo",
         "mes": "bijójome",
         "jus": "bijójote"
       },
       "subjunctive": {
         "as": "bijóčiau",
-        "tu": "bijójai bijótum",
+        "tu": "bijótum",
         "jis_ji_jie_jos": "bijótų",
         "mes": "bijótume / bijótumėme",
         "jus": "bijótute / bijótumėte"
@@ -1888,7 +1888,7 @@
       },
       "subjunctive": {
         "as": "bučiúočiau",
-        "tu": "̃ bučiúotum",
+        "tu": "bučiúotum",
         "jis_ji_jie_jos": "bučiúotų",
         "mes": "bučiúotume / bučiúotumėme",
         "jus": "bučiúotute / bučiúotumėte"
@@ -2060,7 +2060,7 @@
       },
       "subjunctive": {
         "as": "buvaũ bū́čiau",
-        "tu": "̀ buvai̇ ̃ bū́tum",
+        "tu": "bū́tum",
         "jis_ji_jie_jos": "bùvo bū́tų",
         "mes": "bùvome bū́tume / bū́tumėme",
         "jus": "bùvote bū́tute / bū́tumėte"
@@ -2222,10 +2222,10 @@
       },
       "subjunctive": {
         "as": "dainúočiau",
-        "tu": "̃ dainúotum",
+        "tu": "dainúotum",
         "jis_ji_jie_jos": "dainúotų",
         "mes": "dainúotume / dainúotumėme",
-        "jus": "dainúotute /dainúotumėte"
+        "jus": "dainúotute / dainúotumėte"
       },
       "frequentative_past": {
         "as": "dainúodavau",
@@ -2308,7 +2308,7 @@
       },
       "subjunctive": {
         "as": "dalyváučiau",
-        "tu": "̃ dalyváutum",
+        "tu": "dalyváutum",
         "jis_ji_jie_jos": "dalyváutų",
         "mes": "dalyváutume / dalyváutumėme",
         "jus": "dalyváutute / dalyváutumėte"
@@ -2372,17 +2372,17 @@
       },
       "past": {
         "as": "dariaũ",
-        "tu": "̃",
+        "tu": "darei̇",
         "jis_ji_jie_jos": "dãrė",
         "mes": "dãrėme",
         "jus": "dãrėte"
       },
       "subjunctive": {
         "as": "darýčiau",
-        "tu": "darei̇ ̃ darýtum",
+        "tu": "darýtum",
         "jis_ji_jie_jos": "darýtų",
         "mes": "darýtume / darýtumėme",
-        "jus": "darýtute /darýtumėte"
+        "jus": "darýtute / darýtumėte"
       },
       "frequentative_past": {
         "as": "darýdavau",
@@ -2528,14 +2528,14 @@
       },
       "past": {
         "as": "dažiaũ",
-        "tu": "̃",
+        "tu": "dažei̇",
         "jis_ji_jie_jos": "dãžė",
         "mes": "dãžėme",
         "jus": "dãžėte"
       },
       "subjunctive": {
         "as": "dažýčiau",
-        "tu": "dažei̇ ̃ dažýtum",
+        "tu": "dažýtum",
         "jis_ji_jie_jos": "dažýtų",
         "mes": "dažýtume / dažýtumėme",
         "jus": "dažýtute / dažýtumėte"
@@ -2740,14 +2740,14 @@
       },
       "past": {
         "as": "degiaũ",
-        "tu": "̀",
+        "tu": "degei̇",
         "jis_ji_jie_jos": "dẽgė",
         "mes": "dẽgėme",
         "jus": "dẽgėte"
       },
       "subjunctive": {
         "as": "dègčiau",
-        "tu": "degei̇ ̃ dègtum",
+        "tu": "dègtum",
         "jis_ji_jie_jos": "dègtų",
         "mes": "dègtume / dègtumėme",
         "jus": "dègtute / dègtumėte"
@@ -2962,7 +2962,7 @@
         "tu": "dė́stytum",
         "jis_ji_jie_jos": "dė́stytų",
         "mes": "dė́stytume / dė́stytumėme",
-        "jus": "dė́stytute/ dė́stytumėte"
+        "jus": "dė́stytute / dė́stytumėte"
       },
       "frequentative_past": {
         "as": "dė́stydavau",
@@ -3174,14 +3174,14 @@
       },
       "past": {
         "as": "dėvė́jau",
-        "tu": "̀",
+        "tu": "dėvė́jai",
         "jis_ji_jie_jos": "dėvė́jo",
         "mes": "dėvė́jome",
         "jus": "dėvė́jote"
       },
       "subjunctive": {
         "as": "dėvė́čiau",
-        "tu": "dėvė́jai dėvė́tum",
+        "tu": "dėvė́tum",
         "jis_ji_jie_jos": "dėvė́tų",
         "mes": "dėvė́tume / dėvė́tumėme",
         "jus": "dėvė́tute / dėvė́tumėte"
@@ -3641,7 +3641,7 @@
       },
       "subjunctive": {
         "as": "draugáučiau",
-        "tu": "̃ draugáutum",
+        "tu": "draugáutum",
         "jis_ji_jie_jos": "draugáutų",
         "mes": "draugáutume / draugáutumėme",
         "jus": "draugáutute / draugáutumėte"
@@ -3722,7 +3722,7 @@
       },
       "subjunctive": {
         "as": "draũsčiau",
-        "tu": "̃ draũstum",
+        "tu": "draũstum",
         "jis_ji_jie_jos": "draũstų",
         "mes": "draũstume / draũstumėme",
         "jus": "draũstute / draũstumėte"
@@ -3904,7 +3904,7 @@
       },
       "subjunctive": {
         "as": "dúočiau",
-        "tu": "̃ dúotum",
+        "tu": "dúotum",
         "jis_ji_jie_jos": "dúotų",
         "mes": "dúotume / dúotumėme",
         "jus": "dúotute / dúotumėte"
@@ -4207,7 +4207,7 @@
       },
       "subjunctive": {
         "as": "džiovi̇ǹčiau",
-        "tu": "̃ džiovi̇ǹtum",
+        "tu": "džiovi̇ǹtum",
         "jis_ji_jie_jos": "džiovi̇ǹtų",
         "mes": "džiovi̇ǹtume / džiovi̇ǹtumėme",
         "jus": "džiovi̇ǹtute / džiovi̇ǹtumėte"
@@ -4419,7 +4419,7 @@
       },
       "subjunctive": {
         "as": "ei̇č̃iau",
-        "tu": "̃ ei̇t̃um",
+        "tu": "ei̇t̃um",
         "jis_ji_jie_jos": "ei̇t̃ų",
         "mes": "ei̇t̃ume / ei̇t̃umėme",
         "jus": "ei̇t̃ute / ei̇t̃umėte"
@@ -4954,7 +4954,7 @@
       },
       "subjunctive": {
         "as": "gami̇ǹčiau",
-        "tu": "̃ gami̇ǹtum",
+        "tu": "gami̇ǹtum",
         "jis_ji_jie_jos": "gami̇ǹtų",
         "mes": "gami̇ǹtume / gami̇ǹtumėme",
         "jus": "gami̇ǹtute / gami̇ǹtumėte"
@@ -5040,7 +5040,7 @@
       },
       "subjunctive": {
         "as": "gáučiau",
-        "tu": "̃ gáutum",
+        "tu": "gáutum",
         "jis_ji_jie_jos": "gáutų",
         "mes": "gáutume / gáutumėme",
         "jus": "gáutute / gáutumėte"
@@ -5139,14 +5139,14 @@
       },
       "past": {
         "as": "gė́riau",
-        "tu": "̀",
+        "tu": "gė́rei",
         "jis_ji_jie_jos": "gė́rė",
         "mes": "gė́rėme",
         "jus": "gė́rėte"
       },
       "subjunctive": {
         "as": "gérčiau",
-        "tu": "gė́rei gértum",
+        "tu": "gértum",
         "jis_ji_jie_jos": "gértų",
         "mes": "gértume / gértumėme",
         "jus": "gértute / gértumėte"
@@ -5267,7 +5267,7 @@
       },
       "subjunctive": {
         "as": "gesi̇ǹčiau",
-        "tu": "̃ gesi̇ǹtum",
+        "tu": "gesi̇ǹtum",
         "jis_ji_jie_jos": "gesi̇ǹtų",
         "mes": "gesi̇ǹtume / gesi̇ǹtumėme",
         "jus": "gesi̇ǹtute / gesi̇ǹtumėte"
@@ -5447,14 +5447,14 @@
       },
       "past": {
         "as": "gimdžiaũ",
-        "tu": "̃",
+        "tu": "gimdei̇",
         "jis_ji_jie_jos": "gim̃dė",
         "mes": "gim̃dėme",
         "jus": "gim̃dėte"
       },
       "subjunctive": {
         "as": "gimdýčiau",
-        "tu": "gimdei̇ ̃ gimdýtum",
+        "tu": "gimdýtum",
         "jis_ji_jie_jos": "gimdýtų",
         "mes": "gimdýtume / gimdýtumėme",
         "jus": "gimdýtute / gimdýtumėte"
@@ -5535,7 +5535,7 @@
       },
       "subjunctive": {
         "as": "gi̇m̀čiau",
-        "tu": "̃ gi̇m̀tum",
+        "tu": "gi̇m̀tum",
         "jis_ji_jie_jos": "gi̇m̀tų",
         "mes": "gi̇m̀tume / gi̇m̀tumėme",
         "jus": "gi̇m̀tute / gi̇m̀tumėte"
@@ -5793,7 +5793,7 @@
       },
       "subjunctive": {
         "as": "gyvénčiau",
-        "tu": "̃ gyvéntum",
+        "tu": "gyvéntum",
         "jis_ji_jie_jos": "gyvéntų",
         "mes": "gyvéntume / gyvéntumėme",
         "jus": "gyvéntute / gyvéntumėte"
@@ -5879,7 +5879,7 @@
       },
       "subjunctive": {
         "as": "grąži̇ǹčiau",
-        "tu": "̃ grąži̇ǹtum",
+        "tu": "grąži̇ǹtum",
         "jis_ji_jie_jos": "grąži̇ǹtų",
         "mes": "grąži̇ǹtume / grąži̇ǹtumėme",
         "jus": "grąži̇ǹtute / grąži̇ǹtumėte"
@@ -6061,7 +6061,7 @@
       },
       "subjunctive": {
         "as": "griū́čiau",
-        "tu": "̃ griū́tum",
+        "tu": "griū́tum",
         "jis_ji_jie_jos": "griū́tų",
         "mes": "griū́tume / griū́tumėme",
         "jus": "griū́tute / griū́tumėte"
@@ -6167,7 +6167,7 @@
       },
       "subjunctive": {
         "as": "grįž̃čiau",
-        "tu": "̃ grįž̃tum",
+        "tu": "grįž̃tum",
         "jis_ji_jie_jos": "grįž̃tų",
         "mes": "grįž̃tume / grįž̃tumėme",
         "jus": "grįž̃tute / grįž̃tumėte"
@@ -6744,7 +6744,7 @@
       },
       "subjunctive": {
         "as": "importúočiau",
-        "tu": "̃ importúotum",
+        "tu": "importúotum",
         "jis_ji_jie_jos": "importúotų",
         "mes": "importúotume / importúotumėme",
         "jus": "importúotute / importúotumėte"
@@ -6771,7 +6771,7 @@
       }
     },
     "non_conjugated_forms": {
-      "1": "importúojantis / importúojąs, importúojanti importúojama",
+      "1": "importúojantis / importúojąs, importúojanti, importúojama",
       "2": "importãvęs, importãvusi",
       "3": "importúodavęs, importúodavusi",
       "4": "importúosiantis / importúosiąs,",
@@ -6946,7 +6946,7 @@
       },
       "subjunctive": {
         "as": "informúočiau",
-        "tu": "̃ informúotum",
+        "tu": "informúotum",
         "jis_ji_jie_jos": "informúotų",
         "mes": "informúotume / informúotumėme",
         "jus": "informúotute / informúotumėte"
@@ -7096,14 +7096,14 @@
       },
       "past": {
         "as": "įž̃eidžiau",
-        "tu": "̀",
+        "tu": "įž̃eidei",
         "jis_ji_jie_jos": "įž̃eidė",
         "mes": "įž̃eidėme",
         "jus": "įž̃eidėte"
       },
       "subjunctive": {
         "as": "įžei̇s̃čiau",
-        "tu": "įž̃eidei įžei̇s̃tum",
+        "tu": "įžei̇s̃tum",
         "jis_ji_jie_jos": "įžei̇s̃tų",
         "mes": "įžei̇s̃tume / įžei̇s̃tumėme",
         "jus": "įžei̇s̃tute / įžei̇s̃tumėte"
@@ -7265,7 +7265,7 @@
       },
       "subjunctive": {
         "as": "jaũsčiau",
-        "tu": "̃ jaũstum",
+        "tu": "jaũstum",
         "jis_ji_jie_jos": "jaũstų",
         "mes": "jaũstume / jaũstumėme",
         "jus": "jaũstute / jaũstumėte"
@@ -7846,7 +7846,7 @@
       },
       "subjunctive": {
         "as": "juokáučiau",
-        "tu": "̃ juokáutum",
+        "tu": "juokáutum",
         "jis_ji_jie_jos": "juokáutų",
         "mes": "juokáutume / juokáutumėme",
         "jus": "juokáutute / juokáutumėte"
@@ -8021,14 +8021,14 @@
       },
       "past": {
         "as": "kabinaũ",
-        "tu": "̀",
+        "tu": "kabinai̇",
         "jis_ji_jie_jos": "kabi̇ǹo",
         "mes": "kabi̇ǹome",
         "jus": "kabi̇ǹote"
       },
       "subjunctive": {
         "as": "kabi̇ǹčiau",
-        "tu": "kabinai̇ ̃ kabi̇ǹtum",
+        "tu": "kabi̇ǹtum",
         "jis_ji_jie_jos": "kabi̇ǹtų",
         "mes": "kabi̇ǹtume / kabi̇ǹtumėme",
         "jus": "kabi̇ǹtute / kabi̇ǹtumėte"
@@ -8129,7 +8129,7 @@
       },
       "subjunctive": {
         "as": "kainúočiau",
-        "tu": "̃ kainúotum",
+        "tu": "kainúotum",
         "jis_ji_jie_jos": "kainúotų",
         "mes": "kainúotume / kainúotumėme",
         "jus": "kainúotute / kainúotumėte"
@@ -8235,7 +8235,7 @@
       "1": "kalb̃antis / kalbąs̃, kalb̃anti",
       "2": "kalbė́jęs, kalbė́jusi",
       "3": "kalbė́davęs, kalbė́davusi",
-      "4": "kalbė́siantis / kalbė́siąs kalbė́sianti",
+      "4": "kalbė́siantis / kalbė́siąs, kalbė́sianti",
       "5": "–, –, kalb̃ama",
       "6": "–, –, kalbė́ta",
       "7": "kalbė́damas, kalbė́dama",
@@ -8400,14 +8400,14 @@
       },
       "past": {
         "as": "kaliaũ",
-        "tu": "̀",
+        "tu": "kalei̇",
         "jis_ji_jie_jos": "kãlė",
         "mes": "kãlėme",
         "jus": "kãlėte"
       },
       "subjunctive": {
         "as": "kálčiau",
-        "tu": "kalei̇ ̃ káltum",
+        "tu": "káltum",
         "jis_ji_jie_jos": "káltų",
         "mes": "káltume / káltumėme",
         "jus": "káltute / káltumėte"
@@ -8531,7 +8531,7 @@
         "tu": "kartótum",
         "jis_ji_jie_jos": "kartótų",
         "mes": "kartótume / kartótumėme",
-        "jus": "kartótute/ kartótumėte"
+        "jus": "kartótute / kartótumėte"
       },
       "frequentative_past": {
         "as": "kartódavau",
@@ -8614,7 +8614,7 @@
       },
       "subjunctive": {
         "as": "kàsčiau",
-        "tu": "̃ kàstum",
+        "tu": "kàstum",
         "jis_ji_jie_jos": "kàstų",
         "mes": "kàstume / kàstumėme",
         "jus": "kàstute / kàstumėte"
@@ -8836,7 +8836,7 @@
       },
       "subjunctive": {
         "as": "kei̇s̃čiau",
-        "tu": "̃ kei̇s̃tum",
+        "tu": "kei̇s̃tum",
         "jis_ji_jie_jos": "kei̇s̃tų",
         "mes": "kei̇s̃tume / kei̇s̃tumėme",
         "jus": "kei̇s̃tute / kei̇s̃tumėte"
@@ -9038,7 +9038,7 @@
       },
       "subjunctive": {
         "as": "keliáučiau",
-        "tu": "̃ keliáutum",
+        "tu": "keliáutum",
         "jis_ji_jie_jos": "keliáutų",
         "mes": "keliáutume / keliáutumėme",
         "jus": "keliáutute / keliáutumėte"
@@ -9366,7 +9366,7 @@
       },
       "subjunctive": {
         "as": "kèpčiau",
-        "tu": "̃ kèptum",
+        "tu": "kèptum",
         "jis_ji_jie_jos": "kèptų",
         "mes": "kèptume / kèptumėme",
         "jus": "kèptute / kèptumėte"
@@ -9462,7 +9462,7 @@
       },
       "subjunctive": {
         "as": "kirp̃čiau",
-        "tu": "̃ kirp̃tum",
+        "tu": "kirp̃tum",
         "jis_ji_jie_jos": "kirp̃tų",
         "mes": "kirp̃tume / kirp̃tumėme",
         "jus": "kirp̃tute / kirp̃tumėte"
@@ -9561,14 +9561,14 @@
       },
       "past": {
         "as": "klausiaũ",
-        "tu": "̃",
+        "tu": "klausei̇",
         "jis_ji_jie_jos": "klaũsė",
         "mes": "klaũsėme",
         "jus": "klaũsėte"
       },
       "subjunctive": {
         "as": "klausýčiau",
-        "tu": "klausei̇ ̃ klausýtum",
+        "tu": "klausýtum",
         "jis_ji_jie_jos": "klausýtų",
         "mes": "klausýtume / klausýtumėme",
         "jus": "klausýtute / klausýtumėte"
@@ -9826,7 +9826,7 @@
       },
       "subjunctive": {
         "as": "klijúočiau",
-        "tu": "̃ klijúotum",
+        "tu": "klijúotum",
         "jis_ji_jie_jos": "klijúotų",
         "mes": "klijúotume / klijúotumėme",
         "jus": "klijúotute / klijúotumėte"
@@ -9925,7 +9925,7 @@
         "tu": "klótum",
         "jis_ji_jie_jos": "klótų",
         "mes": "klótume / klótumėme",
-        "jus": "klótute/ klótumėte"
+        "jus": "klótute / klótumėte"
       },
       "frequentative_past": {
         "as": "klódavau",
@@ -10188,14 +10188,14 @@
       },
       "past": {
         "as": "kritaũ",
-        "tu": "̀",
+        "tu": "kritai̇",
         "jis_ji_jie_jos": "kri̇t̀o",
         "mes": "kri̇t̀ome",
         "jus": "kri̇t̀ote"
       },
       "subjunctive": {
         "as": "kri̇s̀čiau",
-        "tu": "kritai̇ ̃ kri̇s̀tum",
+        "tu": "kri̇s̀tum",
         "jis_ji_jie_jos": "kri̇s̀tų",
         "mes": "kri̇s̀tume / kri̇s̀tumėme",
         "jus": "kri̇s̀tute / kri̇s̀tumėte"
@@ -10427,7 +10427,7 @@
       },
       "subjunctive": {
         "as": "kvėpúočiau",
-        "tu": "̃ kvėpúotum",
+        "tu": "kvėpúotum",
         "jis_ji_jie_jos": "kvėpúotų",
         "mes": "kvėpúotume / kvėpúotumėme",
         "jus": "kvėpúotute / kvėpúotumėte"
@@ -10503,7 +10503,7 @@
       },
       "subjunctive": {
         "as": "kviẽsčiau",
-        "tu": "̃ kviẽstum",
+        "tu": "kviẽstum",
         "jis_ji_jie_jos": "kviẽstų",
         "mes": "kviẽstume / kviẽstumėme",
         "jus": "kviẽstute / kviestumėte"
@@ -10683,14 +10683,14 @@
       },
       "past": {
         "as": "laikiaũ",
-        "tu": "̃",
+        "tu": "laikei̇",
         "jis_ji_jie_jos": "lai̇k̃ė",
         "mes": "lai̇k̃ėme",
         "jus": "lai̇k̃ėte"
       },
       "subjunctive": {
         "as": "laikýčiau",
-        "tu": "laikei̇ ̃ laikýtum",
+        "tu": "laikýtum",
         "jis_ji_jie_jos": "laikýtų",
         "mes": "laikýtume / laikýtumėme",
         "jus": "laikýtute / laikýtumėte"
@@ -11087,14 +11087,14 @@
       },
       "past": {
         "as": "lankiaũ",
-        "tu": "̃",
+        "tu": "lankei̇",
         "jis_ji_jie_jos": "lañkė",
         "mes": "lañkėme",
         "jus": "lankėte"
       },
       "subjunctive": {
         "as": "lankýčiau",
-        "tu": "lankei̇ ̃ lankýtum",
+        "tu": "lankýtum",
         "jis_ji_jie_jos": "lankýtų",
         "mes": "lankýtume / lankýtumėme",
         "jus": "lankýtute / lankýtumėte"
@@ -11478,7 +11478,7 @@
       },
       "subjunctive": {
         "as": "leñkčiau",
-        "tu": "̃ leñktum",
+        "tu": "leñktum",
         "jis_ji_jie_jos": "leñktų",
         "mes": "leñktume / leñktumėme",
         "jus": "leñktute / leñktumėte"
@@ -11695,7 +11695,7 @@
       },
       "subjunctive": {
         "as": "liẽpčiau",
-        "tu": "̃ liẽptum",
+        "tu": "liẽptum",
         "jis_ji_jie_jos": "liẽptų",
         "mes": "liẽptume / liẽptumėme",
         "jus": "liẽptute / liẽptumėte"
@@ -11771,10 +11771,10 @@
       },
       "subjunctive": {
         "as": "liẽsčiau",
-        "tu": "̃ liẽstum",
+        "tu": "liẽstum",
         "jis_ji_jie_jos": "liẽstų",
         "mes": "liẽstume / liẽstumėme",
-        "jus": "liẽstute/ liẽstumėte"
+        "jus": "liẽstute / liẽstumėte"
       },
       "frequentative_past": {
         "as": "liẽsdavau",
@@ -11953,7 +11953,7 @@
       },
       "subjunctive": {
         "as": "li̇k̀čiau",
-        "tu": "̃ li̇k̀tum",
+        "tu": "li̇k̀tum",
         "jis_ji_jie_jos": "li̇k̀tų",
         "mes": "li̇k̀tume / li̇k̀tumėme",
         "jus": "li̇k̀tute / li̇k̀tumėte"
@@ -12120,7 +12120,7 @@
       },
       "subjunctive": {
         "as": "li̇p̀čiau",
-        "tu": "̃ li̇p̀tum",
+        "tu": "li̇p̀tum",
         "jis_ji_jie_jos": "li̇p̀tų",
         "mes": "li̇p̀tume / li̇p̀tumėme",
         "jus": "li̇p̀tute / li̇p̀tumėte"
@@ -12393,14 +12393,14 @@
       },
       "past": {
         "as": "lupaũ",
-        "tu": "̀",
+        "tu": "lupai̇̀",
         "jis_ji_jie_jos": "lùpo",
         "mes": "lùpome",
         "jus": "lùpote"
       },
       "subjunctive": {
         "as": "lùpčiau",
-        "tu": "lupai̇̀ lùptum",
+        "tu": "lùptum",
         "jis_ji_jie_jos": "lùptų",
         "mes": "lùptume / lùptumėme",
         "jus": "lùptute / lùptumėte"
@@ -12585,14 +12585,14 @@
       },
       "past": {
         "as": "maišiaũ",
-        "tu": "̃",
+        "tu": "maišei̇",
         "jis_ji_jie_jos": "mai̇š̃ė",
         "mes": "mai̇š̃ėme",
         "jus": "mai̇š̃ėte"
       },
       "subjunctive": {
         "as": "maišýčiau",
-        "tu": "maišei̇ ̃ maišýtum",
+        "tu": "maišýtum",
         "jis_ji_jie_jos": "maišýtų",
         "mes": "maišýtume / maišýtumėme",
         "jus": "maišýtute / maišýtumėte"
@@ -12708,7 +12708,7 @@
       },
       "subjunctive": {
         "as": "maiti̇ǹčiau",
-        "tu": "̃ maiti̇ǹtum",
+        "tu": "maiti̇ǹtum",
         "jis_ji_jie_jos": "maiti̇ǹtų",
         "mes": "maiti̇ǹtume / maiti̇ǹtumėme",
         "jus": "maiti̇ǹtute / maiti̇ǹtumėte"
@@ -12807,14 +12807,14 @@
       },
       "past": {
         "as": "maniaũ",
-        "tu": "̃",
+        "tu": "manei̇",
         "jis_ji_jie_jos": "mãnė",
         "mes": "mãnėme",
         "jus": "mãnėte"
       },
       "subjunctive": {
         "as": "manýčiau",
-        "tu": "manei̇ ̃ manýtum",
+        "tu": "manýtum",
         "jis_ji_jie_jos": "manýtų",
         "mes": "manýtume / manýtumėme",
         "jus": "manýtute / manýtumėte"
@@ -12893,14 +12893,14 @@
       },
       "past": {
         "as": "mačiaũ",
-        "tu": "̃",
+        "tu": "matei̇",
         "jis_ji_jie_jos": "mãtė",
         "mes": "mãtėme",
         "jus": "mãtėte"
       },
       "subjunctive": {
         "as": "matýčiau",
-        "tu": "matei̇ ̃ matýtum",
+        "tu": "matýtum",
         "jis_ji_jie_jos": "matýtų",
         "mes": "matýtume / matýtumėme",
         "jus": "matýtute / matýtumėte"
@@ -13161,7 +13161,7 @@
         "tu": "máudytumeisi",
         "jis_ji_jie_jos": "máudytųsi",
         "mes": "máudytumės / máudytumėmės",
-        "jus": "máudytutės/ máudytumėtės"
+        "jus": "máudytutės / máudytumėtės"
       },
       "frequentative_past": {
         "as": "máudydavausi",
@@ -13719,7 +13719,7 @@
       },
       "subjunctive": {
         "as": "mègzčiau",
-        "tu": "̃ mègztum",
+        "tu": "mègztum",
         "jis_ji_jie_jos": "mègztų",
         "mes": "mègztume / mègztumėme",
         "jus": "mègztute / mègztumėte"
@@ -13896,10 +13896,10 @@
       },
       "subjunctive": {
         "as": "melúočiau",
-        "tu": "̃ melúotum",
+        "tu": "melúotum",
         "jis_ji_jie_jos": "melúotų",
         "mes": "melúotume / melúotumėme",
-        "jus": "melúotute/ melúotumėte"
+        "jus": "melúotute / melúotumėte"
       },
       "frequentative_past": {
         "as": "melúodavau",
@@ -13982,10 +13982,10 @@
       },
       "subjunctive": {
         "as": "mèsčiau",
-        "tu": "̃ mèstum",
+        "tu": "mèstum",
         "jis_ji_jie_jos": "mèstų",
         "mes": "mèstume / mèstumėme",
-        "jus": "mèstute /mèstumėte"
+        "jus": "mèstute / mèstumėte"
       },
       "frequentative_past": {
         "as": "mèsdavau",
@@ -14265,7 +14265,7 @@
       },
       "subjunctive": {
         "as": "mirč̃iau",
-        "tu": "̃ mirt̃um",
+        "tu": "mirt̃um",
         "jis_ji_jie_jos": "mirt̃ų",
         "mes": "mirt̃ume / mirt̃umėme",
         "jus": "mirt̃ute / mirt̃umėte"
@@ -14654,7 +14654,7 @@
       },
       "subjunctive": {
         "as": "mùščiau",
-        "tu": "̃ mùštum",
+        "tu": "mùštum",
         "jis_ji_jie_jos": "mùštų",
         "mes": "mùštume / mùštumėme",
         "jus": "mùštute / mùštumėte"
@@ -15276,7 +15276,7 @@
       },
       "subjunctive": {
         "as": "nèščiau",
-        "tu": "̃ nèštum",
+        "tu": "nèštum",
         "jis_ji_jie_jos": "nèštų",
         "mes": "nèštume / nèštumėme",
         "jus": "nèštute / nèštumėte"
@@ -15731,7 +15731,7 @@
       },
       "subjunctive": {
         "as": "nustèbčiau",
-        "tu": "̃ nustèbtum",
+        "tu": "nustèbtum",
         "jis_ji_jie_jos": "nustèbtų",
         "mes": "nustèbtume / nustèbtumėme",
         "jus": "nustèbtute / nustèbtumėte"
@@ -15807,7 +15807,7 @@
       },
       "subjunctive": {
         "as": "pabùsčiau",
-        "tu": "̃ pabùstum",
+        "tu": "pabùstum",
         "jis_ji_jie_jos": "pabùstų",
         "mes": "pabùstume / pabùstumėme",
         "jus": "pabùstute / pabùstumėte"
@@ -15949,7 +15949,7 @@
       },
       "subjunctive": {
         "as": "pakúočiau",
-        "tu": "̃ pakúotum",
+        "tu": "pakúotum",
         "jis_ji_jie_jos": "pakúotų",
         "mes": "pakúotume / pakúotumėme",
         "jus": "pakúotute / pakúotumėte"
@@ -16033,14 +16033,14 @@
       },
       "past": {
         "as": "pamiršaũ",
-        "tu": "̀",
+        "tu": "pamiršai̇",
         "jis_ji_jie_jos": "pamirš̃o",
         "mes": "pamirš̃ome",
         "jus": "pamirš̃ote"
       },
       "subjunctive": {
         "as": "pamirš̃čiau",
-        "tu": "pamiršai̇ ̃ pamirš̃tum",
+        "tu": "pamirš̃tum",
         "jis_ji_jie_jos": "pamirš̃tų",
         "mes": "pamirš̃tume / pamirš̃tumėme",
         "jus": "pamirš̃tute / pamirš̃tumėte"
@@ -16362,14 +16362,14 @@
       },
       "past": {
         "as": "pasirašiaũ",
-        "tu": "̃",
+        "tu": "pasirašei̇",
         "jis_ji_jie_jos": "pasirãšė",
         "mes": "pasirãšėme",
         "jus": "pasirãšėte"
       },
       "subjunctive": {
         "as": "pasirašýčiau",
-        "tu": "pasirašei̇ ̃ pasirašýtum",
+        "tu": "pasirašýtum",
         "jis_ji_jie_jos": "pasirašýtų",
         "mes": "pasirašýtume / pasirašýtumėme",
         "jus": "pasirašýtute / pasirašýtumėte"
@@ -16450,7 +16450,7 @@
       },
       "subjunctive": {
         "as": "pasiti̇k̀čiau",
-        "tu": "̃ pasiti̇k̀tum",
+        "tu": "pasiti̇k̀tum",
         "jis_ji_jie_jos": "pasiti̇k̀tų",
         "mes": "pasiti̇k̀tume / pasiti̇k̀tumėme",
         "jus": "pasiti̇k̀tute / pasiti̇k̀tumėte"
@@ -16607,7 +16607,7 @@
       },
       "subjunctive": {
         "as": "pati̇k̀čiau",
-        "tu": "̃ pati̇k̀tum",
+        "tu": "pati̇k̀tum",
         "jis_ji_jie_jos": "pati̇k̀tų",
         "mes": "pati̇k̀tume / pati̇k̀tumėme",
         "jus": "pati̇k̀tute / pati̇k̀tumėte"
@@ -16693,7 +16693,7 @@
       },
       "subjunctive": {
         "as": "pavarg̃čiau",
-        "tu": "̃ pavarg̃tum",
+        "tu": "pavarg̃tum",
         "jis_ji_jie_jos": "pavarg̃tų",
         "mes": "pavarg̃tume / pavarg̃tumėme",
         "jus": "pavarg̃tute / pavarg̃tumėte"
@@ -16911,7 +16911,7 @@
       },
       "subjunctive": {
         "as": "paži̇ǹčiau",
-        "tu": "̃ paži̇ǹtum",
+        "tu": "paži̇ǹtum",
         "jis_ji_jie_jos": "paži̇ǹtų",
         "mes": "paži̇ǹtume / paži̇ǹtumėme",
         "jus": "paži̇ǹtute / paži̇ǹtumėte"
@@ -16987,7 +16987,7 @@
       },
       "subjunctive": {
         "as": "piẽščiau",
-        "tu": "̃ piẽštum",
+        "tu": "piẽštum",
         "jis_ji_jie_jos": "piẽštų",
         "mes": "piẽštume / piẽštumėme",
         "jus": "piẽštute / piẽštumėte"
@@ -17093,7 +17093,7 @@
       },
       "subjunctive": {
         "as": "pietáučiau",
-        "tu": "̃ pietáutum",
+        "tu": "pietáutum",
         "jis_ji_jie_jos": "pietáutų",
         "mes": "pietáutume / pietáutumėme",
         "jus": "pietáutute / pietáutumėte"
@@ -17169,7 +17169,7 @@
       },
       "subjunctive": {
         "as": "pỹkčiau",
-        "tu": "̃ pỹktum",
+        "tu": "pỹktum",
         "jis_ji_jie_jos": "pỹktų",
         "mes": "pỹktume / pỹktumėme",
         "jus": "pỹktute / pỹktumėte"
@@ -17432,7 +17432,7 @@
       },
       "subjunctive": {
         "as": "pirk̃čiau",
-        "tu": "̃ pirk̃tum",
+        "tu": "pirk̃tum",
         "jis_ji_jie_jos": "pirk̃tų",
         "mes": "pirk̃tume / pirk̃tumėme",
         "jus": "pirk̃tute / pirk̃tumėte"
@@ -17649,7 +17649,7 @@
       },
       "subjunctive": {
         "as": "planúočiau",
-        "tu": "̃ planúotum",
+        "tu": "planúotum",
         "jis_ji_jie_jos": "planúotų",
         "mes": "planúotume / planúotumėme",
         "jus": "planúotute / planúotumėte"
@@ -17821,7 +17821,7 @@
       },
       "subjunctive": {
         "as": "plaũkčiau",
-        "tu": "̃ plaũktum",
+        "tu": "plaũktum",
         "jis_ji_jie_jos": "plaũktų",
         "mes": "plaũktume / plaũktumėme",
         "jus": "plaũktute / plaũktumėte"
@@ -18448,14 +18448,14 @@
       },
       "past": {
         "as": "prašiaũ",
-        "tu": "̃",
+        "tu": "prašei̇",
         "jis_ji_jie_jos": "prãšė",
         "mes": "prãšėme",
         "jus": "prãšėte"
       },
       "subjunctive": {
         "as": "prašýčiau",
-        "tu": "prašei̇ ̃ prašýtum",
+        "tu": "prašýtum",
         "jis_ji_jie_jos": "prašýtų",
         "mes": "prašýtume / prašýtumėme",
         "jus": "prašýtute / prašýtumėte"
@@ -18551,7 +18551,7 @@
       },
       "subjunctive": {
         "as": "praũsčiau",
-        "tu": "̃ praũstum",
+        "tu": "praũstum",
         "jis_ji_jie_jos": "praũstų",
         "mes": "praũstume / praũstumėme",
         "jus": "praũstute / praũstumėte"
@@ -18713,7 +18713,7 @@
       },
       "subjunctive": {
         "as": "pripràsčiau",
-        "tu": "̃ pripràstum",
+        "tu": "pripràstum",
         "jis_ji_jie_jos": "pripràstų",
         "mes": "pripràstume / pripràstumėme",
         "jus": "pripràstute / pripràstumėte"
@@ -18782,14 +18782,14 @@
       },
       "past": {
         "as": "pristačiaũ",
-        "tu": "̃",
+        "tu": "pristatei̇",
         "jis_ji_jie_jos": "pristãtė",
         "mes": "pristãtėme",
         "jus": "pristãtėte"
       },
       "subjunctive": {
         "as": "pristatýčiau",
-        "tu": "pristatei̇ ̃ pristatýtum",
+        "tu": "pristatýtum",
         "jis_ji_jie_jos": "pristatýtų",
         "mes": "pristatýtume / pristatýtumėme",
         "jus": "pristatýtute / pristatýtumėte"
@@ -18858,14 +18858,14 @@
       },
       "past": {
         "as": "privalė́jau",
-        "tu": "̃",
+        "tu": "privalė́jai",
         "jis_ji_jie_jos": "privalė́jo",
         "mes": "privalė́jome",
         "jus": "privalė́jote"
       },
       "subjunctive": {
         "as": "privalė́čiau",
-        "tu": "privalė́jai privalė́tum",
+        "tu": "privalė́tum",
         "jis_ji_jie_jos": "privalė́tų",
         "mes": "privalė́tume / privalė́tumėme",
         "jus": "privalė́tume / privalė́tumėte"
@@ -18936,7 +18936,7 @@
       },
       "subjunctive": {
         "as": "puõščiau",
-        "tu": "̃ puõštum",
+        "tu": "puõštum",
         "jis_ji_jie_jos": "puõštų",
         "mes": "puõštume / puõštumėme",
         "jus": "puõštute / puõštumėte"
@@ -19184,7 +19184,7 @@
       },
       "subjunctive": {
         "as": "pū̃sčiau",
-        "tu": "̃ pū̃stum",
+        "tu": "pū̃stum",
         "jis_ji_jie_jos": "pū̃stų",
         "mes": "pū̃stume / pū̃stumėme",
         "jus": "pū̃stute / pū̃stumėte"
@@ -19283,14 +19283,14 @@
       },
       "past": {
         "as": "rakinaũ",
-        "tu": "̀",
+        "tu": "rakinai̇",
         "jis_ji_jie_jos": "raki̇ǹo",
         "mes": "raki̇ǹome",
         "jus": "raki̇ǹote"
       },
       "subjunctive": {
         "as": "raki̇ǹčiau",
-        "tu": "rakinai̇ ̃ raki̇ǹtum",
+        "tu": "raki̇ǹtum",
         "jis_ji_jie_jos": "raki̇ǹtų",
         "mes": "raki̇ǹtume / raki̇ǹtumėme",
         "jus": "raki̇ǹtute / raki̇ǹtumėte"
@@ -19376,7 +19376,7 @@
       },
       "subjunctive": {
         "as": "rami̇ǹčiau",
-        "tu": "̃ rami̇ǹtum",
+        "tu": "rami̇ǹtum",
         "jis_ji_jie_jos": "rami̇ǹtų",
         "mes": "rami̇ǹtume / rami̇ǹtumėme",
         "jus": "rami̇ǹtute / rami̇ǹtumėte"
@@ -19467,7 +19467,7 @@
       },
       "subjunctive": {
         "as": "ràsčiau",
-        "tu": "̃ ràstum",
+        "tu": "ràstum",
         "jis_ji_jie_jos": "ràstų",
         "mes": "ràstume / ràstumėme",
         "jus": "ràstute / ràstumėte"
@@ -19556,14 +19556,14 @@
       },
       "past": {
         "as": "rašiaũ",
-        "tu": "̃",
+        "tu": "rašei̇",
         "jis_ji_jie_jos": "rãšė",
         "mes": "rãšėme",
         "jus": "rãšėte"
       },
       "subjunctive": {
         "as": "rašýčiau",
-        "tu": "rašei̇ ̃ rašýtum",
+        "tu": "rašýtum",
         "jis_ji_jie_jos": "rašýtų",
         "mes": "rašýtume / rašýtumėme",
         "jus": "rašýtute / rašýtumėte"
@@ -19689,7 +19689,7 @@
       },
       "subjunctive": {
         "as": "registrúočiau",
-        "tu": "̃ registrúotum",
+        "tu": "registrúotum",
         "jis_ji_jie_jos": "registrúotų",
         "mes": "registrúotume / registrúotumėme",
         "jus": "registrúotute / registrúotumėte"
@@ -19790,7 +19790,7 @@
       },
       "subjunctive": {
         "as": "reikaláučiau",
-        "tu": "̃ reikaláutum",
+        "tu": "reikaláutum",
         "jis_ji_jie_jos": "reikaláutų",
         "mes": "reikaláutume / reikaláutumėme",
         "jus": "reikaláutute / reikaláutumėte"
@@ -20033,7 +20033,7 @@
       },
       "subjunctive": {
         "as": "rėk̃čiau",
-        "tu": "̃ rėk̃tum",
+        "tu": "rėk̃tum",
         "jis_ji_jie_jos": "rėk̃tų",
         "mes": "rėk̃tume / rėk̃tumėme",
         "jus": "rėk̃tute / rėk̃tumėte"
@@ -20134,7 +20134,7 @@
       },
       "subjunctive": {
         "as": "reñgčiau",
-        "tu": "̃ reñgtum",
+        "tu": "reñgtum",
         "jis_ji_jie_jos": "reñgtų",
         "mes": "reñgtume / reñgtumėme",
         "jus": "reñgtute / reñgtumėte"
@@ -20225,7 +20225,7 @@
       },
       "subjunctive": {
         "as": "reñgčiau",
-        "tu": "̃ reñgtum",
+        "tu": "reñgtum",
         "jis_ji_jie_jos": "reñgtų",
         "mes": "reñgtume / reñgtumėme",
         "jus": "reñgtute / reñgtumėte"
@@ -20432,7 +20432,7 @@
       },
       "subjunctive": {
         "as": "riñkčiau",
-        "tu": "̃ riñktum",
+        "tu": "riñktum",
         "jis_ji_jie_jos": "riñktų",
         "mes": "riñktume / riñktumėme",
         "jus": "riñktute / riñktumėte"
@@ -20664,7 +20664,7 @@
       },
       "subjunctive": {
         "as": "ri̇š̀čiau",
-        "tu": "̃ ri̇š̀tum",
+        "tu": "ri̇š̀tum",
         "jis_ji_jie_jos": "ri̇š̀tų",
         "mes": "ri̇š̀tume / ri̇š̀tumėme",
         "jus": "ri̇š̀tute / ri̇š̀tumėte"
@@ -20874,14 +20874,14 @@
       },
       "past": {
         "as": "rūkiaũ",
-        "tu": "̃",
+        "tu": "rūkei̇",
         "jis_ji_jie_jos": "rū̃kė",
         "mes": "rū̃kėme",
         "jus": "rū̃kėte"
       },
       "subjunctive": {
         "as": "rūkýčiau",
-        "tu": "rūkei̇ ̃ rūkýtum",
+        "tu": "rūkýtum",
         "jis_ji_jie_jos": "rūkýtų",
         "mes": "rūkýtume / rūkýtumėme",
         "jus": "rūkýtute / rūkýtumėte"
@@ -20982,7 +20982,7 @@
       },
       "subjunctive": {
         "as": "rungtyniáučiau",
-        "tu": "̃ rungtyniáutum",
+        "tu": "rungtyniáutum",
         "jis_ji_jie_jos": "rungtyniáutų",
         "mes": "rungtyniáutume / rungtyniáutumėme",
         "jus": "rungtyniáutute / rungtyniáutumėte"
@@ -21058,7 +21058,7 @@
       },
       "subjunctive": {
         "as": "ruõščiau",
-        "tu": "̃ ruõštum",
+        "tu": "ruõštum",
         "jis_ji_jie_jos": "ruõštų",
         "mes": "ruõštume / ruõštumėme",
         "jus": "ruõštute / ruõštumėte"
@@ -21435,14 +21435,14 @@
       },
       "past": {
         "as": "sakiaũ",
-        "tu": "̃",
+        "tu": "sakei̇",
         "jis_ji_jie_jos": "sãkė",
         "mes": "sãkėme",
         "jus": "sãkėte"
       },
       "subjunctive": {
         "as": "sakýčiau",
-        "tu": "sakei̇ ̃ sakýtum",
+        "tu": "sakýtum",
         "jis_ji_jie_jos": "sakýtų",
         "mes": "sakýtume / sakýtumėme",
         "jus": "sakýtute / sakýtumėte"
@@ -21543,7 +21543,7 @@
       },
       "subjunctive": {
         "as": "sapnúočiau",
-        "tu": "̃ sapnúotum",
+        "tu": "sapnúotum",
         "jis_ji_jie_jos": "sapnúotų",
         "mes": "sapnúotume / sapnúotumėme",
         "jus": "sapnúotute / sapnúotumėte"
@@ -21826,7 +21826,7 @@
       },
       "subjunctive": {
         "as": "sègčiau",
-        "tu": "̃ sègtum",
+        "tu": "sègtum",
         "jis_ji_jie_jos": "sègtų",
         "mes": "sègtume / sègtumėme",
         "jus": "sègtute / sègtumėte"
@@ -21942,7 +21942,7 @@
       },
       "subjunctive": {
         "as": "sèkčiau",
-        "tu": "̃ sèktum",
+        "tu": "sèktum",
         "jis_ji_jie_jos": "sèktų",
         "mes": "sèktume / sèktumėme",
         "jus": "sèktute / sèktumėte"
@@ -22116,7 +22116,7 @@
       },
       "subjunctive": {
         "as": "sénčiau",
-        "tu": "̃ séntum",
+        "tu": "séntum",
         "jis_ji_jie_jos": "séntų",
         "mes": "séntume / séntumėme",
         "jus": "séntute / séntumėte"
@@ -22399,7 +22399,7 @@
       },
       "subjunctive": {
         "as": "sirg̃čiau",
-        "tu": "̃ sirg̃tum",
+        "tu": "sirg̃tum",
         "jis_ji_jie_jos": "sirg̃tų",
         "mes": "sirg̃tume / sirg̃tumėme",
         "jus": "sirg̃tute / sirg̃tumėte"
@@ -22828,7 +22828,7 @@
       },
       "subjunctive": {
         "as": "skaičiúočiau",
-        "tu": "̃ skaičiúotum",
+        "tu": "skaičiúotum",
         "jis_ji_jie_jos": "skaičiúotų",
         "mes": "skaičiúotume / skaičiúotumėme",
         "jus": "skaičiúotute / skaičiúotumėte"
@@ -22937,14 +22937,14 @@
       },
       "past": {
         "as": "skaičiaũ",
-        "tu": "̃",
+        "tu": "skaitei̇",
         "jis_ji_jie_jos": "skai̇t̃ė",
         "mes": "skai̇t̃ėme",
         "jus": "skai̇t̃ėte"
       },
       "subjunctive": {
         "as": "skaitýčiau",
-        "tu": "skaitei̇ ̃ skaitýtum",
+        "tu": "skaitýtum",
         "jis_ji_jie_jos": "skaitýtų",
         "mes": "skaitýtume / skaitýtumėme",
         "jus": "skaitýtute / skaitýtumėte"
@@ -23040,7 +23040,7 @@
       },
       "subjunctive": {
         "as": "skalb̃čiau",
-        "tu": "̃ skalb̃tum",
+        "tu": "skalb̃tum",
         "jis_ji_jie_jos": "skalb̃tų",
         "mes": "skalb̃tume / skalb̃tumėme",
         "jus": "skalb̃tute / skalb̃tumėte"
@@ -23386,7 +23386,7 @@
       },
       "subjunctive": {
         "as": "skęs̃čiau",
-        "tu": "̃ skęs̃tum",
+        "tu": "skęs̃tum",
         "jis_ji_jie_jos": "skęs̃tų",
         "mes": "skęs̃tume / skęs̃tumėme",
         "jus": "skęs̃tute / skęs̃tumėte"
@@ -23611,7 +23611,7 @@
         "tu": "ski̇r̀tumeisi",
         "jis_ji_jie_jos": "ski̇r̀tųsi",
         "mes": "ski̇r̀tumės / ski̇r̀tumėmės",
-        "jus": "ski̇r̀tutės /ski̇r̀tumėtės"
+        "jus": "ski̇r̀tutės / ski̇r̀tumėtės"
       },
       "frequentative_past": {
         "as": "ski̇r̀davausi",
@@ -23790,7 +23790,7 @@
       },
       "subjunctive": {
         "as": "skri̇s̀čiau",
-        "tu": "̃ skri̇s̀tum",
+        "tu": "skri̇s̀tum",
         "jis_ji_jie_jos": "skri̇s̀tų",
         "mes": "skri̇s̀tume / skri̇s̀tumėme",
         "jus": "skri̇s̀tute / skri̇s̀tumėte"
@@ -24042,7 +24042,7 @@
       },
       "subjunctive": {
         "as": "skùsčiau",
-        "tu": "̃ skùstum",
+        "tu": "skùstum",
         "jis_ji_jie_jos": "skùstų",
         "mes": "skùstume / skùstumėme",
         "jus": "skùstute / skùstumėte"
@@ -24484,7 +24484,7 @@
       },
       "subjunctive": {
         "as": "sodi̇ǹčiau",
-        "tu": "̃ sodi̇ǹtum",
+        "tu": "sodi̇ǹtum",
         "jis_ji_jie_jos": "sodi̇ǹtų",
         "mes": "sodi̇ǹtume / sodi̇ǹtumėme",
         "jus": "sodi̇ǹtute / sodi̇ǹtumėte"
@@ -24787,7 +24787,7 @@
       },
       "subjunctive": {
         "as": "sportúočiau",
-        "tu": "̃ sportúotum",
+        "tu": "sportúotum",
         "jis_ji_jie_jos": "sportúotų",
         "mes": "sportúotume / sportúotumėte",
         "jus": "sportúotute / sportúotumėte"
@@ -24962,14 +24962,14 @@
       },
       "past": {
         "as": "stabdžiaũ",
-        "tu": "̃",
+        "tu": "stabdei̇",
         "jis_ji_jie_jos": "stãbdė",
         "mes": "stãbdėme",
         "jus": "stãbdėte"
       },
       "subjunctive": {
         "as": "stabdýčiau",
-        "tu": "stabdei̇ ̃ stabdýtum",
+        "tu": "stabdýtum",
         "jis_ji_jie_jos": "stabdýtų",
         "mes": "stabdýtume / stabdýtumėme",
         "jus": "stabdýtute / stabdýtumėte"
@@ -25048,7 +25048,7 @@
       },
       "past": {
         "as": "stačiaũ",
-        "tu": "̃statei̇ ̃ ",
+        "tu": "̃",
         "jis_ji_jie_jos": "stãtė",
         "mes": "stãtėme",
         "jus": "stãtėte"
@@ -25651,7 +25651,7 @@
       },
       "subjunctive": {
         "as": "studijúočiau",
-        "tu": "̃ studijúotum",
+        "tu": "studijúotum",
         "jis_ji_jie_jos": "studijúotų",
         "mes": "studijúotume / studijúotumėme",
         "jus": "studijúotute / studijúotumėte"
@@ -25742,7 +25742,7 @@
       },
       "subjunctive": {
         "as": "sùkčiau",
-        "tu": "̃ sùktum",
+        "tu": "sùktum",
         "jis_ji_jie_jos": "sùktų",
         "mes": "sùktume / sùktumėme",
         "jus": "sùktute / sùktumėte"
@@ -26007,7 +26007,7 @@
     },
     "non_conjugated_forms": {
       "1": "supaži̇ǹdinantis / supaži̇ǹdinąs, supaži̇ǹdinama",
-      "2": "supaži̇ǹdinęs, supaži̇ǹdinusi supaži̇ǹdinta",
+      "2": "supaži̇ǹdinęs, supaži̇ǹdinusi, supaži̇ǹdinta",
       "3": "supaži̇ǹdindavęs, supaži̇ǹdindavusi",
       "4": "supaži̇ǹdinsiantis / supaži̇ǹdinsiąs,",
       "5": "supaži̇ǹdinamas, supaži̇ǹdinama,",
@@ -26055,7 +26055,7 @@
       },
       "subjunctive": {
         "as": "supràsčiau",
-        "tu": "̃ supràstum",
+        "tu": "supràstum",
         "jis_ji_jie_jos": "supràstų",
         "mes": "supràstume / supràstumėme",
         "jus": "supràstute / supràstumėte"
@@ -26136,7 +26136,7 @@
       },
       "subjunctive": {
         "as": "susipaži̇ǹčiau",
-        "tu": "̃ susipaži̇ǹtum",
+        "tu": "susipaži̇ǹtum",
         "jis_ji_jie_jos": "susipaž̀̇intų",
         "mes": "susipaži̇ǹtume / susipaži̇ǹtumėme",
         "jus": "susipaži̇ǹtute / susipaži̇ǹtumėte"
@@ -26212,7 +26212,7 @@
       },
       "subjunctive": {
         "as": "susiti̇k̀čiau",
-        "tu": "̃ susiti̇k̀tum",
+        "tu": "susiti̇k̀tum",
         "jis_ji_jie_jos": "susiti̇k̀tų",
         "mes": "susiti̇k̀tume / susiti̇k̀tumėme",
         "jus": "susi̇t̀iktute / susiti̇k̀tumėte"
@@ -26293,7 +26293,7 @@
       },
       "subjunctive": {
         "as": "suti̇k̀čiau",
-        "tu": "̃ suti̇k̀tum",
+        "tu": "suti̇k̀tum",
         "jis_ji_jie_jos": "suti̇k̀tų",
         "mes": "suti̇k̀tume / suti̇k̀tumėme",
         "jus": "suti̇k̀tute / suti̇k̀tumėte"
@@ -26612,7 +26612,7 @@
       },
       "subjunctive": {
         "as": "svei̇k̃čiau",
-        "tu": "̃ svei̇k̃tum",
+        "tu": "svei̇k̃tum",
         "jis_ji_jie_jos": "svei̇k̃tų",
         "mes": "svei̇k̃tume / svei̇k̃tumėme",
         "jus": "svei̇k̃tute / svei̇k̃tumėte"
@@ -26688,10 +26688,10 @@
       },
       "subjunctive": {
         "as": "sverč̃iau",
-        "tu": "̃ svert̃um",
+        "tu": "svert̃um",
         "jis_ji_jie_jos": "svert̃ų",
         "mes": "svert̃ume / svert̃umėme",
-        "jus": "svert̃ute/ svert̃umėte"
+        "jus": "svert̃ute / svert̃umėte"
       },
       "frequentative_past": {
         "as": "sverd̃avau",
@@ -26779,7 +26779,7 @@
       },
       "subjunctive": {
         "as": "šálčiau",
-        "tu": "̃ šáltum",
+        "tu": "šáltum",
         "jis_ji_jie_jos": "šáltų",
         "mes": "šáltume / šáltumėme",
         "jus": "šáltute / šáltumėte"
@@ -26890,7 +26890,7 @@
       },
       "subjunctive": {
         "as": "šaũkčiau",
-        "tu": "̃ šaũktum",
+        "tu": "šaũktum",
         "jis_ji_jie_jos": "šaũktų",
         "mes": "šaũktume / šaũktumėme",
         "jus": "šaũktute / šaũktumėte"
@@ -27309,7 +27309,7 @@
       },
       "subjunctive": {
         "as": "ši̇l̀čiau",
-        "tu": "̃ ši̇l̀tum",
+        "tu": "ši̇l̀tum",
         "jis_ji_jie_jos": "ši̇l̀tų",
         "mes": "ši̇l̀tume / ši̇l̀tumėme",
         "jus": "ši̇l̀tute / ši̇l̀tumėte"
@@ -27592,7 +27592,7 @@
       },
       "subjunctive": {
         "as": "šlúočiau",
-        "tu": "̃ šlúotum",
+        "tu": "šlúotum",
         "jis_ji_jie_jos": "šlúotų",
         "mes": "šlúotume / šlúotumėme",
         "jus": "šlúotute / šlúotumėte"
@@ -27935,7 +27935,7 @@
       },
       "subjunctive": {
         "as": "šukúočiau",
-        "tu": "̃ šukúotum",
+        "tu": "šukúotum",
         "jis_ji_jie_jos": "šukúotų",
         "mes": "šukúotume / šukúotumėme",
         "jus": "šukúotute / šukúotumėte"
@@ -28132,7 +28132,7 @@
       },
       "subjunctive": {
         "as": "švęs̃čiau",
-        "tu": "̃ švęs̃tum",
+        "tu": "švęs̃tum",
         "jis_ji_jie_jos": "švęs̃tų",
         "mes": "švęs̃tume / švęs̃tumėme",
         "jus": "švęs̃tute / švęs̃tumėte"
@@ -28218,7 +28218,7 @@
       },
       "subjunctive": {
         "as": "šviẽsčiau",
-        "tu": "̃ šviẽstum",
+        "tu": "šviẽstum",
         "jis_ji_jie_jos": "šviẽstų",
         "mes": "šviẽstume / šviẽstumėme",
         "jus": "šviẽstute / šviẽstumėte"
@@ -28322,14 +28322,14 @@
       },
       "past": {
         "as": "taisiaũ",
-        "tu": "̃",
+        "tu": "taisei̇",
         "jis_ji_jie_jos": "tai̇s̃ė",
         "mes": "tai̇s̃ėme",
         "jus": "tai̇s̃ėte"
       },
       "subjunctive": {
         "as": "taisýčiau",
-        "tu": "taisei̇ ̃ taisýtum",
+        "tu": "taisýtum",
         "jis_ji_jie_jos": "taisýtų",
         "mes": "taisýtume / taisýtumėme",
         "jus": "taisýtute / taisýtumėte"
@@ -28438,14 +28438,14 @@
       },
       "past": {
         "as": "tapiaũ",
-        "tu": "̃",
+        "tu": "tapei̇",
         "jis_ji_jie_jos": "tãpė",
         "mes": "tãpėme",
         "jus": "tãpėte"
       },
       "subjunctive": {
         "as": "tapýčiau",
-        "tu": "tapei̇ ̃ tapýtum",
+        "tu": "tapýtum",
         "jis_ji_jie_jos": "tapýtų",
         "mes": "tapýtume / tapýtumėme",
         "jus": "tapýtute / tapýtumėte"
@@ -28551,7 +28551,7 @@
       },
       "subjunctive": {
         "as": "tàpčiau",
-        "tu": "̃ tàptum",
+        "tu": "tàptum",
         "jis_ji_jie_jos": "tàptų",
         "mes": "tàptume / tàptumėme",
         "jus": "tàptute / tàptumėte"
@@ -28627,7 +28627,7 @@
       },
       "subjunctive": {
         "as": "tarč̃iau",
-        "tu": "̃ tart̃um",
+        "tu": "tart̃um",
         "jis_ji_jie_jos": "tart̃ų",
         "mes": "tart̃ume / tart̃umėme",
         "jus": "tart̃ute / tart̃umėte"
@@ -28741,14 +28741,14 @@
       },
       "past": {
         "as": "taupiaũ",
-        "tu": "̃",
+        "tu": "taupei̇",
         "jis_ji_jie_jos": "taũpė",
         "mes": "taũpėme",
         "jus": "taũpėte"
       },
       "subjunctive": {
         "as": "taupýčiau",
-        "tu": "taupei̇ ̃ taupýtum",
+        "tu": "taupýtum",
         "jis_ji_jie_jos": "taupýtų",
         "mes": "taupýtume / taupýtumėme",
         "jus": "taupýtute / taupýtumėte"
@@ -28844,7 +28844,7 @@
       },
       "subjunctive": {
         "as": "tei̇g̃čiau",
-        "tu": "̃ tei̇g̃tum",
+        "tu": "tei̇g̃tum",
         "jis_ji_jie_jos": "tei̇g̃tų",
         "mes": "tei̇g̃tume / tei̇g̃tumėme",
         "jus": "tei̇g̃tute / tei̇g̃tumėte"
@@ -29006,7 +29006,7 @@
       },
       "subjunctive": {
         "as": "tei̇s̃čiau",
-        "tu": "̃ tei̇s̃tum",
+        "tu": "tei̇s̃tum",
         "jis_ji_jie_jos": "tei̇s̃tų",
         "mes": "tei̇s̃tume / tei̇s̃tumėme",
         "jus": "tei̇s̃tute / tei̇s̃tumėte"
@@ -29080,14 +29080,14 @@
       },
       "past": {
         "as": "tekė́jau",
-        "tu": "̀",
+        "tu": "tekė́jai",
         "jis_ji_jie_jos": "tekė́jo",
         "mes": "tekė́jome",
         "jus": "tekė́jote"
       },
       "subjunctive": {
         "as": "tekė́čiau",
-        "tu": "tekė́jai tekė́tum",
+        "tu": "tekė́tum",
         "jis_ji_jie_jos": "tekė́tų",
         "mes": "tekė́tume / tekė́tumėme",
         "jus": "tekė́tute / tekė́tumėte"
@@ -29208,7 +29208,7 @@
       },
       "subjunctive": {
         "as": "tèpčiau",
-        "tu": "̃ tèptum",
+        "tu": "tèptum",
         "jis_ji_jie_jos": "tèptų",
         "mes": "tèptume / tèptumėme",
         "jus": "tèptute / tèptumėte"
@@ -29496,7 +29496,7 @@
       },
       "subjunctive": {
         "as": "ti̇k̀čiau",
-        "tu": "̃ ti̇k̀tum",
+        "tu": "ti̇k̀tum",
         "jis_ji_jie_jos": "ti̇k̀tų",
         "mes": "ti̇k̀tume / ti̇k̀tumėme",
         "jus": "ti̇k̀tute / ti̇k̀tumėte"
@@ -29668,7 +29668,7 @@
       },
       "subjunctive": {
         "as": "tilp̃čiau",
-        "tu": "̃ tilp̃tum",
+        "tu": "tilp̃tum",
         "jis_ji_jie_jos": "tilp̃tų",
         "mes": "tilp̃tume / tilp̃tumėme",
         "jus": "tilp̃tute / tilp̃tumėte"
@@ -29830,7 +29830,7 @@
       },
       "subjunctive": {
         "as": "tirp̃čiau",
-        "tu": "̃ tirp̃tum",
+        "tu": "tirp̃tum",
         "jis_ji_jie_jos": "tirp̃tų",
         "mes": "tirp̃tume / tirp̃tumėme",
         "jus": "tirp̃tute / tirp̃tumėte"
@@ -30037,7 +30037,7 @@
       },
       "subjunctive": {
         "as": "triukšmáučiau",
-        "tu": "̃ triukšmáutum",
+        "tu": "triukšmáutum",
         "jis_ji_jie_jos": "triukšmáutų",
         "mes": "triukšmáutume / triukšmáutumėme",
         "jus": "triukšmáutute / triukšmáutumėte"
@@ -30111,14 +30111,14 @@
       },
       "past": {
         "as": "trukdžiaũ",
-        "tu": "̃",
+        "tu": "trukdei̇",
         "jis_ji_jie_jos": "trùkdė",
         "mes": "trùkdėme",
         "jus": "trùkdėte"
       },
       "subjunctive": {
         "as": "trukdýčiau",
-        "tu": "trukdei̇ ̃ trukdýtum",
+        "tu": "trukdýtum",
         "jis_ji_jie_jos": "trukdýtų",
         "mes": "trukdýtume / trukdýtumėme",
         "jus": "trukdýtute / trukdýtumėte"
@@ -30204,7 +30204,7 @@
       },
       "subjunctive": {
         "as": "trùkčiau",
-        "tu": "̃ trùktum",
+        "tu": "trùktum",
         "jis_ji_jie_jos": "trùktų",
         "mes": "trùktume / trùktumėme",
         "jus": "trùktute / trùktumėte"
@@ -30672,14 +30672,14 @@
       },
       "past": {
         "as": "tvarkiaũ",
-        "tu": "̃",
+        "tu": "tvarkei̇",
         "jis_ji_jie_jos": "tvark̃ė",
         "mes": "tvark̃ėme",
         "jus": "tvark̃ėte"
       },
       "subjunctive": {
         "as": "tvarkýčiau",
-        "tu": "tvarkei̇ ̃ tvarkýtum",
+        "tu": "tvarkýtum",
         "jis_ji_jie_jos": "tvarkýtų",
         "mes": "tvarkýtume / tvarkýtumėme",
         "jus": "tvarkýtume / tvarkýtumėte"
@@ -30805,7 +30805,7 @@
       },
       "subjunctive": {
         "as": "ūkininkáučiau",
-        "tu": "̃ ūkininkáutum",
+        "tu": "ūkininkáutum",
         "jis_ji_jie_jos": "ūkininkáutų",
         "mes": "ūkininkáutume / ūkininkáutumėme",
         "jus": "ūkininkáutute / ūkininkáutumėte"
@@ -30886,7 +30886,7 @@
       },
       "subjunctive": {
         "as": "uogáučiau",
-        "tu": "̃ uogáutum",
+        "tu": "uogáutum",
         "jis_ji_jie_jos": "uogáutų",
         "mes": "uogáutume / uogáutumėme",
         "jus": "uogáutute / uogáutumėte"
@@ -30977,7 +30977,7 @@
       },
       "subjunctive": {
         "as": "užmi̇g̀čiau",
-        "tu": "̃ užmi̇g̀tum",
+        "tu": "užmi̇g̀tum",
         "jis_ji_jie_jos": "užmi̇g̀tų",
         "mes": "užmi̇g̀tume / užmi̇g̀tumėme",
         "jus": "užmi̇g̀tute / užmi̇g̀tumėte"
@@ -31048,7 +31048,7 @@
       },
       "subjunctive": {
         "as": "vadi̇ǹčiau",
-        "tu": "̃ vadi̇ǹtum",
+        "tu": "vadi̇ǹtum",
         "jis_ji_jie_jos": "vadi̇ǹtų",
         "mes": "vadi̇ǹtume / vadi̇ǹtumėme",
         "jus": "vadi̇ǹtute / vadi̇ǹtumėte"
@@ -31149,7 +31149,7 @@
       },
       "subjunctive": {
         "as": "vadováučiau",
-        "tu": "̃ vadováutum",
+        "tu": "vadováutum",
         "jis_ji_jie_jos": "vadováutų",
         "mes": "vadováutume / vadováutumėme",
         "jus": "vadováutute / vadováutumėte"
@@ -31230,10 +31230,10 @@
       },
       "subjunctive": {
         "as": "vaidi̇ǹčiau",
-        "tu": "̃ vaidi̇ǹtum",
+        "tu": "vaidi̇ǹtum",
         "jis_ji_jie_jos": "vaidi̇ǹtų",
         "mes": "vaidi̇ǹtume / vaidi̇ǹtumėme",
-        "jus": "vaidi̇ǹtute/ vaidi̇ǹtumėte"
+        "jus": "vaidi̇ǹtute / vaidi̇ǹtumėte"
       },
       "frequentative_past": {
         "as": "vaidi̇ǹdavau",
@@ -31427,7 +31427,7 @@
       },
       "subjunctive": {
         "as": "vairúočiau",
-        "tu": "̃ vairúotum",
+        "tu": "vairúotum",
         "jis_ji_jie_jos": "vairúotų",
         "mes": "vairúotume / vairúotumėme",
         "jus": "vairúotute / vairúotumėte"
@@ -31604,7 +31604,7 @@
       },
       "subjunctive": {
         "as": "vakarieniáučiau",
-        "tu": "̃ vakarieniáutum",
+        "tu": "vakarieniáutum",
         "jis_ji_jie_jos": "vakarieniáutų",
         "mes": "vakarieniáutume / vakarieniáutumėme",
         "jus": "vakarieniáutute / vakarieniáutumėte"
@@ -31789,14 +31789,14 @@
       },
       "past": {
         "as": "valiaũ",
-        "tu": "̃",
+        "tu": "valei̇",
         "jis_ji_jie_jos": "vãlė",
         "mes": "vãlėme",
         "jus": "vãlėte"
       },
       "subjunctive": {
         "as": "valýčiau",
-        "tu": "valei̇ ̃ valýtum",
+        "tu": "valýtum",
         "jis_ji_jie_jos": "valýtų",
         "mes": "valýtume / valýtumėme",
         "jus": "valýtute / valýtumėte"
@@ -32124,7 +32124,7 @@
       },
       "subjunctive": {
         "as": "važiúočiau",
-        "tu": "̃ važiúotum",
+        "tu": "važiúotum",
         "jis_ji_jie_jos": "važiúotų",
         "mes": "važiúotume / važiúotumėme",
         "jus": "važiúotute / važiúotumėte"
@@ -32275,7 +32275,7 @@
       },
       "subjunctive": {
         "as": "vei̇k̃čiau",
-        "tu": "̃ vei̇k̃tum",
+        "tu": "vei̇k̃tum",
         "jis_ji_jie_jos": "vei̇k̃tų",
         "mes": "vei̇k̃tume / vei̇k̃tumėme",
         "jus": "vei̇k̃tute / vei̇k̃tumėte"
@@ -32371,7 +32371,7 @@
       },
       "subjunctive": {
         "as": "vėlúočiau",
-        "tu": "̃ vėlúotum",
+        "tu": "vėlúotum",
         "jis_ji_jie_jos": "vėlúotų",
         "mes": "vėlúotume / vėlúotumėme",
         "jus": "vėlúotute / vėlúotumėte"
@@ -32452,7 +32452,7 @@
       },
       "subjunctive": {
         "as": "vers̃čiau",
-        "tu": "̃ vers̃tum",
+        "tu": "vers̃tum",
         "jis_ji_jie_jos": "vers̃tų",
         "mes": "vers̃tume / vers̃tumėme",
         "jus": "vers̃tute / vers̃tumėte"
@@ -32704,7 +32704,7 @@
       },
       "subjunctive": {
         "as": "vèsčiau",
-        "tu": "̃ vèstum",
+        "tu": "vèstum",
         "jis_ji_jie_jos": "vèstų",
         "mes": "vèstume / vèstumėme",
         "jus": "vèstute / vèstumėte"
@@ -32905,7 +32905,7 @@
       },
       "subjunctive": {
         "as": "vèžčiau",
-        "tu": "̃ vèžtum",
+        "tu": "vèžtum",
         "jis_ji_jie_jos": "vèžtų",
         "mes": "vèžtume / vèžtumėme",
         "jus": "vèžtute / vèžtumėte"
@@ -33051,7 +33051,7 @@
       },
       "subjunctive": {
         "as": "vỹkčiau",
-        "tu": "̃ vỹktum",
+        "tu": "vỹktum",
         "jis_ji_jie_jos": "vỹktų",
         "mes": "vỹktume / vỹktumėme",
         "jus": "vỹktute / vỹktumėte"
@@ -33364,7 +33364,7 @@
       },
       "subjunctive": {
         "as": "vi̇r̀čiau",
-        "tu": "̃ vi̇r̀tum",
+        "tu": "vi̇r̀tum",
         "jis_ji_jie_jos": "vi̇r̀tų",
         "mes": "vi̇r̀tume / vi̇r̀tumėme",
         "jus": "vi̇r̀tute / vi̇r̀tumėte"
@@ -33490,7 +33490,7 @@
       },
       "subjunctive": {
         "as": "võgčiau",
-        "tu": "̃ võgtum",
+        "tu": "võgtum",
         "jis_ji_jie_jos": "võgtų",
         "mes": "võgtume / võgtumėme",
         "jus": "võgtute / võgtumėte"
@@ -33831,7 +33831,7 @@
       },
       "subjunctive": {
         "as": "žai̇s̃čiau",
-        "tu": "̃ žai̇s̃tum",
+        "tu": "žai̇s̃tum",
         "jis_ji_jie_jos": "žai̇s̃tų",
         "mes": "žai̇s̃tume / žai̇s̃tumėme",
         "jus": "žai̇s̃tute / žai̇s̃tumėte"
@@ -33927,7 +33927,7 @@
       },
       "subjunctive": {
         "as": "žei̇s̃čiau",
-        "tu": "̃ žei̇s̃tum",
+        "tu": "žei̇s̃tum",
         "jis_ji_jie_jos": "žei̇s̃tų",
         "mes": "žei̇s̃tume / žei̇s̃tumėte",
         "jus": "žei̇s̃tute / žei̇s̃tumėte"
@@ -34112,14 +34112,14 @@
       },
       "past": {
         "as": "žinójau",
-        "tu": "̃",
+        "tu": "žinójai",
         "jis_ji_jie_jos": "žinójo",
         "mes": "žinójome",
         "jus": "žinójote"
       },
       "subjunctive": {
         "as": "žinóčiau",
-        "tu": "žinójai žinótum",
+        "tu": "žinótum",
         "jis_ji_jie_jos": "žinótų",
         "mes": "žinótume / žinótumėme",
         "jus": "žinótute / žinótumėte"
@@ -34339,14 +34339,14 @@
       },
       "past": {
         "as": "žudžiaũ",
-        "tu": "̃",
+        "tu": "žudei̇",
         "jis_ji_jie_jos": "žùdė",
         "mes": "žùdėme",
         "jus": "žùdėte"
       },
       "subjunctive": {
         "as": "žudýčiau",
-        "tu": "žudei̇ ̃ žudýtum",
+        "tu": "žudýtum",
         "jis_ji_jie_jos": "žudýtų",
         "mes": "žudýtume / žudýtumėme",
         "jus": "žudýtute / žūdýtumėte"
@@ -34437,7 +34437,7 @@
       },
       "subjunctive": {
         "as": "žū́čiau",
-        "tu": "̃ žū́tum",
+        "tu": "žū́tum",
         "jis_ji_jie_jos": "žū́tų",
         "mes": "žū́tume / žū́tumėme",
         "jus": "žū́tute / žū́tumėte"
