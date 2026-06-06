@@ -2045,25 +2045,25 @@
     "translation": "быть, являться, находиться",
     "conjugation": {
       "present": {
-        "as": "esù,",
-        "tu": "esi̇,̀",
-        "jis_ji_jie_jos": "yrà,",
-        "mes": "ẽsame,",
-        "jus": "ẽsate,"
+        "as": "esù / būnù",
+        "tu": "esi̇̀ / būni̇̀",
+        "jis_ji_jie_jos": "yrà / bū̃na",
+        "mes": "ẽsame / bū̃name",
+        "jus": "ẽsate / bū̃nate"
       },
       "past": {
-        "as": "būnù",
-        "tu": "būni̇",
-        "jis_ji_jie_jos": "bū̃na",
-        "mes": "bū̃name",
-        "jus": "bū̃nate"
+        "as": "buvaũ",
+        "tu": "buvai̇̃",
+        "jis_ji_jie_jos": "bùvo",
+        "mes": "bùvome",
+        "jus": "bùvote"
       },
       "subjunctive": {
-        "as": "buvaũ bū́čiau",
+        "as": "bū́čiau",
         "tu": "bū́tum",
-        "jis_ji_jie_jos": "bùvo bū́tų",
-        "mes": "bùvome bū́tume / bū́tumėme",
-        "jus": "bùvote bū́tute / bū́tumėte"
+        "jis_ji_jie_jos": "bū́tų",
+        "mes": "bū́tume / bū́tumėme",
+        "jus": "bū́tute / bū́tumėte"
       },
       "frequentative_past": {
         "as": "bū́davau",
@@ -2091,7 +2091,7 @@
       "2": "bùvęs, bùvusi",
       "3": "bū́davęs, bū́davusi",
       "4": "bū́siantis / bū́siąs, bū́sianti",
-      "5": "–, –, bučiúojamasi 5 ẽsamas, esamà, ẽsama",
+      "5": "ẽsamas, esamà, ẽsama",
       "6": "–, –, bū́ta",
       "7": "bū́damas, būdamà",
       "8": "ẽsant; bū̃nant",
