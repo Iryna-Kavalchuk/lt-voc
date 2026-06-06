@@ -1,5 +1,5 @@
 // Rules page — grammar rules from "365 Lithuanian Verbs" book
-// Content is in Lithuanian (rules_lt.txt)
+// Content is in Lithuanian (rules_lt.txt) --
 
 import { useRef } from "react";
 import CollapsibleSection, { type CollapsibleSectionHandle } from "../components/CollapsibleSection";
